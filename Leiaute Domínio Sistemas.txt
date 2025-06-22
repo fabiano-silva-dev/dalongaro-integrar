@@ -1,0 +1,63 @@
+Leiaute Domínio Sistemas – Lançamentos Contábeis em Lote
+
+Tipo do arquivo: TXT  
+Separador de decimal: Nenhum  
+Delimitador de caracteres: Nenhum  
+Disposição dos registros: Hierárquico  
+Separador de campos: Nenhum
+
+REGISTRO: 01 – Cabeçalho do Arquivo  
+Campo                      Tipo     Início  Fim   Tam.  Comentário  
+Identificador              Caractere  1     2     2     Valor fixo "01"  
+Código da Empresa          Numérico   3     9     7  
+CNPJ da Empresa            Caractere 10    23    14  
+Data Inicial dos Lanç.     Data      24    33    10    Formato dd/mm/aaaa  
+Data Final dos Lanç.       Data      34    43    10    Formato dd/mm/aaaa  
+Tipo de Nota               Numérico  44    45     2     01=Contábil, 02=Entradas, etc.  
+Constante "00000"          Numérico  46    50     5     Valor fixo "00000"  
+Sistema                    Numérico  51    52     2     1=Contab., 2=Caixa, 0=Outro  
+Valor fixo "17"            Numérico  53    54     2
+
+REGISTRO: 02 – Dados do Lote  
+Campo                      Tipo     Início  Fim   Tam.  Comentário  
+Identificador              Caractere  1     2     2     Valor fixo "02"  
+Código Sequencial          Numérico   3     9     7  
+Tipo                       Caractere 10    10     1     D, C, X ou V  
+Data do Lançamento         Data      11    20    10     dd/mm/aaaa  
+Usuário                    Caractere 21    50    30  
+Brancos                    Caractere 51    150  100
+
+REGISTRO: 03 – Partidas dos Lançamentos Contábeis  
+Campo                      Tipo     Início  Fim   Tam.  Comentário  
+Identificador              Caractere  1     2     2     Valor fixo "03"  
+Código Sequencial          Numérico   3     9     7  
+Conta Débito               Numérico  10    15     7  
+Conta Crédito              Numérico  16    22     7  
+Valor do Lançamento        Decimal   23    37    15,2  
+Código do Histórico        Numérico  38    39     2  
+Histórico (Complemento)    Caractere 40    74    35  
+Código da Filial/Matriz    Numérico  75    81     7  
+Brancos                    Caractere 82   181   100
+
+REGISTRO: 04 – Rateios Gerenciais  
+Campo                      Tipo     Início  Fim   Tam.  Comentário  
+Identificador              Caractere  1     2     2     Valor fixo "04"  
+Sequencial                 Numérico   3     9     7  
+Conta Débito               Numérico  10    15     7  
+Conta Crédito              Numérico  16    22     7  
+Valor do Lançamento        Decimal   23    37    15,2  
+Brancos                    Caractere 38   137   100
+
+REGISTRO: 05 – Rateios por Centro de Custos  
+Campo                      Tipo     Início  Fim   Tam.  Comentário  
+Identificador              Caractere  1     2     2     Valor fixo "05"  
+Sequencial                 Numérico   3     9     7  
+Centro de Custo a Débito   Numérico  10    15     7  
+Centro de Custo a Crédito  Numérico  16    22     7  
+Valor do Lançamento        Decimal   23    37    15,2  
+Brancos                    Caractere 38   137   100
+
+REGISTRO: 99 – Finalizador do Arquivo  
+Campo                      Tipo     Início  Fim   Tam.  Comentário  
+Identificador              Numérico   1     2     2     Valor fixo "99"  
+Finalizador                Numérico   3     100  98     Preenchimento fixo
