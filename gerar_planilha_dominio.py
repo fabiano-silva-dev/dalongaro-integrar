@@ -176,7 +176,21 @@ def formatar_data(data_str: str) -> str:
 def extrair_nome_empresa(historico: str) -> str:
     """Extrai o nome da empresa do histórico após o número da NF"""
     try:
-        # Procura por "NF" seguido de números e depois o nome
+        # Primeiro, verifica se há números no início do histórico (novo padrão)
+        historico_limpo = historico.strip()
+        
+        # Se o histórico começa com números, extrai o nome após os números
+        if historico_limpo and historico_limpo[0].isdigit():
+            nome_empresa = ""
+            for i, char in enumerate(historico_limpo):
+                if char.isdigit():
+                    continue
+                else:
+                    nome_empresa = historico_limpo[i:].strip()
+                    break
+            return nome_empresa
+        
+        # Procura por "NF" seguido de números e depois o nome (padrão original)
         if "NF" in historico:
             # Encontra a posição após "NF"
             pos_nf = historico.find("NF")
@@ -190,12 +204,21 @@ def extrair_nome_empresa(historico: str) -> str:
                 
                 # Remove os números do início (número da NF)
                 nome_empresa = ""
-                for char in texto_apos_nf:
+                for i, char in enumerate(texto_apos_nf):
                     if char.isdigit() or char in "°":
                         continue
                     else:
-                        nome_empresa = texto_apos_nf[texto_apos_nf.find(char):].strip()
+                        nome_empresa = texto_apos_nf[i:].strip()
                         break
+                
+                # Remove "Nº" se ainda estiver no início do nome
+                if nome_empresa.startswith("Nº"):
+                    nome_empresa = nome_empresa[2:].strip()
+                
+                # Remove números no início se ainda houver
+                while nome_empresa and (nome_empresa[0].isdigit() or nome_empresa[0] in "°"):
+                    nome_empresa = nome_empresa[1:].strip()
+                
                 return nome_empresa
     except:
         pass
@@ -213,7 +236,20 @@ def remover_zeros_esquerda(valor: str) -> str:
 def extrair_numero_nota(historico: str) -> str:
     """Extrai o número da nota fiscal do histórico"""
     try:
-        # Procura por "NF" seguido de números
+        # Primeiro, verifica se há números no início do histórico (novo padrão)
+        historico_limpo = historico.strip()
+        
+        # Se o histórico começa com números, extrai apenas os números do início
+        if historico_limpo and historico_limpo[0].isdigit():
+            numero_nota = ""
+            for char in historico_limpo:
+                if char.isdigit():
+                    numero_nota += char
+                else:
+                    break
+            return numero_nota
+        
+        # Procura por "NF" seguido de números (padrão original)
         if "NF" in historico:
             # Encontra a posição após "NF"
             pos_nf = historico.find("NF")
@@ -252,10 +288,29 @@ def gerar_csv_02_03(registros: List[Dict[str, Any]], output_file: str):
     print(f"Debug: Códigos sequenciais dos lotes: {list(lotes_dict.keys())}")
     print(f"Debug: Códigos sequenciais das partidas: {[p['codigo_sequencial'] for p in partidas]}")
 
-    # Define campos do CSV (campos do 02 + campos do 03 + numero_nota)
+    # Define campos do CSV com novos nomes de colunas
     campos_02 = ['codigo_sequencial', 'tipo_lancamento', 'data_lancamento', 'usuario']
     campos_03 = ['conta_debito', 'conta_credito', 'valor_lancamento', 'codigo_historico', 'historico_complemento', 'codigo_filial_matriz']
-    campos = campos_02 + campos_03 + ['numero_nota']
+    
+    # Mapeia os campos antigos para os novos nomes
+    mapeamento_campos = {
+        'codigo_sequencial': 'codigo_sequencial',
+        'tipo_lancamento': 'tipo_lancamento',
+        'data_lancamento': 'data_lancamento',
+        'usuario': 'usuario',
+        'conta_debito': 'Banco',
+        'conta_credito': 'Fornecedor/Cliente',
+        'valor_lancamento': 'valor_lancamento',
+        'codigo_historico': 'codigo_historico',
+        'historico_complemento': 'Histórico',
+        'codigo_filial_matriz': 'codigo_filial_matriz',
+        'numero_nota': 'numero_nota'
+    }
+    
+    # Define campos finais com novos nomes
+    campos = ['codigo_sequencial', 'tipo_lancamento', 'data_lancamento', 'usuario', 
+              'Banco', 'Fornecedor/Cliente', 'valor_lancamento', 'codigo_historico', 
+              'Histórico', 'codigo_filial_matriz', 'numero_nota']
 
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=campos, delimiter=';')
@@ -274,23 +329,27 @@ def gerar_csv_02_03(registros: List[Dict[str, Any]], output_file: str):
             for campo in campos_02:
                 linha[campo] = lote.get(campo, '')
             
-            # Adiciona campos da partida (registro 03)
-            for campo in campos_03:
-                linha[campo] = partida.get(campo, '')
+            # Adiciona campos da partida (registro 03) com novos nomes
+            linha['Banco'] = partida.get('conta_debito', '')
+            linha['Fornecedor/Cliente'] = partida.get('conta_credito', '')
+            linha['valor_lancamento'] = partida.get('valor_lancamento', '')
+            linha['codigo_historico'] = partida.get('codigo_historico', '')
+            linha['Histórico'] = partida.get('historico_complemento', '')
+            linha['codigo_filial_matriz'] = partida.get('codigo_filial_matriz', '')
             
-            # Extrai nome da empresa do histórico e substitui conta_debito
+            # Extrai nome da empresa do histórico e substitui Banco
             historico = partida.get('historico_complemento', '')
             nome_empresa = extrair_nome_empresa(historico)
             if nome_empresa:
-                linha['conta_debito'] = nome_empresa
+                linha['Banco'] = nome_empresa
             
             # Extrai número da nota fiscal
             numero_nota = extrair_numero_nota(historico)
             linha['numero_nota'] = numero_nota
             
             # Remove zeros à esquerda da conta_credito
-            if 'conta_credito' in linha and linha['conta_credito']:
-                linha['conta_credito'] = remover_zeros_esquerda(linha['conta_credito'])
+            if 'Fornecedor/Cliente' in linha and linha['Fornecedor/Cliente']:
+                linha['Fornecedor/Cliente'] = remover_zeros_esquerda(linha['Fornecedor/Cliente'])
             
             # Formata valor e data
             if 'valor_lancamento' in linha and linha['valor_lancamento']:
@@ -302,24 +361,24 @@ def gerar_csv_02_03(registros: List[Dict[str, Any]], output_file: str):
 
 
 def gerar_csv_agrupado(registros: List[Dict[str, Any]], output_file: str):
-    """Gera CSV apenas com as colunas conta_debito (nome) e conta_credito, pares únicos"""
+    """Gera CSV apenas com as colunas Banco (nome) e Fornecedor/Cliente, pares únicos"""
     pares_unicos = set()
     for registro in registros:
-        conta_debito = registro.get('conta_debito', '').strip()
-        conta_credito = registro.get('conta_credito', '').strip()
-        # Remove zeros à esquerda da conta_credito
-        if conta_credito:
+        banco = registro.get('Banco', '').strip()
+        fornecedor_cliente = registro.get('Fornecedor/Cliente', '').strip()
+        # Remove zeros à esquerda da fornecedor_cliente
+        if fornecedor_cliente:
             try:
-                conta_credito = str(int(conta_credito))
+                fornecedor_cliente = str(int(fornecedor_cliente))
             except:
                 pass
-        if conta_debito and conta_credito:
-            pares_unicos.add((conta_debito, conta_credito))
+        if banco and fornecedor_cliente:
+            pares_unicos.add((banco, fornecedor_cliente))
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')
-        writer.writerow(['conta_debito', 'conta_credito'])
-        for conta_debito, conta_credito in sorted(pares_unicos):
-            writer.writerow([conta_debito, conta_credito])
+        writer.writerow(['Banco', 'Fornecedor/Cliente'])
+        for banco, fornecedor_cliente in sorted(pares_unicos):
+            writer.writerow([banco, fornecedor_cliente])
 
 
 def main():
