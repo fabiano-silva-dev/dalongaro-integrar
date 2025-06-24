@@ -80,6 +80,9 @@ for page in reader.pages:
             # Só adiciona se data for exatamente no formato esperado
             if not re.fullmatch(r"\d{2}/\d{2}/\d{4}( \d{2}:\d{2})?", data):
                 continue
+            # Se for tarifa de conta, adiciona TARIFA BANCARIA ao nome
+            if lancamento == "Tarifas de conta":
+                nome = "TARIFA BANCARIA"
             lancamentos.append([data, lancamento, nome, valor])
         # Extrai saldo inicial
         if 'SALDO INICIAL' in linha:

@@ -446,6 +446,69 @@ def extrair_pagador_recebedor(texto, cnpj_cpf):
     
     return ''
 
+def gerar_csv_simplificado(lancamentos_processados, caminho_pdf):
+    """
+    Gera um arquivo CSV (.csv) com apenas as colunas: data, nome, valor
+    O nome inclui o sufixo "- SICOOB"
+    """
+    if not lancamentos_processados:
+        print("❌ Nenhum lançamento para gerar CSV!")
+        return
+    
+    # Ordenar lançamentos cronologicamente
+    lancamentos_ordenados = sorted(lancamentos_processados, key=lambda x: datetime.strptime(x['data'], '%d/%m/%Y'))
+    
+    # Obter diretório e nome do arquivo PDF
+    pdf_path = Path(caminho_pdf)
+    diretorio = pdf_path.parent
+    nome_base = pdf_path.stem
+    
+    # Nome do arquivo CSV
+    nome_csv = f"{nome_base}_EXTRATO_SIMPLIFICADO.csv"
+    caminho_csv = diretorio / nome_csv
+    
+    # Criar dados para CSV
+    dados_csv = []
+    for lancamento in lancamentos_ordenados:
+        nome = lancamento.get('pagador_recebedor', '').strip()
+        cnpj_cpf = lancamento.get('cnpj_cpf', '').strip()
+        documento = lancamento.get('documento', '').strip()
+        
+        # Se nome e CNPJ/CPF estiverem em branco, usar o documento
+        if not nome and not cnpj_cpf and documento:
+            nome_com_sufixo = f"{documento} - SICOOB"
+        elif nome and cnpj_cpf:
+            # Verificar se o nome já contém o CNPJ/CPF para evitar duplicação
+            if cnpj_cpf in nome:
+                nome_com_sufixo = f"{nome} - SICOOB"
+            else:
+                nome_com_sufixo = f"{nome} {cnpj_cpf} - SICOOB"
+        elif nome:
+            nome_com_sufixo = f"{nome} - SICOOB"
+        elif cnpj_cpf:
+            nome_com_sufixo = f"{cnpj_cpf} - SICOOB"
+        else:
+            nome_com_sufixo = "SICOOB"
+        
+        # Formatar valor no padrão brasileiro (vírgula como separador decimal)
+        valor_br = f"{lancamento['valor']:.2f}".replace('.', ',')
+        
+        dados_csv.append({
+            'data': lancamento['data'],
+            'nome': nome_com_sufixo,
+            'valor': valor_br
+        })
+    
+    # Criar DataFrame e salvar CSV com separador ponto e vírgula
+    df_csv = pd.DataFrame(dados_csv)
+    df_csv.to_csv(caminho_csv, index=False, encoding='utf-8-sig', sep=';')
+    
+    print(f"\n📄 CSV GERADO COM SUCESSO!")
+    print(f"📁 Arquivo: {caminho_csv}")
+    print(f"📈 Total de lançamentos: {len(dados_csv)}")
+    
+    return str(caminho_csv)
+
 def extrair_texto_e_organizar(caminho_pdf, debug=False):
     """
     Extrai texto do PDF e organiza os lançamentos por data
@@ -477,6 +540,9 @@ def extrair_texto_e_organizar(caminho_pdf, debug=False):
         
         # Gerar planilha Excel
         gerar_planilha_excel(lancamentos_processados, saldo_anterior, ultimo_saldo_dia, caminho_pdf)
+        
+        # Gerar CSV simplificado
+        gerar_csv_simplificado(lancamentos_processados, caminho_pdf)
 
 def gerar_planilha_excel(lancamentos_processados, saldo_anterior, ultimo_saldo_dia, caminho_pdf):
     """
