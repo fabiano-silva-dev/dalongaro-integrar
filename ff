@@ -7,7 +7,7 @@ echo " " >> diff.txt
 
 echo "============== ALTERAÇÕES: git diff " >> diff.txt
 git diff >> diff.txt
-cat diff.txt | xclip -selection clipboard
+
 echo " " >> diff.txt
 echo " " >> diff.txt
 
@@ -16,6 +16,6 @@ git status|grep 'new file' |cut -d":" -f2 >> diff.txt
 echo " "
 echo " "
 git status|grep 'new file' |cut -d":" -f2|xargs cat >> diff.txt
-
+cat diff.txt | xclip -selection clipboard
 cat diff.txt
 rm diff.txt

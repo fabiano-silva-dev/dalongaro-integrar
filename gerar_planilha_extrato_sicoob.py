@@ -277,6 +277,36 @@ def extrair_cnpj_cpf(texto):
     
     return ''
 
+def extrair_saldo_final_resumo(lancamento):
+    """
+    Extrai o saldo final do resumo que aparece no formato "SALDO EM C.CORRENTE(+): 9.185,57C"
+    """
+    import re
+    
+    # Padrão para saldo em conta corrente
+    padrao_saldo = r'SALDO EM C\.CORRENTE\(\+\):\s*(\d{1,3}(?:\.\d{3})*,\d{2})'
+    match = re.search(padrao_saldo, lancamento)
+    if match:
+        valor_str = match.group(1)
+        valor_limpo = valor_str.replace('.', '').replace(',', '.')
+        try:
+            return float(valor_limpo)
+        except ValueError:
+            pass
+    
+    # Padrão para saldo disponível
+    padrao_disponivel = r'SALDO DISPONÍVEL\(=\):\s*(\d{1,3}(?:\.\d{3})*,\d{2})'
+    match = re.search(padrao_disponivel, lancamento)
+    if match:
+        valor_str = match.group(1)
+        valor_limpo = valor_str.replace('.', '').replace(',', '.')
+        try:
+            return float(valor_limpo)
+        except ValueError:
+            pass
+    
+    return None
+
 def processar_lancamentos_com_data_valor(lancamentos_por_data):
     """
     Processa os lançamentos extraindo data, valor, tipo, cnpj/cpf, documento e pagador/recebedor
@@ -284,8 +314,22 @@ def processar_lancamentos_com_data_valor(lancamentos_por_data):
     lancamentos_processados = []
     saldo_anterior = None
     ultimo_saldo_dia = None
-    datas_ordenadas = sorted(lancamentos_por_data.keys(), 
+    
+    # Filtrar datas válidas antes de ordenar
+    datas_validas = []
+    for data in lancamentos_por_data.keys():
+        try:
+            # Verificar se a data é válida
+            dia, mes = data.split('/')
+            if 1 <= int(dia) <= 31 and 1 <= int(mes) <= 12:
+                datas_validas.append(data)
+        except (ValueError, IndexError):
+            # Pular datas inválidas
+            continue
+    
+    datas_ordenadas = sorted(datas_validas, 
                            key=lambda x: datetime.strptime(x, '%d/%m'))
+    
     for data in datas_ordenadas:
         lancamentos = lancamentos_por_data[data]
         for lancamento in lancamentos:
@@ -294,12 +338,24 @@ def processar_lancamentos_com_data_valor(lancamentos_por_data):
             documento = extrair_documento(lancamento)
             pagador_recebedor = extrair_pagador_recebedor(lancamento, cnpj_cpf)
             print(f"Data: {data_processada}, Valor: {valor_processado}, Tipo: {tipo_operacao}")
+            
+            # Verificar se é saldo anterior
             if "SALDO ANTERIOR" in lancamento and valor_processado is not None:
                 saldo_anterior = valor_processado
                 continue
+            
+            # Verificar se é saldo do dia (mas não o último, apenas para referência)
             if "SALDO DO DIA" in lancamento and valor_processado is not None:
-                ultimo_saldo_dia = valor_processado
+                # Não usar este valor como saldo final, apenas para referência
                 continue
+            
+            # Verificar se é o saldo final real (que aparece no resumo)
+            if "SALDO EM C.CORRENTE" in lancamento or "SALDO DISPONÍVEL" in lancamento:
+                saldo_final = extrair_saldo_final_resumo(lancamento)
+                if saldo_final is not None:
+                    ultimo_saldo_dia = saldo_final
+                    continue
+            
             if (data_processada and 
                 valor_processado is not None and 
                 tipo_operacao is not None and
@@ -313,6 +369,20 @@ def processar_lancamentos_com_data_valor(lancamentos_por_data):
                     'pagador_recebedor': pagador_recebedor,
                     'lancamento_completo': lancamento
                 })
+    
+    # Se não encontrou o saldo final no resumo, usar o último saldo do dia
+    if ultimo_saldo_dia is None:
+        for data in reversed(datas_ordenadas):
+            lancamentos = lancamentos_por_data[data]
+            for lancamento in lancamentos:
+                if "SALDO DO DIA" in lancamento:
+                    data_processada, valor_processado, tipo_operacao = extrair_data_valor(lancamento)
+                    if valor_processado is not None:
+                        ultimo_saldo_dia = valor_processado
+                        break
+            if ultimo_saldo_dia is not None:
+                break
+    
     return lancamentos_processados, saldo_anterior, ultimo_saldo_dia
 
 def exibir_lancamentos_processados(lancamentos_processados, saldo_anterior, ultimo_saldo_dia, debug=False):

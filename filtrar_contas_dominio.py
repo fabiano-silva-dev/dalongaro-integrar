@@ -3,6 +3,9 @@
 """
 Script para filtrar registros do layout Domínio Sistemas por conta de crédito e débito
 Baseado no layout: Lançamentos Contábeis em Lote
+
+Uso:
+    python filtrar_contas_dominio.py arquivo.txt -d 0000602 -c 0000726
 """
 
 import sys
@@ -12,6 +15,7 @@ from datetime import datetime
 from typing import List, Dict, Any
 import os
 from collections import defaultdict
+import re
 
 
 class DominioLayoutParser:
@@ -25,6 +29,9 @@ class DominioLayoutParser:
         """Parse uma linha do arquivo baseado no identificador do registro"""
         if len(line) < 2:
             return None
+        
+        # Remove BOM se presente
+        line = line.replace('\ufeff', '')
             
         identificador = line[0:2]
         
@@ -120,6 +127,7 @@ class DominioLayoutParser:
     def parse_file(self, file_path: str) -> List[Dict[str, Any]]:
         """Parse arquivo completo e retorna lista de registros"""
         registros = []
+        cabecalho_forcado = None
         
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
@@ -130,11 +138,22 @@ class DominioLayoutParser:
                 for line_num, line in enumerate(linhas, 1):
                     if line.strip():  # Ignora linhas vazias
                         registro = self.parse_line(line)
+                        if line_num == 1:
+                            print(f"DEBUG: Primeira linha parseada: {registro}")
                         if registro:
                             registro['linha_arquivo'] = line_num
                             registro['linha_original'] = line  # Guarda a linha original
                             registros.append(registro)
-                            
+                            # Debug para verificar o cabeçalho
+                            if registro.get('tipo') == 'cabecalho':
+                                print(f"DEBUG: Cabeçalho encontrado na linha {line_num}: {line[:50]}...")
+                        # Se não reconheceu como cabeçalho, força inclusão
+                        if line_num == 1 and (not registro or registro.get('tipo') != 'cabecalho'):
+                            cabecalho_forcado = {
+                                'tipo': 'cabecalho',
+                                'linha_arquivo': 1,
+                                'linha_original': line
+                            }
         except UnicodeDecodeError:
             # Tenta com encoding diferente se UTF-8 falhar
             with open(file_path, 'r', encoding='latin-1') as file:
@@ -144,11 +163,26 @@ class DominioLayoutParser:
                 for line_num, line in enumerate(linhas, 1):
                     if line.strip():
                         registro = self.parse_line(line)
+                        if line_num == 1:
+                            print(f"DEBUG: Primeira linha parseada: {registro}")
                         if registro:
                             registro['linha_arquivo'] = line_num
                             registro['linha_original'] = line  # Guarda a linha original
                             registros.append(registro)
-        
+                            # Debug para verificar o cabeçalho
+                            if registro.get('tipo') == 'cabecalho':
+                                print(f"DEBUG: Cabeçalho encontrado na linha {line_num}: {line[:50]}...")
+                        # Se não reconheceu como cabeçalho, força inclusão
+                        if line_num == 1 and (not registro or registro.get('tipo') != 'cabecalho'):
+                            cabecalho_forcado = {
+                                'tipo': 'cabecalho',
+                                'linha_arquivo': 1,
+                                'linha_original': line
+                            }
+        # Garante que o cabeçalho esteja presente
+        if cabecalho_forcado:
+            print("AVISO: Cabeçalho não reconhecido pelo parser, forçando inclusão!")
+            registros = [cabecalho_forcado] + registros
         return registros
 
 
@@ -300,64 +334,170 @@ def filtrar_por_contas(registros: List[Dict[str, Any]], conta_debito: str = None
     
     # Agora inclui os lotes correspondentes e outros registros necessários
     registros_completos = []
+    cabecalho_incluido = False
     
     for registro in registros:
         if registro.get('tipo') == 'cabecalho':
             # Sempre inclui o cabeçalho
             registros_completos.append(registro)
+            cabecalho_incluido = True
+            print(f"DEBUG: Cabeçalho incluído - linha {registro.get('linha_arquivo')}")
         elif registro.get('tipo') == 'dados_lote':
             # Inclui apenas os lotes que têm partidas filtradas
             if registro.get('codigo_sequencial') in lotes_incluidos:
                 registros_completos.append(registro)
+                print(f"DEBUG: Lote incluído - sequencial {registro.get('codigo_sequencial')}")
         elif registro.get('tipo') == 'partidas_lancamentos':
             # Inclui apenas as partidas filtradas
             if registro in registros_filtrados:
                 registros_completos.append(registro)
+                print(f"DEBUG: Partida incluída - sequencial {registro.get('codigo_sequencial')}")
         elif registro.get('tipo') == 'finalizador':
             # Sempre inclui o finalizador
             registros_completos.append(registro)
+            print(f"DEBUG: Finalizador incluído")
+    
+    if not cabecalho_incluido:
+        print("AVISO: Nenhum cabeçalho foi encontrado no arquivo original!")
     
     return registros_completos
 
 
-def modificar_campos_empresa(linha: str, tipo_registro: str) -> str:
-    """Modifica campos específicos da empresa na linha"""
+def modificar_campos_empresa(linha: str, tipo_registro: str, 
+                           nova_conta_debito: str = None, 
+                           nova_conta_credito: str = None,
+                           novo_codigo_empresa: str = "0000667",
+                           novo_cnpj_empresa: str = "55526785000122",
+                           novo_codigo_filial: str = "0000667") -> str:
+    """
+    Modifica campos específicos da empresa na linha
+    
+    Args:
+        linha: Linha original do arquivo
+        tipo_registro: Tipo do registro (cabecalho, partidas_lancamentos, etc.)
+        nova_conta_debito: Nova conta de débito para substituir a original
+        nova_conta_credito: Nova conta de crédito para substituir a original
+        novo_codigo_empresa: Novo código da empresa
+        novo_cnpj_empresa: Novo CNPJ da empresa
+        novo_codigo_filial: Novo código da filial/matriz
+    """
     if tipo_registro == 'cabecalho':
-        # Modifica código da empresa (posições 3-9) para 0000667
-        linha = linha[:2] + '0000667' + linha[9:]
-        # Modifica CNPJ da empresa (posições 10-23) para 55526785000122
-        linha = linha[:9] + '55526785000122' + linha[23:]
+        # Garante que a linha tenha pelo menos 54 caracteres
+        if len(linha) < 54:
+            linha = linha.ljust(54)
+        # Garante que a linha comece com '01'
+        if not linha.startswith('01'):
+            linha = '01' + linha[2:]
+        # Garante que o CNPJ tenha exatamente 14 caracteres
+        cnpj_ajustado = (novo_cnpj_empresa or '').strip()[:14].ljust(14)
+        # Substitui campos nas posições corretas
+        linha = (
+            linha[:2] + (novo_codigo_empresa or '').strip().ljust(7)[:7] +
+            cnpj_ajustado +
+            linha[23:33] +  # data_inicial
+            linha[33:43] +  # data_final
+            linha[43:45] +  # tipo_nota
+            linha[45:50] +  # constante
+            linha[50:52] +  # sistema
+            linha[52:54] +  # valor_fixo
+            linha[54:]      # resto da linha
+        )
+        return linha
     elif tipo_registro == 'partidas_lancamentos':
         # Garante que a linha tenha pelo menos 564 caracteres
         if len(linha) < 564:
             linha = linha.ljust(564)
-        # Troca conta de débito 683 para 274 (posições 10-16)
-        if linha[9:16] == '0000683':
-            linha = linha[:9] + '0000274' + linha[16:]
-        # Troca conta de crédito 8 para 660 (posições 16-23)
-        if linha[15:22] == '0000008':
-            linha = linha[:15] + '0000660' + linha[22:]
-        # Modifica código da filial/matriz (posições 557-563) para 0000667
-        linha = linha[:556] + '0000667' + linha[563:]
+            
+        # Troca conta de débito se especificada (posições 9-16)
+        if nova_conta_debito and linha[9:16] != nova_conta_debito:
+            linha = linha[:9] + nova_conta_debito + linha[16:]
+            
+        # Troca conta de crédito se especificada (posições 16-23)
+        if nova_conta_credito and linha[16:23] != nova_conta_credito:
+            linha = linha[:16] + nova_conta_credito + linha[23:]
+            
+        # Modifica código da filial/matriz (posições 557-563)
+        linha = linha[:556] + novo_codigo_filial + linha[563:]
     
     return linha
 
 
-def gerar_txt_filtrado(registros_filtrados: List[Dict[str, Any]], output_file: str):
-    """Gera arquivo TXT no mesmo layout do original com os registros filtrados"""
+def gerar_txt_filtrado(registros_filtrados: List[Dict[str, Any]], 
+                      output_file: str,
+                      nova_conta_debito: str = None,
+                      nova_conta_credito: str = None,
+                      novo_codigo_empresa: str = "0000667",
+                      novo_cnpj_empresa: str = "55526785000122",
+                      novo_codigo_filial: str = "0000667"):
+    """
+    Gera arquivo TXT no mesmo layout do original com os registros filtrados
+    
+    Args:
+        registros_filtrados: Lista de registros filtrados
+        output_file: Caminho do arquivo de saída
+        nova_conta_debito: Nova conta de débito para substituir
+        nova_conta_credito: Nova conta de crédito para substituir
+        novo_codigo_empresa: Novo código da empresa
+        novo_cnpj_empresa: Novo CNPJ da empresa
+        novo_codigo_filial: Novo código da filial/matriz
+    """
     with open(output_file, 'w', encoding='utf-8') as file:
         for registro in registros_filtrados:
-            # Modifica os campos da empresa conforme solicitado
-            linha_modificada = modificar_campos_empresa(registro['linha_original'], registro['tipo'])
-            # Escreve a linha modificada mantendo o layout exato
+            tipo = registro.get('tipo')
+            # Se for um cabeçalho forçado, trata como cabeçalho
+            if tipo == 'cabecalho' and 'identificador' not in registro:
+                linha_modificada = modificar_campos_empresa(
+                    registro['linha_original'],
+                    'cabecalho',
+                    nova_conta_debito,
+                    nova_conta_credito,
+                    novo_codigo_empresa,
+                    novo_cnpj_empresa,
+                    novo_codigo_filial
+                )
+                # Garante que o cabeçalho comece com '01'
+                if not linha_modificada.startswith('01'):
+                    linha_modificada = '01' + linha_modificada[2:]
+            else:
+                linha_modificada = modificar_campos_empresa(
+                    registro['linha_original'],
+                    tipo,
+                    nova_conta_debito,
+                    nova_conta_credito,
+                    novo_codigo_empresa,
+                    novo_cnpj_empresa,
+                    novo_codigo_filial
+                )
             file.write(linha_modificada + '\n')
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Filtra registros Domínio Sistemas por conta de crédito e débito')
+    parser = argparse.ArgumentParser(
+        description='Filtra registros Domínio Sistemas por conta de crédito e débito',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Exemplos de uso:
+  python filtrar_contas_dominio.py arquivo.txt -d 0000602 -c 0000726
+  python filtrar_contas_dominio.py arquivo.txt -d 0000602 -c 0000726 -nd 0000274 -nc 0000660
+  python filtrar_contas_dominio.py arquivo.txt -d 0000683 -nd 0000274 -nc 0000660
+        """
+    )
+    
+    # Parâmetros obrigatórios para filtro
     parser.add_argument('arquivo_entrada', help='Caminho do arquivo de entrada no layout Domínio')
     parser.add_argument('-d', '--debito', help='Conta de débito para filtrar (ex: 0000602)')
     parser.add_argument('-c', '--credito', help='Conta de crédito para filtrar (ex: 0000726)')
+    
+    # Parâmetros para novas contas (opcionais)
+    parser.add_argument('-nd', '--nova-debito', help='Nova conta de débito para substituir (ex: 0000274)')
+    parser.add_argument('-nc', '--nova-credito', help='Nova conta de crédito para substituir (ex: 0000660)')
+    
+    # Parâmetros para dados da empresa (opcionais)
+    parser.add_argument('--codigo-empresa', default='0000667', help='Novo código da empresa (padrão: 0000667)')
+    parser.add_argument('--cnpj-empresa', default='55526785000122', help='Novo CNPJ da empresa (padrão: 55526785000122)')
+    parser.add_argument('--codigo-filial', default='0000667', help='Novo código da filial/matriz (padrão: 0000667)')
+    
+    # Parâmetros gerais
     parser.add_argument('-o', '--output', help='Arquivo TXT de saída (padrão: nome_entrada-filtrado.txt)')
     parser.add_argument('-v', '--verbose', action='store_true', help='Modo verboso')
     
@@ -378,17 +518,29 @@ def main():
         output_file = args.output
     else:
         # Pega o nome base do arquivo de entrada (sem extensão)
-        nome_base = os.path.splitext(os.path.basename(args.arquivo_entrada))[0]
-        # Pega o diretório do arquivo de entrada
+        nome_arquivo = os.path.basename(args.arquivo_entrada)
+        nome_base, ext = os.path.splitext(nome_arquivo)
+        # Troca (666) por (667) e adiciona sufixo -filtrado
+        nome_base = nome_base.replace('(666)', '(667)')
+        nome_saida = f"{nome_base}-filtrado{ext}"
         diretorio = os.path.dirname(args.arquivo_entrada)
-        # Cria o nome do arquivo de saída
-        output_file = os.path.join(diretorio, f"{nome_base}-filtrado.txt")
+        output_file = os.path.join(diretorio, nome_saida)
     
     print(f"Processando arquivo: {args.arquivo_entrada}")
     if args.debito:
         print(f"Filtrando por conta de débito: {args.debito}")
     if args.credito:
         print(f"Filtrando por conta de crédito: {args.credito}")
+    
+    # Mostra informações sobre substituições
+    if args.nova_debito:
+        print(f"Nova conta de débito: {args.nova_debito}")
+    if args.nova_credito:
+        print(f"Nova conta de crédito: {args.nova_credito}")
+    
+    print(f"Novo código da empresa: {args.codigo_empresa}")
+    print(f"Novo CNPJ da empresa: {args.cnpj_empresa}")
+    print(f"Novo código da filial: {args.codigo_filial}")
     
     # Parse do arquivo
     parser_dominio = DominioLayoutParser()
@@ -419,14 +571,29 @@ def main():
         return
     
     # Gera arquivo TXT filtrado
-    gerar_txt_filtrado(registros_filtrados, output_file)
+    gerar_txt_filtrado(
+        registros_filtrados, 
+        output_file,
+        args.nova_debito,
+        args.nova_credito,
+        args.codigo_empresa,
+        args.cnpj_empresa,
+        args.codigo_filial
+    )
     
-    print(f"Arquivo TXT filtrado gerado com sucesso: {output_file}")
+    print(f"\nArquivo TXT filtrado gerado com sucesso: {output_file}")
     print(f"Total de registros no arquivo filtrado: {len(registros_filtrados)}")
-    print("Campos modificados:")
-    print("  - Código da Empresa: 0000667")
-    print("  - CNPJ da Empresa: 55526785000122")
-    print("  - Código da Filial/Matriz: 0000667")
+    
+    # Mostra resumo das modificações
+    print("\nModificações aplicadas:")
+    print(f"  - Código da Empresa: {args.codigo_empresa}")
+    print(f"  - CNPJ da Empresa: {args.cnpj_empresa}")
+    print(f"  - Código da Filial/Matriz: {args.codigo_filial}")
+    
+    if args.nova_debito:
+        print(f"  - Conta de débito alterada: {args.debito} → {args.nova_debito}")
+    if args.nova_credito:
+        print(f"  - Conta de crédito alterada: {args.credito} → {args.nova_credito}")
 
 
 if __name__ == "__main__":
