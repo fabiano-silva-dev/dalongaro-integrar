@@ -1,0 +1,40 @@
+{
+  "favorecidos": [
+    {
+      "nome_normalizado": "RGE",
+      "variacoes": ["RGE", "RGE SUL", "RGE SUL DISTRIBUIDORA DE ENERGIA"],
+      "tipo_movimento": "SAIDA",
+      "codigo_conta_debito": "237",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO ENERGIA ELETRICA",
+      "confianca": 100
+    },
+    {
+      "nome_normalizado": "SUPERMERCADO BEVILAQUA",
+      "variacoes": ["BEVILAQUA", "MERCADO BEVILAQUA", "SUPERMERCADO BEVILAQUA"],
+      "tipo_movimento": "SAIDA",
+      "codigo_conta_debito": "26",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO SUPERMERCADO BEVILAQUA",
+      "confianca": 90
+    },
+    {
+      "nome_normalizado": "SUPERMERCADO BARATTO",
+      "variacoes": ["BARATTO", "SUPERMERCADO BARATTO"],
+      "tipo_movimento": "SAIDA",
+      "codigo_conta_debito": "26",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO SUPERMERCADO BARATTO",
+      "confianca": 90
+    },
+    {
+      "nome_normalizado": "NOVA PALMA ENERGIA",
+      "variacoes": ["NOVA PALMA ENERGIA", "NOVA PALMA"],
+      "tipo_movimento": "SAIDA",
+      "codigo_conta_debito": "237",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO ENERGIA ELETRICA",
+      "confianca": 95
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "codigo_empresa": "326",
+  "cnpj": "87445102000107",
+  "nome_empresa": "CENTRO DE TRADICOES GAUCHAS CORACAO DO RIO GRANDE",
+  "usuario_exportacao": "CTG326",
+  "tipo_nota": "05",
+  "sistema": "1",
+  "confianca_minima_exportacao": 80,
+  "contas_financeiras": {
+    "padrao": "5",
+    "por_arquivo": {
+      "Caixa Copa CTG 2025.xlsx": "5",
+      "Controle Conta Caixa PF Campeira 2025.xlsx": "5",
+      "Controle Conta Caixa PJ Campeira 2025.xlsx": "5",
+      "Controle Conta sicredi Principal 2025.xlsx": "7",
+      "Controle Conta sicredi Eventos 2025.xlsx": "7",
+      "Controle Conta Cresol Principal 2025.xlsx": "7"
+    },
+    "por_palavra": {
+      "sicredi": "7",
+      "caixa": "5",
+      "copa": "5",
+      "cresol": "7"
+    },
+    "observacao_cresol": "Não há conta Cresol específica no plano de contas. Mapeado temporariamente para SICREDI (7) — revisar manualmente."
+  }
+}

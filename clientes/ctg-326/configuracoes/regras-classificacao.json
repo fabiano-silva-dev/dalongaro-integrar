@@ -1,0 +1,281 @@
+{
+  "regras": [
+    {
+      "nome": "Receita acerto copa",
+      "prioridade": 100,
+      "tipo_movimento": "ENTRADA",
+      "palavras": [
+        "acerto copa",
+        "acertos copa",
+        "recebimento acerto copa",
+        "recebimento acertos copa",
+        "receitas da copa"
+      ],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "33",
+      "historico_padrao": "RECEBIMENTO ACERTO COPA CTG",
+      "confianca": 95
+    },
+    {
+      "nome": "Mensalidade / sócios",
+      "prioridade": 88,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["mensalidade", "recebimento pix mensalidade"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "3282",
+      "historico_padrao": "RECEBIMENTO MENSALIDADE",
+      "confianca": 70
+    },
+    {
+      "nome": "Doação / TED prefeitura",
+      "prioridade": 95,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["prefeitura", "ted recebido prefeitura", "doacao", "doação"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "224",
+      "historico_padrao": "RECEITA DOACAO PREFEITURA",
+      "confianca": 90
+    },
+    {
+      "nome": "Patrocínios",
+      "prioridade": 90,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["patrocinio", "patrocínio", "patrocinios"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "268",
+      "historico_padrao": "PATROCINIOS RECEBIDOS",
+      "confianca": 85
+    },
+    {
+      "nome": "Semana Farroupilha - receitas",
+      "prioridade": 87,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["semana farroupilha", "farroupilha"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "256",
+      "historico_padrao": "RECEITAS SEMANA FARROUPILHA",
+      "confianca": 75
+    },
+    {
+      "nome": "Distribuição de sobras Sicredi",
+      "prioridade": 95,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["distribuicao resultados sobras", "distribuição de sobras", "sobras sicredi"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "75",
+      "historico_padrao": "DISTRIBUICAO DE SOBRAS SICREDI",
+      "confianca": 95
+    },
+    {
+      "nome": "Água",
+      "prioridade": 100,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["pgto agua", "água", "agua", "esgoto"],
+      "favorecidos": [],
+      "codigo_conta_debito": "236",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO AGUA",
+      "confianca": 95
+    },
+    {
+      "nome": "Internet / telefone",
+      "prioridade": 95,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["internet", "telefone", "pgto internet"],
+      "favorecidos": [],
+      "codigo_conta_debito": "322",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO INTERNET / TELEFONE",
+      "confianca": 85
+    },
+    {
+      "nome": "Fretes e carretos",
+      "prioridade": 90,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["frete", "fretes", "carreto"],
+      "favorecidos": [],
+      "codigo_conta_debito": "312",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO FRETE",
+      "confianca": 85
+    },
+    {
+      "nome": "Material de cozinha / utensílios",
+      "prioridade": 82,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["utensilios de cozinha", "utensílios de cozinha", "material de cozinha"],
+      "favorecidos": [],
+      "codigo_conta_debito": "204",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO MATERIAL DE COZINHA",
+      "confianca": 85
+    },
+    {
+      "nome": "Receita aluguel CTG",
+      "prioridade": 95,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["aluguel ctg", "aluguel"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "262",
+      "historico_padrao": "RECEITA ALUGUEL CTG",
+      "confianca": 85
+    },
+    {
+      "nome": "Receita baile / ingressos",
+      "prioridade": 90,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["baile", "ingresso", "pix recebido baile", "deposito em dinheiro baile"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "34",
+      "historico_padrao": "RECEITA EVENTO / BAILE",
+      "confianca": 85
+    },
+    {
+      "nome": "Juros e correções ativas",
+      "prioridade": 90,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["juros e correcoes", "juros e correções", "rendimento", "juros"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "433",
+      "historico_padrao": "JUROS ATIVOS",
+      "confianca": 90
+    },
+    {
+      "nome": "Rendimento aplicação",
+      "prioridade": 92,
+      "tipo_movimento": "ENTRADA",
+      "palavras": ["rendimento aplicacao", "rendimento aplicação", "aplicacao financeira"],
+      "favorecidos": [],
+      "codigo_conta_debito": "CONTA_FINANCEIRA",
+      "codigo_conta_credito": "63",
+      "historico_padrao": "RENDIMENTO APLICAÇÃO FINANCEIRA",
+      "confianca": 90
+    },
+    {
+      "nome": "Despesa bebidas",
+      "prioridade": 100,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["bebida", "bebidas", "compras de bebidas", "vinho"],
+      "favorecidos": [],
+      "codigo_conta_debito": "217",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO BEBIDAS",
+      "confianca": 90
+    },
+    {
+      "nome": "Despesa baile / evento",
+      "prioridade": 85,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["baile", "evento", "carne", "cuca", "gelo", "carvao", "carvão", "ovelha", "porco"],
+      "favorecidos": [],
+      "codigo_conta_debito": "28",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "DESPESA EVENTO / BAILE",
+      "confianca": 80
+    },
+    {
+      "nome": "Despesa copa / compras",
+      "prioridade": 80,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["copa", "compras janta", "mercado", "supermercado", "bevilaqua", "baratto"],
+      "favorecidos": [],
+      "codigo_conta_debito": "26",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "DESPESA COPA / COMPRAS",
+      "confianca": 80
+    },
+    {
+      "nome": "Energia elétrica",
+      "prioridade": 100,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["energia", "conta de luz", "pgto luz", "luz", "rge", "nova palma energia"],
+      "favorecidos": ["RGE", "NOVA PALMA ENERGIA"],
+      "codigo_conta_debito": "237",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "PGTO ENERGIA ELETRICA",
+      "confianca": 95
+    },
+    {
+      "nome": "Tarifa bancária",
+      "prioridade": 95,
+      "tipo_movimento": "SAIDA",
+      "palavras": [
+        "tarifa",
+        "tarifa bancaria",
+        "taxa bancaria",
+        "taxas bancarias",
+        "iof",
+        "pacote de servicos"
+      ],
+      "favorecidos": [],
+      "codigo_conta_debito": "240",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "TARIFA BANCARIA",
+      "confianca": 90
+    },
+    {
+      "nome": "Juros bancários passivos",
+      "prioridade": 90,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["juros", "juros bancarios", "encargos"],
+      "favorecidos": [],
+      "codigo_conta_debito": "3287",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "JUROS BANCARIOS",
+      "confianca": 85
+    },
+    {
+      "nome": "Material / utensílios",
+      "prioridade": 75,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["vassoura", "adaptador", "balde", "material", "espumante"],
+      "favorecidos": [],
+      "codigo_conta_debito": "238",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "COMPRA MATERIAL",
+      "confianca": 80
+    },
+    {
+      "nome": "Imobilizado / equipamentos",
+      "prioridade": 88,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["fritadeira", "equipamento", "maquina", "máquina"],
+      "favorecidos": [],
+      "codigo_conta_debito": "119",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "AQUISICAO MAQUINAS E EQUIPAMENTOS",
+      "confianca": 85
+    },
+    {
+      "nome": "Devolução pagamento",
+      "prioridade": 70,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["devolucao", "devolução", "valor a mais"],
+      "favorecidos": [],
+      "codigo_conta_debito": "34",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "DEVOLUCAO RECEBIMENTO",
+      "confianca": 60
+    },
+    {
+      "nome": "Despesas campeira",
+      "prioridade": 80,
+      "tipo_movimento": "SAIDA",
+      "palavras": ["campeira"],
+      "favorecidos": [],
+      "codigo_conta_debito": "246",
+      "codigo_conta_credito": "CONTA_FINANCEIRA",
+      "historico_padrao": "DESPESAS COM CAMPEIRA",
+      "confianca": 80
+    }
+  ]
+}
