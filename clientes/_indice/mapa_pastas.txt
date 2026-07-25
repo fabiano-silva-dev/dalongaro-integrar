@@ -1,0 +1,16 @@
+# Mapa de pastas — Fase 3
+# Formato: antigo → novo
+
+credit/ → clientes/credit-578/
+carlos-pj-668/ → clientes/carlos-668/
+claudio-pj-666/ → clientes/claudio-666/
+fabiane-pj-667/ → clientes/fabiane-667/
+luciano-pj-664/ → clientes/luciano-664/
+limarin-208/ → clientes/limarin-208/
+cootrafax-181/ → clientes/cootrafax-181/
+Busanelo/ → clientes/busanelo/
+Elenise/ → clientes/elenise/
+Milanesa/ → clientes/milanesa/
+posto pilecco/ → clientes/posto-pilecco/
+
+# Arquivos da raiz movidos — ver ARQUIVOS_RAIZ no script

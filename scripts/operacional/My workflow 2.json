@@ -1,0 +1,261 @@
+{
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "toBinary",
+        "sourceProperty": "base64",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        -340,
+        -80
+      ],
+      "id": "4986f46b-64a3-4f51-8bad-68a386c14a41",
+      "name": "Convert to File1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.cloud.llamaindex.ai/api/v1/parsing/upload",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer llx-gxj9yj3V0pnmRPuE9mUCUA3Olaln1BcCNI6wXFkN6Mpb7r3E"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "data"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -120,
+        100
+      ],
+      "id": "a30e6601-00b8-450c-8b0a-00dc12794b4b",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        100,
+        100
+      ],
+      "id": "ab7e1a25-6e9e-4fdd-879f-bb19f62df665",
+      "name": "Wait",
+      "webhookId": "7ec1df50-aaf9-40b4-bf2e-99098573f3ce"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.cloud.llamaindex.ai/api/v1/parsing/job/{{ $json.id}}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer llx-gxj9yj3V0pnmRPuE9mUCUA3Olaln1BcCNI6wXFkN6Mpb7r3E"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        320,
+        40
+      ],
+      "id": "abee0121-24ed-4e7b-b730-907400413948",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.status }}",
+                    "rightValue": "SUCCESS",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "72b8d500-ed0a-4ba5-814d-629109cccb36"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "2e445467-1463-4d6c-a9e3-8a2b87472025",
+                    "leftValue": "={{ $json.status }}",
+                    "rightValue": "PENDING",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        540,
+        100
+      ],
+      "id": "10cb28da-c26d-4299-b825-b7e5f9b2d07f",
+      "name": "Switch1"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.cloud.llamaindex.ai/api/v1/parsing/job/{{$json.id}}/result/markdown",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer llx-gxj9yj3V0pnmRPuE9mUCUA3Olaln1BcCNI6wXFkN6Mpb7r3E"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        760,
+        100
+      ],
+      "id": "85a2d2eb-60a8-4ad8-9b44-aa9887454dab",
+      "name": "HTTP Request2"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Convert to File1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Switch1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "",
+  "meta": {
+    "instanceId": "f3925b12bfb0e4a63de476b79fdf33e949a4f64194416c22314a4aeafc91d58f"
+  },
+  "tags": []
+}

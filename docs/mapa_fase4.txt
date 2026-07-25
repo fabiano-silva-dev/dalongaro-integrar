@@ -1,0 +1,9 @@
+# Mapa Fase 4 — Escritório e documentação
+
+dalongaro-financeiro/ → escritorio/financeiro/
+documentos diversos/ → escritorio/rh-trabalhista/
+
+README_*.md → docs/
+relatorio_*.md → docs/relatorios/
+layouts e cadastro → referencia/
+CSVs de produtividade soltos → produtividade/

@@ -1,0 +1,864 @@
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0001
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome                                                | Grau |
+| -------- | ------------- | --------------------------------------------------- | ---- |
+| 1        | S             | ATIVO                                               | 1    |
+| 2        | S             | ATIVO CIRCULANTE                                    | 2    |
+| 3        | S             | DISPONÍVEL                                          | 3    |
+| 4        | S             | CAIXA                                               | 4    |
+| 5        |               | CAIXA GERAL                                         | 5    |
+| 6        |               | FUNDO FIXO DE CAIXA                                 | 5    |
+| 7        | S             | BANCOS CONTA MOVIMENTO                              | 4    |
+| 8        |               | GRAFENO                                             | 5    |
+| 9        |               | SICOOB CC 85.430-1 AG 3037-6                        | 5    |
+| 10       | S             | APLICAÇÕES FINANCEIRAS LIQUIDEZ IMEDIATA            | 4    |
+| 11       |               | SAVINGS AT CAIXA ECONÔMICA BANK                     | 5    |
+| 762      | S             | CONTAS TRANSITÓRIAS                                 | 4    |
+| 763      |               | ACERTOS                                             | 5    |
+| 764      |               | RELAÇÃO DE TROCA                                    | 5    |
+| 12       | S             | CLIENTES                                            | 3    |
+| 13       | S             | DUPLICATAS A RECEBER                                | 4    |
+| 718      |               | CEREALISTA PASI LTDA                                | 5    |
+| 15       |               | CLIENTE A                                           | 5    |
+| 14       |               | CLIENTE DIVERSO                                     | 5    |
+| 516      |               | CLIENTE EVENTUAL RS                                 | 5    |
+| 504      |               | CLIENTES DIVERSOS RS                                | 5    |
+| 717      |               | COPERATIVA TRITICULA SEPEENSE LTDA                  | 5    |
+| 706      |               | COTRIJUC COOP AGROPEC JULIO DE CASTILHOS            | 5    |
+| 747      |               | ESTANISLAU BERTOLDO DE QUEVEDO                      | 5    |
+| 715      |               | GUILHERME PEREIRA DOS SANTOS                        | 5    |
+| 712      |               | INAGRO - INSUMOS AGRICOLAS E COMÉRCIO DE GRÃOS LTDA | 5    |
+| 713      |               | MZ RETIFICA DE MOTORES LTDA                         | 5    |
+| 744      |               | SEMENTES LANNES LTDA                                | 5    |
+| 714      |               | SUPER TRATORES MAQUINAS AGRICOLAS LTDA              | 5    |
+| 716      |               | URBANO AGROINDUSTRIAL LTDA                          | 5    |
+| 16       | S             | (-) DUPLICATAS DESCONTADAS                          | 4    |
+| 17       | S             | CRÉDITOS VENCIDOS E NÃO LIQUIDADOS                  | 4    |
+| 18       | S             | OUTROS CRÉDITOS                                     | 3    |
+| 19       | S             | BANCOS CONTA VINCULADA                              | 4    |
+| 20       | S             | TÍTULOS A RECEBER                                   | 4    |
+| 21       | S             | CHEQUES EM COBRANÇA                                 | 4    |
+| 22       | S             | DIVIDENDOS A RECEBER                                | 4    |
+| 23       | S             | ADIANTAMENTOS A FORNECEDORES                        | 4    |
+| 693      |               | ADTO FORNECEDORES DIVERSOS                          | 5    |
+| 24       | S             | ADIANTAMENTO A EMPREGADOS                           | 4    |
+| 25       |               | ADIANTAMENTO DE SALÁRIO                             | 5    |
+| 26       |               | ADIANTAMENTO DE 13º SALÁRIO                         | 5    |
+| 505      |               | ADIANTAMENTO DE FERIAS                              | 5    |
+| 515      |               | ADIANTAMENTO DE RESCISÕES                           | 5    |
+| 27       | S             | EMPRÉSTIMO A EMPREGADOS                             | 4    |
+| 28       | S             | TRIBUTOS A RECUPERAR/COMPENSAR                      | 4    |
+| 29       |               | IPI A RECUPERAR                                     | 5    |
+| 30       |               | ICMS A RECUPERAR                                    | 5    |
+| 31       |               | IRRF A RECUPERAR                                    | 5    |
+| 32       |               | IMPOSTO DE RENDA PAGO POR ESTIMATIVA                | 5    |
+| 33       |               | CONTRIBUIÇÃO SOCIAL PAGA ESTIMATIVA                 | 5    |
+| 34       |               | TRIBUTOS PAGOS A MAIOR OU INDEVIDAMENTE             | 5    |
+| 35       |               | CONTRIBUIÇÃO SOCIAL RETIDO A COMPENSAR              | 5    |
+| 36       |               | COFINS RETIDO A COMPENSAR                           | 5    |
+| 37       |               | PIS RETIDO A COMPENSAR                              | 5    |
+| 38       |               | INSS A COMPENSAR                                    | 5    |
+| 39       |               | BÔNUS DE ADIMPLÊNCIA FISCAL A COMPENSAR             | 5    |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL Folha: 0002
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação    | Nome                                         | Grau |
+| -------- | ---------------- | -------------------------------------------- | ---- |
+| 40       | 1.1.3.08.012     | COFINS A RECUPERAR                           | 5    |
+| 41       | 1.1.3.08.013     | PIS A RECUPERAR                              | 5    |
+| 42       | 1.1.3.08.014     | COFINS A RECUPERAR - CRÉDITO PRESUMIDO       | 5    |
+| 43       | 1.1.3.08.015     | PIS RECUPERAR - CRÉDITO PRESUMIDO            | 5    |
+| 476      | 1.1.3.08.016     | ISS A RECUPERAR                              | 5    |
+| 44 S     | 1.1.3.09         | JUROS SOBRE O CAPITAL PRÓPRIO                | 4    |
+| 45       | 1.1.3.09.001     | JUROS SOBRE O CAPITAL PRÓPRIO A RECEBER      | 5    |
+| 46 S     | 1.1.4            | APLICAÇÕES FINANCEIRAS                       | 3    |
+| 47 S     | 1.1.4.01         | APLICAÇÕES FINANCEIRAS REND. PREFIXADOS      | 4    |
+| 48       | 1.1.4.01.001     | APLICAÇÕES BANCO DO BRASIL                   | 5    |
+| 49 S     | 1.1.4.03         | AÇÕES                                        | 4    |
+| 50 S     | 1.1.4.04         | DEBÊNTURES                                   | 4    |
+| 51       | 1.1.4.04.001     | VALOR NOMINAL                                | 5    |
+| 52       | 1.1.4.04.002     | (-) DESÁGIO A APROPRIAR                      | 5    |
+| 53 S     | 1.1.5            | ESTOQUE DE INSUMOS                           | 3    |
+| 54 S     | 1.1.5.01         | INSUMOS P/AGRICULTURA                        | 4    |
+| 55       | 1.1.5.01.001     | ADUBOS/FERTILIZANTES/PESTICIDAS E HERBICIDAS | 5    |
+| 56       | 1.1.5.01.002     | DEMAIS INSUMOS P/AGRICULTURA                 | 5    |
+| 57       | 1.1.5.01.003     | MATERIAL DE ACONDICIONAMENTO                 | 5    |
+| 58       | 1.1.5.01.004     | OUTROS MATERIAIS DE CONSUMO INDUSTRIAL       | 5    |
+| 59       | 1.1.5.01.005     | PRODUTOS ACABADOS                            | 5    |
+| 60       | 1.1.5.01.006     | PRODUTOS EM ELABORAÇÃO                       | 5    |
+| 61 S     | 1.1.5.02         | ESTOQUE DE SEMENTES                          | 4    |
+| 62       | 1.1.5.02.001     | SEMENTES                                     | 5    |
+| 63       | 1.1.5.02.002     | ALMOXARIFADO ADMINISTRATIVO                  | 5    |
+| 64 S     | 1.1.5.03         | (-) PROVISÃO PARA AJUSTES DO ESTOQUE         | 4    |
+| 750 S    | 1.1.5.04         | ESTOQUE PRODUÇÃO                             | 4    |
+| 751      | 1.1.5.04.001     | ESTOQUE DE ARROZ                             | 5    |
+| 752      | 1.1.5.04.002     | ESTOQUE SOJA                                 | 5    |
+| 758      | 1.1.5.04.003     | ESTOQUE DE AVEIA                             | 5    |
+| 757      | 1.1.5.04.003     | ESTOQUE PRODUCAO EM TERCEIROS                | 5    |
+| 759      | 1.1.5.04.006     | ESTOQUE DE AZEVÉM                            | 5    |
+| 760      | 1.1.5.04.007     | ESTOQUE DE TRIGO                             | 5    |
+| 761      | 1.1.5.04.008     | ESTOQUE DE PASTAGEM                          | 5    |
+| 753 S    | 1.1.5.05         | ESTOQUE EM TRANSITO                          | 4    |
+| 754      | 1.1.5.05.001     | ESTOQUE EM TRANSITO                          | 5    |
+| 755 S    | 1.1.5.06         | PRODUÇÃO EM ANDAMENTO                        | 4    |
+| 756      | 1.1.5.06.001     | PRODUÇÃO EM ANDAMENTO - ARROZ                | 5    |
+| 771      | 1.1.5.06.002     | PRODUÇÃO EM ANDAMENTO - SOJA                 | 5    |
+| 765 S    | 1.1.5.07         | RECEBIMENTO FUTURO                           | 4    |
+| 766      | 1.1.5.07.001     | COMPRA P/ RECEBIMENTO FUTURO                 | 5    |
+| 65 S     | 1.1.6            | DESPESAS PAGAS ANTECIPADAMENTE               | 3    |
+| 66 S     | 1.1.6.01         | DESPESAS DE MESES SEGUINTES                  | 4    |
+| 67       | 1.1.6.01.001     | PRÊMIOS DE SEGUROS A APROPRIAR               | 5    |
+| 684      | 1.1.6.01.002     | ESSOR SEGUROS SA                             | 5    |
+| 708      | 1.1.6.01.003     | HDI SEGUROS SA                               | 5    |
+| 710      | 1.1.6.01.004     | MAPFRE SEGUROS GERAIS SA                     | 5    |
+| 68       | 1.1.6.02.002     | ASSINATURAS E ANUIDADES                      | 5    |
+| 501 S    | 1.2              | ATIVO NÃO-CIRCULANTE                         | 2    |
+| 69 S     | 1.2.1            | ATIVO REALIZÁVEL A LONGO PRAZO               | 3    |
+| 70 S     | 1.2.1.01         | CLIENTES                                     | 4    |
+| 71 S     | 1.2.1.01.001     | DUPLICATAS A RECEBER                         | 5    |
+| 72       | 1.2.1.01.001.001 | CLIENTE B                                    | 6    |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL Folha: 0003
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação    | Nome                                     | Grau |
+| -------- | ---------------- | ---------------------------------------- | ---- |
+| 73       | 1.2.1.01.001.002 | CLIENTE C                                | 6    |
+| 74 S     | 1.2.1.01.002     | (-) DUPLICATAS DESCONTADAS               | 5    |
+| 75 S     | 1.2.1.01.003     | (-) CRÉDITOS VENCIDOS E NÃO LIQUIDADOS   | 5    |
+| 76 S     | 1.2.1.02         | OUTROS CRÉDITOS                          | 4    |
+| 77 S     | 1.2.1.02.001     | TÍTULOS A RECEBER                        | 5    |
+| 78 S     | 1.2.1.02.002     | BANCOS CONTA VINCULADA                   | 5    |
+| 79 S     | 1.2.1.02.003     | CONTROLADORA, CONTROLADAS E COLIGADAS    | 5    |
+| 80 S     | 1.2.1.02.004     | SÓCIOS, ADMINISTRADORES E PESSOAS LIGADA | 5    |
+| 81 S     | 1.2.1.02.005     | APLICAÇÕES FINANCEIRAS                   | 5    |
+| 82 S     | 1.2.1.02.006     | DEPÓSITOS JUDICIAIS                      | 5    |
+| 83 S     | 1.2.1.02.007     | EMPRÉSTIMOS COMPULSÓRIOS                 | 5    |
+| 84 S     | 1.2.1.02.008     | TRIBUTOS A RECUPERAR                     | 5    |
+| 85 S     | 1.2.1.02.009     | DESPESAS PAGAS ANTECIPADAS               | 5    |
+| 86 S     | 1.2.1.02.010     | DEPÓSITOS POR INCENTIVOS FISCAIS         | 5    |
+| 681 S    | 1.2.1.03         | EMPRÉSTIMOS CONCEDIDOS A SÓCIOS          | 4    |
+| 682      | 1.2.1.03.001     | CLAUDIO BIANCHI - PF                     | 5    |
+| 667 S    | 1.2.1.04         | EMPRÉSTIMOS CONCEDIDOS PF                | 4    |
+| 668      | 1.2.1.04.001     | CARLOS B BIANCHI - PF                    | 5    |
+| 669      | 1.2.1.04.002     | BENITO BIANCHI - PF                      | 5    |
+| 670      | 1.2.1.04.003     | LUCIANO BIANCHI - PF                     | 5    |
+| 671      | 1.2.1.04.004     | FABIANE BIANCHI - PF                     | 5    |
+| 672      | 1.2.1.04.005     | CRISTIANE BIANCHI - PF                   | 5    |
+| 673      | 1.2.1.04.006     | ELENISE BIANCHI - PF                     | 5    |
+| 674      | 1.2.1.04.007     | ADENIR BIANCHI - PF                      | 5    |
+| 675      | 1.2.1.04.008     | FERNANDA BIANCHI - PF                    | 5    |
+| 711      | 1.2.1.04.009     | FABIANE BIANCHI - PF                     | 5    |
+| 767      | 1.2.1.04.010     | PEDRO MESQUITA DA CRUZ                   | 5    |
+| 676 S    | 1.2.1.05         | EMPRÉSTIMOS CONCEDIDOS PJ                | 4    |
+| 677      | 1.2.1.05.001     | CARLOS B BIANCHI - PJ                    | 5    |
+| 678      | 1.2.1.05.002     | BENITO BIANCHI - PJ                      | 5    |
+| 679      | 1.2.1.05.003     | LUCIANO BIANCHI - PJ                     | 5    |
+| 680      | 1.2.1.05.004     | CLAUDIO BIANCHI - PJ                     | 5    |
+| 683      | 1.2.1.05.005     | FABIANE BIANCHI - PJ                     | 5    |
+| 686      | 1.2.1.05.006     | AGROBIANCHI TRANSPORTES LTDA             | 5    |
+| 88 S     | 1.2.2            | INVESTIMENTOS                            | 3    |
+| 89 S     | 1.2.2.01         | CONTROLADAS E COLIGADAS - EQUIV. PATRIM. | 4    |
+| 90       | 1.2.2.01.001     | CONTROLADA A - VALOR PATRIMONIAL         | 5    |
+| 91       | 1.2.2.01.002     | CONTROLADA A - ÁGIO AQUISIÇÃO            | 5    |
+| 92       | 1.2.2.01.003     | (-) CONTROLADA A - AMORTIZAÇÃO DO ÁGIL   | 5    |
+| 93       | 1.2.2.01.004     | (-) CONTROLADA A - DESÁGIO NA AQUISIÇÃO  | 5    |
+| 94       | 1.2.2.01.005     | CONTROLADA A - AMORTIZAÇÃO DO DESÁGIO    | 5    |
+| 95 S     | 1.2.2.02         | CONTROLADAS E COLIGADAS CUSTO CORRIGIDO  | 4    |
+| 96 S     | 1.2.2.03         | OUTRAS PARTICIPAÇÕES SOCIETÁRIAS         | 4    |
+| 97 S     | 1.2.2.04         | PARTICIPAÇÕES POR INCENTIVOS FISCAIS     | 4    |
+| 98       | 1.2.2.04.001     | FINOR                                    | 5    |
+| 99       | 1.2.2.04.002     | FINAM                                    | 5    |
+| 100 S    | 1.2.2.05         | IMÓVEIS NÃO DESTINADOS AO USO            | 4    |
+| 101 S    | 1.2.2.06         | OUTROS INVESTIMENTOS PERMANENTES         | 4    |
+| 102      | 1.2.2.06.001     | OBJETOS DE ARTE                          | 5    |
+| 103      | 1.2.2.06.002     | CAUÇÕES PERMANENTES                      | 5    |
+| 104 S    | 1.2.2.07         | (-) PROVISÃO PARA PERDAS PERMANENTE      | 4    |
+| 105      | 1.2.2.07.001     | (-) CONTROLADAS E COLIGADAS EQUI. PATRIM | 5    |
+| 106      | 1.2.2.07.002     | (-) CONTROLADAS COLIGADAS CUSTO CORRIGID | 5    |
+| 107      | 1.2.2.07.003     | (-) OUTRAS PARTICIPAÇÕES SOCIETÁRIAS     | 5    |
+| 108      | 1.2.2.07.004     | (-) PARTICIPAÇÕES POR INCENTIVOS FISCAIS | 5    |
+| 109      | 1.2.2.07.005     | (-) IMÓVEIS NÃO DESTINADOS A USO         | 5    |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0004
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome                                 | Grau                                     |                     |   |
+| -------- | ------------- | ------------------------------------ | ---------------------------------------- | ------------------- | - |
+| 110      | 1.2.2.07.006  | (-) OUTROS INVESTIMENTOS PERMANENTES | 5                                        |                     |   |
+| 111      | S             | 1.2.3                                | IMOBILIZADO                              | 3                   |   |
+| 112      | S             | 1.2.3.01                             | IMÓVEIS                                  | 4                   |   |
+| 113      |               | 1.2.3.01.001                         | TERRENOS                                 | 5                   |   |
+| 115      |               | 1.2.3.01.002                         | CONSTRUÇÕES                              | 5                   |   |
+| 114      |               | 1.2.3.01.002                         | EDIFÍCIOS                                | 5                   |   |
+| 116      | S             | 1.2.3.02                             | MÓVEIS E UTENSÍLIOS                      | 4                   |   |
+| 117      |               | S                                    | 1.2.3.02.001                             | MÓVEIS E UTENSÍLIOS | 5 |
+| 118      | S             | 1.2.3.03                             | MÁQUINAS, EQUIPAMENTOS E FERRAMENTAS     | 4                   |   |
+| 119      |               | 1.2.3.03.001                         | MÁQUINAS E EQUIPAMENTOS                  | 5                   |   |
+| 120      | S             | 1.2.3.04                             | VEÍCULOS                                 | 4                   |   |
+| 121      |               | 1.2.3.04.001                         | VEÍCULOS                                 | 5                   |   |
+| 122      | S             | 1.2.3.05                             | RECURSOS NATURAIS                        | 4                   |   |
+| 124      | S             | 1.2.3.06                             | IMOBILIZADO EM ANDAMENTO                 | 4                   |   |
+| 125      | S             | 1.2.3.07                             | (-) DEPRECIAÇÕES, AMORT. E EXAUS. ACUMUL | 4                   |   |
+| 126      |               | 1.2.3.07.001                         | (-) DEPRECIAÇÕES DE EDIFÍCIOS            | 5                   |   |
+| 127      |               | 1.2.3.07.002                         | (-) DEPRECIAÇÕES DE MÓVEIS E UTENSÍLIOS  | 5                   |   |
+| 128      |               | 1.2.3.07.003                         | (-) DEPRECIAÇÕES DE MÁQUINAS, EQUIP. FER | 5                   |   |
+| 129      |               | 1.2.3.07.004                         | (-) DEPRECIAÇÕES DE VEÍCULOS             | 5                   |   |
+| 130      |               | 1.2.3.07.005                         | (-) EXAUSTÕES E DEPREC. DE REC. NATURAIS | 5                   |   |
+| 131      |               | 1.2.3.07.006                         | (-) AMORTIZAÇÃO DE MARCAS, DIR. PATENTES | 5                   |   |
+| 502      | S             | 1.2.4                                | INTANGÍVEL                               | 3                   |   |
+| 123      | S             | 1.2.4.01                             | MARCAS, DIREITOS E PATENTES              | 4                   |   |
+| 87       | S             | 1.3                                  | ATIVO PERMANENTE                         | 2                   |   |
+| 132      | S             | 1.3.3                                | ATIVO DIFERIDO                           | 3                   |   |
+| 133      | S             | 1.3.3.01                             | GASTOS PRÉ-OPERACIONAIS                  | 4                   |   |
+| 134      |               | 1.3.3.01.001                         | ADMINISTRATIVOS                          | 5                   |   |
+| 135      |               | 1.3.3.01.002                         | DE ORGANIZAÇÃO                           | 5                   |   |
+| 136      |               | 1.3.3.01.003                         | FINANCEIROS                              | 5                   |   |
+| 137      | S             | 1.3.3.02                             | GASTOS COM PESQUISA E DESENVOLVIMENTO    | 4                   |   |
+| 138      |               | 1.3.3.02.001                         | GASTOS GERAIS                            | 5                   |   |
+| 139      |               | 1.3.3.02.002                         | FINANCEIROS                              | 5                   |   |
+| 140      | S             | 1.3.3.03                             | GASTOS DE IMPLEMENTAÇÃO DE NOVOS SISTEMA | 4                   |   |
+| 141      |               | 1.3.3.03.001                         | GASTOS GERAIS                            | 5                   |   |
+| 142      |               | 1.3.3.03.002                         | FINANCEIROS                              | 5                   |   |
+| 143      | S             | 1.3.3.04                             | BENFEITORIAS EM PROPRIEDADE DE TERCEIRO  | 4                   |   |
+| 144      | S             | 1.3.3.05                             | (-) AMORTIZAÇÕES ACUMULADAS              | 4                   |   |
+| 145      |               | 1.3.3.05.001                         | (-) AMORTIZAÇÕES DE GASTOS PRÉ-OPERAC.   | 5                   |   |
+| 146      |               | 1.3.3.05.002                         | (-) AMORTIZAÇÕES DE GASTOS PESQ. DESENV. | 5                   |   |
+| 147      |               | 1.3.3.05.003                         | (-) AMORTIZAÇÕES DE GASTOS NOVOS SISTEMA | 5                   |   |
+| 148      |               | 1.3.3.05.004                         | (-) AMORTIZAÇÕES DE BENEF. EM PROP. TERC | 5                   |   |
+| 149      | S             | 2                                    | PASSIVO                                  | 1                   |   |
+| 150      | S             | 2.1                                  | PASSIVO CIRCULANTE                       | 2                   |   |
+| 382      | S             | 2.1.1                                | EMPRÉSTIMOS E FINANCIAMENTOS             | 3                   |   |
+| 151      | S             | 2.1.1.01                             | EMPRÉSTIMOS                              | 4                   |   |
+| 152      |               | 2.1.1.01.001                         | EMPRÉSTIMO BANCO BRASIL                  | 5                   |   |
+| 153      | S             | 2.1.1.02                             | EMPRÉSTIMO ESTRANGEIRO                   | 4                   |   |
+| 154      | S             | 2.1.1.03                             | FINANCIAMENTOS                           | 4                   |   |
+| 155      |               | 2.1.1.03.001                         | FINANCIAMENTO BANCO FINASA               | 5                   |   |
+| 156      | S             | 2.1.1.04                             | FINANCIAMENTOS ESTRANGEIROS              | 4                   |   |
+| 157      | S             | 2.1.1.05                             | TÍTULOS A PAGAR                          | 4                   |   |
+| 158      | S             | 2.1.1.06                             | ADIANTAMENTOS SOBRE CONTRATOS DE CÂMBIO  | 4                   |   |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0005
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome                                                                     | Grau |
+| -------- | ------------- | ------------------------------------------------------------------------ | ---- |
+| 159      | S             | 2.1.1.07 CONTROLADORA, CONTROLADAS E COLIGADAS                           | 4    |
+| 160      | S             | 2.1.2 DEBÊNTURES                                                         | 3    |
+| 161      | S             | 2.1.2.01 DEBÊNTURES CONVERSÍVEIS EM AÇÕES                                | 4    |
+| 162      | S             | 2.1.2.02 DEBÊNTURES NÃO CONVERSÍVEIS                                     | 4    |
+| 163      | S             | 2.1.2.03 (-) DESÁGIO A APROPRIAR                                         | 4    |
+| 164      | S             | 2.1.3 FORNECEDORES                                                       | 3    |
+| 165      | S             | 2.1.3.01 FORNECEDORES                                                    | 4    |
+| 705      |               | 2.1.3.01.001 Agral Ind E Comercio De Equip Eletronicos Ltda              | 5    |
+| 635      |               | 2.1.3.01.001 ALVORADA SISTEMAS AGRICOLAS LTDA                            | 5    |
+| 727      |               | 2.1.3.01.001 ANDREATTA & GIONGO CONSULTORES ASSOCIADOS LTDA S/S          | 5    |
+| 741      |               | 2.1.3.01.001 AURORA MAQUINAS E MOTORES                                   | 5    |
+| 653      |               | 2.1.3.01.001 AUTO ELETRICA E MECANICA NOVOCAR LTDA                       | 5    |
+| 728      |               | 2.1.3.01.001 BASE ASSESSORIA AGRONOMICA LTDA                             | 5    |
+| 688      |               | 2.1.3.01.001 Bevilaqua Pre Moldados Ltda                                 | 5    |
+| 630      |               | 2.1.3.01.001 BRASTELHA INDUSTRIAL LTDA                                   | 5    |
+| 697      |               | 2.1.3.01.001 Car House Veiculos Ltda - Santa Maria                       | 5    |
+| 643      |               | 2.1.3.01.001 CASA DAS BATERIAS                                           | 5    |
+| 704      |               | 2.1.3.01.001 Casa Das Mangueiras Ltda                                    | 5    |
+| 639      |               | 2.1.3.01.001 CASA DOS QUIMICOS COMERCIO DE PRODUTOS QUIMICOS LTDA        | 5    |
+| 746      |               | 2.1.3.01.001 CECILIA DA SILVA ELSNER                                     | 5    |
+| 742      |               | 2.1.3.01.001 CEREALISTA PASI LTDA                                        | 5    |
+| 719      |               | 2.1.3.01.001 CLAUDIO BIANCHI                                             | 5    |
+| 655      |               | 2.1.3.01.001 CMI MAQUINAS - COMERCIO DE MAQUINAS E IMPLEMENTOS AGRICOLAS | 5    |
+| 641      |               | 2.1.3.01.001 COMERCIAL DE TINTAS SAO GABRIEL LTDA                        | 5    |
+| 694      |               | 2.1.3.01.001 Comercial Debacco Ltda-me                                   | 5    |
+| 722      |               | 2.1.3.01.001 COOCATRANS S.A                                              | 5    |
+| 721      |               | 2.1.3.01.001 COOPERATIVA TRITICOLA SEPEENSE LTDA                         | 5    |
+| 726      |               | 2.1.3.01.001 COTRESEG SEGURANCA NO TRABALHO LTDA                         | 5    |
+| 633      |               | 2.1.3.01.001 COTRIJUC COOP AGROPEC JULIO DE CASTILHOS                    | 5    |
+| 729      |               | 2.1.3.01.001 DAL ONGARO CONTAILIDADE LTDA                                | 5    |
+| 748      |               | 2.1.3.01.001 DENILSON CAMARGO DA SILVA LTDA                              | 5    |
+| 691      |               | 2.1.3.01.001 Diferencial Pecas Agricolas Ltda                            | 5    |
+| 642      |               | 2.1.3.01.001 DIST. MERIDIONAL DE MOTORES CUMMINS LTDA                    | 5    |
+| 703      |               | 2.1.3.01.001 Eletrotecnica Camillo Ltda                                  | 5    |
+| 628      |               | 2.1.3.01.001 EMPILHASUL SISTEMAS HIDRAULICOS                             | 5    |
+| 649      |               | 2.1.3.01.001 Enio de Lima Bello                                          | 5    |
+| 685      |               | 2.1.3.01.001 ESSOR SEGUROS SA                                            | 5    |
+| 690      |               | 2.1.3.01.001 F.r. Ripe Ltda                                              | 5    |
+| 699      |               | 2.1.3.01.001 FAGRO COM. PECAS P/ IMPL. AGRIC. PINDORAMA EIRELI           | 5    |
+| 723      |               | 2.1.3.01.001 FERRACO SUL IND E COM DE ACO FERRO FERRAGENS E VIDROS LTDA  | 5    |
+| 654      |               | 2.1.3.01.001 FERTILIZANTES PIRATINI LTDA                                 | 5    |
+| 167      |               | 2.1.3.01.001 FORNECEDOR RS                                               | 5    |
+| 166      |               | 2.1.3.01.001 FORNECEDOR SC                                               | 5    |
+| 632      |               | 2.1.3.01.001 FRANCISMARA FELTRIN COMORETO EIRELI ME                      | 5    |
+| 749      |               | 2.1.3.01.001 GIANA FILLIPIN DOS SANTOS                                   | 5    |
+| 652      |               | 2.1.3.01.001 GILMAQ COMERCIO DE MAQUINAS AGRICOLAS LTDA                  | 5    |
+| 707      |               | 2.1.3.01.001 HDI SEGUROS SA                                              | 5    |
+| 724      |               | 2.1.3.01.001 INAGRO - INSUMOS AGRICOLAS E COMERCIO DE GRAOS LTDA         | 5    |
+| 745      |               | 2.1.3.01.001 INDUSTRIA MECANICA ROSARIO LTDA                             | 5    |
+| 637      |               | 2.1.3.01.001 ITAIMBE MAQUINAS LTDA                                       | 5    |
+| 638      |               | 2.1.3.01.001 IVACIR BARP & CIA LTDA                                      | 5    |
+| 702      |               | 2.1.3.01.001 Jarau Pneus E Acessorios Ltda Sao Gabriel                   | 5    |
+| 743      |               | 2.1.3.01.001 JOAO ADROALDO DA SILVA                                      | 5    |
+| 696      |               | 2.1.3.01.001 Joao V. R. Brezolin Cia Ltda                                | 5    |
+| 634      |               | 2.1.3.01.001 JORGE SANTOS TRATORES MAQUINAS LTDA                         | 5    |
+| 701      |               | 2.1.3.01.001 KEPLER WEBER INDUSTRIAL S/A                                 | 5    |
+| 730      |               | 2.1.3.01.001 LUIZ ANTERO CARGNELUTTI DE CAMPOS EPP                       | 5    |
+| 731      |               | 2.1.3.01.001 MAESTRIA PERICIA E ASSESSORIA EMPRESARIAL LTDA              | 5    |
+| 709      |               | 2.1.3.01.001 MAPFRE VER CRUZ SEGURADORA SA                               | 5    |
+| 647      |               | 2.1.3.01.001 MECANICA BATISTA LTDA                                       | 5    |
+| 631      |               | 2.1.3.01.001 MINERAÇÃO JOBIM LTDA                                        | 5    |
+| 695      |               | 2.1.3.01.001 Mineracao Monego Ltda                                       | 5    |
+| 692      |               | 2.1.3.01.001 Mz Retifica De Motores Ltda                                 | 5    |
+| 650      |               | 2.1.3.01.001 NILSON CABREIRA LOPES JUNIOR 03261110007                    | 5    |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0006
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome                                     | Grau                                     |   |
+| -------- | ------------- | ---------------------------------------- | ---------------------------------------- | - |
+| 640      | 2.1.3.01.001  | PEDRO CESAR RODRIGUES LUCAS              | 5                                        |   |
+| 651      | 2.1.3.01.001  | PEDRO CESAR RODRIGUES LUCAS              | 5                                        |   |
+| 732      | 2.1.3.01.001  | PEMA ASSESSORIA EMPRESARIAL LTDA - ME    | 5                                        |   |
+| 629      | 2.1.3.01.001  | PETROGASS COMBUSTIVEIS LTDA              | 5                                        |   |
+| 720      | 2.1.3.01.001  | POSTO ALDO CUIABA LTDA                   | 5                                        |   |
+| 687      | 2.1.3.01.001  | Rigo Agropecuaria Ltda                   | 5                                        |   |
+| 646      | 2.1.3.01.001  | RITAMAR DIAS GONCALVES                   | 5                                        |   |
+| 733      | 2.1.3.01.001  | Schlosser & Ferigolo Ltda                | 5                                        |   |
+| 734      | 2.1.3.01.001  | SEMENTE FORTE LTDA                       | 5                                        |   |
+| 636      | 2.1.3.01.001  | SEMENTES LANNES LTDA                     | 5                                        |   |
+| 698      | 2.1.3.01.001  | SHIRLEY MULLER                           | 5                                        |   |
+| 700      | 2.1.3.01.001  | SPA DO ACO LTDA                          | 5                                        |   |
+| 689      | 2.1.3.01.001  | Sultepa Construcoes E Comercio Ltda.     | 5                                        |   |
+| 645      | 2.1.3.01.001  | SUPER TRATORES MAQUINAS AGRICOLAS LTDA   | 5                                        |   |
+| 735      | 2.1.3.01.001  | Tornearia Hoppe Ltda                     | 5                                        |   |
+| 627      | 2.1.3.01.001  | TRATORMAQ COMERCIO E REPRESENTACOES LTDA | 5                                        |   |
+| 644      | 2.1.3.01.001  | TRITEC EQUIPAMENTOS LTDA                 | 5                                        |   |
+| 740      | 2.1.3.01.001  | URBANO AGROINDUSTRIAL LTDA               | 5                                        |   |
+| 626      | 2.1.3.01.001  | VALMIR DE ANDRADE JOBIM                  | 5                                        |   |
+| 736      | 2.1.3.01.001  | VIDACARD SEGURANÇA DO TRABALHO LTDA.     | 5                                        |   |
+| 737      | 2.1.3.01.001  | VIE HOTEL LTDA                           | 5                                        |   |
+| 738      | 2.1.3.01.001  | VOLMIR KAISER                            | 5                                        |   |
+| 648      | 2.1.3.01.001  | WILTON PROENCA ENNES ME                  | 5                                        |   |
+| 168      | S             | 2.1.3.02                                 | FORNECEDORES ESTRANGEIROS                | 4 |
+| 169      | S             | 2.1.4                                    | OBRIGAÇÕES TRIBUTÁRIAS                   | 3 |
+| 170      | S             | 2.1.4.01                                 | IMPOSTOS E CONTRIBUIÇÕES A RECOLHER      | 4 |
+| 171      |               | 2.1.4.01.001                             | IPI A RECOLHER                           | 5 |
+| 172      |               | 2.1.4.01.002                             | ICMS A RECOLHER                          | 5 |
+| 173      |               | 2.1.4.01.003                             | ISS A RECOLHER                           | 5 |
+| 174      |               | 2.1.4.01.004                             | PROVISÃO PARA IMPOSTO DE RENDA           | 5 |
+| 175      |               | 2.1.4.01.005                             | PROVISÃO P/ CONTRIBUIÇÃO SOCIAL S/ LUCRO | 5 |
+| 176      |               | 2.1.4.01.006                             | IMPOSTO DE RENDA A RECOLHER              | 5 |
+| 177      |               | 2.1.4.01.007                             | CONTRIBUIÇÃO SOCIAL A RECOLHER           | 5 |
+| 178      |               | 2.1.4.01.008                             | IRRF A RECOLHER                          | 5 |
+| 179      |               | 2.1.4.01.009                             | PIS A RECOLHER                           | 5 |
+| 180      |               | 2.1.4.01.010                             | COFINS A RECOLHER                        | 5 |
+| 181      |               | 2.1.4.01.011                             | PROVISÃO PARA IOF                        | 5 |
+| 182      |               | 2.1.4.01.012                             | CRF A RECOLHER                           | 5 |
+| 183      |               | 2.1.4.01.013                             | ISS RETIDO A RECOLHER                    | 5 |
+| 184      |               | 2.1.4.01.014                             | INSS RETIDO A RECOLHER                   | 5 |
+| 479      |               | 2.1.4.01.015                             | SIMPLES NACIONAL A RECOLHER              | 5 |
+| 481      |               | 2.1.4.01.016                             | SUBSTITUIÇÃO TRIBUTÁRIA A RECOLHER       | 5 |
+| 483      |               | 2.1.4.01.017                             | REFIS A RECOLHER                         | 5 |
+| 485      |               | 2.1.4.01.018                             | FIA A RECOLHER                           | 5 |
+| 487      |               | 2.1.4.01.019                             | PIS RETIDO A RECOLHER                    | 5 |
+| 488      |               | 2.1.4.01.020                             | COFINS RETIDO A RECOLHER                 | 5 |
+| 489      |               | 2.1.4.01.021                             | CONTRIBUIÇÃO SOCIAL RETIDA A RECOLHER    | 5 |
+| 490      |               | 2.1.4.01.022                             | FUNRURAL A RECOLHER                      | 5 |
+| 491      |               | 2.1.4.01.023                             | CONTRIBUIÇÃO SINDICAL A RECOLHER         | 5 |
+| 185      | S             | 2.1.5                                    | OBRIGAÇÕES TRABALHISTA E PREVIDENCIÁRIA  | 3 |
+| 186      | S             | 2.1.5.01                                 | OBRIGAÇÕES COM O PESSOAL                 | 4 |
+| 187      |               | 2.1.5.01.001                             | SALÁRIOS E ORDENADOS A PAGAR             | 5 |
+| 188      |               | 2.1.5.01.002                             | PRÓ-LABORE A PAGAR                       | 5 |
+| 189      |               | 2.1.5.01.003                             | HONORARIOS A PAGAR                       | 5 |
+| 190      | S             | 2.1.5.02                                 | OBRIGAÇÕES SOCIAIS                       | 4 |
+| 191      |               | 2.1.5.02.001                             | INSS A RECOLHER                          | 5 |
+| 192      |               | 2.1.5.02.002                             | FGTS A RECOLHER                          | 5 |
+| 494      |               | 2.1.5.02.003                             | PIS S/ FOLHA A RECOLHER                  | 5 |
+| 512      |               | 2.1.5.02.004                             | IRRF S/ FOLHA A RECOLHER                 | 5 |
+| 193      | S             | 2.1.5.03                                 | PROVISÕES                                | 4 |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0007
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T |   | Classificação    | Nome                                     | Grau |
+| -------- | - | ---------------- | ---------------------------------------- | ---- |
+| 194      |   | 2.1.5.03.001     | PROVISÕES PARA FÉRIAS                    | 5    |
+| 195      |   | 2.1.5.03.002     | PROVISÕES PARA 13º SALÁRIO               | 5    |
+| 196      |   | 2.1.5.03.003     | INSS SOBRE PROVISÕES PARA FÉRIAS         | 5    |
+| 197      |   | 2.1.5.03.004     | INSS SOBRE PROVISÕES PARA 13º SALÁRIO    | 5    |
+| 198      |   | 2.1.5.03.005     | FGTS SOBRE PROVISÕES PARA FÉRIAS         | 5    |
+| 199      |   | 2.1.5.03.006     | FGTS SOBRE PROVISÕES PARA 13º SALÁRIO    | 5    |
+| 495      |   | 2.1.5.03.007     | PIS SOBRE PROVISÕES PARA FÉRIAS          | 5    |
+| 496      |   | 2.1.5.03.008     | PIS SOBRE PROVISÕES PARA 13º SALÁRIO     | 5    |
+| 200      | S | 2.1.6            | OUTRAS OBRIGAÇÕES                        | 3    |
+| 201      | S | 2.1.6.01         | ADIANTAMENTOS A CLIENTES                 | 4    |
+| 202      | S | 2.1.6.02         | CONTAS A PAGAR                           | 4    |
+| 203      | S | 2.1.6.03         | ENERGIA ELÉTRICA, ÁGUA E TELEFONE A PAGA | 4    |
+| 204      | S | 2.1.6.04         | CONTAS CORRENTES                         | 4    |
+| 205      | S | 2.1.6.05         | SEGUROS                                  | 4    |
+| 206      | S | 2.1.6.06         | OUTRAS OBRIGAÇÕES                        | 4    |
+| 207      | S | 2.1.7            | DIVIDENDOS, PART. E JURO SOBRE O CAPITAL | 3    |
+| 208      | S | 2.1.7.01         | DIVIDENDOS                               | 4    |
+| 209      |   | 2.1.7.01.001     | DIVIDENDOS PROPOSTOS                     | 5    |
+| 210      |   | 2.1.7.01.002     | DIVIDENDOS A PAGAR                       | 5    |
+| 211      | S | 2.1.7.02         | PARTICIPAÇÕES                            | 4    |
+| 212      |   | 2.1.7.02.001     | PARTICIPAÇÕES PROPOSTA A ADMINISTRADORES | 5    |
+| 213      |   | 2.1.7.02.002     | PARTICIPAÇÕES PROPOSTA A EMPREGADOS      | 5    |
+| 214      |   | 2.1.7.02.003     | PARTICIPAÇÕES A PAGAR                    | 5    |
+| 215      | S | 2.1.7.03         | JUROS SOBRE CAPITAL PRÓPRIO              | 4    |
+| 216      |   | 2.1.7.03.001     | JUROS SOBRE CAPITAL PRÓPRIO A PAGAR      | 5    |
+| 503      | S | 2.2              | PASSIVO NÃO-CIRCULANTE                   | 2    |
+| 217      | S | 2.2.1            | PASSIVO EXIGÍVEL A LONGO PRAZO           | 3    |
+| 218      | S | 2.2.1.01         | EMPRÉSTIMOS E FINANCIAMENTOS             | 4    |
+| 219      | S | 2.2.1.01.001     | EMPRÉSTIMOS                              | 5    |
+| 220      | S | 2.2.1.01.002     | EMPRÉSTIMOS ESTRANGEIROS                 | 5    |
+| 221      | S | 2.2.1.01.003     | FINANCIAMENTOS                           | 5    |
+| 222      |   | 2.2.1.01.003.001 | BANCO FINASA S/A BANK                    | 6    |
+| 223      | S | 2.2.1.01.004     | FINANCIAMENTOS ESTRANGEIROS              | 5    |
+| 225      | S | 2.2.1.01.005     | CONTROLADORA, CONTROLADAS E COLIGADAS    | 5    |
+| 226      | S | 2.2.1.01.006     | OUTROS DÉBITOS COM SÓCIOS, ADM, PESSOAS  | 5    |
+| 224      | S | 2.2.1.01.007     | TÍTULOS A PAGAR                          | 5    |
+| 227      | S | 2.2.1.02         | FORNECEDORES                             | 4    |
+| 228      | S | 2.2.1.02.001     | FORNECEDORES                             | 5    |
+| 229      |   | 2.2.1.02.001.001 | FORNECEDOR A                             | 6    |
+| 230      |   | 2.2.1.02.001.002 | FORNECEDOR B                             | 6    |
+| 231      | S | 2.2.1.02.002     | FORNECEDORES ESTRANGEIROS                | 5    |
+| 232      | S | 2.2.1.03         | EMPRÉSTIMOS DE SÓCIOS                    | 4    |
+| 657      |   | 2.2.1.03.001     | CLAUDIO BORTOLUZZI BIANCHI - PF          | 5    |
+| 233      | S | 2.2.1.03.001     | IMPOSTOS E CONTRIBUIÇÕES A RECOLHER      | 5    |
+| 234      |   | 2.2.1.03.001.001 | PROVISÃO PARA IR SOBRE LUCROS DIFERIDOS  | 6    |
+| 235      |   | 2.2.1.03.001.002 | CRÉDITOS DA CSLL SOBRE BENS DO ATIVO     | 6    |
+| 236      | S | 2.2.1.04         | OUTRAS OBRIGAÇÕES                        | 4    |
+| 237      | S | 2.2.1.04.001     | CONTAS A PAGAR                           | 5    |
+| 658      | S | 2.2.1.05         | EMPRÉSTIMO DE TERCEIRO PF                | 4    |
+| 664      |   | 2.2.1.05.002     | FERNANDA BORTOLUZZI BIANCHI - PF         | 5    |
+| 659      | S | 2.2.1.06         | EMPRÉSTIMO DE TERCEIRO PJ                | 4    |
+| 660      |   | 2.2.1.06.001     | CLAUDIO BORTOLUZZI BIANCHI - PJ          | 5    |
+| 661      |   | 2.2.1.06.002     | BENITO FRANCISCO BIANCHI - PJ            | 5    |
+| 662      |   | 2.2.1.06.003     | LUCIANO BIANCHI - PJ                     | 5    |
+| 725      |   | 2.2.1.06.004     | AGROBIANCHI TRANSPORTES LTDA PJ          | 5    |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL Folha: 0008
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T |   | Classificação | Nome                                     | Grau |
+| -------- | - | ------------- | ---------------------------------------- | ---- |
+| 663      |   | 2.2.1.06.004  | CARLOS BORTOLUZZI BIANCHI - PJ           | 5    |
+| 739      |   | 2.2.1.06.005  | FABIANE BIANCHI - PJ                     | 5    |
+| 242      | S | 2.3           | PATRIMÔNIO LÍQUIDO                       | 2    |
+| 243      | S | 2.3.1         | CAPITAL SOCIAL                           | 3    |
+| 244      | S | 2.3.1.01      | CAPITAL SUBSCRITO                        | 4    |
+| 245      |   | 2.3.1.01.001  | CAPITAL SOCIAL                           | 5    |
+| 246      | S | 2.3.1.02      | (-) CAPITAL A INTEGRALIZAR               | 4    |
+| 247      |   | 2.3.1.02.001  | CAPITAL A INTEGRALIZAR                   | 5    |
+| 249      | S | 2.3.2         | RESERVAS DE CAPITAL                      | 3    |
+| 251      |   | 2.3.2.01      | ÁGIO NA EMISSÃO DE AÇÕES                 | 4    |
+| 252      |   | 2.3.2.02      | DOAÇÕES E SUBVENÇÕES PARA INVESTIMENTOS  | 4    |
+| 253      |   | 2.3.2.03      | (-) AÇÕES/QUOTAS EM TESOURARIA           | 4    |
+| 250      |   | 2.3.2.04      | CORREÇÃO MONETÁRIA DO CAP. INTEGRALIZADO | 4    |
+| 254      | S | 2.3.3         | RESERVA DE REAVALIAÇÃO                   | 3    |
+| 256      |   | 2.3.3.01      | REAVALIAÇÃO DE ATIVOS COLIGADAS          | 4    |
+| 255      |   | 2.3.3.02      | REAVALIAÇÃO DE ATIVOS PRÓPRIOS           | 4    |
+| 257      | S | 2.3.4         | RESERVAS DE LUCROS                       | 3    |
+| 259      |   | 2.3.4.01      | STATUTORY RESERVE                        | 4    |
+| 260      |   | 2.3.4.02      | RESERVA PARA CONTINGÊNCIAS               | 4    |
+| 261      |   | 2.3.4.03      | RESERVA DE LUCROS A REALIZAR             | 4    |
+| 262      |   | 2.3.4.04      | RESERVA ESPECIAL                         | 4    |
+| 263      |   | 2.3.4.05      | (-) AÇÕES/QUOTAS EM TESOURARIA           | 4    |
+| 258      |   | 2.3.4.06      | RESERVA LEGAL                            | 4    |
+| 264      | S | 2.3.5         | LUCROS OU PREJUÍZOS ACUMULADOS           | 3    |
+| 265      | S | 2.3.5.01      | LUCROS OU PREJUÍZOS ACUMULADOS           | 4    |
+| 266      |   | 2.3.5.01.001  | LUCROS ACUMULADOS                        | 5    |
+| 267      |   | 2.3.5.01.002  | (-) PREJUÍZOS ACUMULADOS                 | 5    |
+| 268      | S | 2.3.5.02      | RESULTADO DO EXERCÍCIO EM CURSO          | 4    |
+| 513      |   | 2.3.5.02.001  | LUCRO DO EXERCÍCIO EM CURSO              | 5    |
+| 514      |   | 2.3.5.02.002  | PREJUÍZO DO EXERCÍCIO EM CURSO           | 5    |
+| 248      | S | 2.3.7         | RESERVAS                                 | 3    |
+| 238      | S | 2.4           | RESULTADO DE EXERCÍCIOS FUTUROS          | 2    |
+| 239      | S | 2.4.1         | OPERATING INCOME                         | 3    |
+| 240      | S | 2.4.1.01      | RECEITAS DE EXERCÍCIOS FUTUROS           | 4    |
+| 241      |   | 2.4.1.02      | CUSTOS E DESPESAS VINCULADAS AS RECEITAS | 4    |
+| 269      | S | 3             | CONTAS DE RESULTADOS - CUSTOS E DESPESAS | 1    |
+| 500      | S | 3.1           | CUSTOS                                   | 2    |
+| 270      | S | 3.1.1         | CUSTOS DIRETOS DE PRODUÇÃO               | 3    |
+| 271      | S | 3.1.1.01      | MATERIAL APLICADO                        | 4    |
+| 272      |   | 3.1.1.01.001  | MATÉRIA-PRIMA                            | 5    |
+| 506      |   | 3.1.1.01.002  | COMPRA DE MATERIA PRIMA A VISTA          | 5    |
+| 507      |   | 3.1.1.01.003  | COMPRA DE MATERIA PRIMA A PRAZO          | 5    |
+| 508      |   | 3.1.1.01.004  | COMPRA DE MERCADORIAS A PRAZO            | 5    |
+| 511      |   | 3.1.1.01.005  | (-) ESTOQUE FINAL                        | 5    |
+| 509      |   | 3.1.1.01.005  | COMPRA DE MERCADORIAS A VISTA            | 5    |
+| 510      |   | 3.1.1.01.005  | ESTOQUE INICIAL                          | 5    |
+| 273      | S | 3.1.1.02      | DESPESAS COM PESSOAL                     | 4    |
+| 274      |   | 3.1.1.02.001  | SALÁRIOS E ORDENADOS                     | 5    |
+| 275      |   | 3.1.1.02.002  | PRÓ-LABORE                               | 5    |
+| 276      |   | 3.1.1.02.003  | PRÊMIOS DE GRATIFICAÇÕES                 | 5    |
+| 277      |   | 3.1.1.02.004  | 13º SALÁRIO                              | 5    |
+| 278      |   | 3.1.1.02.005  | FÉRIAS                                   | 5    |
+| 279      |   | 3.1.1.02.006  | INSS                                     | 5    |
+| 280      |   | 3.1.1.02.007  | FGTS                                     | 5    |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL                               Folha: 0009
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome                                                   | Grau                                     |   |
+| -------- | ------------- | ------------------------------------------------------ | ---------------------------------------- | - |
+| 281      | 3.1.1.02.008  | INDENIZAÇÕES E AVISO PRÉVIO                            | 5                                        |   |
+| 282      | 3.1.1.02.009  | ASSISTÊNCIA MÉDICA E SOCIAL                            | 5                                        |   |
+| 497      | 3.1.1.02.010  | PIS S/ FOLHA                                           | 5                                        |   |
+| 526      | 3.1.1.02.011  | GRFC                                                   | 5                                        |   |
+| 527      | 3.1.1.02.012  | FETAG                                                  | 5                                        |   |
+| 528      | 3.1.1.02.013  | FUNRURAL                                               | 5                                        |   |
+| 529      | 3.1.1.02.014  | SENAR                                                  | 5                                        |   |
+| 768      | 3.1.1.02.015  | FETAR                                                  | 5                                        |   |
+| 600      | S             | 3.1.1.03                                               | DESPESAS OPERACIONAIS DA ATIVIDADE RURAL | 4 |
+| 601      | 3.1.1.03.001  | AQUISIÇÃO DE MAQUINAS E EQUIPAMENTOS                   | 5                                        |   |
+| 602      | 3.1.1.03.002  | MANUTENÇÃO DE MAQUINAS E EQUIPAMENTOS                  | 5                                        |   |
+| 603      | 3.1.1.03.003  | COMBUSTIVEIS E LUBRIFICANTES                           | 5                                        |   |
+| 604      | 3.1.1.03.004  | MANUTENÇÃO E CONSERVAÇÃO DE IMOVEIS                    | 5                                        |   |
+| 605      | 3.1.1.03.005  | DESPESAS COM AQUISIÇÃO DE SEMENTES                     | 5                                        |   |
+| 606      | 3.1.1.03.006  | DESPESAS COM AQUISIÇÃO DE ADUBOS E FERTILIZANTES       | 5                                        |   |
+| 607      | 3.1.1.03.007  | DESPESAS COM AQUISIÇAO DE MEDICAMENTOS VETERINARIOS    | 5                                        |   |
+| 608      | 3.1.1.03.008  | DESPESAS COM RAÇÃO E DERIVADOS PARA ALIMENTAÇÃO ANIMAL | 5                                        |   |
+| 609      | 3.1.1.03.009  | DESPESAS COM SERVIÇOS PRESTADOS PJ                     | 5                                        |   |
+| 610      | 3.1.1.03.010  | DESPESAS COM SERVIÇOS PRESTADOS PF                     | 5                                        |   |
+| 611      | 3.1.1.03.011  | FRETES E CARRETOS                                      | 5                                        |   |
+| 612      | 3.1.1.03.012  | EMOLUMENTOS DE CARTORIO                                | 5                                        |   |
+| 613      | 3.1.1.03.013  | CORREIOS E POSTAGENS                                   | 5                                        |   |
+| 614      | 3.1.1.03.014  | COMISSÕES E CORRETAGEM                                 | 5                                        |   |
+| 615      | 3.1.1.03.015  | ARRENDAMENTOS AGRICOLAS                                | 5                                        |   |
+| 616      | 3.1.1.03.016  | SERVIÇOS DE TERCEIRIZAÇÃO                              | 5                                        |   |
+| 617      | 3.1.1.03.017  | ASSESSORIA CONTÁBIL                                    | 5                                        |   |
+| 619      | 3.1.1.03.019  | ASSESSORIA AGRONOMICA                                  | 5                                        |   |
+| 620      | 3.1.1.03.020  | ASSESSORIA ADMINISTRATIVA                              | 5                                        |   |
+| 621      | 3.1.1.03.021  | DESPESAS COM PESTICIDAS E HERBICIDAS                   | 5                                        |   |
+| 622      | 3.1.1.03.022  | DESPESAS COM MANUTENCAO DE VEICULOS                    | 5                                        |   |
+| 623      | 3.1.1.03.023  | SECAGEM E ARMAZENAGEM                                  | 5                                        |   |
+| 624      | 3.1.1.03.024  | DESPESAS 4                                             | 5                                        |   |
+| 625      | 3.1.1.03.025  | DESPESAS 5                                             | 5                                        |   |
+| 283      | S             | 3.1.2                                                  | CUSTOS INDIRETOS DE PRODUÇÃO             | 3 |
+| 284      | S             | 3.1.2.01                                               | MÃO-DE-OBRA INDIRETA                     | 4 |
+| 285      | S             | 3.1.2.02                                               | MATERIAIS DE CONSUMO INDIRETO            | 4 |
+| 287      | S             | 3.1.2.03                                               | MATERIAIS DE MANUTENÇÃO E REPARO         | 4 |
+| 286      | S             | 3.1.2.04                                               | UTILIDADES E SERVIÇOS                    | 4 |
+| 288      | S             | 3.1.2.05                                               | ALUGUEIS E ARRENDAMENTOS                 | 4 |
+| 289      | S             | 3.1.2.06                                               | DEPRESIAÇÕES, AMORTIZAÇÕES E EXAUSTÕES   | 4 |
+| 291      |               | 3.1.2.06.001                                           | DEPRESIAÇÃO                              | 5 |
+| 290      | S             | 3.1.2.07                                               | COMBUSTÍVEIS E ENERGIA ELÉTRICA          | 4 |
+| 292      |               | 3.1.2.07.001                                           | COMBUSTÍVEL                              | 5 |
+| 293      | S             | 3.1.3                                                  | CUSTOS DIRETOS DA PRODUÇÃO DE SERVIÇOS   | 3 |
+| 294      | S             | 3.1.3.01                                               | MÃO-DE-OBRA DIRETA                       | 4 |
+| 295      | S             | 3.2                                                    | DESPESAS OPERACIONAIS                    | 2 |
+| 296      | S             | 3.2.1                                                  | DESPESAS COM VENDAS                      | 3 |
+| 297      | S             | 3.2.1.01                                               | DESPESAS COM PESSOAL                     | 4 |
+| 298      |               | 3.2.1.01.001                                           | SALÁRIOS E ORDENADOS                     | 5 |
+| 299      |               | 3.2.1.01.002                                           | PRÓ-LABORE                               | 5 |
+| 300      |               | 3.2.1.01.003                                           | PRÊMIOS E GRATIFICAÇÕES                  | 5 |
+| 301      |               | 3.2.1.01.004                                           | 13º SALÁRIO                              | 5 |
+| 302      |               | 3.2.1.01.005                                           | FÉRIAS                                   | 5 |
+| 303      |               | 3.2.1.01.006                                           | INSS                                     | 5 |
+| 304      |               | 3.2.1.01.007                                           | FGTS                                     | 5 |
+| 305      |               | 3.2.1.01.008                                           | INDENIZAÇÕES E AVISO PRÉVIO              | 5 |
+| 306      |               | 3.2.1.01.009                                           | ASSISTÊNCIA MÉDICA E SOCIAL              | 5 |
+| 498      |               | 3.2.1.01.010                                           | PIS S/ FOLHA                             | 5 |
+| 307      | S             | 3.2.1.02                                               | COMISSÕES SOBRE VENDAS                   | 4 |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0010
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome         | Grau                                  |   |
+| -------- | ------------- | ------------ | ------------------------------------- | - |
+| 308      | 3.2.1.02.001  | COMISSÕES    | 5                                     |   |
+| 309      | S             | 3.2.1.03     | PROPAGANDA E PUBLICIDADE              | 4 |
+| 310      |               | 3.2.1.03.002 | AMOSTRAS GRÁTIS                       | 5 |
+| 311      | S             | 3.2.1.04     | DESPESAS COM ENTREGA                  | 4 |
+| 312      |               | 3.2.1.04.001 | FRETES E CARRETOS                     | 5 |
+| 313      |               | 3.2.1.04.002 | MANUTENÇÃO DE VEÍCULOS                | 5 |
+| 314      | S             | 3.2.1.05     | DESPESAS COM VIAGENS E REPRESENTAÇÕES | 4 |
+| 315      |               | 3.2.1.05.001 | VIAGENS TERRESTRES                    | 5 |
+| 316      |               | 3.2.1.05.002 | VIAGENS AÉREAS                        | 5 |
+| 317      |               | 3.2.1.05.003 | HOSPEDAGEM                            | 5 |
+| 318      |               | 3.2.1.05.004 | REFEIÇÕES                             | 5 |
+| 319      | S             | 3.2.1.06     | DESPESAS GERAIS                       | 4 |
+| 320      |               | 3.2.1.06.001 | ALUGUÉIS                              | 5 |
+| 321      |               | 3.2.1.06.002 | MANUTENÇÃO E REPARO                   | 5 |
+| 322      |               | 3.2.1.06.003 | TELEFONE                              | 5 |
+| 323      |               | 3.2.1.06.004 | DESPESAS POSTAIS E TELEGRÁFICAS       | 5 |
+| 324      |               | 3.2.1.06.005 | DEPRESIAÇÕES E AMORTIZAÇÕES           | 5 |
+| 325      |               | 3.2.1.06.006 | SERVIÇOS PRESTADOS POR TERCEIROS      | 5 |
+| 326      |               | 3.2.1.06.007 | SEGUROS                               | 5 |
+| 327      | S             | 3.2.1.07     | PERDAS NO RECEBIMENTO DE CRÉDITOS     | 4 |
+| 328      |               | 3.2.1.07.001 | CRÉDITOS VENCIDOS E NÃO LIQUIDADOS    | 5 |
+| 329      | S             | 3.2.2        | DESPESAS ADMINISTRATIVAS              | 3 |
+| 330      | S             | 3.2.2.01     | DESPESAS COM PESSOAL                  | 4 |
+| 331      |               | 3.2.2.01.001 | SALÁRIOS E ORDENADOS                  | 5 |
+| 332      |               | 3.2.2.01.002 | PRÓ-LABORE                            | 5 |
+| 333      |               | 3.2.2.01.003 | PRÊMIOS E GRATIFICAÇÕES               | 5 |
+| 334      |               | 3.2.2.01.004 | 13º SALÁRIO                           | 5 |
+| 335      |               | 3.2.2.01.005 | FÉRIAS                                | 5 |
+| 336      |               | 3.2.2.01.006 | INSS                                  | 5 |
+| 337      |               | 3.2.2.01.007 | FGTS                                  | 5 |
+| 338      |               | 3.2.2.01.008 | INDENIZAÇÕES E AVISO PRÉVIO           | 5 |
+| 339      |               | 3.2.2.01.009 | ASSISTÊNCIA MÉDICA E SOCIAL           | 5 |
+| 492      |               | 3.2.2.01.010 | VALE TRANSPORTE                       | 5 |
+| 499      |               | 3.2.2.01.011 | PIS S/ FOLHA                          | 5 |
+| 665      |               | 3.2.2.01.012 | FETAG                                 | 5 |
+| 666      |               | 3.2.2.01.013 | MEDICINA DO TRABALHO                  | 5 |
+| 340      | S             | 3.2.2.02     | ALUGUÉIS E ARRENDAMENTOS              | 4 |
+| 341      |               | 3.2.2.02.001 | ALUGUÉIS DE IMÓVEIS                   | 5 |
+| 342      |               | 3.2.2.02.002 | ALUGUÉIS DE MÁQUINAS E EQUIPAMENTOS   | 5 |
+| 343      |               | 3.2.2.02.003 | ARRENDAMENTO DE IMÓVEIS               | 5 |
+| 344      |               | 3.2.2.02.004 | ARRENDAMENTO MERCANTIL (LEASING)      | 5 |
+| 345      | S             | 3.2.2.03     | IMPOSTOS, TAXAS E CONTRIBUIÇÕES       | 4 |
+| 346      |               | 3.2.2.03.001 | PIS                                   | 5 |
+| 347      |               | 3.2.2.03.002 | COFINS                                | 5 |
+| 348      |               | 3.2.2.03.003 | IPTU                                  | 5 |
+| 349      |               | 3.2.2.03.004 | IPVA                                  | 5 |
+| 350      |               | 3.2.2.03.005 | TAXAS DIVERSAS                        | 5 |
+| 351      |               | 3.2.2.03.006 | TAXA DE ITR                           | 5 |
+| 352      |               | 3.2.2.03.007 | MULTAS DE MORA                        | 5 |
+| 353      | S             | 3.2.2.04     | DESPESAS GERAIS                       | 4 |
+| 354      |               | 3.2.2.04.001 | ENERGIA ELÉTRICA                      | 5 |
+| 355      |               | 3.2.2.04.002 | ÁGUA E ESGOTO                         | 5 |
+| 356      |               | 3.2.2.04.003 | TELEFONE                              | 5 |
+| 357      |               | 3.2.2.04.004 | DESPESAS POSTAIS E TELEGRÁFICAS       | 5 |
+| 358      |               | 3.2.2.04.005 | SEGUROS                               | 5 |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0011
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome                                     | Grau                                     |   |
+| -------- | ------------- | ---------------------------------------- | ---------------------------------------- | - |
+| 359      | 3.2.2.04.006  | MATERIAL DE ESCRITÓRIO                   | 5                                        |   |
+| 360      | 3.2.2.04.007  | MATERIAL DE HIGIENE E LIMPEZA            | 5                                        |   |
+| 361      | 3.2.2.04.008  | ASSISTÊNCIA CONTÁBIL                     | 5                                        |   |
+| 362      | 3.2.2.04.009  | SERVIÇOS PRESTADOS POR TERCEIROS         | 5                                        |   |
+| 363      | 3.2.2.04.010  | DEPRESIAÇÕES E AMORTIZAÇÕES              | 5                                        |   |
+| 364      | 3.2.2.04.011  | REPRODUÇÕES                              | 5                                        |   |
+| 365      | 3.2.2.04.012  | DESPESAS LEGAIS E JUDICIAIS              | 5                                        |   |
+| 366      | 3.2.2.04.013  | LIVROS, JORNAIS E REVISTAS               | 5                                        |   |
+| 493      | 3.2.2.04.014  | MULTA DE TRÂNSITO                        | 5                                        |   |
+| 618      | 3.2.2.04.015  | ASSESSORIA ADVOCATICIA                   | 5                                        |   |
+| 770      | 3.2.2.04.016  | PEDÁGIO                                  | 5                                        |   |
+| 367      | S             | 3.2.2.05                                 | DESPESAS FINANCEIRAS                     | 4 |
+| 368      | 3.2.2.05.001  | JUROS PASSIVOS                           | 5                                        |   |
+| 369      | 3.2.2.05.002  | VARIAÇÕES MONETÁRIAS PASSIVAS            | 5                                        |   |
+| 370      | 3.2.2.05.003  | VARIAÇÕES CAMBIAIS PASSIVAS              | 5                                        |   |
+| 371      | 3.2.2.05.004  | DESCONTO CONCEDIDOS                      | 5                                        |   |
+| 372      | 3.2.2.05.005  | JUROS DE MORA                            | 5                                        |   |
+| 373      | 3.2.2.05.006  | JUROS SOBRE CAPITAL PRÓPRIO              | 5                                        |   |
+| 374      | 3.2.2.05.007  | JUROS E COMISSÕES BANCÁRIAS              | 5                                        |   |
+| 375      | 3.2.2.05.008  | JUROS SOBRE EMPRÉSTIMOS E FINANCIAMENTOS | 5                                        |   |
+| 656      | 3.2.2.05.009  | DESPESA BANCÁRIA                         | 5                                        |   |
+| 769      | 3.2.2.05.010  | ACRESCIMOS                               | 5                                        |   |
+| 376      | S             | 3.2.2.06                                 | OUTRAS DESPESAS OPERACIONAIS             | 4 |
+| 377      | 3.2.2.06.001  | PROVISÕES P/ PERDAS E AJUSTES DE ATIVOS  | 5                                        |   |
+| 378      | 3.2.2.06.002  | EQUIVALÊNCIA PATRIMONIAL                 | 5                                        |   |
+| 379      | 3.2.2.06.003  | AMORTIZAÇÃO DE ÁGIO                      | 5                                        |   |
+| 380      | S             | 3.3                                      | DESPESAS NÃO OPERACIONAIS                | 2 |
+| 381      | S             | 3.3.1                                    | RESULTADOS NÃO OPERACIONAIS              | 3 |
+| 383      | S             | 3.3.1.01                                 | RESULTADOS NEGATIVOS NA ALIEN. DE INVEST | 4 |
+| 384      | 3.3.1.01.001  | PERDAS NA ALIENAÇÃO EM PAR. EM COLIGADAS | 5                                        |   |
+| 385      | S             | 3.3.1.02                                 | RESULTADO NEGATIVO NA ALIENAÇÃO DO IMOB. | 4 |
+| 386      | 3.3.1.02.001  | PERDAS NA ALIENAÇÃO DE IMÓVEIS           | 5                                        |   |
+| 387      | 3.3.1.02.002  | PERDAS NA ALIENAÇÃO DE MÓVEIS E UTENS.   | 5                                        |   |
+| 388      | 3.3.1.02.003  | PERDAS NA ALIENAÇÃO DE MAQ. EQUIPAMENTOS | 5                                        |   |
+| 389      | 3.3.1.02.004  | PERDAS NA ALIENAÇÃO DE VEÍCULOS          | 5                                        |   |
+| 390      | S             | 3.3.1.03                                 | RESULTADO NEGATIVO DE SINISTRO COM IMOB. | 4 |
+| 391      | 3.3.1.03.001  | PERDAS EM SINISTROS COM IMOBILIZADO      | 5                                        |   |
+| 392      | S             | 3.3.1.04                                 | OUTRAS BAIXAS DO ATIVO PERMANENTE        | 4 |
+| 393      | 3.3.1.04.001  | BAIXAS DE INVESTIMENTOS PERMANENTES      | 5                                        |   |
+| 394      | 3.3.1.04.002  | BAIXAS DE IMOBILIZADO                    | 5                                        |   |
+| 395      | 3.3.1.04.003  | BAIXAS DE ATIVO DIFERIDO                 | 5                                        |   |
+| 396      | S             | 3.3.1.05                                 | PROVISÕES PARA PERDAS PERMANENTE         | 4 |
+| 397      | 3.3.1.05.001  | CONTROLADAS E COLIGADAS - EQUIV. PATRIM. | 5                                        |   |
+| 398      | 3.3.1.05.002  | CONTROLAS E COLIGADAS - CUSTO CORRIGIDO  | 5                                        |   |
+| 399      | 3.3.1.05.003  | OUTRAS PARTICIPAÇÕES SOCIETÁRIAS         | 5                                        |   |
+| 400      | S             | 3.3.1.06                                 | PERDAS POR FALTA NO INVENTÁRIO           | 4 |
+| 401      | 3.3.1.06.001  | PERDAS POR FALTA NO INVENTÁRIO           | 5                                        |   |
+| 402      | S             | 4                                        | CONTAS DE RESULTADO - RECEITAS           | 1 |
+| 403      | S             | 4.1                                      | RECEITAS OPERACIONAIS                    | 2 |
+| 404      | S             | 4.1.1                                    | RECEITA BRUTA DE VENDAS E SERVIÇOS       | 3 |
+| 405      | S             | 4.1.1.01                                 | RECEITA BRUTAS DE VENDAS DE PRODUÇÃO     | 4 |
+| 406      | 4.1.1.01.001  | VENDA DE SOJA                            | 5                                        |   |
+| 407      | 4.1.1.01.002  | VENDA DE TRIGO                           | 5                                        |   |
+| 408      | 4.1.1.01.003  | VENDA DE ARROZ                           | 5                                        |   |
+| 409      | 4.1.1.01.004  | VENDA DE MILHO                           | 5                                        |   |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0012
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T | Classificação | Nome                                     | Grau                                     |   |
+| -------- | ------------- | ---------------------------------------- | ---------------------------------------- | - |
+| 517      | 4.1.1.01.005  | VENDA DE CANOLA                          | 5                                        |   |
+| 518      | 4.1.1.01.006  | VENDA DE AVEIA                           | 5                                        |   |
+| 519      | 4.1.1.01.007  | VENDA DE AZEVEM                          | 5                                        |   |
+| 520      | 4.1.1.01.008  | VENDA DE GADO DE CORTE                   | 5                                        |   |
+| 521      | 4.1.1.01.009  | VENDA FEIJÃO                             | 5                                        |   |
+| 522      | 4.1.1.01.010  | VENDA AGRICOLAS XXX                      | 5                                        |   |
+| 410      | S             | 4.1.1.02                                 | RECEITA DE PRESTAÇÃO DE SERVIÇOS         | 4 |
+| 411      | 4.1.1.02.001  | SERVIÇOS PRESTADOS                       | 5                                        |   |
+| 412      | 4.1.1.02.002  | SERVIÇOS PRESTADO MERCADO EXTERNO        | 5                                        |   |
+| 523      | S             | 4.1.1.03                                 | VENDA DE IMOBILIZADO                     | 4 |
+| 524      | 4.1.1.03.001  | VENDA DE IMPLEMENTOS AGRICOLAS           | 5                                        |   |
+| 525      | 4.1.1.03.002  | VENDAS DE OUTROS BENS                    | 5                                        |   |
+| 413      | S             | 4.1.2                                    | (-) DEDUÇÕES DA RECEITA BRUTA            | 3 |
+| 414      | S             | 4.1.2.01                                 | (-) CANCELAMENTO E DEVOLUÇÕES            | 4 |
+| 415      | 4.1.2.01.001  | (-) DEVOLUÇÃO DE VENDA DE PRODUTOS       | 5                                        |   |
+| 416      | 4.1.2.01.002  | (-) DEV. VENDA DE PRODUTOS MERCADO EXT.  | 5                                        |   |
+| 417      | 4.1.2.01.003  | (-) DEVOLUÇÃO DE VENDA DE MERCADORIAS    | 5                                        |   |
+| 418      | 4.1.2.01.004  | (-) DEV. VENDA DE MERCADORIAS MERC. EXT  | 5                                        |   |
+| 419      | S             | 4.1.2.02                                 | (-) DESCONTOS INCONDICIONAIS             | 4 |
+| 420      | 4.1.2.02.001  | (-) DESCONTO VENDA DE PRODUTOS           | 5                                        |   |
+| 421      | 4.1.2.02.002  | (-) DESCONTO VENDA DE PRODUTO MERC. EXT  | 5                                        |   |
+| 422      | 4.1.2.02.003  | (-) DESCONTO VENDA DE MERCADORIA         | 5                                        |   |
+| 423      | 4.1.2.02.004  | (-) DESC. VENDA DE MERCADORIAS MERC. EXT | 5                                        |   |
+| 424      | S             | 4.1.2.03                                 | (-) IMPOSTOS SOBRE VENDAS E SERVIÇOS     | 4 |
+| 425      | 4.1.2.03.001  | (-) IPI                                  | 5                                        |   |
+| 426      | 4.1.2.03.002  | (-) ICMS                                 | 5                                        |   |
+| 427      | 4.1.2.03.003  | (-) ISS                                  | 5                                        |   |
+| 428      | 4.1.2.03.004  | (-) COFINS                               | 5                                        |   |
+| 429      | 4.1.2.03.005  | (-) PIS                                  | 5                                        |   |
+| 477      | 4.1.2.03.006  | (-) CONTRIBUIÇÃO SOCIAL                  | 5                                        |   |
+| 478      | 4.1.2.03.007  | (-) IMPOSTO DE RENDA                     | 5                                        |   |
+| 480      | 4.1.2.03.008  | (-) SIMPLES                              | 5                                        |   |
+| 482      | 4.1.2.03.009  | (-) SUBSTITUIÇÃO TRIBUTÁRIA              | 5                                        |   |
+| 484      | 4.1.2.03.010  | (-) REFIS                                | 5                                        |   |
+| 486      | 4.1.2.03.011  | (-) FIA                                  | 5                                        |   |
+| 430      | S             | 4.1.3                                    | RECEITAS FINANCEIRAS                     | 3 |
+| 431      | S             | 4.1.3.01                                 | JUROS E DESCONTOS                        | 4 |
+| 432      | 4.1.3.01.001  | JUROS DE APLICAÇÕES                      | 5                                        |   |
+| 433      | 4.1.3.01.002  | JUROS ATIVOS (OUTROS)                    | 5                                        |   |
+| 434      | 4.1.3.01.003  | DESCONTOS FINANCEIROS OBTIDOS            | 5                                        |   |
+| 435      | 4.1.3.01.004  | JUROS SOBRE O CAPITAL PRÓPRIO            | 5                                        |   |
+| 475      | 4.1.3.01.005  | MULTA                                    | 5                                        |   |
+| 436      | S             | 4.1.3.02                                 | VARIAÇÕES MONETÁRIAS                     | 4 |
+| 437      | 4.1.3.02.001  | VARIAÇÕES MONETÁRIAS ATIVAS              | 5                                        |   |
+| 438      | 4.1.3.02.002  | VARIAÇÕES CAMBIAIS ATIVAS                | 5                                        |   |
+| 439      | S             | 4.1.4                                    | RECUPERAÇÃO DE DESPESAS                  | 3 |
+| 440      | S             | 4.1.4.01                                 | RECUP. CRÉDITOS CONSIDERADOS INCOBRÁVEIS | 4 |
+| 441      | S             | 4.1.4.02                                 | REVERSÃO DE PROVISÕES                    | 4 |
+| 442      | S             | 4.1.5                                    | OUTRAS RECEITAS OPERACIONAIS             | 3 |
+| 443      | S             | 4.1.5.01                                 | RECEITAS DIVERSAS                        | 4 |
+| 444      | 4.1.5.01.001  | ALUGUÉIS E ARRENDAMENTOS                 | 5                                        |   |
+| 445      | 4.1.5.01.002  | VENDAS ACESSÓRIAS                        | 5                                        |   |
+| 446      | 4.1.5.01.003  | RECEITA DE EQUIVALÊNCIA PATRIMONIAL      | 5                                        |   |
+| 447      | 4.1.5.01.004  | DIVIDENDOS E LUCROS RECEBIDOS            | 5                                        |   |
+| 448      | 4.1.5.01.005  | AMORTIZAÇÃO DE DESÁGIO                   | 5                                        |   |
+
+Sistema licenciado para VALDECIR DAL ONGARO
+
+---
+
+Empresa: CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL
+Folha: 0013
+C.N.P.J.: 55.524.729/0001-59
+
+# PLANO DE CONTAS
+
+| Código T |   | Classificação | Nome                                     | Grau |
+| -------- | - | ------------- | ---------------------------------------- | ---- |
+| 449      | S | 4.2           | RECEITAS NÃO OPERACIONAIS                | 2    |
+| 450      | S | 4.2.1         | RESULTADOS NÃO OPERACIONAIS              | 3    |
+| 451      | S | 4.2.1.01      | RESULTADOS POSIT. NA ALIEN. DE INVESTIM  | 4    |
+| 452      |   | 4.2.1.01.001  | LUCROS NA ALIENAÇÃO DE PART. EM COLIGADA | 5    |
+| 453      | S | 4.2.1.02      | LUCROS NA ALIENAÇÃO DE IMOBILIZADO       | 4    |
+| 454      |   | 4.2.1.02.001  | LUCROS NA ALIENAÇÃO DE IMÓVEIS           | 5    |
+| 455      |   | 4.2.1.02.002  | LUCROS NA ALIENAÇÃO DE MÓVEIS E UTENS.   | 5    |
+| 456      |   | 4.2.1.02.003  | LUCROS NA ALIEN. DE MÁQ. EQUIP. FERRAMEN | 5    |
+| 457      |   | 4.2.1.02.004  | LUCROS NA ALIENAÇÃO DE VEÍCULOS          | 5    |
+| 458      | S | 4.2.1.03      | RESULTADO DE SINISTROS COM IMOBILIZADO   | 4    |
+| 459      |   | 4.2.1.03.002  | SINISTROS COM IMOBILIZADO                | 5    |
+| 460      | S | 5             | CONTAS DE APURAÇÃO                       | 1    |
+| 461      | S | 5.1           | CUSTOS DOS PRODUTOS E SERVIÇOS VENDIDOS  | 2    |
+| 462      | S | 5.1.1         | CUSTOS DOS PRODUTOS VENDIDOS             | 3    |
+| 463      | S | 5.1.1.01      | CUSTOS DOS PRODUTOS VENDIDOS             | 4    |
+| 464      |   | 5.1.1.01.001  | CUSTOS DOS PRODUTOS VENDIDOS             | 5    |
+| 465      | S | 5.1.2         | CUSTOS DOS SERVIÇOS PRESTADOS            | 3    |
+| 466      | S | 5.1.2.01      | CUSTOS DOS SERVIÇOS PRESTADOS            | 4    |
+| 467      |   | 5.1.2.01.001  | CUSTOS DOS SERVIÇOS PRESTADOS            | 5    |
+| 468      | S | 5.1.3         | CUSTOS DAS MERCADORIAS VENDIDAS          | 3    |
+| 469      | S | 5.1.3.01      | CUSTOS DAS MERCADORIAS VENDIDAS          | 4    |
+| 470      |   | 5.1.3.01.001  | CUSTOS DAS MERCADORIAS VENDIDAS          | 5    |
+| 471      | S | 5.1.4         | APURAÇÃO DO RESULTADO DO EXERCÍCIO       | 3    |
+| 472      | S | 5.1.4.01      | APURAÇÃO DO RESULTADO DO EXERCÍCIO       | 4    |
+| 473      |   | 5.1.4.01.001  | RESULTADO DO EXERCÍCIO                   | 5    |
+| 474      |   | 5.1.4.01.002  | GANHOS/PERDAS NA ALIENAÇÃO DE IMOB.      | 5    |
+
+Sistema licenciado para VALDECIR DAL ONGARO

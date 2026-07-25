@@ -1,1 +1,41 @@
+# Locks do LibreOffice/Excel
 .~lock.*#
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Saídas temporárias
+saida/_ultimo/
+saida/
+
+# Arquivo histórico (cold storage local)
+_arquivo/
+
+# Saídas geradas por cliente
+clientes/*/saida/
+
+# Backups de conferência / temporários de trabalho
+clientes/*/trabalho/temporarios/
+
+# Extratos bancários (dados sensíveis, regeneráveis)
+*.ofx
+
+# Compactados e instaladores (não versionar)
+*.exe
+*.rar
+*.zip
+*.7z
+
+# Mídia
+*.mp4
+*.ogg
+*.wav
+
+# Saídas regeneráveis do pipeline de produtividade
+produtividade/relatorios/
+produtividade/processados/
+
+# Relatório duplicado na raiz
+/relatorio_funcionarios_tempo.txt

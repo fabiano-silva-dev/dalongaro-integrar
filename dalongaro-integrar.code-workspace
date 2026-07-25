@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"name": "Raiz",
+			"path": "."
+		},
+		{
+			"name": "Clientes",
+			"path": "clientes"
+		},
+		{
+			"name": "Produtividade",
+			"path": "produtividade"
+		},
+		{
+			"name": "Scripts",
+			"path": "scripts"
+		},
+		{
+			"name": "Docs",
+			"path": "docs"
+		},
+		{
+			"name": "Referência",
+			"path": "referencia"
+		},
+		{
+			"name": "Testes",
+			"path": "tests"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/_arquivo": true,
+			"**/__pycache__": true,
+			"**/.~lock.*": true
+		}
+	}
+}
