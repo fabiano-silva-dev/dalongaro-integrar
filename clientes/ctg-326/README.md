@@ -14,7 +14,7 @@ ctg-326/
 │       └── contas.pdf
 ├── trabalho/
 │   ├── extraido/           # plano-contas.json
-│   ├── conferencias/       # CTG-326-classificacao.xlsx
+│   ├── conferencias/       # uma planilha por arquivo de entrada
 │   └── temporarios/        # backups
 ├── saida/
 │   ├── dominio/            # TXT Domínio
@@ -48,16 +48,21 @@ cd /ico/fabiano/ft/dalongaro-integrar/clientes/ctg-326
 python scripts/analisar_planilhas.py
 ```
 
-Gera:
+Gera uma planilha de conferência **por arquivo de entrada**, por exemplo:
 
-- `trabalho/conferencias/CTG-326-classificacao.xlsx`
+- `trabalho/conferencias/CTG-326-Caixa-Copa-CTG-2025.xlsx`
+- `trabalho/conferencias/CTG-326-Controle-Conta-Cresol-Principal-2025.xlsx`
+- `trabalho/conferencias/CTG-326-Controle-Conta-sicredi-Principal-2025.xlsx`
+
+Também gera:
+
 - `saida/pendencias/pendencias-analise-*.json`
 - `saida/relatorios/analise-*.json`
 - `trabalho/extraido/plano-contas.json`
 
-### 2) Revisar a planilha
+### 2) Revisar as planilhas
 
-Abra `CTG-326-classificacao.xlsx` e ajuste:
+Abra cada arquivo em `trabalho/conferencias/` e ajuste:
 
 - débito / crédito
 - histórico contábil
@@ -69,16 +74,24 @@ Linhas amarelas = baixa confiança. Linhas laranja = pendentes.
 ### 3) Validar sem exportar
 
 ```bash
+# todas as conferências
+python scripts/exportar_dominio.py --validar
+
+# uma conferência específica
 python scripts/exportar_dominio.py \
-  --arquivo trabalho/conferencias/CTG-326-classificacao.xlsx \
+  --arquivo trabalho/conferencias/CTG-326-Controle-Conta-Cresol-Principal-2025.xlsx \
   --validar
 ```
 
 ### 4) Exportar Domínio
 
 ```bash
+# todas as conferências
+python scripts/exportar_dominio.py
+
+# uma conferência específica
 python scripts/exportar_dominio.py \
-  --arquivo trabalho/conferencias/CTG-326-classificacao.xlsx
+  --arquivo trabalho/conferencias/CTG-326-Controle-Conta-Cresol-Principal-2025.xlsx
 ```
 
 Arquivo gerado em `saida/dominio/CTG-326-dominio-AAAA-MM-DD-HHMMSS.txt` (ISO-8859-1 / latin-1).
@@ -96,8 +109,7 @@ Cria backup em `trabalho/temporarios/` e mescla pelo `ID do lançamento`.
 ### 6) Sugerir regras a partir de correções
 
 ```bash
-python scripts/atualizar_regras.py \
-  --arquivo trabalho/conferencias/CTG-326-classificacao.xlsx
+python scripts/atualizar_regras.py
 ```
 
 ## Leiaute Domínio (referência FT/Integrar)
@@ -119,7 +131,7 @@ Código **326** = código da empresa no Domínio (`0000326`), também usado como
 |----------|-------|
 | Caixa Copa / Caixa PF/PJ Campeira | `5` CAIXA |
 | Sicredi Principal / Eventos | `7` SICREDI |
-| Cresol Principal | `7` SICREDI *(provisório — não há conta Cresol no plano)* |
+| Cresol Principal | `3289` CRESOL |
 
 ## Observações importantes
 

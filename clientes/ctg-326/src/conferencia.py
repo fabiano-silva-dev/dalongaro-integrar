@@ -13,7 +13,12 @@ from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
-from .caminhos import CONFERENCIA_XLSX, TEMPORARIOS
+from .caminhos import (
+    CONFERENCIA_XLSX,
+    TEMPORARIOS,
+    caminho_conferencia_origem,
+    listar_conferencias,
+)
 from .leitura_planilhas import Lancamento
 from .normalizacao import parse_valor
 from .plano_contas import PlanoContas
@@ -155,6 +160,22 @@ def gerar_conferencia(
     return destino
 
 
+def gerar_conferencias_por_arquivo(
+    lancamentos: List[Lancamento],
+    plano: PlanoContas,
+) -> List[Path]:
+    """Gera uma planilha de conferência para cada arquivo de origem."""
+    por_arquivo: Dict[str, List[Lancamento]] = {}
+    for lanc in lancamentos:
+        por_arquivo.setdefault(lanc.arquivo_origem, []).append(lanc)
+
+    gerados: List[Path] = []
+    for arquivo_origem, itens in sorted(por_arquivo.items()):
+        destino = caminho_conferencia_origem(arquivo_origem)
+        gerados.append(gerar_conferencia(itens, plano, destino))
+    return gerados
+
+
 def ler_conferencia(caminho: Path = CONFERENCIA_XLSX) -> List[Dict]:
     wb = load_workbook(caminho, data_only=True)
     ws = wb["Conferência"] if "Conferência" in wb.sheetnames else wb.active
@@ -184,8 +205,24 @@ def ler_conferencia(caminho: Path = CONFERENCIA_XLSX) -> List[Dict]:
         item["historico_contabil"] = str(item.get("historico_contabil") or "").strip()
         item["id_lancamento"] = str(item.get("id_lancamento") or "").strip()
         item["data"] = str(item.get("data") or "").strip()
+        item["arquivo_origem"] = str(item.get("arquivo_origem") or "").strip()
         linhas.append(item)
     wb.close()
+    return linhas
+
+
+def ler_conferencias(caminhos: Optional[List[Path]] = None) -> List[Dict]:
+    """Lê uma ou várias planilhas de conferência."""
+    if caminhos is None:
+        caminhos = listar_conferencias()
+        if CONFERENCIA_XLSX.exists() and CONFERENCIA_XLSX not in caminhos:
+            # fallback legado, se ainda existir e não houver por-arquivo
+            if not caminhos:
+                caminhos = [CONFERENCIA_XLSX]
+    linhas: List[Dict] = []
+    for caminho in caminhos:
+        if caminho.exists():
+            linhas.extend(ler_conferencia(caminho))
     return linhas
 
 

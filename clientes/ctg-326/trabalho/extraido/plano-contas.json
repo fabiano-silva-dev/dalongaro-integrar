@@ -56,6 +56,13 @@
     "sintetica": false
   },
   {
+    "codigo": "3289",
+    "classificacao": "1.1.1.02.001",
+    "nome": "CRESOL",
+    "grau": 5,
+    "sintetica": false
+  },
+  {
     "codigo": "7",
     "classificacao": "1.1.1.02.001",
     "nome": "SICREDI",

@@ -13,14 +13,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from src.caminhos import CONFIG, CONFERENCIA_XLSX, RELATORIOS, garantir_dirs  # noqa: E402
-from src.conferencia import ler_conferencia  # noqa: E402
+from src.caminhos import CONFIG, RELATORIOS, garantir_dirs, listar_conferencias  # noqa: E402
+from src.conferencia import ler_conferencias  # noqa: E402
 from src.normalizacao import normalizar_chave  # noqa: E402
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Atualizar regras a partir da conferência")
-    parser.add_argument("--arquivo", default=str(CONFERENCIA_XLSX))
+    parser.add_argument(
+        "--arquivo",
+        default=None,
+        help="Planilha específica, ou omitir para processar todas as conferências",
+    )
     parser.add_argument(
         "--aplicar",
         action="store_true",
@@ -29,7 +33,15 @@ def main() -> int:
     args = parser.parse_args()
     garantir_dirs()
 
-    linhas = ler_conferencia(Path(args.arquivo))
+    if args.arquivo:
+        caminhos = [Path(args.arquivo)]
+    else:
+        caminhos = listar_conferencias()
+    if not caminhos:
+        print("Nenhuma planilha de conferência encontrada.")
+        return 1
+
+    linhas = ler_conferencias(caminhos)
     regras_path = CONFIG / "regras-classificacao.json"
     atuais = json.loads(regras_path.read_text(encoding="utf-8")).get("regras", [])
     nomes = {normalizar_chave(r.get("nome")) for r in atuais}

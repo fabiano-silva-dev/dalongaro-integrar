@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Fluxo 1 — ler planilhas, classificar e gerar conferência."""
+"""Fluxo 1 — ler planilhas, classificar e gerar conferências (uma por arquivo)."""
 
 from __future__ import annotations
 
@@ -20,10 +20,16 @@ from src.caminhos import (  # noqa: E402
     PENDENCIAS,
     PLANILHAS,
     RELATORIOS,
+    caminho_conferencia_origem,
     garantir_dirs,
 )
 from src.classificacao import classificar_lista  # noqa: E402
-from src.conferencia import gerar_conferencia, ler_conferencia, mesclar_com_revisao_anterior  # noqa: E402
+from src.conferencia import (  # noqa: E402
+    gerar_conferencias_por_arquivo,
+    ler_conferencia,
+    ler_conferencias,
+    mesclar_com_revisao_anterior,
+)
 from src.leitura_planilhas import listar_planilhas, ler_arquivo  # noqa: E402
 from src.plano_contas import carregar_ou_extrair  # noqa: E402
 
@@ -33,7 +39,7 @@ def main() -> int:
     parser.add_argument(
         "--reprocessar",
         action="store_true",
-        help="Regenera a conferência preservando ajustes manuais (com backup)",
+        help="Regenera as conferências preservando ajustes manuais (com backup)",
     )
     parser.add_argument(
         "--forcar-plano",
@@ -54,21 +60,23 @@ def main() -> int:
     for arq in arquivos:
         lidos = ler_arquivo(arq)
         lancamentos.extend(lidos)
-        # conta abas aproximada pelo conjunto
         abas += len({l.aba_origem for l in lidos})
         print(f"  {arq.name}: {len(lidos)} lançamentos")
 
-    anteriores = []
+    # revisões anteriores: por arquivo + legado único, se existir
+    anteriores = ler_conferencias()
     if CONFERENCIA_XLSX.exists():
-        anteriores = ler_conferencia(CONFERENCIA_XLSX)
+        ids = {a.get("id_lancamento") for a in anteriores}
+        for linha in ler_conferencia(CONFERENCIA_XLSX):
+            if linha.get("id_lancamento") not in ids:
+                anteriores.append(linha)
 
     classificados = classificar_lista(lancamentos, plano)
     if anteriores:
         classificados = mesclar_com_revisao_anterior(classificados, anteriores)
 
-    caminho_conf = gerar_conferencia(classificados, plano, CONFERENCIA_XLSX)
+    caminhos = gerar_conferencias_por_arquivo(classificados, plano)
 
-    # pendências iniciais (não classificados / baixa confiança)
     pend = [l for l in classificados if l.status in {"PENDENTE", "REVISAR"} or l.exportar != "SIM"]
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     pend_path = PENDENCIAS / f"pendencias-analise-{stamp}.json"
@@ -82,6 +90,21 @@ def main() -> int:
     status_count = Counter(l.status for l in classificados)
     conf_baixa = sum(1 for l in classificados if l.confianca < 80)
 
+    por_arquivo = []
+    for arq in arquivos:
+        itens = [l for l in classificados if l.arquivo_origem == arq.name]
+        por_arquivo.append(
+            {
+                "arquivo": arq.name,
+                "conferencia": str(caminho_conferencia_origem(arq.name)),
+                "lancamentos": len(itens),
+                "classificados": sum(1 for l in itens if l.status == "CLASSIFICADO"),
+                "pendentes_ou_revisar": sum(
+                    1 for l in itens if l.status in {"PENDENTE", "REVISAR"}
+                ),
+            }
+        )
+
     relatorio = {
         "executado_em": datetime.now().isoformat(timespec="seconds"),
         "arquivos_lidos": [a.name for a in arquivos],
@@ -93,12 +116,13 @@ def main() -> int:
         "total_entradas": str(entradas),
         "total_saidas": str(saidas),
         "plano_contas_contas": len(plano.contas),
-        "conferencia": str(caminho_conf),
+        "conferencias": [str(c) for c in caminhos],
+        "por_arquivo": por_arquivo,
         "pendencias": str(pend_path),
         "reprocessar": args.reprocessar,
         "observacao": (
             "Exportação definitiva NÃO executada. "
-            "Revise a planilha de conferência e use scripts/exportar_dominio.py."
+            "Revise as planilhas de conferência e use scripts/exportar_dominio.py."
         ),
     }
     rel_path = RELATORIOS / f"analise-{stamp}.json"
@@ -106,13 +130,15 @@ def main() -> int:
 
     print("\n=== Resumo ===")
     print(json.dumps(relatorio, ensure_ascii=False, indent=2))
-    print(f"\nConferência: {caminho_conf}")
+    print("\nConferências geradas:")
+    for c in caminhos:
+        print(f"  {c}")
     print(f"Pendências: {pend_path}")
     print(f"Relatório: {rel_path}")
     if conf_baixa or pend:
         print(
             "\nHá classificações duvidosas/pendentes. "
-            "NÃO execute a exportação definitiva até revisar a planilha."
+            "NÃO execute a exportação definitiva até revisar as planilhas."
         )
     return 0
 

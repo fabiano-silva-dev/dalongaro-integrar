@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Fluxo 2 — validar/exportar Domínio a partir da planilha de conferência."""
+"""Fluxo 2 — validar/exportar Domínio a partir das planilhas de conferência."""
 
 from __future__ import annotations
 
@@ -14,19 +14,35 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from src.caminhos import CONFIG, CONFERENCIA_XLSX, PENDENCIAS, garantir_dirs  # noqa: E402
-from src.conferencia import ler_conferencia  # noqa: E402
+from src.caminhos import CONFIG, CONFERENCIAS, PENDENCIAS, garantir_dirs, listar_conferencias  # noqa: E402
+from src.conferencia import ler_conferencias  # noqa: E402
 from src.dominio import gerar_arquivo_dominio, registrar_historico, salvar_relatorio  # noqa: E402
 from src.plano_contas import carregar_ou_extrair  # noqa: E402
 from src.validacao import validar_exportacao  # noqa: E402
+
+
+def _resolver_arquivos(arg: str | None) -> list[Path]:
+    if not arg:
+        arquivos = listar_conferencias()
+        if not arquivos:
+            raise FileNotFoundError(
+                f"Nenhuma conferência em {CONFERENCIAS}. Execute analisar_planilhas.py primeiro."
+            )
+        return arquivos
+    caminho = Path(arg)
+    if caminho.is_dir():
+        return sorted(p for p in caminho.glob("CTG-326-*.xlsx") if not p.name.startswith("~$"))
+    if not caminho.exists():
+        raise FileNotFoundError(f"Arquivo não encontrado: {caminho}")
+    return [caminho]
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Exportar Domínio CTG-326")
     parser.add_argument(
         "--arquivo",
-        default=str(CONFERENCIA_XLSX),
-        help="Planilha de conferência revisada",
+        default=None,
+        help="Planilha de conferência, pasta, ou omitir para processar todas",
     )
     parser.add_argument(
         "--validar",
@@ -41,14 +57,15 @@ def main() -> int:
     args = parser.parse_args()
     garantir_dirs()
 
-    caminho = Path(args.arquivo)
-    if not caminho.exists():
-        print(f"Arquivo não encontrado: {caminho}")
+    try:
+        caminhos = _resolver_arquivos(args.arquivo)
+    except FileNotFoundError as exc:
+        print(exc)
         return 1
 
     cfg = json.loads((CONFIG / "configuracao.json").read_text(encoding="utf-8"))
     plano = carregar_ou_extrair()
-    linhas = ler_conferencia(caminho)
+    linhas = ler_conferencias(caminhos)
     validos, pendencias = validar_exportacao(linhas, plano)
 
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -67,7 +84,7 @@ def main() -> int:
 
     rel = {
         "executado_em": datetime.now().isoformat(timespec="seconds"),
-        "arquivo_conferencia": str(caminho),
+        "arquivos_conferencia": [str(c) for c in caminhos],
         "linhas_lidas": len(linhas),
         "validos": len(validos),
         "pendencias": len(pendencias),
@@ -106,7 +123,8 @@ def main() -> int:
         cnpj=str(cfg.get("cnpj", "87445102000107")),
         usuario=str(cfg.get("usuario_exportacao", "CTG326")),
     )
-    registrar_historico(meta, caminho, len(pendencias))
+    # histórico: usa o primeiro arquivo como referência da revisão
+    registrar_historico(meta, caminhos[0], len(pendencias))
     rel.update(meta)
     rel_path = salvar_relatorio("exportacao", rel)
     print(json.dumps(rel, ensure_ascii=False, indent=2))

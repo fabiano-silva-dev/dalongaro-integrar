@@ -14,14 +14,13 @@
       "Controle Conta Caixa PJ Campeira 2025.xlsx": "5",
       "Controle Conta sicredi Principal 2025.xlsx": "7",
       "Controle Conta sicredi Eventos 2025.xlsx": "7",
-      "Controle Conta Cresol Principal 2025.xlsx": "7"
+      "Controle Conta Cresol Principal 2025.xlsx": "3289"
     },
     "por_palavra": {
       "sicredi": "7",
       "caixa": "5",
       "copa": "5",
-      "cresol": "7"
-    },
-    "observacao_cresol": "Não há conta Cresol específica no plano de contas. Mapeado temporariamente para SICREDI (7) — revisar manualmente."
+      "cresol": "3289"
+    }
   }
 }
