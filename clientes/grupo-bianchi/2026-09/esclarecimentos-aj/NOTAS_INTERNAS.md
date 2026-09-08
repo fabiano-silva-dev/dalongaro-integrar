@@ -9,6 +9,8 @@ Documento de trabalho do escritório. Não faz parte do ofício à Administraç�
 3. Áudio de WhatsApp 04/09/2026, 16:02 — orientação a Valdeci sobre competência × caixa e destinação do recurso.
 4. `Balancete jun a jul 2026.pdf` — Claudio, consolidado 666/707/708/709, 01/06 a 31/07/2026.
 5. `Razão jun a jul 2026.pdf` — conta 1.2.1.05.003 Luciano Bianchi PJ.
+6. `Razão-disponibilidade jun a jul 2026.pdf` — Caixa, Sicoob, Grafeno e Kreditare.
+7. Rascunho do ofício de 08/09/2026 (item 1 revisado: não somar insumos/imobilizado a prazo com saídas de caixa).
 
 ## Transcrição do áudio (Whisper, modelo medium)
 
