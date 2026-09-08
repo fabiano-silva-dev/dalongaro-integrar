@@ -1,118 +1,64 @@
 # GRUPO BIANCHI
 
-**À Administração Judicial**  
-Andreatta & Giongo Consultores Associados S/S  
-Aos cuidados de Genil Andreatta e Luciano José Giongo  
-E-mails: [genil@recuperacaojudicial.net.br](mailto:genil@recuperacaojudicial.net.br) · [edinaprohde@gmail.com](mailto:edinaprohde@gmail.com)
+Recuperação Judicial · Esclarecimentos à Administração Judicial
 
-**Assunto:** Esclarecimentos solicitados em 04/09/2026  
-**Referência:** art. 22, II, da Lei nº 11.101/2005
+**Assunto:** Resposta à solicitação de esclarecimentos de 04 de setembro de 2026  
+**Referência:** art. 22, inciso II, da Lei nº 11.101/2005
 
 Prezados Senhores,
 
-Em atendimento à solicitação de esclarecimentos datada de 04 de setembro de 2026, o Grupo Bianchi apresenta as informações abaixo, na ordem dos quesitos formulados.
-
----
+Em atenção à solicitação de esclarecimentos datada de 04 de setembro de 2026, o Grupo Bianchi apresenta as informações a seguir, na ordem dos quesitos formulados.
 
 ## 1. Destinação financeira dos resultados — Claudio Bortoluzzi Bianchi
 
-Os esclarecimentos abaixo fundamentam-se no **Balancete consolidado** de 01/06/2026 a 31/07/2026 (empresas 666, 707, 708 e 709), CNPJ 55.524.729/0001-59, e no **Razão** da conta 1.2.1.05.003 — Luciano Bianchi PJ, do mesmo período.
+Os esclarecimentos fundamentam-se no Balancete Consolidado de 01/06/2026 a 31/07/2026 (empresas 666, 707, 708 e 709, CNPJ 55.524.729/0001-59) e no Razão das contas de disponibilidade do mesmo período (Caixa Geral, Sicoob, Vortix Grafeno e Banco Kreditare/Money Plus).
 
-No Balancete, o resultado positivo do bimestre é de **R$ 2.111.776,65** (receitas de R$ 3.314.916,50, das quais R$ 3.313.050,00 de venda de soja; custos e despesas líquidos de R$ 1.203.139,85). Esse resultado é de **competência**: as vendas de soja foram lançadas em duplicatas a receber da Cotrijuc e **não** ingressaram integralmente em caixa no próprio bimestre.
+O resultado positivo apurado no bimestre (R$ 2.111.776,65) decorre do regime de competência: vendas de soja faturadas a prazo à Cotrijuc no total de R$ 3.313.050,00, deduzidas as despesas do período de R$ 1.203.139,85. O resultado contábil não representou ingresso imediato e integral do mesmo valor no caixa.
 
-A destinação financeira dos recursos do período, nos eixos pedidos (fornecedores, obrigações, insumos, empréstimos e disponibilidades), é a seguinte.
+**A) Origem dos recursos no caixa (Razão de disponibilidades)**
 
-**Origem dos recursos (caixa e equivalentes)**
+- Liquidação de duplicatas da Cotrijuc: R$ 5.673.050,00, creditados sobretudo na Kreditare/Money Plus e na Vortix Grafeno (NFs 312/313, 321, 325, 327, 330, 334, 337, 340, 344, 346, 351 e 356). O maior ingresso isolado foi R$ 2.360.000,00 em 02/06/2026.
+- Aportes e empréstimos tomados de partes relacionadas: R$ 220.760,38.
 
-| Origem | Valor no período | Esclarecimento |
-|---|---|---|
-| **Clientes (Cotrijuc)** | R$ 5.673.050,00 | Liquidação de duplicatas a receber. As vendas do bimestre foram R$ 3.313.050,00; a diferença reduz saldo anterior. |
-| **Empréstimos tomados** | R$ 220.760,38 | Ingressos de partes relacionadas (sócio, PF e PJ do grupo). |
+Houve ainda transferências internas entre Grafeno, Kreditare e Sicoob, que não alteram o caixa consolidado.
 
-O disponível (caixa e bancos) **caiu** de R$ 222.200,13 para **R$ 58.101,52** (−R$ 164.098,61). Houve intensa movimentação de trânsito, sobretudo na conta Kreditare/Money Plus (débitos de R$ 5.082.024,90 e créditos de R$ 5.081.620,17).
+**B) Destinação financeira (saídas efetivas de caixa, conforme o Razão)**
 
-**Aplicação dos recursos**
+Os recursos liquidados no bimestre foram aplicados nas seguintes frentes. Os valores abaixo saíram das contas de disponibilidade e conferem com o Balancete:
 
-| Destinação | Valor no período | Esclarecimento |
-|---|---|---|
-| **Empréstimos concedidos** | R$ 4.309.453,58 | Principal aplicação. Desse total, **R$ 3.540.188,01** a Luciano Bianchi PJ (razão analítico). |
-| **Insumos (estoque)** | R$ 3.856.690,00 | Adubos/fertilizantes/pesticidas R$ 3.582.940,00 e demais insumos R$ 273.750,00. Aquisição em grande parte a prazo, via Cotrijuc. |
-| **Fornecedores (novas compras)** | R$ 4.082.922,61 | Quase todo o acréscimo é Cotrijuc (R$ 3.828.140,00). **Pagamentos** a fornecedores no caixa: apenas **R$ 225.499,01**. |
-| **Adiantamentos a fornecedores** | R$ 584.962,10 (saídas) | Saldo líquido do período +R$ 464.375,24; saldo final R$ 879.340,65. |
-| **Custeio e obrigações da atividade** | R$ 1.203.139,85 | Despesas do bimestre, com destaque para arrendamentos agrícolas (R$ 715.123,20), pessoal, manutenção e honorários. |
-| **Obrigações trabalhistas e tributárias pagas** | R$ 66.254,80 | Folha, INSS, FGTS e tributos recolhidos (débitos das contas 2.1.4 e 2.1.5). |
-| **Imobilizado** | R$ 78.000,00 | Máquinas e equipamentos. |
-| **Disponibilidades** | Saldo final R$ 58.101,52 | Sicoob R$ 4.193,98; Vortix Grafeno R$ 44.929,31; Kreditare/Money Plus R$ 404,73; caixa R$ 8.573,50. |
+1. **Mútuos / empréstimos intercompany — R$ 4.309.453,58**, liquidados pelas contas Grafeno e Kreditare, com destaque para Luciano Bianchi PJ (R$ 3.540.188,01), Fabiane Maria Noal Bianchi PJ (R$ 304.515,45) e Agrobianchi Transportes (R$ 210.500,00). Em 02/06/2026, no mesmo dia do recebimento de R$ 2.360.000,00 da Cotrijuc, a Kreditare destinou R$ 2.300.000,00 a Luciano Bianchi PJ.
+2. **Arrendamentos agrícolas — R$ 715.123,20**, pagos em caixa pela Kreditare em 05/06/2026 (R$ 240.235,89) e 08/06/2026 (R$ 185.764,20 e R$ 289.123,11).
+3. **Adiantamentos a fornecedores — R$ 584.962,10**, saídas de caixa para manutenção de suprimentos e serviços (Maestria, Andreatta & Giongo, Bagualmaq e demais).
+4. **Pagamento direto a fornecedores — R$ 225.499,01** (Itaimbe, Mineração Monego, Super Tratores, Dal Ongaro, Base Assessoria e outros).
+5. **Custeio operacional pago no caixa** — folha, adicionais, rescisões, INSS, FGTS, diaristas, seguros, energia e tarifas bancárias (R$ 2.678,80), lançados nas contas Grafeno, Kreditare, Sicoob e Caixa.
 
-**Empréstimos concedidos no bimestre (conta 1.2.1)**
+**C) Verbas do Balancete que não representaram desembolso no bimestre**
 
-| Favorecido | Valor |
-|---|---|
-| Luciano Bianchi PJ | R$ 3.540.188,01 |
-| Fabiane Maria Noal Bianchi PJ | R$ 304.515,45 |
-| Agrobianchi Transportes Ltda | R$ 210.500,00 |
-| Claudio Bortoluzzi Bianchi PF | R$ 106.420,07 |
-| Carlos Bortoluzzi Bianchi PJ | R$ 68.330,05 |
-| Fabiane Maria Noal Bianchi PF | R$ 46.000,00 |
-| Benito Francisco Bianchi PJ | R$ 33.500,00 |
-| **Total** | **R$ 4.309.453,58** |
+- Estoque de insumos de R$ 3.856.690,00: aquisição a prazo, em especial junto à Cotrijuc, cujo passivo de fornecedores aumentou R$ 3.828.140,00 no bimestre, sem correspondente saída das contas de disponibilidade.
+- Imobilizado de R$ 78.000,00: máquinas e equipamentos adquiridos a prazo (WG Soluções Elétricas), ainda em aberto no passivo de fornecedores.
 
-O empréstimo a Luciano Bianchi PJ saiu, em especial, das contas Vortix Grafeno e Kreditare/Money Plus. O maior lançamento isolado é de **R$ 2.300.000,00 em 02/06/2026** (Kreditare). No encerramento do bimestre, o saldo dessa conta é R$ 4.895.066,94.
+**D) Disponibilidades ao final do bimestre**
 
-Em síntese: o resultado positivo de junho–julho não se converteu em aumento de caixa. Os recebimentos da Cotrijuc e a movimentação bancária foram aplicados, sobretudo, em **empréstimos ao grupo** (em especial a Luciano Bianchi) e em **insumos da safra**, estes últimos em grande parte financiados a prazo pela própria Cotrijuc. As disponibilidades encerraram o período em R$ 58.101,52.
-
----
-
-
+Diante das destinações acima, o saldo de caixa e bancos caiu de R$ 222.200,13 para R$ 58.101,52, assim distribuído no Razão: Vortix Grafeno R$ 44.929,31; Caixa Geral R$ 8.573,50; Sicoob R$ 4.193,98; Kreditare/Money Plus R$ 404,73.
 
 ## 2. Destinação financeira dos resultados — Luciano Bianchi
 
-O montante de **R$ 6.930.256,13**, apontado como resultado positivo acumulado no período de junho a julho de 2026, decorre, em essência, da **comercialização da safra de gergelim**, com notas fiscais emitidas em junho e julho de 2026.
+O resultado positivo de R$ 6.930.256,13 apurado no período de junho e julho de 2026 decorre, essencialmente, da comercialização da safra de gergelim por regime de competência (notas fiscais emitidas no bimestre).
 
-A liquidação financeira dessas vendas **não ocorreu no período de competência**. O pagamento pelo comprador foi creditado em **20/08/2026**.
-
-Portanto, no bimestre junho–julho de 2026 os recursos equivalentes a essas vendas estavam em **contas a receber**, e não em disponibilidades. 
-
-
-| Destinação                                    | Esclarecimento                                                                                                                           |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Disponibilidades**                          | Ingresso líquido de R$ 6.665.030,93 em 20/08/2026, mantido em conta até as liquidações subsequentes.                                     |
-| **Arrendamentos**                             | Pagamento de arrendamentos em atraso do arrendador Peter, após o crédito do gergelim.                                                    |
-| **Custeio da atividade rural e fornecedores** | Demais obrigações da lavoura e do giro operacional, em liquidação pela equipe financeira após o ingresso do recurso.                     |
-| **Empréstimos**                               | Eventuais amortizações com o recurso do gergelim, se houver, constarão do complemento analítico após a filtragem no controle financeiro. |
-
-
-Em síntese: o resultado positivo de junho–julho é efeito da competência das notas de gergelim; o caixa correspondente ingressou em 20/08/2026 e vem sendo destinado ao pagamento de arrendamentos em atraso e ao custeio da atividade rural, com o saldo remanescente em disponibilidades.
-
----
-
-
+A liquidação financeira dessas vendas ocorreu em momento posterior ao encerramento do bimestre. Dessa forma, no período analisado, o montante correspondente integrava o saldo de contas a receber, não figurando na disponibilidade imediata de caixa do bimestre.
 
 ## 3. Produção e comercialização do gergelim — Luciano Bianchi
 
-Seguem os dados finais da safra de gergelim 2026:
+Seguem os dados consolidados da safra de gergelim 2026:
 
+- Área cultivada: 3.400 ha
+- Produção apurada: 2.936.462,59 kg
+- Produtividade média: 863,67 kg/ha
+- Desempenho da safra: 100% da produção apurada colhida e comercializada.
+- Destinação e recebimento: venda integral à Arbaza Alimentos Ltda., cujo saldo líquido de R$ 6.665.030,93 ingressou na conta bancária em 20/08/2026.
 
-| Indicador                          | Informação                                                                                                                                      |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Área cultivada (ha)**            | 3.400 ha                                                                                                                                        |
-| **Produção apurada (kg)**          | 2.936.462,59 kg                                                                                                                                 |
-| **Produtividade média (kg/ha)**    | 863,67 kg/ha                                                                                                                                    |
-| **Desempenho informado**           | Safra integralmente colhida e comercializada (100% da produção apurada).                                                                        |
-| **Quantidade comercializada (kg)** | 2.936.462,59 kg                                                                                                                                 |
-| **Destinação da produção**         | Comercialização integral com a **Arbaza Alimentos Ltda**. Saldo líquido depositado em conta em **20/08/2026**, no valor de **R$ 6.665.030,93**. |
-
-
-
-
----
-
-Permanecemos à disposição para os esclarecimentos complementares que se fizerem necessários.
+Permanecemos à disposição para eventuais esclarecimentos complementares.
 
 Atenciosamente,
 
 Rio Grande do Sul, 08 de setembro de 2026.
-
-**Grupo Bianchi**  
-Claudio Bortoluzzi Bianchi  
-Luciano Bianchi
