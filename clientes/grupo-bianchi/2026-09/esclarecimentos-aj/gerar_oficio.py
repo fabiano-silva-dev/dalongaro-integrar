@@ -80,6 +80,22 @@ def write_cell(cell, text, *, bold=False, white=False, center=False, size=10):
     set_cell_border(cell)
 
 
+def fill_table(table, rows):
+    for i, row in enumerate(rows):
+        header = i == 0
+        fill = "1F4E79" if header else ("F2F2F2" if i % 2 == 0 else "FFFFFF")
+        for j, value in enumerate(row):
+            write_cell(
+                table.rows[i].cells[j],
+                value,
+                bold=header or j == 0,
+                white=header,
+                center=header,
+                size=9 if not header else 10,
+            )
+            shade_cell(table.rows[i].cells[j], fill)
+
+
 def add_bottom_border(paragraph, color="1F4E79", sz="18"):
     pPr = paragraph._p.get_or_add_pPr()
     pBdr = OxmlElement("w:pBdr")
@@ -170,25 +186,157 @@ def build():
     )
     add_paragraph(
         doc,
-        "O montante de R$ 2.826.820,43, apontado como resultado positivo acumulado no período "
-        "de junho a julho de 2026, corresponde à apuração pelo regime de competência (receitas "
-        "reconhecidas no período), e não ao ingresso efetivo de caixa no mesmo intervalo.",
+        "Os esclarecimentos abaixo fundamentam-se no Balancete consolidado de 01/06/2026 a "
+        "31/07/2026 (empresas 666, 707, 708 e 709), CNPJ 55.524.729/0001-59, e no Razão da "
+        "conta 1.2.1.05.003 — Luciano Bianchi PJ, do mesmo período.",
         first_line=1.25,
     )
     add_paragraph(
         doc,
-        "Desse modo, o resultado positivo do período não se confunde com disponibilidade financeira "
-        "imediata. Parte relevante das receitas reconhecidas em junho e julho permanece, no próprio "
-        "período, na forma de contas a receber, sendo liquidada em data posterior à competência das notas.",
+        "No Balancete, o resultado positivo do bimestre é de R$ 2.111.776,65 (receitas de "
+        "R$ 3.314.916,50, das quais R$ 3.313.050,00 de venda de soja; custos e despesas líquidos "
+        "de R$ 1.203.139,85). Esse resultado é de competência: as vendas de soja foram lançadas "
+        "em duplicatas a receber da Cotrijuc e não ingressaram integralmente em caixa no próprio bimestre.",
         first_line=1.25,
     )
     add_paragraph(
         doc,
-        "A destinação financeira (regime de caixa) dos recursos efetivamente recebidos por "
-        "Claudio Bortoluzzi Bianchi está sendo consolidada a partir dos pagamentos lançados no "
-        "controle financeiro — fornecedores, obrigações, insumos, empréstimos e disponibilidades. "
-        "O detalhamento analítico dos desembolsos será encaminhado em complemento a este ofício, "
-        "tão logo concluída a filtragem no sistema.",
+        "A destinação financeira dos recursos do período, nos eixos pedidos (fornecedores, "
+        "obrigações, insumos, empréstimos e disponibilidades), é a seguinte.",
+        first_line=1.25,
+    )
+    add_paragraph(
+        doc,
+        "Origem dos recursos (caixa e equivalentes)",
+        size=11,
+        bold=True,
+        align=WD_ALIGN_PARAGRAPH.LEFT,
+        space_before=4,
+        space_after=6,
+    )
+
+    origem = [
+        ("Origem", "Valor no período", "Esclarecimento"),
+        (
+            "Clientes (Cotrijuc)",
+            "R$ 5.673.050,00",
+            "Liquidação de duplicatas a receber. As vendas do bimestre foram R$ 3.313.050,00; a diferença reduz saldo anterior.",
+        ),
+        (
+            "Empréstimos tomados",
+            "R$ 220.760,38",
+            "Ingressos de partes relacionadas (sócio, PF e PJ do grupo).",
+        ),
+    ]
+    t_origem = doc.add_table(rows=len(origem), cols=3)
+    t_origem.alignment = WD_TABLE_ALIGNMENT.CENTER
+    fill_table(t_origem, origem)
+
+    add_paragraph(
+        doc,
+        "O disponível (caixa e bancos) caiu de R$ 222.200,13 para R$ 58.101,52 (−R$ 164.098,61). "
+        "Houve intensa movimentação de trânsito, sobretudo na conta Kreditare/Money Plus "
+        "(débitos de R$ 5.082.024,90 e créditos de R$ 5.081.620,17).",
+        first_line=1.25,
+        space_before=10,
+    )
+    add_paragraph(
+        doc,
+        "Aplicação dos recursos",
+        size=11,
+        bold=True,
+        align=WD_ALIGN_PARAGRAPH.LEFT,
+        space_before=6,
+        space_after=6,
+    )
+
+    aplicacao = [
+        ("Destinação", "Valor no período", "Esclarecimento"),
+        (
+            "Empréstimos concedidos",
+            "R$ 4.309.453,58",
+            "Principal aplicação. Desse total, R$ 3.540.188,01 a Luciano Bianchi PJ (razão analítico).",
+        ),
+        (
+            "Insumos (estoque)",
+            "R$ 3.856.690,00",
+            "Adubos/fertilizantes/pesticidas R$ 3.582.940,00 e demais insumos R$ 273.750,00. Aquisição em grande parte a prazo, via Cotrijuc.",
+        ),
+        (
+            "Fornecedores (novas compras)",
+            "R$ 4.082.922,61",
+            "Quase todo o acréscimo é Cotrijuc (R$ 3.828.140,00). Pagamentos a fornecedores no caixa: apenas R$ 225.499,01.",
+        ),
+        (
+            "Adiantamentos a fornecedores",
+            "R$ 584.962,10 (saídas)",
+            "Saldo líquido do período +R$ 464.375,24; saldo final R$ 879.340,65.",
+        ),
+        (
+            "Custeio e obrigações da atividade",
+            "R$ 1.203.139,85",
+            "Despesas do bimestre, com destaque para arrendamentos agrícolas (R$ 715.123,20), pessoal, manutenção e honorários.",
+        ),
+        (
+            "Obrigações trabalhistas e tributárias pagas",
+            "R$ 66.254,80",
+            "Folha, INSS, FGTS e tributos recolhidos (débitos das contas 2.1.4 e 2.1.5).",
+        ),
+        (
+            "Imobilizado",
+            "R$ 78.000,00",
+            "Máquinas e equipamentos.",
+        ),
+        (
+            "Disponibilidades",
+            "Saldo final R$ 58.101,52",
+            "Sicoob R$ 4.193,98; Vortix Grafeno R$ 44.929,31; Kreditare/Money Plus R$ 404,73; caixa R$ 8.573,50.",
+        ),
+    ]
+    t_ap = doc.add_table(rows=len(aplicacao), cols=3)
+    t_ap.alignment = WD_TABLE_ALIGNMENT.CENTER
+    fill_table(t_ap, aplicacao)
+
+    add_paragraph(
+        doc,
+        "Empréstimos concedidos no bimestre (conta 1.2.1)",
+        size=11,
+        bold=True,
+        align=WD_ALIGN_PARAGRAPH.LEFT,
+        space_before=10,
+        space_after=6,
+    )
+
+    emprestimos = [
+        ("Favorecido", "Valor"),
+        ("Luciano Bianchi PJ", "R$ 3.540.188,01"),
+        ("Fabiane Maria Noal Bianchi PJ", "R$ 304.515,45"),
+        ("Agrobianchi Transportes Ltda", "R$ 210.500,00"),
+        ("Claudio Bortoluzzi Bianchi PF", "R$ 106.420,07"),
+        ("Carlos Bortoluzzi Bianchi PJ", "R$ 68.330,05"),
+        ("Fabiane Maria Noal Bianchi PF", "R$ 46.000,00"),
+        ("Benito Francisco Bianchi PJ", "R$ 33.500,00"),
+        ("Total", "R$ 4.309.453,58"),
+    ]
+    t_emp = doc.add_table(rows=len(emprestimos), cols=2)
+    t_emp.alignment = WD_TABLE_ALIGNMENT.CENTER
+    fill_table(t_emp, emprestimos)
+
+    add_paragraph(
+        doc,
+        "O empréstimo a Luciano Bianchi PJ saiu, em especial, das contas Vortix Grafeno e "
+        "Kreditare/Money Plus. O maior lançamento isolado é de R$ 2.300.000,00 em 02/06/2026 "
+        "(Kreditare). No encerramento do bimestre, o saldo dessa conta é R$ 4.895.066,94.",
+        first_line=1.25,
+        space_before=10,
+    )
+    add_paragraph(
+        doc,
+        "Em síntese: o resultado positivo de junho–julho não se converteu em aumento de caixa. "
+        "Os recebimentos da Cotrijuc e a movimentação bancária foram aplicados, sobretudo, em "
+        "empréstimos ao grupo (em especial a Luciano Bianchi) e em insumos da safra, estes últimos "
+        "em grande parte financiados a prazo pela própria Cotrijuc. As disponibilidades encerraram "
+        "o período em R$ 58.101,52.",
         first_line=1.25,
     )
 
@@ -323,7 +471,7 @@ def build():
     add_paragraph(
         doc,
         "Permanecemos à disposição para os esclarecimentos complementares que se fizerem "
-        "necessários, inclusive o detalhamento analítico de caixa do item 1.",
+        "necessários.",
         first_line=1.25,
         space_before=6,
     )

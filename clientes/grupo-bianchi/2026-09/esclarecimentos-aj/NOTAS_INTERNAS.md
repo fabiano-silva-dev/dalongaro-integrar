@@ -7,6 +7,8 @@ Documento de trabalho do escritório. Não faz parte do ofício à Administraç�
 1. `Solicitacao_esclarecimentos_Grupo_Bianchi_setembro_2026.pdf` — ofício da AJ (04/09/2026).
 2. `Gergelim 2026 Luciano - questão 03.docx` — dados finais da safra (item 3).
 3. Áudio de WhatsApp 04/09/2026, 16:02 — orientação a Valdeci sobre competência × caixa e destinação do recurso.
+4. `Balancete jun a jul 2026.pdf` — Claudio, consolidado 666/707/708/709, 01/06 a 31/07/2026.
+5. `Razão jun a jul 2026.pdf` — conta 1.2.1.05.003 Luciano Bianchi PJ.
 
 ## Transcrição do áudio (Whisper, modelo medium)
 
@@ -35,21 +37,27 @@ O campo “desempenho informado” veio em branco no Word original. No ofício f
 
 No ofício a diferença foi atribuída a glosas/encargos/retenções da liquidação, sem detalhar a composição — essa composição ainda precisa do acerto com a Arbaza (contrato, romaneio, Funrural, frete, qualidade).
 
-## O que ainda falta para fechar o item 1 (Claudio)
+## Item 1 (Claudio) — conferência do Balancete e do Razão
 
-O áudio afirma que o detalhe de Claudio **não foi levantado** e que dá para filtrar no sistema o que ele pagou. No repositório **não há** extratos, domínio nem notas de junho e julho de 2026 de Claudio (a pasta `clientes/claudio-666/` só tem 2025).
+Resultado do bimestre no Balancete: receitas R$ 3.314.916,50 − custos/despesas líquidos R$ 1.203.139,85 = **R$ 2.111.776,65**. A AJ citou R$ 2.826.820,43 (diferença de R$ 715.043,78, próxima dos arrendamentos de R$ 715.123,20). No ofício usou-se o número do Balancete, sem especular sobre a memória da AJ.
 
-Para o complemento analítico pedido no ofício, filtrar no sistema, no período de caixa correspondente:
+| Rubrica | Valor | Checagem |
+|---|---|---|
+| Recebimento Cotrijuc (crédito clientes) | 5.673.050,00 | Só a Cotrijuc moveu a conta de clientes. |
+| Vendas de soja (competência) | 3.313.050,00 | Igual ao débito de duplicatas Cotrijuc. |
+| Empréstimos concedidos | 4.309.453,58 | Soma do realizável a LP (1.2.1) no período. |
+| Luciano PJ | 3.540.188,01 | Razão: jun 2.518.000,00 + jul 1.022.188,01. Maior lançamento: 2.300.000,00 em 02/06 (Kreditare). |
+| Insumos estoque | 3.856.690,00 | Adubos 3.582.940,00 + demais 273.750,00. |
+| Fornecedores — compras | 4.082.922,61 | Cotrijuc 3.828.140,00. |
+| Fornecedores — pagamentos | 225.499,01 | Soma dos débitos analíticos. |
+| Empréstimos tomados | 220.760,38 | Crédito do passivo não circulante. |
+| Disponível inicial → final | 222.200,13 → 58.101,52 | −164.098,61. |
 
-- pagamentos a fornecedores;
-- insumos e custeio;
-- empréstimos (contratação e amortização);
-- variação de disponibilidades.
-
-Enquanto isso não entrar, o item 1 do ofício explica o regime de competência e reserva o detalhamento.
+O item 1 do ofício **já está preenchido** com esses números. Não falta mais filtragem no sistema para o resumo pedido pela AJ.
 
 ## Cuidados antes de protocolar / enviar
 
+- Conferir com a AJ/RMA a origem dos **R$ 2.826.820,43** (Balancete aponta R$ 2.111.776,65).
 - Confirmar a grafia do arrendador **Peter** (sobrenome, se houver).
 - Confirmar se o resultado de R$ 6.930.256,13 é só gergelim ou inclui outras receitas de Luciano.
 - Confirmar a composição dos R$ 265.225,20 (resultado × líquido creditado).
