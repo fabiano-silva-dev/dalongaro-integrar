@@ -8,6 +8,14 @@ Atualização da fonte de 2026: o cliente indicou `balancetes/Balancete-ja-set-2
 
 O NIRE correto da securitizadora é 43.300.068.854. O número divergente no cabeçalho dos balancetes não identifica esta sociedade e não foi adotado.
 
+## Atualização documental de 08/11/2026: razões anuais recebidos
+
+Os arquivos `balancetes/Razão2022.xls` a `balancetes/Razão2026.xls` foram indexados em `levantamento-financeiro/razoes-anuais/` (62.051 movimentações de conta). **Não falta mais exportar genericamente os razões de 2022 a setembro de 2026**; resta classificá-los por finalidade, conferir contrapartidas e elidir transferências internas, preservando a conciliação bancária já confirmada. O arquivo único `Razão - geral.xls` é parcial, com corte em 65.536 linhas, e não substitui os cinco razões anuais.
+
+**Documento complementar novo:** `Atualizacao_razoes_anuais_2026-11-08.md`, com a posição contábil confirmada, quadro dos seis eixos, fluxo acumulado e controle de pendências. A versão em PDF desse complemento foi produzida separadamente para apresentação. **Os arquivos `Relatorio_Executivo_CSG.pdf` e `.docx` já versionados não foram regenerados nesta atualização do GitHub**; para incorporar as novas notas F10 e o texto atualizado das pendências ao relatório principal, execute `gerar_relatorio_cliente_csg.py` sobre os dados previamente apurados e confira visualmente o PDF antes da substituição.
+
+**Pontos técnicos:** em 2024, o lote 23308 possui 479 lançamentos de implantação de R$ 4.381.414,59 por lado; em 2026, a conta 267 difere R$ 646.275,68 entre razão anual e balancete atualizado, mantendo-se os saldos do balancete oficial na apresentação patrimonial. Não foi identificado fechamento posterior a 30/09/2026.
+
 ## Entregas
 
 - `Relatorio_Executivo_CSG.pdf` e `Relatorio_Executivo_CSG.docx`: versão de leitura para a administração, com resumo, os seis relatórios em linguagem simples, cruzamento final, análise dos recursos de Jane e Lair, documentos solicitados e fontes. O fluxo acumulado usa os balancetes; a análise complementar dos recursos dos sócios identifica os lançamentos bancários de 2025. O Word é editável e o PDF tem o mesmo conteúdo. A emissão desta versão é 08/11/2026; a data-base permanece 30/09/2026.
