@@ -1,0 +1,28 @@
+1;BASE DE CLCULO DA CSLL;0,00
+2;Contribuio Social sobre o Lucro Lquido por Atividade;0,00
+3;Adio de Crditos de CSLL sobre Depreciao Utilizados Anteriormente (Lei n 11.051/2004, art. 1,  7, 11 e 12);0,00
+4;TOTAL DA CONTRIBUIO SOCIAL SOBRE O LUCRO LQUIDO;0,00
+5;DEDUES;
+6;(-)Recuperao de Crdito de CSLL (MP n 1.807/1999, art. 8);0,00
+7;(-)Crditos sobre Depreciao de Bens do Ativo Imobilizado (Lei n 11.051/2004, art. 1);0,00
+8;(-) Iseno sobre o Lucro da Explorao Relativo ao Prouni;0,00
+9;(-) Iseno sobre o Lucro da Explorao de Eventos da Fifa;0,00
+10;(-) Iseno sobre o Lucro da Explorao da Atividade de Servios SPE Eventos da Fifa;0,00
+11;(-) Iseno sobre o Lucro da Explorao de Eventos do CIO;0,00
+12;(-) Iseno sobre o Lucro da Explorao da Atividade de Servios - SPE - Eventos do CIO;0,00
+12.20;(-) Iseno sobre o Lucro da Explorao do Programa Emergencial de Retomada do Setor de Eventos (Perse);0,00
+13;(-)Bnus de Adimplncia Fiscal (Lei n 10.637/2002, art. 38);0,00
+13.01;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+13.02;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+14;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital (MP n 1.858-6/1999, art. 19);0,00
+14.03;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+14.04;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+15;(-)CSLL Retida na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+16;(-)CSLL Retida na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+17;(-)CSLL Retida na Fonte por Pessoas Jurdicas de Direito Privado (Lei n 10.833/2003, art. 30);0,00
+18;(-)CSLL Retida na Fonte por rgos, Autarquias e Fundaes dos Estados, Distrito Federal e Municpios (Lei n 10.833/2003, art. 33);0,00
+19;(-)CSLL Mensal Efetivamente Paga por Estimativa;0,00
+20;(-)CSLL Efetivamente Parcelada Referente a Estimativas Mensais;0,00
+21;CSLL A PAGAR;0,00
+22;CSLL SOBRE A DIFERENA ENTRE O CUSTO ORADO E O CUSTO EFETIVO;0,00
+23;CSLL POSTERGADA DE PERODOS DE APURAO ANTERIORES;0,00

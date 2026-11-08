@@ -1,0 +1,816 @@
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00
+1;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;
+2;Estoques no Incio do Perodo de Apurao;0,00
+3;Compras de Insumos no Mercado Interno;0,00
+4;Compras de Insumos no Mercado Externo;0,00
+5;Remunerao a Dirigentes Ligados  Produo;0,00
+6;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+7;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+8;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+10;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+11;Prestao de Servio Pessoa Jurdica;0,00
+12;Servios Prestados por Cooperativa de Trabalho;0,00
+13;Locao de Mo-de-obra;0,00
+14;Outros Custos com Pessoal Ligado  Produo;0,00
+15;Encargos Sociais - Previdncia Social;0,00
+16;Encargos Sociais - FGTS;0,00
+17;Encargos Sociais - Outros;0,00
+18;Alimentao do Trabalhador;0,00
+19;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+20;Arrendamento Mercantil;0,00
+21;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+22;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+23;Encargos de Depreciao;0,00
+23.05;Encargos de Depreciao/Amortizao/Exausto dos Gastos Ativados na Atividade de Explorao de Jazidas de Petrleo e Gs Natural;0,00
+23.10;Encargos de Exausto - Art. 5, caput, da IN RFB n 1.778/2017;0,00
+23.15;Encargos de Exausto - Art. 4, inciso I, da IN RFB n 1.778/2017;0,00
+23.20;Encargos de Depreciao - Art. 6, da IN RFB n 1.778/2017;0,00
+24;Encargos de Amortizao;0,00
+25;Encargos de Exausto;0,00
+26;Constituio de Provises;0,00
+27;Royalties e Assistncia Tcnica - PAS;0,00
+28;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+29;Outros Custos;0,00
+30;(-) Estoques no Final do Perodo de Apurao;0,00
+31;CUSTO DOS PRODUTOS DE FABRICAO PRPRIA VENDIDOS;0,00
+32;CUSTO DAS MERCADORIAS REVENDIDAS;
+33;Estoques no Incio do Perodo de Apurao;0,00
+34;Compras de Mercadorias no Mercado Interno;0,00
+35;Compras de Mercadorias no Mercado Externo;0,00
+36;(-)Estoques no Final do Perodo de Apurao;0,00
+37;CUSTO DAS MERCADORIAS REVENDIDAS;0,00
+38;CUSTO DOS SERVIOS PRESTADOS;
+39;Saldo Inicial de Servios em Andamento;0,00
+40;Material Aplicado na Produo de Servios;0,00
+41;Remunerao a Dirigentes ligados  Produo de Servios;0,00
+42;Planos de Poupana e Investimentos de Empregados Ligados  Produo de Servios;0,00
+43;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo de Servios;0,00
+44;Plano de Previdncia Privada de Empregados Ligados  Produo de Servios;0,00
+45;Outros Custos do Pessoal Aplicado na Produo de Servios;0,00
+46;Prestao de Servios por Pessoa Fsica sem Vnculo Empregatcio;0,00
+47;Prestao de Servio Pessoa Jurdica;0,00
+48;Servios Prestados por Cooperativa de Trabalho;0,00
+49;Locao de Mo-de-obra;0,00
+50;Encargos Sociais - Previdncia Social;0,00
+51;Encargos Sociais - FGTS;0,00
+52;Encargos Sociais - Outros;0,00
+53;Alimentao do Trabalhador;0,00
+54;Manuteno e Reparo de Bens Aplicados na Produo de Servios;0,00
+55;Arrendamento Mercantil;0,00
+56;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+57;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+58;Encargos de Depreciao;0,00
+59;Encargos de Amortizao;0,00
+60;Encargos de Exausto;0,00
+61;Constituio de Provises;0,00
+62;Royalties e Assistncia Tcnica - PAS;0,00
+63;Royalties e Assistncia Tcnica - EXTERIOR;0,00
+64;Outros Custos;0,00
+65;(-)Saldo Final de Servios em Andamento;0,00
+66;CUSTO DOS SERVIOS VENDIDOS;0,00
+67;Custo das Unidades Imobilirias Vendidas;0,00
+68;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+69;TOTAL DOS CUSTOS DAS ATIVIDADES EM GERAL;0,00
+70;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;
+71;Estoques Iniciais de Insumos Agropecurios;0,00
+72;Estoques Iniciais de Produtos Agropecurios em Formao;0,00
+73;Estoques Iniciais de Produtos Agropecurios Acabados;0,00
+74;Compras de Insumos Agropecurios no Mercado Interno;0,00
+75;Compras de Insumos Agropecurios no Mercado Externo;0,00
+76;Planos de Poupana e Investimentos de Empregados Ligados  Produo;0,00
+77;Fundo de Aposentadoria Programada Individual de Empregados Ligados  Produo;0,00
+78;Plano de Previdncia Privada de Empregados Ligados  Produo;0,00
+79;Outros Custos de Pessoal Aplicado na Produo Agropecuria;0,00
+80;Encargos Sociais - Previdncia Social;0,00
+81;Encargos Sociais - FGTS;0,00
+82;Encargos Sociais - Outros;0,00
+83;Remunerao de Dirigentes;0,00
+84;Servios Prestados por Terceiros;0,00
+85;Manuteno e Reparo de Bens Aplicados na Produo;0,00
+86;Arrendamento Mercantil;0,00
+87;Encargos de Depreciao de Imobilizados Objeto de Arrendamento Mercantil Financeiro;0,00
+88;Encargos de Amortizao de Intangvel Oriundo de Direitos de Explorao de Servios Pblicos;0,00
+89;Encargos de Depreciao;0,00
+90;Encargos de Amortizao;0,00
+91;Encargos de Exausto;0,00
+92;Constituio de Provises;0,00
+93;Outros Custos Aplicados na Formao dos Produtos Agropecurios;0,00
+94;(-)Estoques Finais de Insumos Agropecurios;0,00
+95;(-)Estoques Finais de Produtos Agropecurios em Formao;0,00
+96;(-)Estoques Finais de Produtos Agropecurios Acabados;0,00
+97;Ajustes de Estoques Decorrentes de Arbitramento;0,00
+98;CUSTO DOS PRODUTOS DA ATIVIDADE RURAL VENDIDOS;0,00
+99;CUSTOS DE PRODUO;0,00

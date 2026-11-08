@@ -1,0 +1,17 @@
+{
+  "data_do_esclarecimento": "08/11/2026",
+  "fonte": "Escritório contábil, em esclarecimento neste atendimento",
+  "conciliacao_bancaria": {
+    "status": "CONFIRMADA PELO ESCRITÓRIO",
+    "declaracao": "Os balancetes e DREs estão fechados com o extrato do banco.",
+    "alcance_no_levantamento": "Saldos das fontes contábeis selecionadas, desde a abertura até 30/09/2026",
+    "tratamento": "Considerar a conciliação bancária concluída. Não solicitar genericamente nova comprovação dos saldos. O razão analítico será usado para classificar os fluxos por finalidade e vincular operações a contratos e titulares."
+  },
+  "custos_e_despesas": {
+    "tratamento": "Apurados pela movimentação líquida das contas de resultado, sem incluir os lançamentos de encerramento, e conferidos às DREs. Relatório por categoria, ano e acumulado entregável na base contábil."
+  },
+  "fluxo_de_caixa": {
+    "base_principal": "BALANCETES",
+    "tratamento": "Apurar saldos iniciais, débitos, créditos, movimento líquido e saldos finais do grupo 1.1.1 e contas analíticas nos cinco balancetes de 2022 a setembro de 2026. No acumulado, somar movimentos; preservar saldo inicial da abertura e saldo final da última data. Os valores brutos incluem transferências internas. Abertura por finalidade e eliminação das transferências são complementares, sem impedir a apresentação dos totais dos balancetes. Aplicações em 1.1.4 são apresentadas separadamente."
+  }
+}

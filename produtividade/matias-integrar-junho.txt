@@ -1,0 +1,265 @@
+
+ID	Arquivo	Status	Linhas/Lançamentos	Tipo	Data	Usuário	Ações
+198	
+IMPORTAR RECEBIMENTOS PIX SICREDI MAIO.csv
+Concluida	
+1720 lançamentos
+1720 linhas processadas
+IMPORTAR RECEBIMENTOS PIX SICREDI MAIO	18/06/2026 17:38	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+197	
+IMPORTAR DEPOSITOS SICREDI MAIO.csv
+Concluida	
+182 lançamentos
+182 linhas processadas
+IMPORTAR DEPOSITOS SICREDI MAIO	18/06/2026 17:37	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+196	
+IMPORTAR RECEBTO E TARIFA VISA.csv
+Concluida	
+40 lançamentos
+20 linhas processadas
+IMPORTAR RECEBTO E TARIFA VISA	18/06/2026 17:06	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+195	
+IMPORTAR VENDAS VISA.csv
+Concluida	
+31 lançamentos
+31 linhas processadas
+IMPORTAR VENDAS VISA	18/06/2026 17:04	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+194	
+IMPORTAR RECEBTO E TARIFA MASTERCARD.csv
+Concluida	
+40 lançamentos
+20 linhas processadas
+IMPORTAR RECEBTO E TARIFA MASTERCARD	18/06/2026 17:03	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+193	
+IMPORTAR VENDAS MASTERCARD.csv
+Concluida	
+31 lançamentos
+31 linhas processadas
+IMPORTAR VENDAS MASTERCARD	18/06/2026 17:01	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+192	
+IMPORTAR RECEBTO E TARIFA ELO.csv
+Concluida	
+40 lançamentos
+20 linhas processadas
+IMPORTAR RECEBTO E TARIFA ELO	18/06/2026 16:59	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+191	
+IMPORTAR VENDAS ELO.csv
+Concluida	
+31 lançamentos
+31 linhas processadas
+IMPORTAR VENDAS ELO	18/06/2026 16:56	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+190	
+IMPORTAR RECEBTO E TARIFA GREENCARD MAIO.csv
+Concluida	
+10 lançamentos
+5 linhas processadas
+IMPORTAR RECEBTO E TARIFA GREENCARD MAIO	18/06/2026 16:16	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+189	
+IMPORTAR VENDAS GREENCARD MAIO.csv
+Concluida	
+134 lançamentos
+134 linhas processadas
+IMPORTAR VENDAS GREENCARD MAIO	18/06/2026 16:15	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+188	
+IMPORTAR RECEBTO TARIFA VR MAIO.csv
+Concluida	
+54 lançamentos
+27 linhas processadas
+IMPORTAR RECEBTO TARIFA VR MAIO	18/06/2026 16:03	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+187	
+IMPORTAR VENDAS VR MAIO.csv
+Concluida	
+80 lançamentos
+80 linhas processadas
+IMPORTAR VENDAS VR MAIO	18/06/2026 16:01	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+186	
+IMPORTAR RECEBTO E TARIFA GOODCARD MAIO.csv
+Concluida	
+24 lançamentos
+12 linhas processadas
+IMPORTAR RECEBTO E TARIFA GOODCARD MAIO	18/06/2026 15:49	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+185	
+IMPORTAR VENDAS GOODCARD MAIO.csv
+Concluida	
+64 lançamentos
+64 linhas processadas
+IMPORTAR VENDAS GOODCARD MAIO	18/06/2026 15:47	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+184	
+Tabela_20260618 (1).csv
+Concluida	
+183 lançamentos
+61 linhas processadas
+Tabela_20260618 (1)	18/06/2026 15:12	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+
+
+ID	Arquivo	Status	Linhas/Lançamentos	Tipo	Data	Usuário	Ações
+183	
+Tabela_20260618 (3).csv
+Concluida	
+30 lançamentos
+10 linhas processadas
+Tabela_20260618 (3)	18/06/2026 15:10	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+182	
+Tabela_20260618.csv
+Concluida	
+174 lançamentos
+58 linhas processadas
+Tabela_20260618	18/06/2026 15:08	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+181	
+Tabela_20260618 (2).csv
+Concluida	
+108 lançamentos
+36 linhas processadas
+Tabela_20260618 (2)	18/06/2026 15:00	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+180	
+Tabela_20260618 (5).csv
+Concluida	
+300 lançamentos
+100 linhas processadas
+Tabela_20260618 (5)	18/06/2026 14:57	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+179	
+Tabela_20260618 (4).csv
+Concluida	
+81 lançamentos
+27 linhas processadas
+Tabela_20260618 (4)	18/06/2026 14:55	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+178	
+IMPORTAR RECEBTO E TARIFAS NAIP MAIO.csv
+Concluida	
+330 lançamentos
+165 linhas processadas
+IMPORTAR RECEBTO E TARIFAS NAIP MAIO	18/06/2026 14:39	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+177	
+IMPORTAR VENDAS ALELO MAIO.csv
+Concluida	
+166 lançamentos
+166 linhas processadas
+IMPORTAR VENDAS NAIP MAIO	18/06/2026 14:37	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+176	
+IMPORTAR RECEBTOS E TARIFA ALELO MAIO.csv
+Concluida	
+358 lançamentos
+179 linhas processadas
+IMPORTAR RECEBTOS E TARIFA ALELO MAIO	18/06/2026 14:35	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+175	
+IMPORTAR VENDAS ALELO MAIO.csv
+Concluida	
+186 lançamentos
+186 linhas processadas
+IMPORTAR VENDAS ALELO MAIO	18/06/2026 14:33	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+174	
+IMPORTAR RECEBTOS E TARIFA ALELO MAIO.csv
+Concluida	
+358 lançamentos
+179 linhas processadas
+IMPORTAR RECEBTOS E TARIFA ALELO MAIO	18/06/2026 14:31	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir
+173	
+IMPORTAR VENDAS ALELO MAIO.csv
+Concluida	
+186 lançamentos
+186 linhas processadas
+IMPORTAR VENDAS ALELO MAIO	18/06/2026 14:29	
+Matias
+contabilidade2@dalongarocontabilidade.com.br
+Abrir
+Excluir

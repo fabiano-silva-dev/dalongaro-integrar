@@ -1,0 +1,3514 @@
+{
+  "centros": [
+    {
+      "nome": "CENTRO DE CUSTO 1 - DAL ONGARO CONTABILIDADE",
+      "id": "76a42822-a81f-41c7-ae45-2e99c13e0b22",
+      "http": 204
+    },
+    {
+      "nome": "CENTRO DE CUSTO 2 - SOLUCIONE",
+      "http": 200,
+      "resposta": "\"bdbe870d-f748-447c-a9c8-5fc854441212\""
+    },
+    {
+      "nome": "CENTRO DE CUSTO 3 - CAIXA GERAL",
+      "http": 200,
+      "resposta": "\"d6c4d527-1ccb-4dc7-95e9-c586e0617da3\""
+    }
+  ],
+  "listagem_centros": {
+    "items": [
+      {
+        "costCenterId": "76a42822-a81f-41c7-ae45-2e99c13e0b22",
+        "description": "CENTRO DE CUSTO 1 - DAL ONGARO CONTABILIDADE",
+        "updateDate": "2026-10-22T00:47:15.417Z",
+        "updateUser": "VALDECIR DAL ONGARO"
+      },
+      {
+        "costCenterId": "bdbe870d-f748-447c-a9c8-5fc854441212",
+        "description": "CENTRO DE CUSTO 2 - SOLUCIONE",
+        "updateDate": "2026-10-22T00:47:15.6Z",
+        "updateUser": "VALDECIR DAL ONGARO"
+      },
+      {
+        "costCenterId": "d6c4d527-1ccb-4dc7-95e9-c586e0617da3",
+        "description": "CENTRO DE CUSTO 3 - CAIXA GERAL",
+        "updateDate": "2026-10-22T00:47:15.747Z",
+        "updateUser": "VALDECIR DAL ONGARO"
+      }
+    ],
+    "count": 3
+  },
+  "aninhou": false,
+  "pais": [
+    {
+      "chave": "pj",
+      "nome": "Clientes pessoa jurídica",
+      "grupo": "receitas",
+      "tipo": "in",
+      "id": "7386fda1-5ca1-42f4-a420-015cbe00afe0",
+      "http": 200
+    },
+    {
+      "chave": "agro",
+      "nome": "Clientes do agronegócio",
+      "grupo": "receitas",
+      "tipo": "in",
+      "id": "aa1ffbe5-b09b-45da-8ab6-3c72426858e8",
+      "http": 200
+    },
+    {
+      "chave": "mei",
+      "nome": "Clientes MEI",
+      "grupo": "receitas",
+      "tipo": "in",
+      "id": "bdd4850c-7a89-4605-8b35-dcb7d9b40473",
+      "http": 200
+    },
+    {
+      "chave": "domestica",
+      "nome": "Clientes doméstica",
+      "grupo": "receitas",
+      "tipo": "in",
+      "id": "69241891-601a-4927-a033-541dc3569dad",
+      "http": 200
+    },
+    {
+      "chave": "classificar",
+      "nome": "Clientes a classificar",
+      "grupo": "receitas",
+      "tipo": "in",
+      "id": "6ac092b5-accb-4c76-a2ef-22bc189fe183",
+      "http": 200
+    },
+    {
+      "chave": "func",
+      "nome": "Funcionários",
+      "grupo": "despesas",
+      "tipo": "out",
+      "id": "71d1d3eb-8ff2-41da-a1ab-cf25070359d3",
+      "http": 200
+    }
+  ],
+  "classes": {
+    "pj": 244,
+    "classificar": 6,
+    "agro": 17
+  },
+  "so_nibo": [
+    {
+      "nome": "ITEMAR JOSE MILANESI",
+      "doc": "40863999034",
+      "classe": "classificar"
+    },
+    {
+      "nome": "PIONEIRA COMERCIO DE MOVEIS LTDA.",
+      "doc": "89890370000406",
+      "classe": "pj"
+    },
+    {
+      "nome": "VALTER PIGATTO CIOCCARI",
+      "doc": "36115231000",
+      "classe": "classificar"
+    },
+    {
+      "nome": "TIAGO LIMA VEICULOS LTDA.",
+      "doc": "31385769000280",
+      "classe": "pj"
+    },
+    {
+      "nome": "VANUSA CHIODI CORRETORA DE SEGUROS LTDA",
+      "doc": "20515514000197",
+      "classe": "pj"
+    },
+    {
+      "nome": "2S CONSULTORIA E SERVICOS AGRICOLAS LTDA",
+      "doc": "69011431000150",
+      "classe": "pj"
+    }
+  ],
+  "funcionarios": [
+    {
+      "nome": "Ana Valentina Rossato",
+      "email": "contabilidade3@dalongarocontabilidade.com.br",
+      "categoria_id": "bed01d50-e146-4baf-9636-14db930ced66",
+      "http": null
+    },
+    {
+      "nome": "Anderson Rambo",
+      "email": "fiscal5@dalongarocontabilidade.com.br",
+      "categoria_id": "727e95e3-6848-4823-8b28-ba715eb7a2ee",
+      "http": 200
+    },
+    {
+      "nome": "Dauani Facco Turra",
+      "email": "fiscal2@dalongarocontabilidade.com.br",
+      "categoria_id": "51c7fcfe-4a2a-4838-b570-1947a0ebacd1",
+      "http": 200
+    },
+    {
+      "nome": "Diogo Lauter",
+      "email": "ti@dalongarocontabilidade.com.br",
+      "categoria_id": "7948c106-f43e-4089-a2ba-a9bfef1957e6",
+      "http": 200
+    },
+    {
+      "nome": "Eduarda Segabinazzi",
+      "email": "fiscal4@dalongarocontabilidade.com.br",
+      "categoria_id": "593beb90-24c5-44e1-8201-ba7bf5ab3a60",
+      "http": 200
+    },
+    {
+      "nome": "Gabriel Soares",
+      "email": "contabilidade5@dalongarocontabilidade.com.br",
+      "categoria_id": "58f51d47-327f-42d7-b457-b8a10e3818df",
+      "http": 200
+    },
+    {
+      "nome": "Jeniffer Delavechia Comoretto",
+      "email": "fiscal6@dalongarocontabilidade.com.br",
+      "categoria_id": "2819d08c-c5be-4d22-81d5-797882eae2c6",
+      "http": 200
+    },
+    {
+      "nome": "Laura Chelotti",
+      "email": "atendimento@dalongarocontabilidade.com.br",
+      "categoria_id": "045ce4bd-77ee-40bc-acc8-3450e217c475",
+      "http": 200
+    },
+    {
+      "nome": "Manuella Renner Bueno",
+      "email": "fiscal3@dalongarocontabilidade.com.br",
+      "categoria_id": "1056ec08-2ad0-4184-8a02-f93c3e4ede81",
+      "http": 200
+    },
+    {
+      "nome": "Matias Pauletto",
+      "email": "contabilidade2@dalongarocontabilidade.com.br",
+      "categoria_id": "b45f93db-3e17-4328-a48d-22a6790c2959",
+      "http": 200
+    },
+    {
+      "nome": "Pamela Simonetti",
+      "email": "dp@dalongarocontabilidade.com.br",
+      "categoria_id": "885084e6-2eb5-4b01-987a-44f8b67f538a",
+      "http": 200
+    },
+    {
+      "nome": "Suelen Copetti",
+      "email": "contabilidade1@dalongarocontabilidade.com.br",
+      "categoria_id": "66edaa2b-7954-4609-8628-39172ac576ed",
+      "http": 200
+    },
+    {
+      "nome": "Taina Zancan",
+      "email": "dp1@dalongarocontabilidade.com.br",
+      "categoria_id": "cd17e933-5fec-4e13-b830-f67a638c9f7b",
+      "http": 200
+    },
+    {
+      "nome": "VALDECIR DAL ONGARO",
+      "email": "recepcao@dalongarocontabilidade.com.br",
+      "categoria_id": "aec31ea7-05c2-424d-a88a-b448768251cb",
+      "http": 200
+    },
+    {
+      "nome": "Vaneza Dal Ongaro",
+      "email": "vaneza@dalongarocontabilidade.com.br",
+      "categoria_id": "7aeba50c-f811-4567-8dbc-3810fe941916",
+      "http": 200
+    },
+    {
+      "nome": "Viviane Dal Ongaro",
+      "email": "rh@dalongarocontabilidade.com.br",
+      "categoria_id": "26945f03-aaeb-462c-8f6e-65ea180def17",
+      "http": 200
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "UP ESPACO MULTIPROFISSIONAL LTDA",
+      "doc": "57596526000101",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - UP ESPACO MULTIPROFISSIONAL LTDA",
+      "categoria_id": "7e358c6a-d75d-4bbc-9d34-530493d781d3",
+      "http": 200
+    },
+    {
+      "nome": "IND DE MOVEIS VALIDIO MENEGHETTI LTDA",
+      "doc": "87808242000194",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - IND DE MOVEIS VALIDIO MENEGHETTI LTDA",
+      "categoria_id": "4202fb6f-51bc-4a56-a1f8-ceeb4d13aa5a",
+      "http": 200
+    },
+    {
+      "nome": "SOLUZIONE SERVICOS ESPECIALIZADOS LTDA",
+      "doc": "63730526000147",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SOLUZIONE SERVICOS ESPECIALIZADOS LTD",
+      "categoria_id": "7f741f31-262d-42d9-9dd3-75914d65d818",
+      "http": 200
+    },
+    {
+      "nome": "FONOAUDIOLOGIA DANIELLI TESSELE LTDA",
+      "doc": "61496976000191",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FONOAUDIOLOGIA DANIELLI TESSELE LTDA",
+      "categoria_id": "7ad86225-fd6d-47d7-9b68-5c43b77228af",
+      "http": 200
+    },
+    {
+      "nome": "ZACARIAS & FAGAN LTDA. - ME",
+      "doc": "28696328000294",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ZACARIAS & FAGAN LTDA. - ME",
+      "categoria_id": "14d02d5f-4cbb-4b71-b7c7-8a2e34f64d91",
+      "http": 200
+    },
+    {
+      "nome": "OFICINA MECANICA AUTOMATIC LTDA",
+      "doc": "10198450000194",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - OFICINA MECANICA AUTOMATIC LTDA",
+      "categoria_id": "c714a1c4-42a5-4fe3-b30b-6803bfff9e43",
+      "http": 200
+    },
+    {
+      "nome": "MARZARI & MARZARI LTDA.",
+      "doc": "31033196000144",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MARZARI & MARZARI LTDA.",
+      "categoria_id": "8dfac7d4-d5a4-454d-aac5-8bfe979b88c8",
+      "http": 200
+    },
+    {
+      "nome": "MANFIO ADMINISTRADORA LTDA.",
+      "doc": "55757324000160",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MANFIO ADMINISTRADORA LTDA.",
+      "categoria_id": "9862f5a0-f537-43a5-976c-393607ee3392",
+      "http": 200
+    },
+    {
+      "nome": "CHAIANE FACCO PICCIN FISIOTERAPIA LTDA",
+      "doc": "43532166000161",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CHAIANE FACCO PICCIN FISIOTERAPIA LTD",
+      "categoria_id": "72e52e85-859f-4d3a-a44b-a58b5e22986d",
+      "http": 200
+    },
+    {
+      "nome": "YOURCODE TECNOLOGIA DA INFORMAÇÃO EIRELI",
+      "doc": "24445700000239",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - YOURCODE TECNOLOGIA DA INFORMAÇÃO EIR",
+      "categoria_id": "f68a5eb1-25b2-45ac-9ad0-cb3f90602ddd",
+      "http": 200
+    },
+    {
+      "nome": "ZACARIAS ENGENHARIA LTDA",
+      "doc": "28396175000189",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ZACARIAS ENGENHARIA LTDA",
+      "categoria_id": "5a8453b5-0ac4-46f1-a90a-c12ebd54cb6c",
+      "http": 200
+    },
+    {
+      "nome": "MILANESI INDUSTRIAL LTDA.",
+      "doc": "03781533000146",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MILANESI INDUSTRIAL LTDA.",
+      "categoria_id": "f99dd543-5a97-47fd-9849-af4003a48631",
+      "http": 200
+    },
+    {
+      "nome": "CARLOS BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524662000233",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CARLOS BORTOLUZZI BIANCHI EM RECUPERA",
+      "categoria_id": "1931c83e-2846-4852-a1fb-b5287da429a2",
+      "http": 200
+    },
+    {
+      "nome": "QUARTA COLONIA PLATAFORMA TURISTICA LTDA",
+      "doc": "65222157000107",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - QUARTA COLONIA PLATAFORMA TURISTICA L",
+      "categoria_id": "aa3c05b0-bca0-4723-a24e-748d8b8907ed",
+      "http": 200
+    },
+    {
+      "nome": "AMBIENCIAS ARQUITETURA LTDA.",
+      "doc": "14199979000183",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AMBIENCIAS ARQUITETURA LTDA.",
+      "categoria_id": "4eb71da9-3b6b-474a-9083-c7f1bd331fbd",
+      "http": 200
+    },
+    {
+      "nome": "REDIN GUINCHOS E LOGISTICA LTDA",
+      "doc": "21135354000113",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - REDIN GUINCHOS E LOGISTICA LTDA",
+      "categoria_id": "fdc26dec-cbcf-4d0d-8ab6-91f634587b12",
+      "http": 200
+    },
+    {
+      "nome": "MIRO LEONIR CEOLIN MONTAGNER E OUTROS",
+      "doc": "37416197015",
+      "classe": "classificar",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente a classificar - MIRO LEONIR CEOLIN MONTAGN",
+      "categoria_id": "a8fd6685-63b0-4186-b692-52a2053f5962",
+      "http": 200
+    },
+    {
+      "nome": "ELENISE MARIA NOAL BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524705000108",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ELENISE MARIA NOAL BIANCHI EM RECUPER",
+      "categoria_id": "4b6ea4e4-77e9-4378-bb42-5b365c08fb28",
+      "http": 200
+    },
+    {
+      "nome": "CREDIT SAINT GERMAIN SECURITIZADORA DE CREDITO S/A",
+      "doc": "46788467000149",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CREDIT SAINT GERMAIN SECURITIZADORA D",
+      "categoria_id": "4e7f3e7d-2620-4b54-867c-24e9a1c43182",
+      "http": 200
+    },
+    {
+      "nome": "PIONEIRA COMÉRCIO DE MÓVEIS LTDA",
+      "doc": "89890370000155",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PIONEIRA COMÉRCIO DE MÓVEIS LTDA",
+      "categoria_id": "e87d8b7a-fcaa-4f92-8639-bae5479c0eca",
+      "http": 200
+    },
+    {
+      "nome": "JOAO BATISTA BORTOLIN GIULIANI",
+      "doc": "01158867026",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - JOAO BATISTA BORTOLIN GIULIANI",
+      "categoria_id": "eb26fe5d-5a25-4f24-a841-a4bf22039738",
+      "http": 200
+    },
+    {
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000159",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLAUDIO BORTOLUZZI BIANCHI EM RECUPER",
+      "categoria_id": "888f7f3a-3df9-4050-ae0c-04f29616712b",
+      "http": 200
+    },
+    {
+      "nome": "YOURCODE TECNOLOGIA DA INFORMACAO LTDA",
+      "doc": "24445700000158",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - YOURCODE TECNOLOGIA DA INFORMACAO LTD",
+      "categoria_id": "313c3599-0371-4c0d-a30d-d2b9e990238d",
+      "http": 200
+    },
+    {
+      "nome": "FELICITA ODONTOLOGIA LTDA.",
+      "doc": "39712482000148",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FELICITA ODONTOLOGIA LTDA.",
+      "categoria_id": "55b0d198-4d0e-4dae-9507-8cace7d3fc88",
+      "http": 200
+    },
+    {
+      "nome": "CARLOS BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524662000152",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CARLOS BORTOLUZZI BIANCHI EM R (0152)",
+      "categoria_id": "8353f9ab-0284-49d8-8445-01b161755ce2",
+      "http": 200
+    },
+    {
+      "nome": "CLINICA DA CRIANCA FAXINAL LTDA.",
+      "doc": "45018789000146",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLINICA DA CRIANCA FAXINAL LTDA.",
+      "categoria_id": "870e5123-85f1-4a78-a9d4-237493295e81",
+      "http": 200
+    },
+    {
+      "nome": "BENETTI TERRAPLENAGEM LTDA",
+      "doc": "61102222000100",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BENETTI TERRAPLENAGEM LTDA",
+      "categoria_id": "8e3af058-7600-4cdc-b8c3-ac9997373ad1",
+      "http": 200
+    },
+    {
+      "nome": "NOSSA SENHORA APARECIDA AGROSERVICOS LTDA",
+      "doc": "65449359000196",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - NOSSA SENHORA APARECIDA AGROSERVICOS",
+      "categoria_id": "06994ea7-760f-4951-9d0b-bf30fd162680",
+      "http": 200
+    },
+    {
+      "nome": "GIOVANA B. PIVETTA CLINICA MEDICA LTDA.",
+      "doc": "61124110000150",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - GIOVANA B. PIVETTA CLINICA MEDICA LTD",
+      "categoria_id": "a89fce6e-f16a-455c-b803-3303dd3a21ef",
+      "http": 200
+    },
+    {
+      "nome": "RUBIA T FOLIATTI - ME",
+      "doc": "17786598000270",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - RUBIA T FOLIATTI - ME",
+      "categoria_id": "3e727e84-3c44-4a94-992d-f84114c1b959",
+      "http": 200
+    },
+    {
+      "nome": "ZACARIAS & FAGAN LTDA. - ME",
+      "doc": "28696328000103",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ZACARIAS & FAGAN LTDA. - ME (0103)",
+      "categoria_id": "aa7011d8-bacc-48fb-839a-8fbbcbacd9cc",
+      "http": 200
+    },
+    {
+      "nome": "GZANOLLA SERVIÇOS MEDICOS LTDA",
+      "doc": "65453426000146",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - GZANOLLA SERVIÇOS MEDICOS LTDA",
+      "categoria_id": "f070ef9b-b4f1-43ba-a199-45d3a22698af",
+      "http": 200
+    },
+    {
+      "nome": "DELMIR GILBERTO BRANDAO",
+      "doc": "29682212000188",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DELMIR GILBERTO BRANDAO",
+      "categoria_id": "70e9e1eb-aa02-4b7e-ab96-9eeb9301ce5a",
+      "http": 200
+    },
+    {
+      "nome": "FABIANE MARIA MORO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55526785000122",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FABIANE MARIA MORO BIANCHI EM RECUPER",
+      "categoria_id": "1aab2218-7d9d-4a57-bedd-32109c2009b6",
+      "http": 200
+    },
+    {
+      "nome": "JBJ PATRIMONIAL LTDA",
+      "doc": "68151639000101",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JBJ PATRIMONIAL LTDA",
+      "categoria_id": "7a49042b-9383-4aa8-8fa7-c0d37c179131",
+      "http": 200
+    },
+    {
+      "nome": "MODELAR CONSTRUTORA LTDA.",
+      "doc": "40465050000169",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MODELAR CONSTRUTORA LTDA.",
+      "categoria_id": "d8d07f90-a559-4790-92cd-f7de6a1704d7",
+      "http": 200
+    },
+    {
+      "nome": "M.V. INCORPORADORA LTDA.",
+      "doc": "46741937000119",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - M.V. INCORPORADORA LTDA.",
+      "categoria_id": "d69f9366-2ed3-40b9-84e9-7715fb9455b2",
+      "http": 200
+    },
+    {
+      "nome": "NIVRAP TECNOLOGIA DA INTELIGENCIA LTDA",
+      "doc": "61906098000135",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - NIVRAP TECNOLOGIA DA INTELIGENCIA LTD",
+      "categoria_id": "c872bfaf-86ab-4859-8181-82f62716a575",
+      "http": 200
+    },
+    {
+      "nome": "BENITO FRANCISCO BIANCHI",
+      "doc": "04655451068",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - BENITO FRANCISCO BIANCHI",
+      "categoria_id": "d1e44705-ce24-4163-9896-f394d35d4120",
+      "http": 200
+    },
+    {
+      "nome": "ADM TERRAPLANAGEM LTDA.",
+      "doc": "46720282000100",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ADM TERRAPLANAGEM LTDA.",
+      "categoria_id": "52aa9219-2ab0-4599-a916-edbb83e4f1e8",
+      "http": 200
+    },
+    {
+      "nome": "ROBERTO AUGUSTO PROCHNOW",
+      "doc": "90835875091",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - ROBERTO AUGUSTO PROCHNOW",
+      "categoria_id": "735b1066-8644-4046-8143-779095de6682",
+      "http": 200
+    },
+    {
+      "nome": "CLINICA DE OLHOS QUARTA COLONIA LTDA",
+      "doc": "29448253000104",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLINICA DE OLHOS QUARTA COLONIA LTDA",
+      "categoria_id": "6f1cb039-f685-4bd2-a5b1-b144f4039150",
+      "http": 200
+    },
+    {
+      "nome": "AGROPECUARIA SAO CARLOS LTDA.",
+      "doc": "08273577000189",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AGROPECUARIA SAO CARLOS LTDA.",
+      "categoria_id": "ba4fd5bf-4510-411a-be9e-a7954af3bf8b",
+      "http": 200
+    },
+    {
+      "nome": "AIRTON DALL ONGARO",
+      "doc": "03058282000176",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AIRTON DALL ONGARO",
+      "categoria_id": "d2b86fa9-dbe5-4062-bfbf-2af3013e0c5d",
+      "http": 200
+    },
+    {
+      "nome": "SORENSEN & CIA LTDA",
+      "doc": "04542960000134",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SORENSEN & CIA LTDA",
+      "categoria_id": "462fd53e-f86b-4990-bcb1-3ac0876a57bd",
+      "http": 200
+    },
+    {
+      "nome": "M2 ARTE E PRODUÇÕES LTDA.",
+      "doc": "52211878000170",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - M2 ARTE E PRODUÇÕES LTDA.",
+      "categoria_id": "638b1969-2250-4cb9-be1c-b22ce395d335",
+      "http": 200
+    },
+    {
+      "nome": "BERGER EMPREENDIMENTOS LTDA.",
+      "doc": "37884585000160",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BERGER EMPREENDIMENTOS LTDA.",
+      "categoria_id": "d52e8a45-9c6c-4029-a6af-009ad94915e1",
+      "http": 200
+    },
+    {
+      "nome": "PREVEDELLO ADMINISTRADORA DE BENS LTDA.",
+      "doc": "49908065000129",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PREVEDELLO ADMINISTRADORA DE BENS LTD",
+      "categoria_id": "90fbdbed-963e-4cd2-a305-86650761a23c",
+      "http": 200
+    },
+    {
+      "nome": "EDENILSON MONTAGNER - ME",
+      "doc": "20552962000160",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - EDENILSON MONTAGNER - ME",
+      "categoria_id": "c733f273-cfbb-4753-90a4-0d52da3129fa",
+      "http": 200
+    },
+    {
+      "nome": "AGROPROMAIS EQUIPAMENTOS E PECAS LTDA",
+      "doc": "56223295000110",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AGROPROMAIS EQUIPAMENTOS E PECAS LTDA",
+      "categoria_id": "7f8c9738-bac7-4323-88cf-d50ec0835d4c",
+      "http": 200
+    },
+    {
+      "nome": "PAULA GUERINO ODONTOLOGICO LTDA",
+      "doc": "49911411000128",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PAULA GUERINO ODONTOLOGICO LTDA",
+      "categoria_id": "02989cff-6b62-432f-817b-7ec724f19748",
+      "http": 200
+    },
+    {
+      "nome": "UELITON FERREIRA",
+      "doc": "33360006000129",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - UELITON FERREIRA",
+      "categoria_id": "f2b6f10c-b345-48cc-88b5-0b4830fc1c27",
+      "http": 200
+    },
+    {
+      "nome": "AU REPRESENTACOES LTDA",
+      "doc": "68586276000137",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AU REPRESENTACOES LTDA",
+      "categoria_id": "41f37d4d-b097-46dd-84e9-4f98ce5451fd",
+      "http": 200
+    },
+    {
+      "nome": "HELVIO CHIAPINOTTO - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "45234799000119",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - HELVIO CHIAPINOTTO - SOCIEDADE INDIVI",
+      "categoria_id": "8bada01a-1a2c-4b13-9133-87cbb25cecc9",
+      "http": 200
+    },
+    {
+      "nome": "LUIZ CARLOS SFALCIN",
+      "doc": "13377971000105",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LUIZ CARLOS SFALCIN",
+      "categoria_id": "9e6c7dcd-14b3-4c2b-bed5-d2ca8d29fe19",
+      "http": 200
+    },
+    {
+      "nome": "VOLMAR JACOB TREVISAN",
+      "doc": "57425000091",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - VOLMAR JACOB TREVISAN",
+      "categoria_id": "8e3f51cd-a3cd-40b6-a9a0-a50e274da39b",
+      "http": 200
+    },
+    {
+      "nome": "MODELAR CONSTUTORA LTDA",
+      "doc": "58748016004",
+      "classe": "classificar",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente a classificar - MODELAR CONSTUTORA LTDA",
+      "categoria_id": "ac1d9ac5-e950-4a1f-a16f-52e149989a0c",
+      "http": 200
+    },
+    {
+      "nome": "AUROZ SOLUTIONS LTDA",
+      "doc": "66610086000182",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AUROZ SOLUTIONS LTDA",
+      "categoria_id": "bfdbf420-662d-4811-be0a-312bc0980465",
+      "http": 200
+    },
+    {
+      "nome": "HORNEIRO CAMISARIA LTDA",
+      "doc": "66477850000193",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - HORNEIRO CAMISARIA LTDA",
+      "categoria_id": "5e6988b4-1b7c-497c-8af9-4212996163d6",
+      "http": 200
+    },
+    {
+      "nome": "SENHOR VICENTE ALIMENTOS LTDA.",
+      "doc": "42120236000101",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SENHOR VICENTE ALIMENTOS LTDA.",
+      "categoria_id": "0fd8f19d-ff9d-425f-9b9c-f9660fb5ea42",
+      "http": 200
+    },
+    {
+      "nome": "JOCELI LUIZ MENEGHETTI - ME",
+      "doc": "13640819000165",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JOCELI LUIZ MENEGHETTI - ME",
+      "categoria_id": "20652274-7032-4133-85bb-8519d17bef2f",
+      "http": 200
+    },
+    {
+      "nome": "PONTAL PARTICIPACOES LTDA",
+      "doc": "68651859000102",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PONTAL PARTICIPACOES LTDA",
+      "categoria_id": "275f3447-1735-48a7-8cb9-4b8058076324",
+      "http": 200
+    },
+    {
+      "nome": "ITEMAR JOSE MILANESI",
+      "doc": "40863999034",
+      "classe": "classificar",
+      "regime": "",
+      "origem": "so_nibo",
+      "categoria": "Cliente a classificar - ITEMAR JOSE MILANESI",
+      "categoria_id": "8f252286-d9b5-42f9-b1e1-7dc278a44f07",
+      "http": 200
+    },
+    {
+      "nome": "B. V. INCORPORADORA LTDA.",
+      "doc": "34317692000118",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - B. V. INCORPORADORA LTDA.",
+      "categoria_id": "b45b3b4a-bb75-400b-a6fc-81c198c4fe21",
+      "http": 200
+    },
+    {
+      "nome": "LIMARIN VEICULOS LTDA",
+      "doc": "15193569000198",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LIMARIN VEICULOS LTDA",
+      "categoria_id": "4b07817f-5c27-4abc-8c83-98f6983e004d",
+      "http": 200
+    },
+    {
+      "nome": "DIOGO DERLI WENDT LTDA.",
+      "doc": "18950131000103",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DIOGO DERLI WENDT LTDA.",
+      "categoria_id": "7051d1cc-21e6-45aa-a152-c2c91a98f84e",
+      "http": 200
+    },
+    {
+      "nome": "CLOVIS GIULIANI",
+      "doc": "91650986000109",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLOVIS GIULIANI",
+      "categoria_id": "dee56463-749c-47b7-a56e-06bc6521b6e3",
+      "http": 200
+    },
+    {
+      "nome": "INCORPORADORA CRISTIANO ROSSO LTDA",
+      "doc": "43660996000174",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - INCORPORADORA CRISTIANO ROSSO LTDA",
+      "categoria_id": "3927aff2-72a0-4bfc-8062-d18195ae2ce1",
+      "http": 200
+    },
+    {
+      "nome": "PIONEIRA COMERCIO DE MOVEIS LTDA.",
+      "doc": "89890370000406",
+      "classe": "pj",
+      "regime": "",
+      "origem": "so_nibo",
+      "categoria": "Cliente PJ - PIONEIRA COMERCIO DE MOVEIS LTDA.",
+      "categoria_id": "d526fa8a-69d5-490e-916c-205681cdcde0",
+      "http": 200
+    },
+    {
+      "nome": "LUDI TOLEDO LIVRE LEVE",
+      "doc": "51477218000172",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LUDI TOLEDO LIVRE LEVE",
+      "categoria_id": "098c16d2-8ffe-4a09-975b-a984466de429",
+      "http": 200
+    },
+    {
+      "nome": "ROGGIA ODONTOLOGIA LTDA.",
+      "doc": "41582423000144",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ROGGIA ODONTOLOGIA LTDA.",
+      "categoria_id": "18287172-79a1-4811-9987-d677ee75aa44",
+      "http": 200
+    },
+    {
+      "nome": "VIVERE EMPREENDIMENTOS LTDA",
+      "doc": "35404519000110",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - VIVERE EMPREENDIMENTOS LTDA",
+      "categoria_id": "645c6b60-7100-47b9-b914-711a88c01681",
+      "http": 200
+    },
+    {
+      "nome": "BV2 ENGENHARIA LTDA.",
+      "doc": "52124430000119",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BV2 ENGENHARIA LTDA.",
+      "categoria_id": "d774c0fd-e88d-471d-bf61-e5dd861fdcfe",
+      "http": 200
+    },
+    {
+      "nome": "ADAIR MILANESI",
+      "doc": "20058837000",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - ADAIR MILANESI",
+      "categoria_id": "f335d34d-c7b0-4112-8880-c798bdc78463",
+      "http": 200
+    },
+    {
+      "nome": "EUSEBIO JOAO SOLDERA E CIA LTDA ME",
+      "doc": "89889307000107",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - EUSEBIO JOAO SOLDERA E CIA LTDA ME",
+      "categoria_id": "047f7a3e-6691-4527-abb5-3a63d6ead79a",
+      "http": 200
+    },
+    {
+      "nome": "BUSANELLO PADARIA BOM SABOR LTDA.",
+      "doc": "17936706000162",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BUSANELLO PADARIA BOM SABOR LTDA.",
+      "categoria_id": "984a5129-0ae4-4fab-9c23-5f28f59ddcd0",
+      "http": 200
+    },
+    {
+      "nome": "DIOGO DERLI WENDT & CIA. LTDA",
+      "doc": "14565578000108",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DIOGO DERLI WENDT & CIA. LTDA",
+      "categoria_id": "d07420e3-cdfb-497d-9983-7f35ee9939ce",
+      "http": 200
+    },
+    {
+      "nome": "ILDO JOSE SPANEVELLO",
+      "doc": "19680520030",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - ILDO JOSE SPANEVELLO",
+      "categoria_id": "2c953e2b-fbf5-4032-97bb-b8d8a7bb1029",
+      "http": 200
+    },
+    {
+      "nome": "CREDIT SAINT GERMAIN SECURITIZADORA DE CREDITO S/A",
+      "doc": "46788467000220",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CREDIT SAINT GERMAIN SECURITIZ (0220)",
+      "categoria_id": "3e8e238a-4b77-432b-a150-afa9f531e85d",
+      "http": 200
+    },
+    {
+      "nome": "CENTER FIT CONDICIONAMENTO FISICO, BISTRO E BEM-ESTAR LTDA",
+      "doc": "31851114000179",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CENTER FIT CONDICIONAMENTO FISICO, BI",
+      "categoria_id": "b16e46f1-4751-4173-86da-4e89be2b7251",
+      "http": 200
+    },
+    {
+      "nome": "TIAGO LIMA VEICULOS LTDA.",
+      "doc": "31385769000107",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - TIAGO LIMA VEICULOS LTDA.",
+      "categoria_id": "7e604078-8917-40dc-ba9e-039179965be2",
+      "http": 200
+    },
+    {
+      "nome": "ALISSON CASTRO WOLLMEISTER",
+      "doc": "76704050078",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - ALISSON CASTRO WOLLMEISTER",
+      "categoria_id": "257ceae2-6220-4d55-8783-4712564c9141",
+      "http": 200
+    },
+    {
+      "nome": "A. CHELOTTI & E. CHELOTTI LTDA",
+      "doc": "11419997000135",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - A. CHELOTTI & E. CHELOTTI LTDA",
+      "categoria_id": "df43cbff-e5d4-4b48-bf86-6c844ebe5b70",
+      "http": 200
+    },
+    {
+      "nome": "ALISSON CASTRO WOLLMEISTER EM RECUPERACAO JUDICIAL",
+      "doc": "57765207000174",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ALISSON CASTRO WOLLMEISTER EM RECUPER",
+      "categoria_id": "3f169feb-1f0c-4347-b8d0-b9a7fad8ad90",
+      "http": 200
+    },
+    {
+      "nome": "MARCIA REIS BRAGA WOLLMEISTER EM RECUPERACAO JUDICIAL",
+      "doc": "57765469000139",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MARCIA REIS BRAGA WOLLMEISTER EM RECU",
+      "categoria_id": "88a0f53f-8470-41c5-bf65-242c6889d1fd",
+      "http": 200
+    },
+    {
+      "nome": "TOP AGRO SERVIÇOS AGRÍCOLAS LTDA.",
+      "doc": "48276545000151",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - TOP AGRO SERVIÇOS AGRÍCOLAS LTDA.",
+      "categoria_id": "770cd723-1ae1-403c-b28f-bb479c0b8163",
+      "http": 200
+    },
+    {
+      "nome": "P & B INCORPORADORA LTDA.",
+      "doc": "41466021000184",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - P & B INCORPORADORA LTDA.",
+      "categoria_id": "ee6c5721-828f-450f-a332-5a7f89d41ede",
+      "http": 200
+    },
+    {
+      "nome": "EZA ZANON TOLFO",
+      "doc": "89890222000130",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - EZA ZANON TOLFO",
+      "categoria_id": "4306602f-9fdc-4c9d-a6f8-5cf7266f5513",
+      "http": 200
+    },
+    {
+      "nome": "FH SANDRA REGINA WEBER LTDA",
+      "doc": "26067352000158",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FH SANDRA REGINA WEBER LTDA",
+      "categoria_id": "14fb84d5-e7e4-4422-b631-f2f761071646",
+      "http": 200
+    },
+    {
+      "nome": "BARBIERI TRANSPORTES LTDA.",
+      "doc": "21008962000167",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BARBIERI TRANSPORTES LTDA.",
+      "categoria_id": "fb20e64a-dff2-4732-baa1-c4894945a85b",
+      "http": 200
+    },
+    {
+      "nome": "EZEQUIEL CATTO",
+      "doc": "99962721091",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - EZEQUIEL CATTO",
+      "categoria_id": "8ea96db7-43de-4a6f-bd25-1f8070168cb3",
+      "http": 200
+    },
+    {
+      "nome": "M SODRE PARTICIPACOES SOCIETARIAS LTDA",
+      "doc": "12187920000140",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - M SODRE PARTICIPACOES SOCIETARIAS LTD",
+      "categoria_id": "05241078-b87c-4dd3-82ec-a03538ac1583",
+      "http": 200
+    },
+    {
+      "nome": "PEDCLINIC SERVIÇOS MÉDICOS LTDA",
+      "doc": "31161150000100",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PEDCLINIC SERVIÇOS MÉDICOS LTDA",
+      "categoria_id": "bcb8ce8e-4b8b-4b47-a6c1-caa3306b6efd",
+      "http": 200
+    },
+    {
+      "nome": "CONSTRUCOES FERREIRA LTDA.",
+      "doc": "59844471000129",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CONSTRUCOES FERREIRA LTDA.",
+      "categoria_id": "d8a36f41-195d-455a-9172-5ca8271ec350",
+      "http": 200
+    },
+    {
+      "nome": "EZA ZANON TOLFO",
+      "doc": "89890222000211",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - EZA ZANON TOLFO (0211)",
+      "categoria_id": "ef2f33e5-f174-47fa-83ad-376b02012e3b",
+      "http": 200
+    },
+    {
+      "nome": "A. R. DAL AGNOL",
+      "doc": "10788841000169",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - A. R. DAL AGNOL",
+      "categoria_id": "5116e283-a8eb-47a4-84cf-ffa817af7ca1",
+      "http": 200
+    },
+    {
+      "nome": "MARCIA REIS BRAGA WOLLMEISTER",
+      "doc": "95883932053",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - MARCIA REIS BRAGA WOLLMEISTER",
+      "categoria_id": "ad9a7356-09ed-4f4f-9aea-f57b9c855071",
+      "http": 200
+    },
+    {
+      "nome": "INDÚSTRIA DE ESQUADRIAS DE MADEIRA BARATTO LTDA. - ME",
+      "doc": "88796487000101",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - INDÚSTRIA DE ESQUADRIAS DE MADEIRA BA",
+      "categoria_id": "da54aad0-d0b5-491b-9391-585c44c6393f",
+      "http": 200
+    },
+    {
+      "nome": "M ALMEIDA REPRESENTACOES LTDA.",
+      "doc": "49918866000175",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - M ALMEIDA REPRESENTACOES LTDA.",
+      "categoria_id": "e1c9a294-6a78-4157-b528-2c79d5cba73b",
+      "http": 200
+    },
+    {
+      "nome": "DAKGRAOS CORRETORA DE CEREAIS LTDA",
+      "doc": "66867661000127",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DAKGRAOS CORRETORA DE CEREAIS LTDA",
+      "categoria_id": "084dc707-1787-44ab-8192-592f1d342acb",
+      "http": 200
+    },
+    {
+      "nome": "NOVO HORIZONTE PARTICIPACOES LTDA",
+      "doc": "62690452000108",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - NOVO HORIZONTE PARTICIPACOES LTDA",
+      "categoria_id": "9e0f8070-a7e6-4d87-895e-bd5703655b6e",
+      "http": 200
+    },
+    {
+      "nome": "FERNANDO VENDRUSCULO CASARIN",
+      "doc": "11073326000165",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FERNANDO VENDRUSCULO CASARIN",
+      "categoria_id": "162d84cb-c6a2-4f85-8ae1-6f0023137c19",
+      "http": 200
+    },
+    {
+      "nome": "DAL ONGARO ENGENHARIA LTDA.",
+      "doc": "37331530000122",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DAL ONGARO ENGENHARIA LTDA.",
+      "categoria_id": "7c5a2c24-a2c4-4c14-a2d0-4cd0f4286d67",
+      "http": 200
+    },
+    {
+      "nome": "AUTO POSTO VALE DO SOTURNO LTDA",
+      "doc": "04756684000107",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AUTO POSTO VALE DO SOTURNO LTDA",
+      "categoria_id": "77671b26-5169-473e-b750-065cedf231a3",
+      "http": 200
+    },
+    {
+      "nome": "GXF LTDA",
+      "doc": "65350601000170",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - GXF LTDA",
+      "categoria_id": "917c4ffa-0497-479b-ab1a-1339ae991138",
+      "http": 200
+    },
+    {
+      "nome": "JCPA REPRESENTAÇÃO COMERCIAL LTDA.",
+      "doc": "38089498000183",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JCPA REPRESENTAÇÃO COMERCIAL LTDA.",
+      "categoria_id": "8c19981e-57a4-4c85-861f-3ea97f014c74",
+      "http": 200
+    },
+    {
+      "nome": "CENTER FIT CORPO E MENTE LTDA.",
+      "doc": "39706928000121",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CENTER FIT CORPO E MENTE LTDA.",
+      "categoria_id": "5308b0cb-ad8f-46bd-bc26-e6e8881993a9",
+      "http": 200
+    },
+    {
+      "nome": "RUBIA T FOLIATTI - ME",
+      "doc": "17786598000199",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - RUBIA T FOLIATTI - ME (0199)",
+      "categoria_id": "35ae52e0-cf06-46e3-acb4-131ed6d08f03",
+      "http": 200
+    },
+    {
+      "nome": "DANIEL BELLINASO",
+      "doc": "63601575000",
+      "classe": "classificar",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente a classificar - DANIEL BELLINASO",
+      "categoria_id": "9149d6fe-268b-411b-bd54-99f563e2623d",
+      "http": 200
+    },
+    {
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000111",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BENITO FRANCISCO BIANCHI EM RECUPERAC",
+      "categoria_id": "e4f77de2-ace2-40ca-800f-700d5b634e4c",
+      "http": 200
+    },
+    {
+      "nome": "SERRA VERDE LOCACOES E TRANSPORTES LTDA",
+      "doc": "66609937000177",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SERRA VERDE LOCACOES E TRANSPORTES LT",
+      "categoria_id": "a56a5fe1-6da0-4a09-82cd-855475aa5cca",
+      "http": 200
+    },
+    {
+      "nome": "M.A.K. CONSULTORIA AGROPECUÁRIA LTDA.",
+      "doc": "43498910000159",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - M.A.K. CONSULTORIA AGROPECUÁRIA LTDA.",
+      "categoria_id": "2b9f5fb6-2b6c-4853-8c51-f9c79a3047b8",
+      "http": 200
+    },
+    {
+      "nome": "DIEGO DALMOLIN SPANEVELLO",
+      "doc": "00997539011",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - DIEGO DALMOLIN SPANEVELLO",
+      "categoria_id": "5bf6458a-7684-4cca-874e-36181ed6fd9b",
+      "http": 200
+    },
+    {
+      "nome": "SIRLEI TEREZINHA MARION CEOLIN",
+      "doc": "27064360004",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - SIRLEI TEREZINHA MARION CEOLIN",
+      "categoria_id": "09910546-b532-4e10-9333-a7ce9d4a5bc9",
+      "http": 200
+    },
+    {
+      "nome": "AGROFORTE MAQUINAS E IMPLEMENTOS LTDA",
+      "doc": "62892399000110",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AGROFORTE MAQUINAS E IMPLEMENTOS LTDA",
+      "categoria_id": "64ca98fb-d7cf-474a-9a32-2120a0b56960",
+      "http": 200
+    },
+    {
+      "nome": "LBF ENGENHARIA CIVIL LTDA.",
+      "doc": "38075145000124",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LBF ENGENHARIA CIVIL LTDA.",
+      "categoria_id": "00dd12b6-af7b-4294-82e5-bb2732cc1cf1",
+      "http": 200
+    },
+    {
+      "nome": "FOLETTO PRODUCOES LTDA.",
+      "doc": "42865657000161",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FOLETTO PRODUCOES LTDA.",
+      "categoria_id": "6b01c39e-147b-4398-8b19-db60f8d9c07a",
+      "http": 200
+    },
+    {
+      "nome": "LUCIANO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55531817000340",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LUCIANO BIANCHI EM RECUPERACAO JUDICI",
+      "categoria_id": "30d3fa1a-b012-400b-a4c0-950b7dc3d447",
+      "http": 200
+    },
+    {
+      "nome": "DOM CASTRO TRASPORTES LTDA.",
+      "doc": "45865865000159",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DOM CASTRO TRASPORTES LTDA.",
+      "categoria_id": "2a05435c-4193-4394-af40-33f8a04aad1f",
+      "http": 200
+    },
+    {
+      "nome": "DAL ONGARO CONTABILIDADE LTDA.",
+      "doc": "14557191000100",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DAL ONGARO CONTABILIDADE LTDA.",
+      "categoria_id": "6f13ae21-4daf-4402-8ac2-4609796afdaa",
+      "http": 200
+    },
+    {
+      "nome": "G. MANFIO & CIA. LTDA.",
+      "doc": "12307596000156",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - G. MANFIO & CIA. LTDA.",
+      "categoria_id": "63164f08-3132-4013-a4c6-7e5a1c1308ec",
+      "http": 200
+    },
+    {
+      "nome": "MOISES BULEGON",
+      "doc": "33557898000152",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MOISES BULEGON",
+      "categoria_id": "2e3a5da5-0aa1-4dc0-82a2-04015f955e97",
+      "http": 200
+    },
+    {
+      "nome": "JUCAR COMBUSTIVEIS LTDA",
+      "doc": "92299833000113",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JUCAR COMBUSTIVEIS LTDA",
+      "categoria_id": "8e52d6d0-39b5-4db0-a0d2-b77321832bb0",
+      "http": 200
+    },
+    {
+      "nome": "V L CASSOL",
+      "doc": "09078383000195",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - V L CASSOL",
+      "categoria_id": "bf1065e0-e1ce-429a-bcc1-f5959cb80cb4",
+      "http": 200
+    },
+    {
+      "nome": "PITTI AUTO STORE LTDA.",
+      "doc": "59334568000191",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PITTI AUTO STORE LTDA.",
+      "categoria_id": "117b2863-3d58-4398-9a26-1e3378a35635",
+      "http": 200
+    },
+    {
+      "nome": "DALLA CORTE INDUSTRIA DE ESQUADRIAS LTDA.",
+      "doc": "87251245000170",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DALLA CORTE INDUSTRIA DE ESQUADRIAS L",
+      "categoria_id": "d67c8aff-48ee-4159-bda4-9616430b1c71",
+      "http": 200
+    },
+    {
+      "nome": "ANDREA CHAVES ROSSATO - ME",
+      "doc": "27048558000101",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ANDREA CHAVES ROSSATO - ME",
+      "categoria_id": "c1476284-349c-42a0-b033-4be8744ffed2",
+      "http": 200
+    },
+    {
+      "nome": "PIONEIRA COMÉRCIO DE MÓVEIS LTDA",
+      "doc": "89890370000317",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PIONEIRA COMÉRCIO DE MÓVEIS LT (0317)",
+      "categoria_id": "6715f1e2-f529-4645-9cb9-816bf7745708",
+      "http": 200
+    },
+    {
+      "nome": "ANTONIO MOACIR MILANESI",
+      "doc": "32136820044",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - ANTONIO MOACIR MILANESI",
+      "categoria_id": "7a2f22d4-7e24-4eeb-96a6-49b7634a4cc8",
+      "http": 200
+    },
+    {
+      "nome": "AGROBIANCHI TRANSPORTES LTDA EM RECUPERACAO JUDICIAL",
+      "doc": "42365138000134",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AGROBIANCHI TRANSPORTES LTDA EM RECUP",
+      "categoria_id": "0d0b5edf-1824-4c74-96bd-4558666a5021",
+      "http": 200
+    },
+    {
+      "nome": "ADENIR BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524496000194",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ADENIR BORTOLUZZI BIANCHI EM RECUPERA",
+      "categoria_id": "01b252cb-3bc5-44cb-8556-b05357e09978",
+      "http": 200
+    },
+    {
+      "nome": "P & B INCORPORADORA LTDA",
+      "doc": "65498003072",
+      "classe": "classificar",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente a classificar - P & B INCORPORADORA LTDA",
+      "categoria_id": "1ff24606-2d48-4b89-b01d-da3d43e4760c",
+      "http": 200
+    },
+    {
+      "nome": "VALTER PIGATTO CIOCCARI",
+      "doc": "36115231000",
+      "classe": "classificar",
+      "regime": "",
+      "origem": "so_nibo",
+      "categoria": "Cliente a classificar - VALTER PIGATTO CIOCCARI",
+      "categoria_id": "dff286ff-d059-4b69-9509-852ccffd8883",
+      "http": 200
+    },
+    {
+      "nome": "AUTOMATIC PREMIUM LTDA",
+      "doc": "59336202000151",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AUTOMATIC PREMIUM LTDA",
+      "categoria_id": "0ccdedbf-1f39-43ca-883d-a213fa417fcb",
+      "http": 200
+    },
+    {
+      "nome": "CEREALISTA DONA IDALVINA LTDA.",
+      "doc": "37648010000148",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CEREALISTA DONA IDALVINA LTDA.",
+      "categoria_id": "a8c22531-5acc-46c0-b21b-7e17c3f71ef0",
+      "http": 200
+    },
+    {
+      "nome": "AUTOMAIS CONSIGNACAO",
+      "doc": "52331983000142",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AUTOMAIS CONSIGNACAO",
+      "categoria_id": "9047bbe5-9db3-4983-bd2f-5dd90a7f45a9",
+      "http": 200
+    },
+    {
+      "nome": "ALCEU ANTONIO BARCHET & CIA. LTDA.",
+      "doc": "15475483000158",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ALCEU ANTONIO BARCHET & CIA. LTDA.",
+      "categoria_id": "76819f05-96c6-4fa4-91ce-1689effeec4d",
+      "http": 200
+    },
+    {
+      "nome": "AGENCIA GZ SERVIÇOS DE INFORMAÇÃO NA INTERNET LTDA.",
+      "doc": "12228829000125",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AGENCIA GZ SERVIÇOS DE INFORMAÇÃO NA",
+      "categoria_id": "f44aed81-7766-4634-97cf-e12d446e4519",
+      "http": 200
+    },
+    {
+      "nome": "V. R. SAUDE AMBIENTAL LTDA.",
+      "doc": "45021049000169",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - V. R. SAUDE AMBIENTAL LTDA.",
+      "categoria_id": "b04497f0-6603-4273-be7a-9b7e05cb11f5",
+      "http": 200
+    },
+    {
+      "nome": "CRISCIA DESIGNER GRAFICO E SOCIAL MEDIA LTDA",
+      "doc": "62906701000141",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CRISCIA DESIGNER GRAFICO E SOCIAL MED",
+      "categoria_id": "a662be47-d972-4d4d-b14a-1e0d6515782e",
+      "http": 200
+    },
+    {
+      "nome": "MARIA SANTISSIMA MODAS LTDA",
+      "doc": "65774171000113",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MARIA SANTISSIMA MODAS LTDA",
+      "categoria_id": "ba9d6f27-3b44-48ba-a2a2-a251bf381df2",
+      "http": 200
+    },
+    {
+      "nome": "BERG KOLB LTDA",
+      "doc": "59685615000222",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BERG KOLB LTDA",
+      "categoria_id": "8ce3a19a-c36e-4b1a-a836-dfa229029863",
+      "http": 200
+    },
+    {
+      "nome": "CASA GILIOTTO PARTICIPACOES LTDA.",
+      "doc": "48354432000127",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CASA GILIOTTO PARTICIPACOES LTDA.",
+      "categoria_id": "e8cf6f05-3950-449f-b49f-dbba80fc057c",
+      "http": 200
+    },
+    {
+      "nome": "ASSOCIACAO DE PAIS E AMIGOS DOS EXCEPCIONAIS DE FAXINAL DO SOTURNO",
+      "doc": "02072997000110",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ASSOCIACAO DE PAIS E AMIGOS DOS EXCEP",
+      "categoria_id": "cad53e8a-bfc6-43b6-83ba-a676f66b6e50",
+      "http": 200
+    },
+    {
+      "nome": "RODRIGO MENEGHETTI ME",
+      "doc": "19529000000101",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - RODRIGO MENEGHETTI ME",
+      "categoria_id": "be177a2d-eedb-46d1-8465-71d2461d61f9",
+      "http": 200
+    },
+    {
+      "nome": "GIACOMINI ALIMENTOS LTDA",
+      "doc": "17804763000198",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - GIACOMINI ALIMENTOS LTDA",
+      "categoria_id": "2976f4a7-0d72-4b8b-b63b-87c975e861ad",
+      "http": 200
+    },
+    {
+      "nome": "KACP SERVICOS MEDICOS LTDA.",
+      "doc": "42631881000199",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - KACP SERVICOS MEDICOS LTDA.",
+      "categoria_id": "0a620846-be46-46f5-922a-7dc89e042cc2",
+      "http": 200
+    },
+    {
+      "nome": "LISANDRO POZZOBON",
+      "doc": "01196746028",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - LISANDRO POZZOBON",
+      "categoria_id": "daa016d3-8467-4d10-92cb-4ffee9676a48",
+      "http": 200
+    },
+    {
+      "nome": "G&R PARTICIPACOES LTDA",
+      "doc": "68154881000139",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - G&R PARTICIPACOES LTDA",
+      "categoria_id": "478eef58-11a0-4cbe-93a7-63cf328c502c",
+      "http": 200
+    },
+    {
+      "nome": "DAL ONGARO ADMINISTRADORA DE BENS LTDA.",
+      "doc": "38490707000104",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DAL ONGARO ADMINISTRADORA DE BENS LTD",
+      "categoria_id": "0bad09af-1af1-40fc-aeaa-f00073d46322",
+      "http": 200
+    },
+    {
+      "nome": "FVT HOLDINGS LTDA",
+      "doc": "68549672000194",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FVT HOLDINGS LTDA",
+      "categoria_id": "abde9073-aa0d-48e8-85f6-31ce774e81ec",
+      "http": 200
+    },
+    {
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000383",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BENITO FRANCISCO BIANCHI EM RE (0383)",
+      "categoria_id": "88bd17e1-047a-40d8-b7de-64df09edfa6a",
+      "http": 200
+    },
+    {
+      "nome": "LUCIANO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55531817000188",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LUCIANO BIANCHI EM RECUPERACAO (0188)",
+      "categoria_id": "1c706ec0-58f9-452f-8e8c-3b6c9422c291",
+      "http": 200
+    },
+    {
+      "nome": "LOCARSUL LOCACOES LTDA.",
+      "doc": "48412708000186",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LOCARSUL LOCACOES LTDA.",
+      "categoria_id": "f56caa5a-4f89-4c95-93e7-6b45d16937be",
+      "http": 200
+    },
+    {
+      "nome": "BERG KOLB LTDA",
+      "doc": "59685615000141",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BERG KOLB LTDA (0141)",
+      "categoria_id": "866a22c9-ea20-4120-a906-4f38500da1af",
+      "http": 200
+    },
+    {
+      "nome": "CASA GULARTE LTDA",
+      "doc": "68055787000122",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CASA GULARTE LTDA",
+      "categoria_id": "2e77a942-0e45-4383-968b-71d7c0e10721",
+      "http": 200
+    },
+    {
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000464",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BENITO FRANCISCO BIANCHI EM RE (0464)",
+      "categoria_id": "f44b2d77-16f1-4cae-ac0d-418521835650",
+      "http": 200
+    },
+    {
+      "nome": "ZULEICA MARIA DALMOLIN SPANEVELLO",
+      "doc": "28721861072",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - ZULEICA MARIA DALMOLIN SPANEVELLO",
+      "categoria_id": "4f95cb6c-18da-4cc7-85c1-0d326dfcd3f0",
+      "http": 200
+    },
+    {
+      "nome": "SERGIO ROGGIA E CIA LTDA ME",
+      "doc": "93568210000161",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SERGIO ROGGIA E CIA LTDA ME",
+      "categoria_id": "16880f95-f897-49f0-8585-d94bf2a74bcf",
+      "http": 200
+    },
+    {
+      "nome": "PAULA FRIZZO PERIPOLLI EIRELI",
+      "doc": "33517371000102",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PAULA FRIZZO PERIPOLLI EIRELI",
+      "categoria_id": "ab1e33d7-8260-4db4-82a8-4c9db9444d46",
+      "http": 200
+    },
+    {
+      "nome": "CLINICA JULIA MONTAGNER, FISIOTERAPIA ESPECIALIZADA LTDA.",
+      "doc": "47523468000124",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLINICA JULIA MONTAGNER, FISIOTERAPIA",
+      "categoria_id": "ba6fbe50-7b2d-462d-a8df-e1e7f6cdb27f",
+      "http": 200
+    },
+    {
+      "nome": "SCHICHT & SCHICHT LTDA.",
+      "doc": "00913748000185",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SCHICHT & SCHICHT LTDA.",
+      "categoria_id": "fbda7d02-7e5f-431f-a62d-78c4bc526a71",
+      "http": 200
+    },
+    {
+      "nome": "AUTOMATIC GUINCHOS LTDA.",
+      "doc": "49076129000172",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AUTOMATIC GUINCHOS LTDA.",
+      "categoria_id": "e87089fb-26d7-48c8-8e0f-82d1aac1d095",
+      "http": 200
+    },
+    {
+      "nome": "GERMANO VALDEMAR BORTOLAS",
+      "doc": "00221885099",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - GERMANO VALDEMAR BORTOLAS",
+      "categoria_id": "49052b40-cf53-44ea-af80-97d8910c2aa1",
+      "http": 200
+    },
+    {
+      "nome": "QUARTA COLONIA VIAGENS E TURISMO LTDA",
+      "doc": "04111462000137",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - QUARTA COLONIA VIAGENS E TURISMO LTDA",
+      "categoria_id": "ec9dd88e-5f22-4774-bddd-840347f6e9ba",
+      "http": 200
+    },
+    {
+      "nome": "AMABIO CONSULTORIA E ESTUDOS AMBIENTAIS LTDA.",
+      "doc": "51862024000190",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AMABIO CONSULTORIA E ESTUDOS AMBIENTA",
+      "categoria_id": "77270cd7-d1c6-458e-a034-f1b6641806cf",
+      "http": 200
+    },
+    {
+      "nome": "COOPERATIVA FAXINALENSE DE TRANSPORTADORES AUTONOMOS DE CARGAS",
+      "doc": "14992439000152",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - COOPERATIVA FAXINALENSE DE TRANSPORTA",
+      "categoria_id": "16459c9b-7630-432a-a1c7-af87998fbda0",
+      "http": 200
+    },
+    {
+      "nome": "VEBER LOGISTICA LTDA",
+      "doc": "62825643000121",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - VEBER LOGISTICA LTDA",
+      "categoria_id": "5d9410c2-7202-40c4-9444-2259db323103",
+      "http": 200
+    },
+    {
+      "nome": "MAIS MAQUINAS TL EQUIPAMENTOS E PECAS LTDA.",
+      "doc": "57726727000178",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MAIS MAQUINAS TL EQUIPAMENTOS E PECAS",
+      "categoria_id": "5597ecc6-de22-42de-bae1-236ba28edf0f",
+      "http": 200
+    },
+    {
+      "nome": "AGROPARCERIA MAQUINAS E IMPLEMENTOS LTDA",
+      "doc": "62590472000107",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AGROPARCERIA MAQUINAS E IMPLEMENTOS L",
+      "categoria_id": "d3f44f35-ae53-48fe-888b-fdb91943502a",
+      "http": 200
+    },
+    {
+      "nome": "CLINICA MEDICA BARATTO LTDA.",
+      "doc": "56777637000143",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLINICA MEDICA BARATTO LTDA.",
+      "categoria_id": "bb029f38-a18e-48e6-8f9b-49d1857a5dc5",
+      "http": 200
+    },
+    {
+      "nome": "PITTI COMERCIAL DE AUTOMOVEIS LTDA",
+      "doc": "00734185000168",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PITTI COMERCIAL DE AUTOMOVEIS LTDA",
+      "categoria_id": "108414ea-8391-4677-b3ff-bccb861f6a01",
+      "http": 200
+    },
+    {
+      "nome": "AGRO VALLE FERTILIZANTES LTDA",
+      "doc": "50330524000119",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AGRO VALLE FERTILIZANTES LTDA",
+      "categoria_id": "ccd693bc-deb1-438c-9f10-d9f02994a244",
+      "http": 200
+    },
+    {
+      "nome": "ESTOFARIA FAXINALENSE LTDA",
+      "doc": "05955165000130",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ESTOFARIA FAXINALENSE LTDA",
+      "categoria_id": "9cf1fbb0-9fcd-477b-a725-08ddc911a374",
+      "http": 200
+    },
+    {
+      "nome": "ESTANCIA PRECIOSA LTDA.",
+      "doc": "48362241000107",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ESTANCIA PRECIOSA LTDA.",
+      "categoria_id": "f5a86ae1-31e8-4912-ab55-fcfdeab364dd",
+      "http": 200
+    },
+    {
+      "nome": "FERNANDO DALL ONGARO BARBIERI - ME",
+      "doc": "20971970000141",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FERNANDO DALL ONGARO BARBIERI - ME",
+      "categoria_id": "c6a149d3-4613-4a07-9e9b-e676acbfd586",
+      "http": 200
+    },
+    {
+      "nome": "R.B. INCORPORADORA LTDA",
+      "doc": "47659954000174",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - R.B. INCORPORADORA LTDA",
+      "categoria_id": "4d1532f7-a06f-4d6a-93e4-bd6804401130",
+      "http": 200
+    },
+    {
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000200",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BENITO FRANCISCO BIANCHI EM RE (0200)",
+      "categoria_id": "b976af3f-b2d6-4a91-9432-1507f8ffa0ae",
+      "http": 200
+    },
+    {
+      "nome": "ELLO SOLUCOES AGROPECUARIAS LTDA.",
+      "doc": "41620305000183",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ELLO SOLUCOES AGROPECUARIAS LTDA.",
+      "categoria_id": "38d92d45-7730-480a-9b47-4f03071f00fb",
+      "http": 200
+    },
+    {
+      "nome": "CRISTIANE DE CASSENOTE OLIARI EM RECUPERACAO JUDICIAL",
+      "doc": "55525013000176",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CRISTIANE DE CASSENOTE OLIARI EM RECU",
+      "categoria_id": "7c47d16a-2a7f-4ffb-82bf-0dde46c3005b",
+      "http": 200
+    },
+    {
+      "nome": "SANDRA QUATRIN - ME",
+      "doc": "16679526000180",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SANDRA QUATRIN - ME",
+      "categoria_id": "066ec925-fd89-4b40-9bbb-7f8ff3112259",
+      "http": 200
+    },
+    {
+      "nome": "ADRIELE CHELOTTI ANDREOLA",
+      "doc": "21949688000120",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ADRIELE CHELOTTI ANDREOLA",
+      "categoria_id": "0401a988-3979-42d1-a1fb-6ef947b5e64a",
+      "http": 200
+    },
+    {
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000310",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLAUDIO BORTOLUZZI BIANCHI EM (0310)",
+      "categoria_id": "13469007-4dae-4786-9131-8ccbda8d8746",
+      "http": 200
+    },
+    {
+      "nome": "TIAGO LIMA VEICULOS LTDA.",
+      "doc": "31385769000280",
+      "classe": "pj",
+      "regime": "",
+      "origem": "so_nibo",
+      "categoria": "Cliente PJ - TIAGO LIMA VEICULOS LTDA. (0280)",
+      "categoria_id": "d5033ea1-0f22-497e-b97a-02272fa641c2",
+      "http": 200
+    },
+    {
+      "nome": "FELICITA ODONTOLOGIA LTDA.",
+      "doc": "39712482000300",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FELICITA ODONTOLOGIA LTDA. (0300)",
+      "categoria_id": "f6bb8762-d9aa-458e-9018-7d500e66ee8e",
+      "http": 200
+    },
+    {
+      "nome": "POSTO PILECCO LTDA",
+      "doc": "89890073000100",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - POSTO PILECCO LTDA",
+      "categoria_id": "0e76ed7d-f367-429f-b4c1-fe151f90ca16",
+      "http": 200
+    },
+    {
+      "nome": "INCORPORADORA BERGER E GIULIANI LTDA.",
+      "doc": "52213153000110",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - INCORPORADORA BERGER E GIULIANI LTDA.",
+      "categoria_id": "08cf054e-2f0a-47a7-a5e4-517d14d472e4",
+      "http": 200
+    },
+    {
+      "nome": "ESTEVAO MEZZOMO",
+      "doc": "48814822034",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - ESTEVAO MEZZOMO",
+      "categoria_id": "01966a81-6007-41a2-ae84-cf674f03f912",
+      "http": 200
+    },
+    {
+      "nome": "LIDIANE FERRO ATELIER LTDA",
+      "doc": "39410607000185",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LIDIANE FERRO ATELIER LTDA",
+      "categoria_id": "2116fa4c-b5e9-412f-ad6d-e172eebb6ecc",
+      "http": 200
+    },
+    {
+      "nome": "JUCAR TRANSPORTES E COMERCIO LTDA - FILIAL",
+      "doc": "01405443000125",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JUCAR TRANSPORTES E COMERCIO LTDA - F",
+      "categoria_id": "571f2997-c0fc-40c6-a7fa-59911cd0ff95",
+      "http": 200
+    },
+    {
+      "nome": "JBE EMPREENDIMENTOS LTDA. - EPP",
+      "doc": "22687828000100",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JBE EMPREENDIMENTOS LTDA. - EPP",
+      "categoria_id": "a99a5372-24e2-4aca-88a3-f46462319239",
+      "http": 200
+    },
+    {
+      "nome": "MARLENE BECKER LOCACAO DE IMPRESSORAS LTDA",
+      "doc": "34920996000175",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MARLENE BECKER LOCACAO DE IMPRESSORAS",
+      "categoria_id": "caeb3121-16dc-4402-91e4-485950bc2038",
+      "http": 200
+    },
+    {
+      "nome": "INCORPORADORA TRINTA LTDA",
+      "doc": "56195702000122",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - INCORPORADORA TRINTA LTDA",
+      "categoria_id": "2caa9d91-564c-4dd5-b088-773aeb20eb1e",
+      "http": 200
+    },
+    {
+      "nome": "SAO JOAO ADMINISTRADORA DE BENS LTDA",
+      "doc": "58694105000178",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SAO JOAO ADMINISTRADORA DE BENS LTDA",
+      "categoria_id": "01fbbba9-72ef-43e5-858b-188a28c27cee",
+      "http": 200
+    },
+    {
+      "nome": "EMPORIUM GIACOMINI LTDA",
+      "doc": "48446384000105",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - EMPORIUM GIACOMINI LTDA",
+      "categoria_id": "93935e52-e9cc-4134-82f9-a840de7087ca",
+      "http": 200
+    },
+    {
+      "nome": "MILANESI AGRONOMIA LTDA.",
+      "doc": "54433141000127",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MILANESI AGRONOMIA LTDA.",
+      "categoria_id": "2599a488-7241-4e81-8db6-9f2d504418ce",
+      "http": 200
+    },
+    {
+      "nome": "RZ IMPLEMENTOS AGRICOLAS LTDA",
+      "doc": "43511398000133",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - RZ IMPLEMENTOS AGRICOLAS LTDA",
+      "categoria_id": "2635bd95-5355-46ad-a059-e28816b7b082",
+      "http": 200
+    },
+    {
+      "nome": "SANTOS TERRAPLENAGEM E OBRAS LTDA.",
+      "doc": "31385813000170",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SANTOS TERRAPLENAGEM E OBRAS LTDA.",
+      "categoria_id": "a6014622-6e55-4938-9679-4f0a20e172a1",
+      "http": 200
+    },
+    {
+      "nome": "LUCIANO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55531817000269",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LUCIANO BIANCHI EM RECUPERACAO (0269)",
+      "categoria_id": "274bf702-13d1-4bab-8225-b7064411e9b1",
+      "http": 200
+    },
+    {
+      "nome": "CONSTRUTORA BENETTI LTDA",
+      "doc": "41523983000128",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CONSTRUTORA BENETTI LTDA",
+      "categoria_id": "acd354ea-c7b8-4a6b-b0da-aa78bbcc7345",
+      "http": 200
+    },
+    {
+      "nome": "FELTRIN SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "29933644000114",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FELTRIN SOCIEDADE INDIVIDUAL DE ADVOC",
+      "categoria_id": "0d4324aa-4b48-4812-a9e3-2adf0dd38033",
+      "http": 200
+    },
+    {
+      "nome": "JULIANA DALMOLIN SPANEVELLO",
+      "doc": "80214177068",
+      "classe": "agro",
+      "regime": "Produtor Rural",
+      "origem": "cruzado",
+      "categoria": "Cliente agro - JULIANA DALMOLIN SPANEVELLO",
+      "categoria_id": "523ad7e0-f34c-4d47-b664-aa7562bfd21b",
+      "http": 200
+    },
+    {
+      "nome": "MERCADO DALLA NORA LTDA",
+      "doc": "20490943000157",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MERCADO DALLA NORA LTDA",
+      "categoria_id": "f6a00553-38ab-4d58-a885-94041a4834ed",
+      "http": 200
+    },
+    {
+      "nome": "PRIME AGENCY LTDA.",
+      "doc": "54321182000121",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PRIME AGENCY LTDA.",
+      "categoria_id": "3365d3ec-3d38-4d04-ac28-4bf98e6e98ae",
+      "http": 200
+    },
+    {
+      "nome": "A BENETTI & J A SOARES LTDA - ME",
+      "doc": "13036095000145",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - A BENETTI & J A SOARES LTDA - ME",
+      "categoria_id": "3a89026a-c9fe-4e71-a368-d52c0acf3379",
+      "http": 200
+    },
+    {
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000400",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLAUDIO BORTOLUZZI BIANCHI EM (0400)",
+      "categoria_id": "a67d9ebd-99a7-46ea-bf83-f751d56e7131",
+      "http": 200
+    },
+    {
+      "nome": "JOSE FRANCISCO TRONCO & CIA LTDA. - ME",
+      "doc": "26743076000109",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JOSE FRANCISCO TRONCO & CIA LTDA. - M",
+      "categoria_id": "a22be349-db76-4eb3-ac68-3a386a56a4f0",
+      "http": 200
+    },
+    {
+      "nome": "AUTOMATIC TREINAMENTO, IMPORTAÇÃO E COMÉRCIO DE PEÇAS EIRELI",
+      "doc": "31799086000198",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AUTOMATIC TREINAMENTO, IMPORTAÇÃO E C",
+      "categoria_id": "6cdada2d-9824-4d1b-9b00-8983aceb9e2c",
+      "http": 200
+    },
+    {
+      "nome": "ALMEIDA COMERCIO E REPRESENTACOES LTDA.",
+      "doc": "60217787000170",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ALMEIDA COMERCIO E REPRESENTACOES LTD",
+      "categoria_id": "cb34338f-de80-4cae-b385-d962e74c14a7",
+      "http": 200
+    },
+    {
+      "nome": "JUCAR TRANSPORTES E COMERCIO LTDA - MATRIZ",
+      "doc": "01405443000397",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JUCAR TRANSPORTES E COMERCIO LTDA - M",
+      "categoria_id": "fb20d763-198d-4d33-834b-d785f7bb578b",
+      "http": 200
+    },
+    {
+      "nome": "ASSOCIACAO SAO PIO DE PIETRELCINA",
+      "doc": "07831131000160",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ASSOCIACAO SAO PIO DE PIETRELCINA",
+      "categoria_id": "b21c2345-c186-4a2d-840e-c8723d62a2a7",
+      "http": 200
+    },
+    {
+      "nome": "DJOVANI POZZOBON SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "54746109000100",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DJOVANI POZZOBON SOCIEDADE INDIVIDUAL",
+      "categoria_id": "3eac5a6a-7c1c-4922-afa1-80b72586ead5",
+      "http": 200
+    },
+    {
+      "nome": "ERNO PIOVESAN SCAPIN & CIA. LTDA.",
+      "doc": "12810286000150",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ERNO PIOVESAN SCAPIN & CIA. LTDA.",
+      "categoria_id": "237738ab-5c14-4cb2-aaf5-e7e370d93969",
+      "http": 200
+    },
+    {
+      "nome": "CERVO RECHIA - MEDICOS ASSOCIADOS S/S LTDA",
+      "doc": "08000012000128",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CERVO RECHIA - MEDICOS ASSOCIADOS S/S",
+      "categoria_id": "90f41977-1b8d-46ad-8a2a-7011ccd7bb55",
+      "http": 200
+    },
+    {
+      "nome": "CLINICA DE OLHOS FERNANDEZ LTDA.",
+      "doc": "05774877000153",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLINICA DE OLHOS FERNANDEZ LTDA.",
+      "categoria_id": "5f3a8fce-b867-499b-a608-4d7e3bee121e",
+      "http": 200
+    },
+    {
+      "nome": "PILECCO REPRESENTACOES COMERCIAIS LTDA.",
+      "doc": "57837019000104",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PILECCO REPRESENTACOES COMERCIAIS LTD",
+      "categoria_id": "5a2c9b32-a808-451c-b8a2-6f088400e327",
+      "http": 200
+    },
+    {
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000230",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLAUDIO BORTOLUZZI BIANCHI EM (0230)",
+      "categoria_id": "f7e250ad-d7ca-4965-8106-ab7783007492",
+      "http": 200
+    },
+    {
+      "nome": "GIOVANI COLETTO",
+      "doc": "91398776000167",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - GIOVANI COLETTO",
+      "categoria_id": "bdcf6902-a31a-42de-947f-322b4ede51d5",
+      "http": 200
+    },
+    {
+      "nome": "BIANCHI TRANSPORTES LTDA. EM RECUPERACAO JUDICIAL",
+      "doc": "21315117000215",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BIANCHI TRANSPORTES LTDA. EM RECUPERA",
+      "categoria_id": "3f90642a-8770-4f38-b7fd-24b41e3660c1",
+      "http": 200
+    },
+    {
+      "nome": "BRISA PORTAS E JANELAS EM PVC E ALUMINIO LTDA.",
+      "doc": "52662842000102",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BRISA PORTAS E JANELAS EM PVC E ALUMI",
+      "categoria_id": "1b8d9f9f-cd21-43fc-9345-e6beaf249e4d",
+      "http": 200
+    },
+    {
+      "nome": "INCORPORADORA BENETTI LTDA.",
+      "doc": "46146086000166",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - INCORPORADORA BENETTI LTDA.",
+      "categoria_id": "9c52cf86-d143-4268-848f-09d5990d93e1",
+      "http": 200
+    },
+    {
+      "nome": "CASA GILIOTTO ALIMENTOS LTDA.",
+      "doc": "48352948000132",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CASA GILIOTTO ALIMENTOS LTDA.",
+      "categoria_id": "624c0763-627b-4c41-a8b2-3897b6368290",
+      "http": 200
+    },
+    {
+      "nome": "MECANICA RAGAGNIN LTDA",
+      "doc": "12663622000189",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MECANICA RAGAGNIN LTDA",
+      "categoria_id": "fa349d8d-6cd7-497b-b412-f394ec2d3eed",
+      "http": 200
+    },
+    {
+      "nome": "FERPECAS, FERRAMENTAS E PECAS LTDA.",
+      "doc": "03853796000113",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FERPECAS, FERRAMENTAS E PECAS LTDA.",
+      "categoria_id": "e0938bc1-e086-4ce4-ae02-4f81565cc875",
+      "http": 200
+    },
+    {
+      "nome": "TRANSPORTES MARCHESAN LTDA.",
+      "doc": "27113270000165",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - TRANSPORTES MARCHESAN LTDA.",
+      "categoria_id": "ab627f85-251a-490f-9f87-9da049b7fb47",
+      "http": 200
+    },
+    {
+      "nome": "JAIME J. BINOTTO & CIA. LTDA.",
+      "doc": "95070777000139",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JAIME J. BINOTTO & CIA. LTDA.",
+      "categoria_id": "c6fa7bda-5eb4-4596-8956-1099e4ab9883",
+      "http": 200
+    },
+    {
+      "nome": "CERAMICA VEBER LTDA",
+      "doc": "04542811000175",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CERAMICA VEBER LTDA",
+      "categoria_id": "90930136-a4b5-4ed9-b4c3-b83300dd9ae6",
+      "http": 200
+    },
+    {
+      "nome": "ITACIR PICCININ EIRELI",
+      "doc": "26683871000140",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ITACIR PICCININ EIRELI",
+      "categoria_id": "914863fc-c9c2-4ada-9d2a-d96f0d2d2551",
+      "http": 200
+    },
+    {
+      "nome": "OGILNEI STIELER - ME",
+      "doc": "97312615000195",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - OGILNEI STIELER - ME",
+      "categoria_id": "215b5a6d-a810-46e1-8297-3dadf07a2715",
+      "http": 200
+    },
+    {
+      "nome": "ICDS INFOPRODUTOS E TREINAMENTOS LTDA.",
+      "doc": "53615354000107",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ICDS INFOPRODUTOS E TREINAMENTOS LTDA",
+      "categoria_id": "333e9564-31f2-479d-ad10-6fb04d4f1676",
+      "http": 200
+    },
+    {
+      "nome": "ROBERTO BISOGNIN REPRESENTACOES LTDA.",
+      "doc": "48910198000177",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ROBERTO BISOGNIN REPRESENTACOES LTDA.",
+      "categoria_id": "220d525b-667d-43e3-b0e5-83d1175796d1",
+      "http": 200
+    },
+    {
+      "nome": "VALET AUTOMOVEIS LTDA",
+      "doc": "66477874000142",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - VALET AUTOMOVEIS LTDA",
+      "categoria_id": "9734c5d6-cdce-4d25-a312-550f416edc9c",
+      "http": 200
+    },
+    {
+      "nome": "TESSELE ZOOTECNIA LTDA.",
+      "doc": "54220956000128",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - TESSELE ZOOTECNIA LTDA.",
+      "categoria_id": "5c1dbf32-152e-4c98-92f4-88ab2f5aba64",
+      "http": 200
+    },
+    {
+      "nome": "EDUARDO ANTONELLO CADORE - ME",
+      "doc": "26598249000134",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - EDUARDO ANTONELLO CADORE - ME",
+      "categoria_id": "e07eda77-c151-4951-aaba-538ec14f549e",
+      "http": 200
+    },
+    {
+      "nome": "CLAUDIA DALCIN SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "67729824000178",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLAUDIA DALCIN SOCIEDADE INDIVIDUAL D",
+      "categoria_id": "c5a9e562-ca6f-48b7-9827-a724794a10fe",
+      "http": 200
+    },
+    {
+      "nome": "OSMARI EMPREENDIMETOS LTDA.",
+      "doc": "56197950000102",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - OSMARI EMPREENDIMETOS LTDA.",
+      "categoria_id": "71c19c70-ccc8-48f4-9909-94c0bde824a8",
+      "http": 200
+    },
+    {
+      "nome": "POSTO PILECCO LTDA",
+      "doc": "89890073000290",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - POSTO PILECCO LTDA (0290)",
+      "categoria_id": "e6d33ec1-d1bf-489d-af70-f91ba43ae8d5",
+      "http": 200
+    },
+    {
+      "nome": "VANUSA CHIODI CORRETORA DE SEGUROS LTDA",
+      "doc": "20515514000197",
+      "classe": "pj",
+      "regime": "",
+      "origem": "so_nibo",
+      "categoria": "Cliente PJ - VANUSA CHIODI CORRETORA DE SEGUROS LT",
+      "categoria_id": "8648ea95-3600-404a-a14b-f22a8c83903f",
+      "http": 200
+    },
+    {
+      "nome": "ELCINDO CHEROBINI",
+      "doc": "00383611000166",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ELCINDO CHEROBINI",
+      "categoria_id": "3b88c548-270b-421c-85aa-83d5e77038ab",
+      "http": 200
+    },
+    {
+      "nome": "JOSE FRANCISCO ORLANDI & CIA. LTDA.",
+      "doc": "89891485000164",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JOSE FRANCISCO ORLANDI & CIA. LTDA.",
+      "categoria_id": "b461e286-9505-436e-9f10-f0d0aa7e9a29",
+      "http": 200
+    },
+    {
+      "nome": "LOTERICA FAXINALENSE LTDA.",
+      "doc": "04884517000141",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - LOTERICA FAXINALENSE LTDA.",
+      "categoria_id": "0275a573-3f6b-4ca8-a3aa-2a3e0f8add32",
+      "http": 200
+    },
+    {
+      "nome": "2S CONSULTORIA E SERVICOS AGRICOLAS LTDA",
+      "doc": "69011431000150",
+      "classe": "pj",
+      "regime": "",
+      "origem": "so_nibo",
+      "categoria": "Cliente PJ - 2S CONSULTORIA E SERVICOS AGRICOLAS L",
+      "categoria_id": "ba6584bc-c221-4ad6-80a7-a0deecc01562",
+      "http": 200
+    },
+    {
+      "nome": "VIELMO & FALCAO ADMINISTRADORA DE BENS LTDA",
+      "doc": "65533190000158",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - VIELMO & FALCAO ADMINISTRADORA DE BEN",
+      "categoria_id": "9b516ea5-892d-4099-8024-4cba7de94bc3",
+      "http": 200
+    },
+    {
+      "nome": "AUTOMATIC SOLUTION LTDA",
+      "doc": "63730314000160",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - AUTOMATIC SOLUTION LTDA",
+      "categoria_id": "007639eb-4246-4514-adb1-3b9b5f4a67c6",
+      "http": 200
+    },
+    {
+      "nome": "DIMARE TECH & SERVICOS LTDA",
+      "doc": "60169865000108",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - DIMARE TECH & SERVICOS LTDA",
+      "categoria_id": "504c767b-e280-4712-8a56-7e51558a5290",
+      "http": 200
+    },
+    {
+      "nome": "QUARTA COLONIA SOLUCOES DIGITAIS LTDA.",
+      "doc": "29803902000148",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - QUARTA COLONIA SOLUCOES DIGITAIS LTDA",
+      "categoria_id": "d4cfa0a6-277a-4b6d-8361-84fad091bb10",
+      "http": 200
+    },
+    {
+      "nome": "RO MARMITARIA E RESTAURANTE LTDA",
+      "doc": "55698464000105",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - RO MARMITARIA E RESTAURANTE LTDA",
+      "categoria_id": "232b7fbb-03b5-4f46-b42b-b9b7d3f89696",
+      "http": 200
+    },
+    {
+      "nome": "SOLDERA CONSTRUÇÕES E OBRAS DE URBANIZAÇÃO LTDA",
+      "doc": "11075156000158",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - SOLDERA CONSTRUÇÕES E OBRAS DE URBANI",
+      "categoria_id": "5860b995-5274-49d4-9fe0-850ec164adf0",
+      "http": 200
+    },
+    {
+      "nome": "CERONI SERVICOS ESPECIALIZADOS LTDA",
+      "doc": "62082753000140",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CERONI SERVICOS ESPECIALIZADOS LTDA",
+      "categoria_id": "0bd39380-3315-4e45-a516-2a434d5dd8ad",
+      "http": 200
+    },
+    {
+      "nome": "CREDIT SAINT GERMAIN PARTICIPACOES SOCIETARIAS LTDA.",
+      "doc": "46350136000122",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CREDIT SAINT GERMAIN PARTICIPACOES SO",
+      "categoria_id": "5569ad40-9d6d-4bc9-b88c-1f72d3f3bed7",
+      "http": 200
+    },
+    {
+      "nome": "RDC PROJETOS DE ENGENHARIA LTDA",
+      "doc": "46875848000165",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - RDC PROJETOS DE ENGENHARIA LTDA",
+      "categoria_id": "b4a72c3a-e2b0-4af9-8217-d8c8f68cdc2c",
+      "http": 200
+    },
+    {
+      "nome": "JUCAR CAFÉ E CONVENIENCIA LTDA.",
+      "doc": "39706780000125",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - JUCAR CAFÉ E CONVENIENCIA LTDA.",
+      "categoria_id": "ed8be7e8-36ca-4e76-89cc-2602707806e3",
+      "http": 200
+    },
+    {
+      "nome": "R MENEGHETTI - ME",
+      "doc": "18409202000157",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - R MENEGHETTI - ME",
+      "categoria_id": "759ea559-0eff-497f-9da1-2ea67398ba2c",
+      "http": 200
+    },
+    {
+      "nome": "VETRION ESQUADRIAS LTDA",
+      "doc": "43207110000131",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - VETRION ESQUADRIAS LTDA",
+      "categoria_id": "b80495af-d68e-4eb0-928b-26b8c4662c5f",
+      "http": 200
+    },
+    {
+      "nome": "BELA UNIAO LOCACOES E TRANSPORTES LTDA",
+      "doc": "21145830000187",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - BELA UNIAO LOCACOES E TRANSPORTES LTD",
+      "categoria_id": "b66f220b-d2c0-4f0c-b011-51fe6f7e780a",
+      "http": 200
+    },
+    {
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000582",
+      "classe": "pj",
+      "regime": "Lucro Real",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - CLAUDIO BORTOLUZZI BIANCHI EM (0582)",
+      "categoria_id": "3c528c9f-a0f4-4560-ad53-06e89f8dfce9",
+      "http": 200
+    },
+    {
+      "nome": "COLETTO AUTO CENTER SERVICOS AUTOMOTIVOS LTDA.",
+      "doc": "59509922000171",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - COLETTO AUTO CENTER SERVICOS AUTOMOTI",
+      "categoria_id": "945105d3-5639-4066-8175-d9225f9ad0f1",
+      "http": 200
+    },
+    {
+      "nome": "FABRICIO DO COUTO RAMPELOTTO LTDA",
+      "doc": "00779358000164",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FABRICIO DO COUTO RAMPELOTTO LTDA",
+      "categoria_id": "700d78e1-500e-4026-bbca-2eb1dc0fa2bb",
+      "http": 200
+    },
+    {
+      "nome": "MILANESI & CIA LTDA",
+      "doc": "09190111000182",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - MILANESI & CIA LTDA",
+      "categoria_id": "defc3c13-e5f2-475e-92b4-8128ff95727c",
+      "http": 200
+    },
+    {
+      "nome": "ASEFF & FARIAS ADVOCACIA",
+      "doc": "60973346000106",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ASEFF & FARIAS ADVOCACIA",
+      "categoria_id": "3bab1a57-1079-491e-b736-f80b1978e9ec",
+      "http": 200
+    },
+    {
+      "nome": "PLANO A SOLUCOES AGRONOMICAS LTDA.",
+      "doc": "52141604000151",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - PLANO A SOLUCOES AGRONOMICAS LTDA.",
+      "categoria_id": "2e552f01-29ee-4506-b972-c3beb2b3ecb4",
+      "http": 200
+    },
+    {
+      "nome": "ECOTEC CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA",
+      "doc": "32548626000123",
+      "classe": "pj",
+      "regime": "—",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - ECOTEC CONSULTORIA EM TECNOLOGIA DA I",
+      "categoria_id": "41dcb31a-5e8a-4a90-8914-240910b1e81c",
+      "http": 200
+    },
+    {
+      "nome": "INCORPORADORA TONIASSO LTDA.",
+      "doc": "49322237000188",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - INCORPORADORA TONIASSO LTDA.",
+      "categoria_id": "3fe7192c-4037-46f6-a1b9-1f4a5b1164d1",
+      "http": 200
+    },
+    {
+      "nome": "GLASENAPP CENTRO MEDICO LTDA",
+      "doc": "68052353000179",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - GLASENAPP CENTRO MEDICO LTDA",
+      "categoria_id": "47057f64-7854-49c9-8bcb-7b9dacd7dfb8",
+      "http": 200
+    },
+    {
+      "nome": "VESTENA COMERCIO E SERVICOS LTDA.",
+      "doc": "44030288000112",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - VESTENA COMERCIO E SERVICOS LTDA.",
+      "categoria_id": "4ba506c6-42c8-4ee0-a935-a40b3c738963",
+      "http": 200
+    },
+    {
+      "nome": "INCORPORADORA BARATTO LTDA.",
+      "doc": "50344089000181",
+      "classe": "pj",
+      "regime": "Lucro Presumido",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - INCORPORADORA BARATTO LTDA.",
+      "categoria_id": "bbee86a5-3254-45ca-98dd-ec439e3f1065",
+      "http": 200
+    },
+    {
+      "nome": "FZ SERVICOS ADMINISTRATIVOS LTDA",
+      "doc": "65654065000104",
+      "classe": "pj",
+      "regime": "Simples Nacional",
+      "origem": "cruzado",
+      "categoria": "Cliente PJ - FZ SERVICOS ADMINISTRATIVOS LTDA",
+      "categoria_id": "0dbd0de9-8083-43b8-a5df-4e4218644e10",
+      "http": 200
+    }
+  ],
+  "contas": [
+    {
+      "nome": "4.01.01.01.01 Honorários Contábeis PJ",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.01",
+      "categoria_id": "cb29f582-1aee-4cb0-b853-92ef35bf1d00",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.02 Honorários Contábeis Rural",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.02",
+      "categoria_id": "688e917a-8116-4c55-bc8d-06341caabcc1",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.03 Honorários Contábeis Doméstica",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.03",
+      "categoria_id": "9cc905a2-ddc7-41db-8ce6-282b9ebe65bf",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.04 Honorários Eventuais",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.04",
+      "categoria_id": "c92527aa-0f70-4f84-9770-64065d40bba8",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.05 Honorários MEI",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.05",
+      "categoria_id": "c58573c7-714b-4a6c-8d97-3254173ec127",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.06 Honorários IRPF",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.06",
+      "categoria_id": "3155594b-a3a0-4026-b9de-6054a69a8887",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.07 Honorários ITR/INCRA",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.07",
+      "categoria_id": "0c2236f4-4335-44d3-a567-f66ed86ada26",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.08 Honorários DISO",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.08",
+      "categoria_id": "8a5d5092-a5d0-46c9-bd50-ed8297214749",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.09 Honorários de Contratos",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.09",
+      "categoria_id": "2a972c90-02f6-451e-a2de-4bb4717ee33b",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.10 Prestação de Contas Partidos Polític",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.10",
+      "categoria_id": "899dfbdf-bfbd-4366-98f5-ff48fa4ac3b8",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.11 Prestação de Contas Entidades",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.11",
+      "categoria_id": "4461ae04-e7b9-4f1f-b9ed-a06a42d7c0cf",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.12 Outras Receitas de Serviços",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.01.01.12",
+      "categoria_id": "a62fff31-4093-43a4-bd2c-c6c387603c95",
+      "http": 200
+    },
+    {
+      "nome": "4.01.02.01.01 (-) Tributos Incidentes sobre Serviç",
+      "grupo": "custos",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "4.01.02.01.01",
+      "categoria_id": "1d8960be-9e09-48dc-96dd-c07ab5f9ca5a",
+      "http": 200
+    },
+    {
+      "nome": "4.01.02.01.02 (-) Cancelamentos e Abatimentos",
+      "grupo": "custos",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "4.01.02.01.02",
+      "categoria_id": "1951d699-6bf3-4177-acda-eb43183f9047",
+      "http": 200
+    },
+    {
+      "nome": "4.01.02.02.01 (-) Honorários Incobráveis",
+      "grupo": "custos",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "4.01.02.02.01",
+      "categoria_id": "04eeb9f0-4735-4f8c-a306-7d3e16f66afa",
+      "http": 200
+    },
+    {
+      "nome": "4.01.03.01.01 Parceria Zampieri",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.03.01.01",
+      "categoria_id": "e7993b0d-056c-493d-a1a5-a71ff0b86490",
+      "http": 200
+    },
+    {
+      "nome": "4.01.03.01.02 Parceria Willian",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.03.01.02",
+      "categoria_id": "fbc8e6ae-6088-473b-8542-de9087a770fe",
+      "http": 200
+    },
+    {
+      "nome": "4.01.03.01.03 Outras Parcerias",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.01.03.01.03",
+      "categoria_id": "2d286136-30d0-459c-82f8-6ff128440330",
+      "http": 200
+    },
+    {
+      "nome": "4.02.01.01.01 Rendimentos de Aplicações Financeira",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.02.01.01.01",
+      "categoria_id": "e21e4aa7-7edd-4464-9c9c-e34f45e3c9f8",
+      "http": 200
+    },
+    {
+      "nome": "4.02.01.01.02 Juros Recebidos",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.02.01.01.02",
+      "categoria_id": "8e3c5184-f898-495e-918f-61b60fd4aab0",
+      "http": 200
+    },
+    {
+      "nome": "4.02.01.01.03 Descontos Obtidos",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "completo",
+      "codigo": "4.02.01.01.03",
+      "categoria_id": "239bf2bf-2fc5-45d4-884f-8b5300633b1d",
+      "http": 200
+    },
+    {
+      "nome": "5.01.01.01.02 Terceirizados",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.01.01.01.02",
+      "categoria_id": "3dfc4783-9e86-4ad9-ae1b-91d5c161a93b",
+      "http": 200
+    },
+    {
+      "nome": "5.01.01.01.03 Vale Alimentação",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.01.01.01.03",
+      "categoria_id": "c7c4545a-3b8e-487f-ba05-0d125b837031",
+      "http": 200
+    },
+    {
+      "nome": "5.01.01.01.04 Plano de Saúde",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.01.01.01.04",
+      "categoria_id": "d9d4ff1d-c4e9-479c-88b5-b3b772d69fd5",
+      "http": 200
+    },
+    {
+      "nome": "5.01.01.01.05 INSS Patronal",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.01.01.01.05",
+      "categoria_id": "96d83482-ffd1-457a-88ff-c7b4c57f7b83",
+      "http": 200
+    },
+    {
+      "nome": "5.01.01.01.06 FGTS",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.01.01.01.06",
+      "categoria_id": "07ac6654-db58-4461-9346-f983854d991a",
+      "http": 200
+    },
+    {
+      "nome": "5.01.01.01.07 UNIMED",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.01.01.01.07",
+      "categoria_id": "9d456e57-ece7-4ca2-9d29-727913e7b240",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.01 Papelaria",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.01",
+      "categoria_id": "6b4a9090-59f4-40cb-b5d7-cdea619538a6",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.02 Material de Higiene",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.02",
+      "categoria_id": "b7c710c9-bd59-4f46-aa04-b1ffc800c81a",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.03 Despesas com Refeitório",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.03",
+      "categoria_id": "f69dbd0f-3ad7-4d34-a5f2-6823e0c01f9a",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.04 Despesas com Informática",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.04",
+      "categoria_id": "769f8803-35ac-4108-a55f-238d87434569",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.05 Despesas com Locações",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.05",
+      "categoria_id": "ee923011-1671-4aed-98a4-df4d2f64a626",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.06 Telefone",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.06",
+      "categoria_id": "0924b35c-2d63-4f13-8905-a96040831a26",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.07 Software",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.07",
+      "categoria_id": "8720db6d-eaf5-4805-9169-f38108046059",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.08 Internet",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.08",
+      "categoria_id": "0c3b71af-29a5-4c42-b239-e596bf62f7f9",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.09 Água",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.09",
+      "categoria_id": "f4e6e35d-41ad-4c51-8843-f4a377d945e2",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.10 Luz",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.10",
+      "categoria_id": "77915967-1202-47ef-9ad8-015ebee62401",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.11 Manutenção da Sede",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.11",
+      "categoria_id": "31a4f2c8-79ac-4ff9-9caf-db5ad069d8a0",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.12 Manutenção de Equipamentos",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.12",
+      "categoria_id": "fd92d9be-db2d-4bfc-aa15-77e088d09e75",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.13 Publicidade",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.13",
+      "categoria_id": "15c7e5ff-a9bd-4f53-ba74-854b95cfd621",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.14 Patrocínio",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.14",
+      "categoria_id": "6a5a44d0-ee4a-47d8-bcf8-7c17eed133c0",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.15 Segurança",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.15",
+      "categoria_id": "589f0a29-71e1-4fdf-91b2-308e362c869a",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.16 Combustíveis",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.16",
+      "categoria_id": "6cf013f0-f812-43df-8b48-0c87dcde60d9",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.17 Seguro",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.17",
+      "categoria_id": "a8ad8cde-e036-485f-8e87-97488c13cca3",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.18 ACI Faxinal",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.18",
+      "categoria_id": "d833d9b7-6ebb-48a9-b1cb-e117c95ccc56",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.19 ACISA Agudo",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.19",
+      "categoria_id": "1af7dc14-d33e-4f8a-8d63-26d3d40ebcbf",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.20 IPTU",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.20",
+      "categoria_id": "5a399283-739b-40e8-b3ed-4d51a6217029",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.21 Doações e Bonificações",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.21",
+      "categoria_id": "828fdda0-687b-45f9-b483-4019b8815532",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.22 Presentes",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.22",
+      "categoria_id": "d2b2aff1-0e02-4c0e-a177-6ecf4eed444c",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.23 Uniformes",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.23",
+      "categoria_id": "e1cf5ad0-0112-4f18-a0c8-78dcc56effe6",
+      "http": 200
+    },
+    {
+      "nome": "5.02.01.01.24 Multas de Clientes",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.02.01.01.24",
+      "categoria_id": "e21c524d-5d64-4231-9b5a-a19e5a68cde2",
+      "http": 200
+    },
+    {
+      "nome": "5.03.01.01.01 Despesas Bancárias",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.03.01.01.01",
+      "categoria_id": "83e14d77-f489-41ff-b8f2-49bf82065924",
+      "http": 200
+    },
+    {
+      "nome": "5.03.01.01.02 IOF",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.03.01.01.02",
+      "categoria_id": "766987e5-3e99-4856-821c-9e760a85cfd1",
+      "http": 200
+    },
+    {
+      "nome": "5.03.01.01.03 Juros Pagos",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.03.01.01.03",
+      "categoria_id": "98a798fd-baa6-4166-9a73-4cb5249f56c8",
+      "http": 200
+    },
+    {
+      "nome": "5.03.01.01.04 Multas Pagas",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.03.01.01.04",
+      "categoria_id": "2670e146-2775-45ad-9868-98ef27a8acec",
+      "http": 200
+    },
+    {
+      "nome": "5.03.01.01.05 Descontos Concedidos",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.03.01.01.05",
+      "categoria_id": "3201b62b-e678-4f07-a0ba-185ac7912378",
+      "http": 200
+    },
+    {
+      "nome": "5.04.01.01.01 Depreciação de Móveis e Utensílios",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.04.01.01.01",
+      "categoria_id": "411e36c6-1d5b-4af2-9950-5b93ed22e51f",
+      "http": 200
+    },
+    {
+      "nome": "5.04.01.01.02 Depreciação de Instalações",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.04.01.01.02",
+      "categoria_id": "04e45d18-8916-48e7-b56d-9fc27c907fe6",
+      "http": 200
+    },
+    {
+      "nome": "5.04.01.01.03 Depreciação de Máquinas e Equipament",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.04.01.01.03",
+      "categoria_id": "38146a6e-56bc-4f83-b027-2952ee3bfafc",
+      "http": 200
+    },
+    {
+      "nome": "5.04.01.01.04 Depreciação de Computadores",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.04.01.01.04",
+      "categoria_id": "fd972f22-9c72-40b6-a473-45d89ab560f2",
+      "http": 200
+    },
+    {
+      "nome": "5.04.01.01.05 Depreciação de Veículos",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.04.01.01.05",
+      "categoria_id": "1f82258c-a00b-4cea-a5d7-783bf8c835b9",
+      "http": 200
+    },
+    {
+      "nome": "5.04.01.01.06 Depreciação de Outros Bens",
+      "grupo": "despesas",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.04.01.01.06",
+      "categoria_id": "3358b5cb-0289-4bb7-9076-a8520e84c12f",
+      "http": 200
+    },
+    {
+      "nome": "5.05.01.01.01 IRPJ e CSLL sobre o Resultado",
+      "grupo": "custos",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.05.01.01.01",
+      "categoria_id": "54edba47-b8ce-4a56-8699-6ce15bd1d096",
+      "http": 200
+    },
+    {
+      "nome": "5.05.01.01.02 Taxas e Tributos Diversos",
+      "grupo": "custos",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "5.05.01.01.02",
+      "categoria_id": "d23b58fe-7d63-476b-9218-1a385365cef8",
+      "http": 200
+    },
+    {
+      "nome": "4.01.01.01.13 Honorários do societário",
+      "grupo": "receitas",
+      "tipo": "in",
+      "origem": "simplificado",
+      "codigo": "4.01.01.01.13",
+      "categoria_id": "3a0587cb-d839-40b9-bad3-9222b111486e",
+      "http": 200
+    },
+    {
+      "nome": "Distribuição de lucros - Valdecir Dal Ongaro",
+      "grupo": "financiamento",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "3.03.01.01.01",
+      "categoria_id": "ac692452-9cd3-4e3a-8d61-2ba500bf1ead",
+      "http": 200
+    },
+    {
+      "nome": "Distribuição de lucros - Cristina Quatrin",
+      "grupo": "financiamento",
+      "tipo": "out",
+      "origem": "completo",
+      "codigo": "3.03.01.01.02",
+      "categoria_id": "c8a0cf37-c649-4511-92cd-b8901ab927a9",
+      "http": 200
+    }
+  ],
+  "resumo": {
+    "clientes_ok": 267,
+    "clientes_total": 267,
+    "contas_ok": 67,
+    "contas_total": 67,
+    "funcionarios_ok": 16,
+    "reenvio_ok": 76,
+    "reenvio_falhas": 0
+  }
+}

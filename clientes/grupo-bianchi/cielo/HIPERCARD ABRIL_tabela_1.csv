@@ -1,0 +1,6 @@
+"Data de pagamento","Data do lançamento","Estabelecimento","Tipo de lançamento","Forma de pagamento","Bandeira","Valor bruto","Valor Taxa/Tarifa","Valor líquido","Status de pagamento"
+"02/04/2025","02/03/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 140,00","-R$ 3,21","R$ 136,79","Pago"
+"03/04/2025","03/03/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 59,00","-R$ 1,35","R$ 57,65","Pago"
+"07/04/2025","05/03/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 50,00","-R$ 1,15","R$ 48,85","Pago"
+"07/04/2025","03/04/2025","1017990619","Aluguel de máquina","Crédito à vista","Hipercard","-R$ 31,90","R$ 0,00","-R$ 31,90","Pago"
+"10/04/2025","10/03/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 250,00","-R$ 5,73","R$ 244,27","Pago"

@@ -1,0 +1,224 @@
+1;Base de Clculo do Imposto de Renda;0,00
+2;IMPOSTO DE RENDA APURADO;
+3;A Alquota de 15%;0,00
+4;Adicional;0,00
+5;Diferena de IR Devida pela Mudana de Coeficiente sobre a Receita Bruta;0,00
+6;DEDUES;
+7;(-)Operaes de Carter Cultural e Artstico;0,00
+9;(-)Programa de Alimentao do Trabalhador;0,00
+10;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+11;(-)Atividade Audiovisual;0,00
+12;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+13;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+14;(-)Atividades de Carter Desportivo;0,00
+15;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+16;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+17;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5)e;0,00
+17.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+17.05;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+17.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+18;(-)Iseno e Reduo do Imposto;0,00
+19;(-)Reduo por Reinvestimento;0,00
+20;(-)Imposto de Renda Devido em Meses Anteriores;0,00
+20.01;Imposto de Renda Devido no Ms Antes de Retenes e Pagamentos;0,00
+21;(-)Imposto de Renda Retido na Fonte;0,00
+22;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+23;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+24;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+25;(-)Imposto de Renda Pago sobre Ganhos no Mercado de Renda Varivel;0,00
+25.01;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+25.02;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+26;IMPOSTO DEVIDO NO MS;0,00
+27;Imposto Pago a Ttulo de Estimativa Mensal que Exceda ao Legalmente Determinado;0,00
+1;Base de Clculo do Imposto de Renda;-350,00
+2;IMPOSTO DE RENDA APURADO;
+3;A Alquota de 15%;0,00
+4;Adicional;0,00
+5;Diferena de IR Devida pela Mudana de Coeficiente sobre a Receita Bruta;0,00
+6;DEDUES;
+7;(-)Operaes de Carter Cultural e Artstico;0,00
+9;(-)Programa de Alimentao do Trabalhador;0,00
+10;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+11;(-)Atividade Audiovisual;0,00
+12;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+13;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+14;(-)Atividades de Carter Desportivo;0,00
+15;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+16;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+17;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5)e;0,00
+17.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+17.05;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+17.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+18;(-)Iseno e Reduo do Imposto;0,00
+19;(-)Reduo por Reinvestimento;0,00
+20;(-)Imposto de Renda Devido em Meses Anteriores;0,00
+20.01;Imposto de Renda Devido no Ms Antes de Retenes e Pagamentos;0,00
+21;(-)Imposto de Renda Retido na Fonte;0,00
+22;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+23;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+24;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+25;(-)Imposto de Renda Pago sobre Ganhos no Mercado de Renda Varivel;0,00
+25.01;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+25.02;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+26;IMPOSTO DEVIDO NO MS;0,00
+27;Imposto Pago a Ttulo de Estimativa Mensal que Exceda ao Legalmente Determinado;0,00
+1;Base de Clculo do Imposto de Renda;-700,00
+2;IMPOSTO DE RENDA APURADO;
+3;A Alquota de 15%;0,00
+4;Adicional;0,00
+5;Diferena de IR Devida pela Mudana de Coeficiente sobre a Receita Bruta;0,00
+6;DEDUES;
+7;(-)Operaes de Carter Cultural e Artstico;0,00
+9;(-)Programa de Alimentao do Trabalhador;0,00
+10;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+11;(-)Atividade Audiovisual;0,00
+12;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+13;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+14;(-)Atividades de Carter Desportivo;0,00
+15;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+16;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+17;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5)e;0,00
+17.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+17.05;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+17.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+18;(-)Iseno e Reduo do Imposto;0,00
+19;(-)Reduo por Reinvestimento;0,00
+20;(-)Imposto de Renda Devido em Meses Anteriores;0,00
+20.01;Imposto de Renda Devido no Ms Antes de Retenes e Pagamentos;0,00
+21;(-)Imposto de Renda Retido na Fonte;0,00
+22;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+23;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+24;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+25;(-)Imposto de Renda Pago sobre Ganhos no Mercado de Renda Varivel;0,00
+25.01;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+25.02;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+26;IMPOSTO DEVIDO NO MS;0,00
+27;Imposto Pago a Ttulo de Estimativa Mensal que Exceda ao Legalmente Determinado;0,00
+1;Base de Clculo do Imposto de Renda;-1254,84
+2;IMPOSTO DE RENDA APURADO;
+3;A Alquota de 15%;0,00
+4;Adicional;0,00
+5;Diferena de IR Devida pela Mudana de Coeficiente sobre a Receita Bruta;0,00
+6;DEDUES;
+7;(-)Operaes de Carter Cultural e Artstico;0,00
+9;(-)Programa de Alimentao do Trabalhador;0,00
+10;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+11;(-)Atividade Audiovisual;0,00
+12;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+13;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+14;(-)Atividades de Carter Desportivo;0,00
+15;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+16;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+17;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5)e;0,00
+17.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+17.05;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+17.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+18;(-)Iseno e Reduo do Imposto;0,00
+19;(-)Reduo por Reinvestimento;0,00
+20;(-)Imposto de Renda Devido em Meses Anteriores;0,00
+20.01;Imposto de Renda Devido no Ms Antes de Retenes e Pagamentos;0,00
+21;(-)Imposto de Renda Retido na Fonte;0,00
+22;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+23;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+24;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+25;(-)Imposto de Renda Pago sobre Ganhos no Mercado de Renda Varivel;0,00
+25.01;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+25.02;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+26;IMPOSTO DEVIDO NO MS;0,00
+27;Imposto Pago a Ttulo de Estimativa Mensal que Exceda ao Legalmente Determinado;0,00
+1;Base de Clculo do Imposto de Renda;-12543,99
+2;IMPOSTO DE RENDA APURADO;
+3;A Alquota de 15%;0,00
+4;Adicional;0,00
+5;Diferena de IR Devida pela Mudana de Coeficiente sobre a Receita Bruta;0,00
+6;DEDUES;
+7;(-)Operaes de Carter Cultural e Artstico;0,00
+9;(-)Programa de Alimentao do Trabalhador;0,00
+10;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+11;(-)Atividade Audiovisual;0,00
+12;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+13;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+14;(-)Atividades de Carter Desportivo;0,00
+15;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+16;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+17;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5)e;0,00
+17.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+17.05;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+17.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+18;(-)Iseno e Reduo do Imposto;0,00
+19;(-)Reduo por Reinvestimento;0,00
+20;(-)Imposto de Renda Devido em Meses Anteriores;0,00
+20.01;Imposto de Renda Devido no Ms Antes de Retenes e Pagamentos;0,00
+21;(-)Imposto de Renda Retido na Fonte;0,00
+22;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+23;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+24;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+25;(-)Imposto de Renda Pago sobre Ganhos no Mercado de Renda Varivel;0,00
+25.01;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+25.02;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+26;IMPOSTO DEVIDO NO MS;0,00
+27;Imposto Pago a Ttulo de Estimativa Mensal que Exceda ao Legalmente Determinado;0,00
+1;Base de Clculo do Imposto de Renda;-12964,39
+2;IMPOSTO DE RENDA APURADO;
+3;A Alquota de 15%;0,00
+4;Adicional;0,00
+5;Diferena de IR Devida pela Mudana de Coeficiente sobre a Receita Bruta;0,00
+6;DEDUES;
+7;(-)Operaes de Carter Cultural e Artstico;0,00
+9;(-)Programa de Alimentao do Trabalhador;0,00
+10;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+11;(-)Atividade Audiovisual;0,00
+12;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+13;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+14;(-)Atividades de Carter Desportivo;0,00
+15;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+16;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+17;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5)e;0,00
+17.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+17.05;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+17.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+18;(-)Iseno e Reduo do Imposto;0,00
+19;(-)Reduo por Reinvestimento;0,00
+20;(-)Imposto de Renda Devido em Meses Anteriores;0,00
+20.01;Imposto de Renda Devido no Ms Antes de Retenes e Pagamentos;0,00
+21;(-)Imposto de Renda Retido na Fonte;0,00
+22;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+23;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+24;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+25;(-)Imposto de Renda Pago sobre Ganhos no Mercado de Renda Varivel;0,00
+25.01;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+25.02;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+26;IMPOSTO DEVIDO NO MS;0,00
+27;Imposto Pago a Ttulo de Estimativa Mensal que Exceda ao Legalmente Determinado;0,00
+1;Base de Clculo do Imposto de Renda;0,00
+2;IMPOSTO DE RENDA APURADO;
+3;A Alquota de 15%;0,00
+4;Adicional;0,00
+5;Diferena de IR Devida pela Mudana de Coeficiente sobre a Receita Bruta;0,00
+6;DEDUES;
+7;(-)Operaes de Carter Cultural e Artstico;0,00
+9;(-)Programa de Alimentao do Trabalhador;0,00
+10;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+11;(-)Atividade Audiovisual;0,00
+12;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+13;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+14;(-)Atividades de Carter Desportivo;0,00
+15;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+16;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+17;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5)e;0,00
+17.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+17.05;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+17.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+18;(-)Iseno e Reduo do Imposto;0,00
+19;(-)Reduo por Reinvestimento;0,00
+20;(-)Imposto de Renda Devido em Meses Anteriores;0,00
+20.01;Imposto de Renda Devido no Ms Antes de Retenes e Pagamentos;0,00
+21;(-)Imposto de Renda Retido na Fonte;0,00
+22;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+23;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+24;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+25;(-)Imposto de Renda Pago sobre Ganhos no Mercado de Renda Varivel;0,00
+25.01;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+25.02;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+26;IMPOSTO DEVIDO NO MS;0,00
+27;Imposto Pago a Ttulo de Estimativa Mensal que Exceda ao Legalmente Determinado;0,00

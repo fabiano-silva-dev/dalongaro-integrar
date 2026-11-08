@@ -1,6 +1,6 @@
 CREDIT 578 — Debêntures — resumo mês a mês
 Pasta base: /ico/fabiano/ft/dalongaro-integrar/clientes/credit-578
-Arquivos CONTABIL_DOMINIO*: 17 | conteúdos únicos: 14
+Arquivos CONTABIL_DOMINIO*: 20 | conteúdos únicos: 17
 Critério rendimento líquido: D369 − C369 (estorno)
 ==========================================================================================
 
@@ -32,11 +32,20 @@ Mês          Rend.bruto    Estorno    Rend.líq.       IRRF    Integral.       
 04/2026    R$ 44.351,74    R$ 0,00 R$ 44.351,74   R$ 88,23      R$ 0,00 R$ 44.439,97  CONTABIL_DOMINIO_2_83_1_29052026_100655.TXT
 05/2026    R$ 44.246,44    R$ 0,00 R$ 44.246,44  R$ 170,58      R$ 0,00 R$ 44.417,02  CONTABIL_DOMINIO_2_83_1_05082026_090308.TXT
 06/2026    R$ 46.742,44    R$ 0,00 R$ 46.742,44    R$ 0,00      R$ 0,00 R$ 46.742,44  CONTABIL_DOMINIO_2_83_1_05082026_085822.TXT
+07/2026    R$ 51.426,19    R$ 0,00 R$ 51.426,19  R$ 103,88      R$ 0,00 R$ 51.530,07  CONTABIL_DOMINIO_2_83_1_02092026_160151.TXT
+08/2026    R$ 46.929,05    R$ 0,00 R$ 46.929,05    R$ 0,00      R$ 0,00 R$ 46.929,05  CONTABIL_DOMINIO_2_83_1_02102026_152111.TXT
+09/2026    R$ 46.339,67    R$ 0,00 R$ 46.339,67    R$ 0,00      R$ 0,00 R$ 46.339,67  CONTABIL_DOMINIO_2_83_1_20102026_143411.TXT
 ------------------------------------------------------------------------------------------
-TOTAL      R$ 633.037,90 R$ 17.708,45 R$ 615.329,45  R$ 890,54 R$ 50.000,00 R$ 666.219,99
+TOTAL      R$ 777.732,81 R$ 17.708,45 R$ 760.024,36  R$ 994,42 R$ 50.000,00 R$ 811.018,78
 
 DETALHE POR ARQUIVO
 ------------------------------------------------------------------------------------------
+
+CONTABIL_DOMINIO_2_83_1_02092026_160151.TXT *fonte*  sha1=1d6a4c60d968
+  07/2026: REND.bruto=R$ 51.426,19, REND.líq=R$ 51.426,19, IRRF=R$ 103,88
+
+CONTABIL_DOMINIO_2_83_1_02102026_152111.TXT *fonte*  sha1=4537548246a7
+  08/2026: REND.bruto=R$ 46.929,05, REND.líq=R$ 46.929,05
 
 CONTABIL_DOMINIO_2_83_1_05082026_085822.TXT *fonte*  sha1=5ad66dded723
   06/2026: REND.bruto=R$ 46.742,44, REND.líq=R$ 46.742,44
@@ -57,6 +66,9 @@ CONTABIL_DOMINIO_2_83_1_13102025_090803.TXT *fonte*  sha1=f536f23b77f0
 
 CONTABIL_DOMINIO_2_83_1_17072025_131325.TXT *fonte*  sha1=a6818889380f
   06/2025: REND.bruto=R$ 41.342,79, REND.líq=R$ 41.342,79
+
+CONTABIL_DOMINIO_2_83_1_20102026_143411.TXT *fonte*  sha1=041116bb4a55
+  09/2026: REND.bruto=R$ 46.339,67, REND.líq=R$ 46.339,67
 
 CONTABIL_DOMINIO_2_83_1_22122025_111034 (1).TXT *fonte*  sha1=be2f1e7a4ce3
   11/2025: REND.bruto=R$ 40.039,96, REND.líq=R$ 40.039,96, IRRF=R$ 189,23

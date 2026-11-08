@@ -1,0 +1,110 @@
+{
+  "schema_versao": 1,
+  "parser_versao": "1.0.0",
+  "fonte": {
+    "arquivo": "balancetes/Razão - geral.xls",
+    "arquivo_sha256": "c76d272091581967df7d8b3ff307bbf1378b61a48578f8bb81d04a226e21f7bc",
+    "arquivo_bytes": 13706920,
+    "convertido": "levantamento-financeiro/qa/razao_geral/Razão - geral.xlsx",
+    "convertido_sha256": "f7fa8f35a7d50e70c6d416d5f529bc42e28432716637ca450e0aa6db11d0ed0f",
+    "convertido_bytes": 3431508,
+    "parser_versao": "1.0.0",
+    "parser_sha256": "057596a9bea56d592a87776a5c197555132981ce83d8eec06361a9eee1992058",
+    "status_documental": "INCOMPLETO / CORTE NA EXPORTAÇÃO XLS"
+  },
+  "status_documental": "INCOMPLETO / CORTE NA EXPORTAÇÃO XLS",
+  "arquivos": [
+    {
+      "arquivo": "razao_geral.sqlite",
+      "sha256": "7921aa56c6bc2e7f64f5b60deeb1932d52f8724249ddcecae20733ae634ab172",
+      "bytes": 40914944
+    },
+    {
+      "arquivo": "catalogo.json",
+      "sha256": "4b3200fcbd3bf574791fc37468e65418a167c685a963056e242b244665e79669",
+      "bytes": 557066
+    },
+    {
+      "arquivo": "checagens_contas.json",
+      "sha256": "28d358145eab8b1e0847f364cb1cd94ab3b4b525e581b877583c06eaa39a75c9",
+      "bytes": 693366
+    },
+    {
+      "arquivo": "eventos-2022-parte-001.jsonl",
+      "ano": 2022,
+      "eventos": 235,
+      "sha256": "31c866a7cd550404f4119cae8e4a646c216577dedcac3a003c5065bfb21b736a",
+      "bytes": 280708
+    },
+    {
+      "arquivo": "eventos-2023-parte-001.jsonl",
+      "ano": 2023,
+      "eventos": 3143,
+      "sha256": "462790ace17c0dc224d8348e842597ef5a600d793feb4ae42a63f244d1c9b0e7",
+      "bytes": 3775103
+    },
+    {
+      "arquivo": "eventos-2024-parte-001.jsonl",
+      "ano": 2024,
+      "eventos": 5000,
+      "sha256": "7b47a9e4b2be27da5a614343a3fe8376c64e4429bb778d6cac2d49015fad5660",
+      "bytes": 6050125
+    },
+    {
+      "arquivo": "eventos-2024-parte-002.jsonl",
+      "ano": 2024,
+      "eventos": 796,
+      "sha256": "018fef5ceeef472420a0135d48f5a862209d64c718959e0cdad15e0fe39f4891",
+      "bytes": 973373
+    },
+    {
+      "arquivo": "eventos-2025-parte-001.jsonl",
+      "ano": 2025,
+      "eventos": 5000,
+      "sha256": "5a36f232346c069fcf0b1df52e45897f956141f2ccd42b71d1cee5adb25e4035",
+      "bytes": 5919040
+    },
+    {
+      "arquivo": "eventos-2025-parte-002.jsonl",
+      "ano": 2025,
+      "eventos": 5000,
+      "sha256": "a2006e079615a931f7b58c8d7050318430b3fabd12d6aecd588fd3fc6c51a875",
+      "bytes": 6047185
+    },
+    {
+      "arquivo": "eventos-2025-parte-003.jsonl",
+      "ano": 2025,
+      "eventos": 5000,
+      "sha256": "54ff52b82e72f4a362a580f98627f808d923702eccd423acd314ee842db56777",
+      "bytes": 5988046
+    },
+    {
+      "arquivo": "eventos-2025-parte-004.jsonl",
+      "ano": 2025,
+      "eventos": 3222,
+      "sha256": "e419861f6a9ea48423113d4f2d8f6ba0c2203be18ad230b67f964bbd71947977",
+      "bytes": 3941317
+    },
+    {
+      "arquivo": "eventos-2026-parte-001.jsonl",
+      "ano": 2026,
+      "eventos": 5000,
+      "sha256": "d3402ff0ea9dc322af7b3bd4f4eebe51d6a5d4153d8f016d6f1eb065a9b61608",
+      "bytes": 6052492
+    },
+    {
+      "arquivo": "eventos-2026-parte-002.jsonl",
+      "ano": 2026,
+      "eventos": 5000,
+      "sha256": "c1841f6923609e340c68db3ce981d3acf21aacf65077093f061318c777878a74",
+      "bytes": 6106549
+    },
+    {
+      "arquivo": "eventos-2026-parte-003.jsonl",
+      "ano": 2026,
+      "eventos": 3952,
+      "sha256": "95e8216db5ad51013ec773e5af09e5e0d8cc8bce0e432d652959ee453393436e",
+      "bytes": 4777595
+    }
+  ]
+}

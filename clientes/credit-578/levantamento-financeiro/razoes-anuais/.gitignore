@@ -1,0 +1,4 @@
+*.sqlite
+*.sqlite-*
+eventos-*.jsonl
+__pycache__/

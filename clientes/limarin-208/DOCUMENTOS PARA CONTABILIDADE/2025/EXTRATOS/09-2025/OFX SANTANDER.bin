@@ -1,0 +1,500 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20251007163820[-3:GMT]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>SANTANDER
+                <FID>SANTANDER
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>BRL
+                <BANKACCTFROM>
+                    <BANKID>033
+                    <ACCTID>0953130014703
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20251007163820[-3:GMT]
+                    <DTEND>20251007163820[-3:GMT]
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>-9,90
+                        <FITID>00020710
+                        <CHECKNUM>00020710
+                        <PAYEEID>0
+                        <MEMO>TARIFA AVULSA ENVIO PIX            29/08/2025
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>-3000,00
+                        <FITID>00030710
+                        <CHECKNUM>00030710
+                        <PAYEEID>0
+                        <MEMO>DEBITO AUTOM EMPRESAS CONVENIADAS  W MOTORS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>25900,00
+                        <FITID>00040710
+                        <CHECKNUM>00040710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       59285411000113
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>-25900,00
+                        <FITID>00050710
+                        <CHECKNUM>00050710
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        HENRIQUE FAVERZANI DRAGO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>-69,70
+                        <FITID>00001700
+                        <CHECKNUM>00001700
+                        <PAYEEID>0
+                        <MEMO>IOF IMPOSTO OPERACOES FINANCEIRAS  CONTRATO 290000001700
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>-1800,21
+                        <FITID>00001700
+                        <CHECKNUM>00001700
+                        <PAYEEID>0
+                        <MEMO>PREST. DE EMPREST. FINANCIAMENTO   CONTRATO 290000001700
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>-12,25
+                        <FITID>00080710
+                        <CHECKNUM>00080710
+                        <PAYEEID>0
+                        <MEMO>IOF IMPOSTO OPERACOES FINANCEIRAS  PERIODO: 01/08 A 31/08/25
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>-253,15
+                        <FITID>00090710
+                        <CHECKNUM>00090710
+                        <PAYEEID>0
+                        <MEMO>IOF ADICIONAL - AUTOMATICO         PERIODO: 01/08 A 31/08/25
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250901000000[-3:GMT]
+                        <TRNAMT>335,58
+                        <FITID>00100710
+                        <CHECKNUM>00100710
+                        <PAYEEID>0
+                        <MEMO>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250902000000[-3:GMT]
+                        <TRNAMT>-9,90
+                        <FITID>00110710
+                        <CHECKNUM>00110710
+                        <PAYEEID>0
+                        <MEMO>TARIFA AVULSA ENVIO PIX            01/09/2025
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250902000000[-3:GMT]
+                        <TRNAMT>2155,83
+                        <FITID>00461487
+                        <CHECKNUM>00461487
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA ENTRE CONTAS         DE: 0953.29.000177-9
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250902000000[-3:GMT]
+                        <TRNAMT>4500,00
+                        <FITID>00054777
+                        <CHECKNUM>00054777
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA ENTRE CONTAS         97656470000
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250902000000[-3:GMT]
+                        <TRNAMT>-6655,00
+                        <FITID>00131943
+                        <CHECKNUM>00131943
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        RAFAEL RUVIARO MARIN
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250902000000[-3:GMT]
+                        <TRNAMT>696,88
+                        <FITID>00150710
+                        <CHECKNUM>00150710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       59285411000113
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250905000000[-3:GMT]
+                        <TRNAMT>15900,00
+                        <FITID>00511135
+                        <CHECKNUM>00511135
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA ENTRE CONTAS         9BFZK53A3CB358128
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250905000000[-3:GMT]
+                        <TRNAMT>-15900,00
+                        <FITID>00321322
+                        <CHECKNUM>00321322
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        GIAN DO NASCIMENTO SILVA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250908000000[-3:GMT]
+                        <TRNAMT>21900,00
+                        <FITID>00071768
+                        <CHECKNUM>00071768
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA ENTRE CONTAS         95PJN81EPEB069864
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250908000000[-3:GMT]
+                        <TRNAMT>-17778,18
+                        <FITID>00190710
+                        <CHECKNUM>00190710
+                        <PAYEEID>0
+                        <MEMO>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250909000000[-3:GMT]
+                        <TRNAMT>-30000,00
+                        <FITID>00200710
+                        <CHECKNUM>00200710
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        LIMARIN VEICULOS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250909000000[-3:GMT]
+                        <TRNAMT>17778,19
+                        <FITID>00210710
+                        <CHECKNUM>00210710
+                        <PAYEEID>0
+                        <MEMO>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250910000000[-3:GMT]
+                        <TRNAMT>-9,90
+                        <FITID>00220710
+                        <CHECKNUM>00220710
+                        <PAYEEID>0
+                        <MEMO>TARIFA AVULSA ENVIO PIX            09/09/2025
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250910000000[-3:GMT]
+                        <TRNAMT>-1869,89
+                        <FITID>00230710
+                        <CHECKNUM>00230710
+                        <PAYEEID>0
+                        <MEMO>DEBITO AUT. FAT.CARTAO MASTER CARD FINAL 5426
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250910000000[-3:GMT]
+                        <TRNAMT>2454,87
+                        <FITID>00240710
+                        <CHECKNUM>00240710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       59285411000113
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250911000000[-3:GMT]
+                        <TRNAMT>843,69
+                        <FITID>00250710
+                        <CHECKNUM>00250710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       59285411000113
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250912000000[-3:GMT]
+                        <TRNAMT>17900,00
+                        <FITID>00260710
+                        <CHECKNUM>00260710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       59285411000113
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250912000000[-3:GMT]
+                        <TRNAMT>-17900,00
+                        <FITID>00465890
+                        <CHECKNUM>00465890
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        GIAN DO NASCIMENTO SILVA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250915000000[-3:GMT]
+                        <TRNAMT>321,08
+                        <FITID>00280710
+                        <CHECKNUM>00280710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       59285411000113
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250919000000[-3:GMT]
+                        <TRNAMT>79900,00
+                        <FITID>00555655
+                        <CHECKNUM>00555655
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA ENTRE CONTAS         8AP359ATFRU345838
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250919000000[-3:GMT]
+                        <TRNAMT>-185,00
+                        <FITID>00300710
+                        <CHECKNUM>00300710
+                        <PAYEEID>0
+                        <MEMO>TARIFA MENSALIDADE PACOTE SERVICOS  AGOSTO / 2025
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250919000000[-3:GMT]
+                        <TRNAMT>-68000,00
+                        <FITID>00310710
+                        <CHECKNUM>00310710
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        LIMARIN VEICULOS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250919000000[-3:GMT]
+                        <TRNAMT>-1233,04
+                        <FITID>00320710
+                        <CHECKNUM>00320710
+                        <PAYEEID>0
+                        <MEMO>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250922000000[-3:GMT]
+                        <TRNAMT>-9,90
+                        <FITID>00330710
+                        <CHECKNUM>00330710
+                        <PAYEEID>0
+                        <MEMO>TARIFA AVULSA ENVIO PIX            19/09/2025
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250922000000[-3:GMT]
+                        <TRNAMT>-1269,56
+                        <FITID>00340710
+                        <CHECKNUM>00340710
+                        <PAYEEID>0
+                        <MEMO>JUROS SALDO UTILIZ ATE LIMITE      PERIODO: 20/08 A 19/09/25
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250922000000[-3:GMT]
+                        <TRNAMT>1233,04
+                        <FITID>00350710
+                        <CHECKNUM>00350710
+                        <PAYEEID>0
+                        <MEMO>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250925000000[-3:GMT]
+                        <TRNAMT>22591,94
+                        <FITID>00360710
+                        <CHECKNUM>00360710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       92228410000102
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250925000000[-3:GMT]
+                        <TRNAMT>-22545,00
+                        <FITID>00370710
+                        <CHECKNUM>00370710
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        RAFAEL RUVIARO MARIN
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250925000000[-3:GMT]
+                        <TRNAMT>7350,00
+                        <FITID>00380710
+                        <CHECKNUM>00380710
+                        <PAYEEID>0
+                        <MEMO>PIX RECEBIDO                       92228410000102
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250925000000[-3:GMT]
+                        <TRNAMT>-7350,52
+                        <FITID>00390710
+                        <CHECKNUM>00390710
+                        <PAYEEID>0
+                        <MEMO>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250926000000[-3:GMT]
+                        <TRNAMT>-9,90
+                        <FITID>00400710
+                        <CHECKNUM>00400710
+                        <PAYEEID>0
+                        <MEMO>TARIFA AVULSA ENVIO PIX            25/09/2025
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250926000000[-3:GMT]
+                        <TRNAMT>9,90
+                        <FITID>00410710
+                        <CHECKNUM>00410710
+                        <PAYEEID>0
+                        <MEMO>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250929000000[-3:GMT]
+                        <TRNAMT>14500,00
+                        <FITID>00133048
+                        <CHECKNUM>00133048
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA ENTRE CONTAS         9C2KD0810HR407570
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250929000000[-3:GMT]
+                        <TRNAMT>12900,00
+                        <FITID>00430710
+                        <CHECKNUM>00430710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       92228410000102
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250929000000[-3:GMT]
+                        <TRNAMT>-47000,00
+                        <FITID>00440710
+                        <CHECKNUM>00440710
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        LIMARIN VEICULOS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250929000000[-3:GMT]
+                        <TRNAMT>7340,64
+                        <FITID>00450710
+                        <CHECKNUM>00450710
+                        <PAYEEID>0
+                        <MEMO>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250930000000[-3:GMT]
+                        <TRNAMT>-2573,16
+                        <FITID>00460710
+                        <CHECKNUM>00460710
+                        <PAYEEID>0
+                        <MEMO>DEB AUT. RECEITA FEDERAL DO BRASIL RFB- DARA PARC
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250930000000[-3:GMT]
+                        <TRNAMT>-1500,00
+                        <FITID>00470710
+                        <CHECKNUM>00470710
+                        <PAYEEID>0
+                        <MEMO>DEBITO AUTOM EMPRESAS CONVENIADAS  W MOTORS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250930000000[-3:GMT]
+                        <TRNAMT>23412,56
+                        <FITID>00480710
+                        <CHECKNUM>00480710
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA                       92228410000102
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250930000000[-3:GMT]
+                        <TRNAMT>-9,90
+                        <FITID>00490710
+                        <CHECKNUM>00490710
+                        <PAYEEID>0
+                        <MEMO>TARIFA AVULSA ENVIO PIX            29/09/2025
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250930000000[-3:GMT]
+                        <TRNAMT>-3912,00
+                        <FITID>00500710
+                        <CHECKNUM>00500710
+                        <PAYEEID>0
+                        <MEMO>PIX ENVIADO                        RAFAEL RUVIARO MARIN
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20250930000000[-3:GMT]
+                        <TRNAMT>-3158,14
+                        <FITID>00510710
+                        <CHECKNUM>00510710
+                        <PAYEEID>0
+                        <MEMO>APLICACAO CONTAMAX
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>0,00
+                    <DTASOF>20251007163820[-3:GMT]
+                </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>

@@ -1,0 +1,101 @@
+{
+  "total": 16,
+  "funcionarios": [
+    {
+      "id": "b864dd29-bea1-401d-bdd1-53ba34475b7d",
+      "name": "Ana Valentina Rossato",
+      "email": "contabilidade3@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "e82d25a8-a242-4348-b17b-4c1dace599a7",
+      "name": "Anderson Rambo",
+      "email": "fiscal5@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "11c2186b-56ea-4905-8723-07f5bcf71f6f",
+      "name": "Dauani Facco Turra",
+      "email": "fiscal2@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "131ef8d0-5c8f-4dff-a26a-f97f1619c840",
+      "name": "Diogo Lauter",
+      "email": "ti@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "260cd068-90e7-420c-bf1f-224f869cee5c",
+      "name": "Eduarda Segabinazzi",
+      "email": "fiscal4@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "72ac5031-a9cb-4c24-8675-dfb79fd9e742",
+      "name": "Gabriel Soares",
+      "email": "contabilidade5@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "780eaf4c-5a7c-4473-a3e5-3c118425785c",
+      "name": "Jeniffer Delavechia Comoretto",
+      "email": "fiscal6@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "12374f4e-8fb0-4c5b-a955-fd2e2c0203ba",
+      "name": "Laura Chelotti",
+      "email": "atendimento@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "612bb8f2-6dcb-4c60-bdf5-c6c05cf7330f",
+      "name": "Manuella Renner Bueno",
+      "email": "fiscal3@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "940941bf-8d17-4d6c-b5ee-ecc9ffc68a46",
+      "name": "Matias Pauletto",
+      "email": "contabilidade2@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "6a97b43c-0cc9-4f6f-a147-9a7583562340",
+      "name": "Pamela Simonetti",
+      "email": "dp@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "ad1bb30a-13d5-4b97-8703-64990f08505b",
+      "name": "Suelen Copetti",
+      "email": "contabilidade1@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "836794b6-0122-4d4b-8f79-2f534f72eac1",
+      "name": "Taina Zancan",
+      "email": "dp1@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "967f91cc-738e-4ae3-8ac3-a7838285117b",
+      "name": "VALDECIR DAL ONGARO",
+      "email": "recepcao@dalongarocontabilidade.com.br",
+      "cellPhone": "999685212"
+    },
+    {
+      "id": "c15190ce-9696-4346-b945-86d950467627",
+      "name": "Vaneza Dal Ongaro",
+      "email": "vaneza@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    },
+    {
+      "id": "3541b8fe-b7e2-487e-bb74-d76ffb0dbff5",
+      "name": "Viviane Dal Ongaro",
+      "email": "rh@dalongarocontabilidade.com.br",
+      "cellPhone": null
+    }
+  ]
+}

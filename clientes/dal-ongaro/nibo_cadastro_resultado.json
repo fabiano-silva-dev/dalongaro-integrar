@@ -1,0 +1,1619 @@
+{
+  "cadastrados": 266,
+  "falhas": 0,
+  "pulados": [
+    {
+      "linha": 6,
+      "codigo": "779",
+      "nome": "2S CONSULTORIA E SERVICOS AGRICOLAS LTDA",
+      "doc": "69011431000150",
+      "motivo": "ja cadastrado ou documento repetido na planilha"
+    },
+    {
+      "linha": 93,
+      "codigo": null,
+      "nome": "DAL ONGARO CONTABILIDADE LTDA.",
+      "doc": "14557191000100",
+      "motivo": "ja cadastrado ou documento repetido na planilha"
+    }
+  ],
+  "erros": [],
+  "ids": [
+    {
+      "codigo": "108",
+      "nome": "JAIME J. BINOTTO & CIA. LTDA.",
+      "doc": "95070777000139",
+      "id": "d506a09e-eba6-4e13-a0bd-d4a5f6209b18"
+    },
+    {
+      "codigo": "137",
+      "nome": "SOLDERA CONSTRUÇÕES E OBRAS DE URBANIZAÇÃO LTDA",
+      "doc": "11075156000158",
+      "id": "27371f1c-474c-4033-958d-eb7454b47405"
+    },
+    {
+      "codigo": "158",
+      "nome": "ERNO PIOVESAN SCAPIN & CIA. LTDA.",
+      "doc": "12810286000150",
+      "id": "3f0bda1c-9136-4ab7-978a-c98234565df4"
+    },
+    {
+      "codigo": "161",
+      "nome": "AGENCIA GZ SERVIÇOS DE INFORMAÇÃO NA INTERNET LTDA.",
+      "doc": "12228829000125",
+      "id": "5e5a055f-3732-469f-9064-824eabfcb8e6"
+    },
+    {
+      "codigo": "165",
+      "nome": "A. CHELOTTI & E. CHELOTTI LTDA",
+      "doc": "11419997000135",
+      "id": "83f67914-24c6-4566-b77c-50933455bfbf"
+    },
+    {
+      "codigo": "167",
+      "nome": "JOCELI LUIZ MENEGHETTI - ME",
+      "doc": "13640819000165",
+      "id": "17db628e-94dc-40f6-96c4-3e31ac2f59b9"
+    },
+    {
+      "codigo": "173",
+      "nome": "A. R. DAL AGNOL",
+      "doc": "10788841000169",
+      "id": "6c6286b8-dd8d-41eb-9894-5ce0315cf6fc"
+    },
+    {
+      "codigo": "177",
+      "nome": "A BENETTI & J A SOARES LTDA - ME",
+      "doc": "13036095000145",
+      "id": "e21dc466-3663-40a1-8ca6-c5137d965275"
+    },
+    {
+      "codigo": "18",
+      "nome": "LOTERICA FAXINALENSE LTDA.",
+      "doc": "04884517000141",
+      "id": "99908ccd-875b-416d-8595-e63f4f7b7420"
+    },
+    {
+      "codigo": "180",
+      "nome": "DAL ONGARO CONTABILIDADE LTDA.",
+      "doc": "14557191000100",
+      "id": "9953d7f3-b6c1-4044-b239-729c84d8b171"
+    },
+    {
+      "codigo": "181",
+      "nome": "COOPERATIVA FAXINALENSE DE TRANSPORTADORES AUTONOMOS DE CARGAS",
+      "doc": "14992439000152",
+      "id": "0cad7c4d-11e7-4ef6-b17b-a1f46e8ec7bc"
+    },
+    {
+      "codigo": "184",
+      "nome": "DIOGO DERLI WENDT & CIA. LTDA",
+      "doc": "14565578000108",
+      "id": "b060c6b6-d2f1-4b93-a4ee-4c57da023dd9"
+    },
+    {
+      "codigo": "187",
+      "nome": "G. MANFIO & CIA. LTDA.",
+      "doc": "12307596000156",
+      "id": "ff59933d-9621-45fb-b9b2-7340f78981ef"
+    },
+    {
+      "codigo": "19",
+      "nome": "AIRTON DALL ONGARO",
+      "doc": "03058282000176",
+      "id": "be57aeee-3e11-424a-a6ed-2b49e2cf5a56"
+    },
+    {
+      "codigo": "193",
+      "nome": "MECANICA RAGAGNIN LTDA",
+      "doc": "12663622000189",
+      "id": "4ac2606e-1a09-4c14-9065-d420f5370fe8"
+    },
+    {
+      "codigo": "194",
+      "nome": "ILDO JOSE SPANEVELLO",
+      "doc": "19680520030",
+      "id": "74c7ac1e-9f12-48ce-91e7-4c69ec1bee31"
+    },
+    {
+      "codigo": "196",
+      "nome": "JUCAR TRANSPORTES E COMERCIO LTDA - FILIAL",
+      "doc": "01405443000125",
+      "id": "a789dbca-5474-407b-afb3-b63a47ac08d9"
+    },
+    {
+      "codigo": "197",
+      "nome": "JUCAR COMBUSTIVEIS LTDA",
+      "doc": "92299833000113",
+      "id": "5207c982-1674-4e91-b731-747fbdfff0c6"
+    },
+    {
+      "codigo": "2",
+      "nome": "EZA ZANON TOLFO",
+      "doc": "89890222000130",
+      "id": "6194e71b-7dfb-4705-bf15-55455d375df3"
+    },
+    {
+      "codigo": "200",
+      "nome": "AGROPECUARIA SAO CARLOS LTDA.",
+      "doc": "08273577000189",
+      "id": "fc3a2859-fa4a-4fb8-a9fc-2a99b7201172"
+    },
+    {
+      "codigo": "208",
+      "nome": "LIMARIN VEICULOS LTDA",
+      "doc": "15193569000198",
+      "id": "3d1487ad-795c-497d-80bc-400608cc454a"
+    },
+    {
+      "codigo": "21",
+      "nome": "SORENSEN & CIA LTDA",
+      "doc": "04542960000134",
+      "id": "515a3d43-3cbf-4ab5-8ea4-2d81589127ab"
+    },
+    {
+      "codigo": "214",
+      "nome": "DIEGO DALMOLIN SPANEVELLO",
+      "doc": "00997539011",
+      "id": "7ca7e3c7-50c1-49b9-b5e5-6c2f690d14d7"
+    },
+    {
+      "codigo": "215",
+      "nome": "JULIANA DALMOLIN SPANEVELLO",
+      "doc": "80214177068",
+      "id": "a717a590-1c11-428c-8403-c3598450cc61"
+    },
+    {
+      "codigo": "216",
+      "nome": "ALCEU ANTONIO BARCHET & CIA. LTDA.",
+      "doc": "15475483000158",
+      "id": "5f34fefd-7a33-4ebf-ae55-81494eb9c6b3"
+    },
+    {
+      "codigo": "219",
+      "nome": "SANDRA QUATRIN - ME",
+      "doc": "16679526000180",
+      "id": "6976dd7a-0642-4261-9a54-b14c35e2cd77"
+    },
+    {
+      "codigo": "223",
+      "nome": "QUARTA COLONIA VIAGENS E TURISMO LTDA",
+      "doc": "04111462000137",
+      "id": "c4ea6544-c1e8-4f0c-9063-9cea4f2d8279"
+    },
+    {
+      "codigo": "232",
+      "nome": "R MENEGHETTI - ME",
+      "doc": "18409202000157",
+      "id": "8e05f9f6-725e-48d9-8994-eef8b8b1db15"
+    },
+    {
+      "codigo": "241",
+      "nome": "DIOGO DERLI WENDT LTDA.",
+      "doc": "18950131000103",
+      "id": "2f0d5f13-ab8f-4ad0-be1d-4196c6e95e52"
+    },
+    {
+      "codigo": "242",
+      "nome": "AUTO POSTO VALE DO SOTURNO LTDA",
+      "doc": "04756684000107",
+      "id": "00851a30-87e0-44b5-bfef-68d193d88c3b"
+    },
+    {
+      "codigo": "244",
+      "nome": "ANTONIO MOACIR MILANESI",
+      "doc": "32136820044",
+      "id": "927f8ddc-723a-46a1-9efc-7b9d83814d58"
+    },
+    {
+      "codigo": "245",
+      "nome": "RODRIGO MENEGHETTI ME",
+      "doc": "19529000000101",
+      "id": "9a05f3fa-6ab8-431c-b2f6-8657b7b46dcb"
+    },
+    {
+      "codigo": "246",
+      "nome": "ASSOCIACAO DE PAIS E AMIGOS DOS EXCEPCIONAIS DE FAXINAL DO SOTURNO",
+      "doc": "02072997000110",
+      "id": "44a1e3ab-488a-43d8-9153-85c54fc6df0a"
+    },
+    {
+      "codigo": "249",
+      "nome": "RUBIA T FOLIATTI - ME",
+      "doc": "17786598000199",
+      "id": "a1bbfc89-2371-4978-8d20-6a9657649ffb"
+    },
+    {
+      "codigo": "25",
+      "nome": "INDÚSTRIA DE ESQUADRIAS DE MADEIRA BARATTO LTDA. - ME",
+      "doc": "88796487000101",
+      "id": "bbb7041d-807a-480d-b112-5eb9f5d7c7c2"
+    },
+    {
+      "codigo": "253",
+      "nome": "MERCADO DALLA NORA LTDA",
+      "doc": "20490943000157",
+      "id": "67348f16-369a-4695-9326-c4c3fcbe3236"
+    },
+    {
+      "codigo": "256",
+      "nome": "EDENILSON MONTAGNER - ME",
+      "doc": "20552962000160",
+      "id": "b08a6bc8-a812-4e35-a687-2f710e9e3b73"
+    },
+    {
+      "codigo": "259",
+      "nome": "BELA UNIAO LOCACOES E TRANSPORTES LTDA",
+      "doc": "21145830000187",
+      "id": "ce398b1f-bec2-40a1-a8ff-f0507ba59a00"
+    },
+    {
+      "codigo": "262",
+      "nome": "REDIN GUINCHOS E LOGISTICA LTDA",
+      "doc": "21135354000113",
+      "id": "ab04e4cb-d41a-476d-b1bb-10322ff9a373"
+    },
+    {
+      "codigo": "265",
+      "nome": "JOSE FRANCISCO ORLANDI & CIA. LTDA.",
+      "doc": "89891485000164",
+      "id": "92cb3e40-c13e-423c-b790-e61c83e64dd8"
+    },
+    {
+      "codigo": "271",
+      "nome": "ELCINDO CHEROBINI",
+      "doc": "00383611000166",
+      "id": "43c0758f-3c38-45b4-8142-e1893ef3e3a7"
+    },
+    {
+      "codigo": "272",
+      "nome": "PIONEIRA COMÉRCIO DE MÓVEIS LTDA",
+      "doc": "89890370000155",
+      "id": "ecfa31c3-bf0a-4316-addf-14e6a52d4daa"
+    },
+    {
+      "codigo": "273",
+      "nome": "PIONEIRA COMÉRCIO DE MÓVEIS LTDA",
+      "doc": "89890370000317",
+      "id": "cf2b891e-0c41-42fc-9dcb-777570ddd3cc"
+    },
+    {
+      "codigo": "278",
+      "nome": "ADRIELE CHELOTTI ANDREOLA",
+      "doc": "21949688000120",
+      "id": "67c1e2a8-38c7-4759-9cb3-b14fa2fbc176"
+    },
+    {
+      "codigo": "281",
+      "nome": "ITEMAR JOSE MILANESI",
+      "doc": "40863999034",
+      "id": "431483c3-5f82-40b9-a19e-3f7a1bd9d420"
+    },
+    {
+      "codigo": "284",
+      "nome": "ASSOCIACAO SAO PIO DE PIETRELCINA",
+      "doc": "07831131000160",
+      "id": "63464d57-2925-47fa-8d1a-c8170670eeeb"
+    },
+    {
+      "codigo": "288",
+      "nome": "CLINICA DE OLHOS FERNANDEZ LTDA.",
+      "doc": "05774877000153",
+      "id": "3127c79c-f104-4485-a8fb-cb9d3643a5a1"
+    },
+    {
+      "codigo": "291",
+      "nome": "JBE EMPREENDIMENTOS LTDA. - EPP",
+      "doc": "22687828000100",
+      "id": "d113b4d2-b06c-4077-94f0-ba33a0df3153"
+    },
+    {
+      "codigo": "292",
+      "nome": "MILANESI INDUSTRIAL LTDA.",
+      "doc": "03781533000146",
+      "id": "17bce5f0-14fa-47f7-aa20-0c018c348a1f"
+    },
+    {
+      "codigo": "293",
+      "nome": "MILANESI & CIA LTDA",
+      "doc": "09190111000182",
+      "id": "3af30f68-9183-44d7-bb98-f6252b14aea6"
+    },
+    {
+      "codigo": "303",
+      "nome": "BARBIERI TRANSPORTES LTDA.",
+      "doc": "21008962000167",
+      "id": "df6fe57d-542b-4a74-8a3b-56a4dbccc10f"
+    },
+    {
+      "codigo": "312",
+      "nome": "YOURCODE TECNOLOGIA DA INFORMACAO LTDA",
+      "doc": "24445700000158",
+      "id": "0068b3b7-cc5e-4a4c-92b3-16610e37b84c"
+    },
+    {
+      "codigo": "320",
+      "nome": "GERMANO VALDEMAR BORTOLAS",
+      "doc": "00221885099",
+      "id": "f7ee6e98-0e0c-4806-80fd-9a4d10eaa531"
+    },
+    {
+      "codigo": "329",
+      "nome": "OGILNEI STIELER - ME",
+      "doc": "97312615000195",
+      "id": "e8c13408-ab24-47e9-81ba-d7bd1096e0cc"
+    },
+    {
+      "codigo": "332",
+      "nome": "EDUARDO ANTONELLO CADORE - ME",
+      "doc": "26598249000134",
+      "id": "b41ead19-1d2a-4e9b-b8d4-dd4dcc2191bc"
+    },
+    {
+      "codigo": "336",
+      "nome": "ANDREA CHAVES ROSSATO - ME",
+      "doc": "27048558000101",
+      "id": "432d4413-7669-41c8-81c0-76ea1645b455"
+    },
+    {
+      "codigo": "340",
+      "nome": "BUSANELLO PADARIA BOM SABOR LTDA.",
+      "doc": "17936706000162",
+      "id": "4029eb34-c074-4829-b87d-4c0ebf4d7b3a"
+    },
+    {
+      "codigo": "347",
+      "nome": "M SODRE PARTICIPACOES SOCIETARIAS LTDA",
+      "doc": "12187920000140",
+      "id": "81d56896-4b94-4c37-920d-572fa107718d"
+    },
+    {
+      "codigo": "348",
+      "nome": "ZACARIAS ENGENHARIA LTDA",
+      "doc": "28396175000189",
+      "id": "df7f6e07-92e9-4180-8d12-0bd26e7a35a0"
+    },
+    {
+      "codigo": "351",
+      "nome": "ZACARIAS & FAGAN LTDA. - ME",
+      "doc": "28696328000103",
+      "id": "14a044ad-69d0-44fb-a6cc-1f32ae7e082a"
+    },
+    {
+      "codigo": "354",
+      "nome": "FERNANDO DALL ONGARO BARBIERI - ME",
+      "doc": "20971970000141",
+      "id": "3fe4bf9f-954e-4f80-a262-aa85c8a6d205"
+    },
+    {
+      "codigo": "356",
+      "nome": "TRANSPORTES MARCHESAN LTDA.",
+      "doc": "27113270000165",
+      "id": "130c9872-6788-41c3-bc2a-d465b490a354"
+    },
+    {
+      "codigo": "361",
+      "nome": "ZACARIAS & FAGAN LTDA. - ME",
+      "doc": "28696328000294",
+      "id": "ed053f63-48e0-449a-bb25-05487909310a"
+    },
+    {
+      "codigo": "363",
+      "nome": "JOSE FRANCISCO TRONCO & CIA LTDA. - ME",
+      "doc": "26743076000109",
+      "id": "3222a86f-be9b-4992-8edd-c5fa109b5441"
+    },
+    {
+      "codigo": "365",
+      "nome": "RUBIA T FOLIATTI - ME",
+      "doc": "17786598000270",
+      "id": "19e12f4d-9f83-4002-96ca-1f0966bd7db9"
+    },
+    {
+      "codigo": "367",
+      "nome": "QUARTA COLONIA SOLUCOES DIGITAIS LTDA.",
+      "doc": "29803902000148",
+      "id": "8341eedc-b1c9-4c6f-adc7-e94b15b09b39"
+    },
+    {
+      "codigo": "370",
+      "nome": "FELTRIN SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "29933644000114",
+      "id": "19f575d3-18b3-43d8-8fef-c173cad525ba"
+    },
+    {
+      "codigo": "387",
+      "nome": "PEDCLINIC SERVIÇOS MÉDICOS LTDA",
+      "doc": "31161150000100",
+      "id": "ad66b71f-85e4-4aa7-8208-5834fcb248ee"
+    },
+    {
+      "codigo": "39",
+      "nome": "CERVO RECHIA - MEDICOS ASSOCIADOS S/S LTDA",
+      "doc": "08000012000128",
+      "id": "c15e9644-82d2-49dc-ad14-cb1c41a6d6e5"
+    },
+    {
+      "codigo": "391",
+      "nome": "MARZARI & MARZARI LTDA.",
+      "doc": "31033196000144",
+      "id": "af0ff4cb-63b1-4fd2-b4de-07a910844237"
+    },
+    {
+      "codigo": "395",
+      "nome": "ROBERTO AUGUSTO PROCHNOW",
+      "doc": "90835875091",
+      "id": "89bac93f-8864-47de-93fe-291aadfb1aca"
+    },
+    {
+      "codigo": "396",
+      "nome": "SANTOS TERRAPLENAGEM E OBRAS LTDA.",
+      "doc": "31385813000170",
+      "id": "530437b9-6f9b-4395-b8e5-c088666151be"
+    },
+    {
+      "codigo": "397",
+      "nome": "TIAGO LIMA VEICULOS LTDA.",
+      "doc": "31385769000107",
+      "id": "57da15b1-a901-4627-ab88-4fff71db73c0"
+    },
+    {
+      "codigo": "399",
+      "nome": "ESTEVAO MEZZOMO",
+      "doc": "48814822034",
+      "id": "278c891a-cb55-4fcc-8e5f-b4e0a795aa6e"
+    },
+    {
+      "codigo": "4",
+      "nome": "EZA ZANON TOLFO",
+      "doc": "89890222000211",
+      "id": "e76ec085-97fe-4e90-af4e-5b2a7a85e67c"
+    },
+    {
+      "codigo": "402",
+      "nome": "MIRO LEONIR CEOLIN MONTAGNER E OUTROS",
+      "doc": "37416197015",
+      "id": "89553725-0767-4749-b8c5-1175e3db849c"
+    },
+    {
+      "codigo": "403",
+      "nome": "AUTOMATIC TREINAMENTO, IMPORTAÇÃO E COMÉRCIO DE PEÇAS EIRELI",
+      "doc": "31799086000198",
+      "id": "7bbd6b72-b943-4a73-9d3f-c610dcf3c4f0"
+    },
+    {
+      "codigo": "405",
+      "nome": "CENTER FIT CONDICIONAMENTO FISICO, BISTRO E BEM-ESTAR LTDA",
+      "doc": "31851114000179",
+      "id": "6a3ed0eb-b5d6-4289-a5c3-4f572ed573a3"
+    },
+    {
+      "codigo": "411",
+      "nome": "BENITO FRANCISCO BIANCHI",
+      "doc": "04655451068",
+      "id": "8e0b05c1-86db-4a90-a5b8-258d33dc0801"
+    },
+    {
+      "codigo": "42",
+      "nome": "FERPECAS, FERRAMENTAS E PECAS LTDA.",
+      "doc": "03853796000113",
+      "id": "c79f1e5c-f9db-4b4c-bfa1-d442c6b6ea67"
+    },
+    {
+      "codigo": "43",
+      "nome": "LBF ENGENHARIA CIVIL LTDA.",
+      "doc": "38075145000124",
+      "id": "4bd4f649-d827-4b05-a52b-6cbb699faea8"
+    },
+    {
+      "codigo": "430",
+      "nome": "ECOTEC CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA",
+      "doc": "32548626000123",
+      "id": "60e6a793-30ed-4506-aebb-fa0ff309e8db"
+    },
+    {
+      "codigo": "441",
+      "nome": "UELITON FERREIRA",
+      "doc": "33360006000129",
+      "id": "510ab5d9-8fb1-4a2f-92c1-3462076527d6"
+    },
+    {
+      "codigo": "443",
+      "nome": "PAULA FRIZZO PERIPOLLI EIRELI",
+      "doc": "33517371000102",
+      "id": "166e410c-9599-4393-9762-97c2b4a3e81d"
+    },
+    {
+      "codigo": "446",
+      "nome": "B. V. INCORPORADORA LTDA.",
+      "doc": "34317692000118",
+      "id": "05b59b02-c611-4798-9b44-3fa57c5b3621"
+    },
+    {
+      "codigo": "456",
+      "nome": "VIVERE EMPREENDIMENTOS LTDA",
+      "doc": "35404519000110",
+      "id": "ec3799de-684e-4489-b01a-4a08b6f275b9"
+    },
+    {
+      "codigo": "460",
+      "nome": "YOURCODE TECNOLOGIA DA INFORMAÇÃO EIRELI",
+      "doc": "24445700000239",
+      "id": "02d6e2e4-27f9-4d71-aa1f-0bc927dcceae"
+    },
+    {
+      "codigo": "471",
+      "nome": "ITACIR PICCININ EIRELI",
+      "doc": "26683871000140",
+      "id": "20b71e38-26cf-4555-9df6-d6fc9e3d70a1"
+    },
+    {
+      "codigo": "472",
+      "nome": "PITTI COMERCIAL DE AUTOMOVEIS LTDA",
+      "doc": "00734185000168",
+      "id": "d02c3b5c-16d5-4932-85e6-a46861ee8a2f"
+    },
+    {
+      "codigo": "473",
+      "nome": "DAL ONGARO ENGENHARIA LTDA.",
+      "doc": "37331530000122",
+      "id": "50456931-991b-4cd5-8389-641fcd772b59"
+    },
+    {
+      "codigo": "478",
+      "nome": "CEREALISTA DONA IDALVINA LTDA.",
+      "doc": "37648010000148",
+      "id": "69dd47be-535d-481b-8158-7fb4c18b6f34"
+    },
+    {
+      "codigo": "479",
+      "nome": "JCPA REPRESENTAÇÃO COMERCIAL LTDA.",
+      "doc": "38089498000183",
+      "id": "e1eed77c-f78c-4b91-9b23-69dfebc9c66a"
+    },
+    {
+      "codigo": "480",
+      "nome": "BERGER EMPREENDIMENTOS LTDA.",
+      "doc": "37884585000160",
+      "id": "56ae9b69-81aa-49f4-b716-2eb54247ee6d"
+    },
+    {
+      "codigo": "481",
+      "nome": "BIANCHI TRANSPORTES LTDA. EM RECUPERACAO JUDICIAL",
+      "doc": "21315117000215",
+      "id": "5eb99e38-17d0-4459-84dc-d0b8f01d6737"
+    },
+    {
+      "codigo": "486",
+      "nome": "DAL ONGARO ADMINISTRADORA DE BENS LTDA.",
+      "doc": "38490707000104",
+      "id": "0d51fc35-90c0-49a5-9c33-8db89d230dd4"
+    },
+    {
+      "codigo": "488",
+      "nome": "FELICITA ODONTOLOGIA LTDA.",
+      "doc": "39712482000148",
+      "id": "420b40e4-d633-4e47-8c39-16a4f846c208"
+    },
+    {
+      "codigo": "489",
+      "nome": "CENTER FIT CORPO E MENTE LTDA.",
+      "doc": "39706928000121",
+      "id": "d6a05edd-27d5-4f4a-92af-69e95ed1e937"
+    },
+    {
+      "codigo": "490",
+      "nome": "JUCAR CAFÉ E CONVENIENCIA LTDA.",
+      "doc": "39706780000125",
+      "id": "2d8ba927-8e0c-4ef4-86f0-ee9b2e025854"
+    },
+    {
+      "codigo": "491",
+      "nome": "EZEQUIEL CATTO",
+      "doc": "99962721091",
+      "id": "a3bd4fac-581c-4bd5-8bed-56fc78c1d3f8"
+    },
+    {
+      "codigo": "495",
+      "nome": "MODELAR CONSTRUTORA LTDA.",
+      "doc": "40465050000169",
+      "id": "3784ecaf-0382-4808-b678-244c4c33a1ab"
+    },
+    {
+      "codigo": "499",
+      "nome": "FELICITA ODONTOLOGIA LTDA.",
+      "doc": "39712482000300",
+      "id": "b66b2982-9102-46c7-bcda-b354231a0e57"
+    },
+    {
+      "codigo": "502",
+      "nome": "POSTO PILECCO LTDA",
+      "doc": "89890073000100",
+      "id": "41b90ffd-45ef-4c12-a539-b3d176597edb"
+    },
+    {
+      "codigo": "503",
+      "nome": "POSTO PILECCO LTDA",
+      "doc": "89890073000290",
+      "id": "b9abfdd6-a5da-4940-8a11-e06b65f60e8f"
+    },
+    {
+      "codigo": "507",
+      "nome": "MOISES BULEGON",
+      "doc": "33557898000152",
+      "id": "bcac3a71-3917-466e-b53d-747a792c3345"
+    },
+    {
+      "codigo": "508",
+      "nome": "DELMIR GILBERTO BRANDAO",
+      "doc": "29682212000188",
+      "id": "ac73a724-2f66-47c9-b2bb-22acfe8a3c66"
+    },
+    {
+      "codigo": "517",
+      "nome": "JUCAR TRANSPORTES E COMERCIO LTDA - MATRIZ",
+      "doc": "01405443000397",
+      "id": "53200e17-df71-4a06-97b0-c7fa0a50cc17"
+    },
+    {
+      "codigo": "519",
+      "nome": "CONSTRUTORA BENETTI LTDA",
+      "doc": "41523983000128",
+      "id": "464c1e52-d40a-41a3-9e3f-c0bcd9e06bac"
+    },
+    {
+      "codigo": "520",
+      "nome": "P & B INCORPORADORA LTDA.",
+      "doc": "41466021000184",
+      "id": "a731e269-c850-4f21-bdc0-545e0f913c81"
+    },
+    {
+      "codigo": "521",
+      "nome": "ROGGIA ODONTOLOGIA LTDA.",
+      "doc": "41582423000144",
+      "id": "7bc55300-28ef-4c56-8d97-48a0f4454214"
+    },
+    {
+      "codigo": "522",
+      "nome": "ELLO SOLUCOES AGROPECUARIAS LTDA.",
+      "doc": "41620305000183",
+      "id": "ac614c07-b8c0-462f-90b1-aefdde8ee558"
+    },
+    {
+      "codigo": "526",
+      "nome": "SENHOR VICENTE ALIMENTOS LTDA.",
+      "doc": "42120236000101",
+      "id": "fa2894e8-6a23-4488-ad75-3d98e6edc4e2"
+    },
+    {
+      "codigo": "528",
+      "nome": "P & B INCORPORADORA LTDA",
+      "doc": "65498003072",
+      "id": "f290d05e-2ce6-4ff3-96c7-7e666d064a1a"
+    },
+    {
+      "codigo": "529",
+      "nome": "AGROBIANCHI TRANSPORTES LTDA EM RECUPERACAO JUDICIAL",
+      "doc": "42365138000134",
+      "id": "27a8de47-0491-4aec-9cc7-7bc9ab64c44f"
+    },
+    {
+      "codigo": "530",
+      "nome": "KACP SERVICOS MEDICOS LTDA.",
+      "doc": "42631881000199",
+      "id": "628bf23a-054a-44e2-8da4-87abd8d264e5"
+    },
+    {
+      "codigo": "532",
+      "nome": "MODELAR CONSTUTORA LTDA",
+      "doc": "58748016004",
+      "id": "20308912-2fa1-4faf-8d78-3b889f15735a"
+    },
+    {
+      "codigo": "535",
+      "nome": "FOLETTO PRODUCOES LTDA.",
+      "doc": "42865657000161",
+      "id": "b73e805e-9619-439d-bbbe-6f2809ec3e5a"
+    },
+    {
+      "codigo": "536",
+      "nome": "DANIEL BELLINASO",
+      "doc": "63601575000",
+      "id": "7d8f17b2-1026-478b-94ef-6b048a251d67"
+    },
+    {
+      "codigo": "539",
+      "nome": "M.A.K. CONSULTORIA AGROPECUÁRIA LTDA.",
+      "doc": "43498910000159",
+      "id": "eca230f8-5d0d-415d-8503-6bdc419375ed"
+    },
+    {
+      "codigo": "543",
+      "nome": "VESTENA COMERCIO E SERVICOS LTDA.",
+      "doc": "44030288000112",
+      "id": "6c254df1-a240-422e-9ff5-fcb7f7ebbfe0"
+    },
+    {
+      "codigo": "544",
+      "nome": "VOLMAR JACOB TREVISAN",
+      "doc": "57425000091",
+      "id": "a7fa7e2c-e120-4e15-9898-38feca26c98e"
+    },
+    {
+      "codigo": "546",
+      "nome": "CLINICA DE OLHOS QUARTA COLONIA LTDA",
+      "doc": "29448253000104",
+      "id": "6eb23a28-c4e4-4186-8eff-296ea5b98530"
+    },
+    {
+      "codigo": "547",
+      "nome": "GIOVANI COLETTO",
+      "doc": "91398776000167",
+      "id": "81cc6414-d317-49d5-a32d-d02e1fc9f864"
+    },
+    {
+      "codigo": "549",
+      "nome": "OFICINA MECANICA AUTOMATIC LTDA",
+      "doc": "10198450000194",
+      "id": "63fe22b2-4b06-45b1-afac-065e4ff7d7ab"
+    },
+    {
+      "codigo": "554",
+      "nome": "CLINICA DA CRIANCA FAXINAL LTDA.",
+      "doc": "45018789000146",
+      "id": "3d30652d-de37-478a-8c91-19ff77807c79"
+    },
+    {
+      "codigo": "555",
+      "nome": "V. R. SAUDE AMBIENTAL LTDA.",
+      "doc": "45021049000169",
+      "id": "f97306bb-5d2d-46c3-98ab-82560426beda"
+    },
+    {
+      "codigo": "557",
+      "nome": "FERNANDO VENDRUSCULO CASARIN",
+      "doc": "11073326000165",
+      "id": "1032a7c7-6d61-441e-b51b-62f3732ecc7a"
+    },
+    {
+      "codigo": "558",
+      "nome": "HELVIO CHIAPINOTTO - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "45234799000119",
+      "id": "c3ecd4c5-65ec-4892-885e-355339f5d8ae"
+    },
+    {
+      "codigo": "56",
+      "nome": "V L CASSOL",
+      "doc": "09078383000195",
+      "id": "8f449818-10b8-4968-8818-7526ace64992"
+    },
+    {
+      "codigo": "57",
+      "nome": "SERGIO ROGGIA E CIA LTDA ME",
+      "doc": "93568210000161",
+      "id": "67088446-93cf-472a-9675-958240667047"
+    },
+    {
+      "codigo": "571",
+      "nome": "INCORPORADORA CRISTIANO ROSSO LTDA",
+      "doc": "43660996000174",
+      "id": "47947c0a-c6ae-41cf-a72b-45505ae00442"
+    },
+    {
+      "codigo": "572",
+      "nome": "DALLA CORTE INDUSTRIA DE ESQUADRIAS LTDA.",
+      "doc": "87251245000170",
+      "id": "a54f3e5f-7513-4571-8219-769463f32be7"
+    },
+    {
+      "codigo": "573",
+      "nome": "DOM CASTRO TRASPORTES LTDA.",
+      "doc": "45865865000159",
+      "id": "8b4678aa-6ec3-48fa-9cbe-7286f73f3f23"
+    },
+    {
+      "codigo": "574",
+      "nome": "SIRLEI TEREZINHA MARION CEOLIN",
+      "doc": "27064360004",
+      "id": "567fc15a-a45a-4cbd-b411-6c43fc9aa618"
+    },
+    {
+      "codigo": "575",
+      "nome": "INCORPORADORA BENETTI LTDA.",
+      "doc": "46146086000166",
+      "id": "f3d44227-ce82-468f-9d2c-d3aa2ccf7403"
+    },
+    {
+      "codigo": "577",
+      "nome": "M.V. INCORPORADORA LTDA.",
+      "doc": "46741937000119",
+      "id": "ed24cb40-bc01-4cd6-9b2a-247c8d9eea78"
+    },
+    {
+      "codigo": "578",
+      "nome": "CREDIT SAINT GERMAIN SECURITIZADORA DE CREDITO S/A",
+      "doc": "46788467000149",
+      "id": "af7e9e8f-66ef-4963-97b0-14d10b6fbf0d"
+    },
+    {
+      "codigo": "580",
+      "nome": "ADAIR MILANESI",
+      "doc": "20058837000",
+      "id": "004930e6-733b-49b0-9cd9-4a911881deb6"
+    },
+    {
+      "codigo": "585",
+      "nome": "LISANDRO POZZOBON",
+      "doc": "01196746028",
+      "id": "e5fa57fd-1ef1-4096-b5d2-8ad5fded3fc5"
+    },
+    {
+      "codigo": "588",
+      "nome": "ADM TERRAPLANAGEM LTDA.",
+      "doc": "46720282000100",
+      "id": "24b7b5bb-029e-4604-8821-25abc4593c8c"
+    },
+    {
+      "codigo": "589",
+      "nome": "CLINICA JULIA MONTAGNER, FISIOTERAPIA ESPECIALIZADA LTDA.",
+      "doc": "47523468000124",
+      "id": "ee4c414c-d849-4022-a33b-98408f5ce7d8"
+    },
+    {
+      "codigo": "592",
+      "nome": "CREDIT SAINT GERMAIN SECURITIZADORA DE CREDITO S/A",
+      "doc": "46788467000220",
+      "id": "14dd0360-2d39-4ddc-b879-4cb5ad63b7fa"
+    },
+    {
+      "codigo": "594",
+      "nome": "R.B. INCORPORADORA LTDA",
+      "doc": "47659954000174",
+      "id": "ad83fea6-ee20-49cf-b658-ab451c661e46"
+    },
+    {
+      "codigo": "596",
+      "nome": "TOP AGRO SERVIÇOS AGRÍCOLAS LTDA.",
+      "doc": "48276545000151",
+      "id": "6ab8063a-b081-4051-a5cb-53dcf4c785f1"
+    },
+    {
+      "codigo": "597",
+      "nome": "CASA GILIOTTO ALIMENTOS LTDA.",
+      "doc": "48352948000132",
+      "id": "bc7113e1-0eef-4772-b4c3-d404f4e9f937"
+    },
+    {
+      "codigo": "598",
+      "nome": "CASA GILIOTTO PARTICIPACOES LTDA.",
+      "doc": "48354432000127",
+      "id": "dda07799-80f5-4035-b50d-85703b4f1c1f"
+    },
+    {
+      "codigo": "599",
+      "nome": "ESTANCIA PRECIOSA LTDA.",
+      "doc": "48362241000107",
+      "id": "ab6b1cc4-7d8c-40c0-a653-a97ecaaa5abb"
+    },
+    {
+      "codigo": "60",
+      "nome": "VALTER PIGATTO CIOCCARI",
+      "doc": "36115231000",
+      "id": "1fb26155-3311-4fa4-a4f5-7eb9707581f6"
+    },
+    {
+      "codigo": "600",
+      "nome": "LOCARSUL LOCACOES LTDA.",
+      "doc": "48412708000186",
+      "id": "be533131-4104-4dd3-8b25-9212ba059a14"
+    },
+    {
+      "codigo": "603",
+      "nome": "ZULEICA MARIA DALMOLIN SPANEVELLO",
+      "doc": "28721861072",
+      "id": "7c4057ad-6ea2-47ff-a01a-94d500f4ee41"
+    },
+    {
+      "codigo": "604",
+      "nome": "ROBERTO BISOGNIN REPRESENTACOES LTDA.",
+      "doc": "48910198000177",
+      "id": "acf8169c-82a9-42e6-9827-d8840d0b865a"
+    },
+    {
+      "codigo": "608",
+      "nome": "AUTOMATIC GUINCHOS LTDA.",
+      "doc": "49076129000172",
+      "id": "11fa073f-e4b6-4aa1-87ec-9884ef6417d7"
+    },
+    {
+      "codigo": "615",
+      "nome": "JOAO BATISTA BORTOLIN GIULIANI",
+      "doc": "01158867026",
+      "id": "4c9ac558-608c-40fb-b9a1-155d3e2f267f"
+    },
+    {
+      "codigo": "617",
+      "nome": "INCORPORADORA TONIASSO LTDA.",
+      "doc": "49322237000188",
+      "id": "3f3cae1a-d581-4d19-8d52-faeaa70a1dc3"
+    },
+    {
+      "codigo": "618",
+      "nome": "M ALMEIDA REPRESENTACOES LTDA.",
+      "doc": "49918866000175",
+      "id": "6e8679e4-65ce-445d-b03e-5ec2940df296"
+    },
+    {
+      "codigo": "619",
+      "nome": "PAULA GUERINO ODONTOLOGICO LTDA",
+      "doc": "49911411000128",
+      "id": "ca55b35d-ed9b-49c1-a307-3208e9972d08"
+    },
+    {
+      "codigo": "620",
+      "nome": "PREVEDELLO ADMINISTRADORA DE BENS LTDA.",
+      "doc": "49908065000129",
+      "id": "3ab485a7-af5c-4e8c-bf0a-2f191c1c644c"
+    },
+    {
+      "codigo": "622",
+      "nome": "AGRO VALLE FERTILIZANTES LTDA",
+      "doc": "50330524000119",
+      "id": "69a23bf6-b0f7-4c35-b568-a7200706807d"
+    },
+    {
+      "codigo": "623",
+      "nome": "INCORPORADORA BARATTO LTDA.",
+      "doc": "50344089000181",
+      "id": "5cb19eed-dd0a-4b02-a481-fccc7a2a6003"
+    },
+    {
+      "codigo": "625",
+      "nome": "CLOVIS GIULIANI",
+      "doc": "91650986000109",
+      "id": "00d4b600-a36b-42c0-b34e-44b37f558ba6"
+    },
+    {
+      "codigo": "628",
+      "nome": "CREDIT SAINT GERMAIN PARTICIPACOES SOCIETARIAS LTDA.",
+      "doc": "46350136000122",
+      "id": "6d23a532-c273-4d00-b995-ecc8f1458244"
+    },
+    {
+      "codigo": "631",
+      "nome": "LUDI TOLEDO LIVRE LEVE",
+      "doc": "51477218000172",
+      "id": "89f4ae4b-63aa-4c7f-9105-475c4a4c4924"
+    },
+    {
+      "codigo": "634",
+      "nome": "AMABIO CONSULTORIA E ESTUDOS AMBIENTAIS LTDA.",
+      "doc": "51862024000190",
+      "id": "ef3c0e95-a2d8-4cea-bdd0-a0c8f908214b"
+    },
+    {
+      "codigo": "637",
+      "nome": "BV2 ENGENHARIA LTDA.",
+      "doc": "52124430000119",
+      "id": "8a8191af-9687-46b6-bdc5-4a84bf2f0c98"
+    },
+    {
+      "codigo": "638",
+      "nome": "PLANO A SOLUCOES AGRONOMICAS LTDA.",
+      "doc": "52141604000151",
+      "id": "2935b32a-33be-4531-b50e-f80f8ece879e"
+    },
+    {
+      "codigo": "639",
+      "nome": "INCORPORADORA BERGER E GIULIANI LTDA.",
+      "doc": "52213153000110",
+      "id": "eb342afe-d065-4581-96f2-b44e0e724570"
+    },
+    {
+      "codigo": "640",
+      "nome": "RZ IMPLEMENTOS AGRICOLAS LTDA",
+      "doc": "43511398000133",
+      "id": "015b0bff-339c-4b01-b53f-be6da39a6de3"
+    },
+    {
+      "codigo": "641",
+      "nome": "M2 ARTE E PRODUÇÕES LTDA.",
+      "doc": "52211878000170",
+      "id": "296f625a-2000-495c-9875-2da414be40cd"
+    },
+    {
+      "codigo": "642",
+      "nome": "AUTOMAIS CONSIGNACAO",
+      "doc": "52331983000142",
+      "id": "244ead69-fd3f-4e44-a737-809a13396149"
+    },
+    {
+      "codigo": "645",
+      "nome": "BRISA PORTAS E JANELAS EM PVC E ALUMINIO LTDA.",
+      "doc": "52662842000102",
+      "id": "c9123b9c-2bd3-46c3-9204-d29503e6f24c"
+    },
+    {
+      "codigo": "649",
+      "nome": "ICDS INFOPRODUTOS E TREINAMENTOS LTDA.",
+      "doc": "53615354000107",
+      "id": "e047ea2c-f62d-42a4-a50e-d871c2c8d769"
+    },
+    {
+      "codigo": "653",
+      "nome": "TESSELE ZOOTECNIA LTDA.",
+      "doc": "54220956000128",
+      "id": "1c815b7b-bbc2-46f8-92f6-dc47a87dfc1c"
+    },
+    {
+      "codigo": "655",
+      "nome": "PRIME AGENCY LTDA.",
+      "doc": "54321182000121",
+      "id": "293f214e-84fe-4055-85fa-c50c364d9a25"
+    },
+    {
+      "codigo": "656",
+      "nome": "MILANESI AGRONOMIA LTDA.",
+      "doc": "54433141000127",
+      "id": "9f145600-36bd-43a7-9476-be2c87b00bc6"
+    },
+    {
+      "codigo": "660",
+      "nome": "MARLENE BECKER LOCACAO DE IMPRESSORAS LTDA",
+      "doc": "34920996000175",
+      "id": "118c81ff-e9e0-469b-82b4-bb7cdad348c2"
+    },
+    {
+      "codigo": "662",
+      "nome": "DJOVANI POZZOBON SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "54746109000100",
+      "id": "865f3a4b-4b62-4079-bb49-c825fbdb6873"
+    },
+    {
+      "codigo": "663",
+      "nome": "AMBIENCIAS ARQUITETURA LTDA.",
+      "doc": "14199979000183",
+      "id": "c6745f8d-0758-46dc-9f1c-0f9e73a6e58a"
+    },
+    {
+      "codigo": "664",
+      "nome": "LUCIANO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55531817000188",
+      "id": "fbf4bf78-d8b0-484f-b759-91f257e7e600"
+    },
+    {
+      "codigo": "665",
+      "nome": "CRISTIANE DE CASSENOTE OLIARI EM RECUPERACAO JUDICIAL",
+      "doc": "55525013000176",
+      "id": "a9e82c32-a0f8-4d04-bb2e-b130f8dc09f2"
+    },
+    {
+      "codigo": "666",
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000159",
+      "id": "821a2ca0-fb73-4041-872e-15679bbc7f61"
+    },
+    {
+      "codigo": "667",
+      "nome": "FABIANE MARIA MORO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55526785000122",
+      "id": "7ba33331-9846-4781-9082-2304f282ec8c"
+    },
+    {
+      "codigo": "668",
+      "nome": "CARLOS BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524662000152",
+      "id": "4d875976-9fb9-4840-a7d7-17db19d28b67"
+    },
+    {
+      "codigo": "669",
+      "nome": "ELENISE MARIA NOAL BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524705000108",
+      "id": "fad70027-de23-4e4f-8f86-13c2a0f753b9"
+    },
+    {
+      "codigo": "670",
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000111",
+      "id": "1444201c-7224-4343-adf6-6b1050a80d79"
+    },
+    {
+      "codigo": "671",
+      "nome": "ADENIR BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524496000194",
+      "id": "bd7a3ef9-ef6a-4c50-adb1-7d798f242af5"
+    },
+    {
+      "codigo": "672",
+      "nome": "MANFIO ADMINISTRADORA LTDA.",
+      "doc": "55757324000160",
+      "id": "39e03b12-38cd-47d3-aa56-082acc045c39"
+    },
+    {
+      "codigo": "675",
+      "nome": "AGROPROMAIS EQUIPAMENTOS E PECAS LTDA",
+      "doc": "56223295000110",
+      "id": "640a09df-e8c5-4194-8e71-3204caca90da"
+    },
+    {
+      "codigo": "676",
+      "nome": "INCORPORADORA TRINTA LTDA",
+      "doc": "56195702000122",
+      "id": "8ba852e9-e1bd-427f-a8a6-bbb94517f9e5"
+    },
+    {
+      "codigo": "677",
+      "nome": "OSMARI EMPREENDIMETOS LTDA.",
+      "doc": "56197950000102",
+      "id": "4619b7f6-c19a-4b31-9384-df3bccff5573"
+    },
+    {
+      "codigo": "678",
+      "nome": "CLINICA MEDICA BARATTO LTDA.",
+      "doc": "56777637000143",
+      "id": "85b1ec40-c7b8-41a3-9fb1-a42b432c4b75"
+    },
+    {
+      "codigo": "680",
+      "nome": "LUIZ CARLOS SFALCIN",
+      "doc": "13377971000105",
+      "id": "8b10a57f-d2ca-49d4-bc45-35a66788928b"
+    },
+    {
+      "codigo": "682",
+      "nome": "MAIS MAQUINAS TL EQUIPAMENTOS E PECAS LTDA.",
+      "doc": "57726727000178",
+      "id": "7980867f-ea01-4dd7-9c62-a32f681d3e35"
+    },
+    {
+      "codigo": "683",
+      "nome": "PILECCO REPRESENTACOES COMERCIAIS LTDA.",
+      "doc": "57837019000104",
+      "id": "01309ca2-38f5-4094-9d48-cf639c3324e9"
+    },
+    {
+      "codigo": "685",
+      "nome": "FH SANDRA REGINA WEBER LTDA",
+      "doc": "26067352000158",
+      "id": "6db4a703-bc0a-44a2-b3bb-56634b483aa0"
+    },
+    {
+      "codigo": "687",
+      "nome": "LUCIANO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55531817000269",
+      "id": "772bd26b-7e63-4a56-abd4-c0b479057726"
+    },
+    {
+      "codigo": "688",
+      "nome": "LUCIANO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55531817000340",
+      "id": "248eb893-6477-453f-ab45-725d1afa1dcc"
+    },
+    {
+      "codigo": "689",
+      "nome": "SAO JOAO ADMINISTRADORA DE BENS LTDA",
+      "doc": "58694105000178",
+      "id": "ebf54249-29cc-489a-a33e-bbe03d9c7d49"
+    },
+    {
+      "codigo": "693",
+      "nome": "PITTI AUTO STORE LTDA.",
+      "doc": "59334568000191",
+      "id": "1d4db449-3c3c-4dcb-ad30-7602cae9e17c"
+    },
+    {
+      "codigo": "694",
+      "nome": "AUTOMATIC PREMIUM LTDA",
+      "doc": "59336202000151",
+      "id": "a2c634af-9445-46f9-9106-7fae6a7ae7ff"
+    },
+    {
+      "codigo": "697",
+      "nome": "COLETTO AUTO CENTER SERVICOS AUTOMOTIVOS LTDA.",
+      "doc": "59509922000171",
+      "id": "ddaf9bde-d570-4be9-88ef-f168a0c8ba30"
+    },
+    {
+      "codigo": "70",
+      "nome": "SCHICHT & SCHICHT LTDA.",
+      "doc": "00913748000185",
+      "id": "22406534-c8dd-4264-95be-986850dc7d3b"
+    },
+    {
+      "codigo": "700",
+      "nome": "CONSTRUCOES FERREIRA LTDA.",
+      "doc": "59844471000129",
+      "id": "8417725f-9d32-40c1-b0b1-5a4c05605d72"
+    },
+    {
+      "codigo": "701",
+      "nome": "DIMARE TECH & SERVICOS LTDA",
+      "doc": "60169865000108",
+      "id": "b244f077-fa40-40ae-9022-e7d1a252cf24"
+    },
+    {
+      "codigo": "702",
+      "nome": "RDC PROJETOS DE ENGENHARIA LTDA",
+      "doc": "46875848000165",
+      "id": "159dc028-35e6-40b1-9abf-ed394472411a"
+    },
+    {
+      "codigo": "703",
+      "nome": "ALMEIDA COMERCIO E REPRESENTACOES LTDA.",
+      "doc": "60217787000170",
+      "id": "971e9fea-014e-4979-9207-c6d91a8768a9"
+    },
+    {
+      "codigo": "704",
+      "nome": "CARLOS BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524662000233",
+      "id": "5c8e405b-4325-4561-91cc-0da548f418c5"
+    },
+    {
+      "codigo": "705",
+      "nome": "GIOVANA B. PIVETTA CLINICA MEDICA LTDA.",
+      "doc": "61124110000150",
+      "id": "943872d1-0f5b-4fb3-8b8b-1ce9b6dd1ac8"
+    },
+    {
+      "codigo": "706",
+      "nome": "BENETTI TERRAPLENAGEM LTDA",
+      "doc": "61102222000100",
+      "id": "8c8c6bc5-c794-41ab-824d-1b0842205489"
+    },
+    {
+      "codigo": "707",
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000230",
+      "id": "0abdc1f8-d930-4908-8614-cf86ce27549f"
+    },
+    {
+      "codigo": "708",
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000310",
+      "id": "724f84d0-509f-43af-82f1-b21168e09938"
+    },
+    {
+      "codigo": "709",
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000400",
+      "id": "3ea46df8-4641-4da8-8aff-c5f9cbc014ab"
+    },
+    {
+      "codigo": "710",
+      "nome": "FONOAUDIOLOGIA DANIELLI TESSELE LTDA",
+      "doc": "61496976000191",
+      "id": "0a742d60-6dd0-46c5-8f95-0182f08da4f6"
+    },
+    {
+      "codigo": "713",
+      "nome": "CHAIANE FACCO PICCIN FISIOTERAPIA LTDA",
+      "doc": "43532166000161",
+      "id": "8b12aab7-f126-45a9-93ff-0b692aff6e6d"
+    },
+    {
+      "codigo": "714",
+      "nome": "LIDIANE FERRO ATELIER LTDA",
+      "doc": "39410607000185",
+      "id": "9b12208e-45aa-417c-b621-b5e0b8812219"
+    },
+    {
+      "codigo": "715",
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000200",
+      "id": "1a2cc9b2-2637-4151-88cb-ad36da98fe59"
+    },
+    {
+      "codigo": "716",
+      "nome": "CLAUDIO BORTOLUZZI BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524729000582",
+      "id": "145db19c-77e3-4c7a-a44f-f0c9593b4a61"
+    },
+    {
+      "codigo": "717",
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000383",
+      "id": "28322b67-9ae0-4776-a3cd-8f10e39df329"
+    },
+    {
+      "codigo": "718",
+      "nome": "BENITO FRANCISCO BIANCHI EM RECUPERACAO JUDICIAL",
+      "doc": "55524469000464",
+      "id": "6b2d6020-81ca-4279-8ebb-94bade7e815e"
+    },
+    {
+      "codigo": "719",
+      "nome": "AGROPARCERIA MAQUINAS E IMPLEMENTOS LTDA",
+      "doc": "62590472000107",
+      "id": "64711341-7e1b-4c3c-8d1f-a3fef765bec3"
+    },
+    {
+      "codigo": "720",
+      "nome": "NOVO HORIZONTE PARTICIPACOES LTDA",
+      "doc": "62690452000108",
+      "id": "6f49ead3-4038-4272-b4f2-628062b8aaa1"
+    },
+    {
+      "codigo": "721",
+      "nome": "VEBER LOGISTICA LTDA",
+      "doc": "62825643000121",
+      "id": "d474246c-cc06-481d-b459-a23aad276732"
+    },
+    {
+      "codigo": "722",
+      "nome": "MARCIA REIS BRAGA WOLLMEISTER EM RECUPERACAO JUDICIAL",
+      "doc": "57765469000139",
+      "id": "a5df29ea-91ff-4288-9fe5-52d8379d4dce"
+    },
+    {
+      "codigo": "723",
+      "nome": "ALISSON CASTRO WOLLMEISTER EM RECUPERACAO JUDICIAL",
+      "doc": "57765207000174",
+      "id": "ad521eb3-251d-42a9-9280-514b6df472a1"
+    },
+    {
+      "codigo": "724",
+      "nome": "ALISSON CASTRO WOLLMEISTER",
+      "doc": "76704050078",
+      "id": "73da1ac3-9417-4f36-9611-502c0a394e2a"
+    },
+    {
+      "codigo": "728",
+      "nome": "AGROFORTE MAQUINAS E IMPLEMENTOS LTDA",
+      "doc": "62892399000110",
+      "id": "b6bc4e77-2400-4b4b-99ce-6c71c4f8bb2c"
+    },
+    {
+      "codigo": "729",
+      "nome": "CRISCIA DESIGNER GRAFICO E SOCIAL MEDIA LTDA",
+      "doc": "62906701000141",
+      "id": "ee391af6-289c-4391-85ed-84819f09cb38"
+    },
+    {
+      "codigo": "731",
+      "nome": "MARCIA REIS BRAGA WOLLMEISTER",
+      "doc": "95883932053",
+      "id": "cb5c8181-0898-43ef-95a2-5d8700f4e03e"
+    },
+    {
+      "codigo": "734",
+      "nome": "RO MARMITARIA E RESTAURANTE LTDA",
+      "doc": "55698464000105",
+      "id": "3211c9f1-97f8-4a5a-adb5-e9b38be52a4b"
+    },
+    {
+      "codigo": "736",
+      "nome": "SOLUZIONE SERVICOS ESPECIALIZADOS LTDA",
+      "doc": "63730526000147",
+      "id": "8b545518-a989-4e8f-8661-010184422c34"
+    },
+    {
+      "codigo": "739",
+      "nome": "UP ESPACO MULTIPROFISSIONAL LTDA",
+      "doc": "57596526000101",
+      "id": "8ca07ade-2c17-4651-bac4-00bbfb7cad9d"
+    },
+    {
+      "codigo": "740",
+      "nome": "EMPORIUM GIACOMINI LTDA",
+      "doc": "48446384000105",
+      "id": "88f28b6e-9b06-4e76-9b1c-bce26e8bee99"
+    },
+    {
+      "codigo": "741",
+      "nome": "AUTOMATIC SOLUTION LTDA",
+      "doc": "63730314000160",
+      "id": "aff1588f-4709-4970-ae82-e79a2d18f19f"
+    },
+    {
+      "codigo": "742",
+      "nome": "VETRION ESQUADRIAS LTDA",
+      "doc": "43207110000131",
+      "id": "ef47d806-63d1-48c4-84b4-f02b6f6ac379"
+    },
+    {
+      "codigo": "743",
+      "nome": "CERAMICA VEBER LTDA",
+      "doc": "04542811000175",
+      "id": "999c3c8d-527b-4a5f-ab06-d4a9098b3413"
+    },
+    {
+      "codigo": "744",
+      "nome": "GIACOMINI ALIMENTOS LTDA",
+      "doc": "17804763000198",
+      "id": "76851304-7e58-4207-8d83-87304c5e4356"
+    },
+    {
+      "codigo": "745",
+      "nome": "ASEFF & FARIAS ADVOCACIA",
+      "doc": "60973346000106",
+      "id": "98dd8516-7b82-456b-9365-f64d23c11b4c"
+    },
+    {
+      "codigo": "746",
+      "nome": "QUARTA COLONIA PLATAFORMA TURISTICA LTDA",
+      "doc": "65222157000107",
+      "id": "9783fbe7-ff20-4b05-9026-0e3f36604b2d"
+    },
+    {
+      "codigo": "747",
+      "nome": "GXF LTDA",
+      "doc": "65350601000170",
+      "id": "fbca936e-d019-42b0-8a09-69bfee3cba32"
+    },
+    {
+      "codigo": "748",
+      "nome": "NOSSA SENHORA APARECIDA AGROSERVICOS LTDA",
+      "doc": "65449359000196",
+      "id": "babbf774-63f2-4fa1-a9a5-1c5032e00093"
+    },
+    {
+      "codigo": "749",
+      "nome": "GZANOLLA SERVIÇOS MEDICOS LTDA",
+      "doc": "65453426000146",
+      "id": "9fc18b08-853f-465a-98e7-20364a81bce9"
+    },
+    {
+      "codigo": "750",
+      "nome": "VIELMO & FALCAO ADMINISTRADORA DE BENS LTDA",
+      "doc": "65533190000158",
+      "id": "9b4da85e-4c58-4fca-a775-e7116ff5da3d"
+    },
+    {
+      "codigo": "751",
+      "nome": "FZ SERVICOS ADMINISTRATIVOS LTDA",
+      "doc": "65654065000104",
+      "id": "db1cc527-5e03-44ad-937e-fe2edae8bb53"
+    },
+    {
+      "codigo": "752",
+      "nome": "MARIA SANTISSIMA MODAS LTDA",
+      "doc": "65774171000113",
+      "id": "c1099f81-d912-4082-8e87-848bd50dde15"
+    },
+    {
+      "codigo": "753",
+      "nome": "FABRICIO DO COUTO RAMPELOTTO LTDA",
+      "doc": "00779358000164",
+      "id": "c7a80649-391a-4a7a-8741-f4091f9e852f"
+    },
+    {
+      "codigo": "754",
+      "nome": "HORNEIRO CAMISARIA LTDA",
+      "doc": "66477850000193",
+      "id": "477e8108-6f68-43a0-ac3f-3d67c63c626f"
+    },
+    {
+      "codigo": "755",
+      "nome": "VALET AUTOMOVEIS LTDA",
+      "doc": "66477874000142",
+      "id": "756bd758-d320-4a12-9621-d9305a1e07ed"
+    },
+    {
+      "codigo": "756",
+      "nome": "SERRA VERDE LOCACOES E TRANSPORTES LTDA",
+      "doc": "66609937000177",
+      "id": "98c32dc6-5d96-4c12-be6f-6b9c1d12cfd3"
+    },
+    {
+      "codigo": "757",
+      "nome": "AUROZ SOLUTIONS LTDA",
+      "doc": "66610086000182",
+      "id": "84b43340-628b-45ff-a6d4-3c936f4fc82f"
+    },
+    {
+      "codigo": "758",
+      "nome": "DAKGRAOS CORRETORA DE CEREAIS LTDA",
+      "doc": "66867661000127",
+      "id": "4a5b5f92-e5c0-461b-8d2b-60eaa45468b1"
+    },
+    {
+      "codigo": "759",
+      "nome": "CERONI SERVICOS ESPECIALIZADOS LTDA",
+      "doc": "62082753000140",
+      "id": "ee4e5560-f38c-4702-b342-ecbbb0e0adcf"
+    },
+    {
+      "codigo": "761",
+      "nome": "NIVRAP TECNOLOGIA DA INTELIGENCIA LTDA",
+      "doc": "61906098000135",
+      "id": "c7699c1d-1081-461c-8029-24e8534c62c8"
+    },
+    {
+      "codigo": "762",
+      "nome": "BERG KOLB LTDA",
+      "doc": "59685615000141",
+      "id": "6353264f-0331-4b6c-b0b7-92eb8cd1aeb3"
+    },
+    {
+      "codigo": "763",
+      "nome": "BERG KOLB LTDA",
+      "doc": "59685615000222",
+      "id": "60988cac-be93-4a1f-ab3a-848f4ca8cbbf"
+    },
+    {
+      "codigo": "764",
+      "nome": "CLAUDIA DALCIN SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "doc": "67729824000178",
+      "id": "5981c8d8-defa-43dc-bd81-de906a0b1a5a"
+    },
+    {
+      "codigo": "767",
+      "nome": "CASA GULARTE LTDA",
+      "doc": "68055787000122",
+      "id": "2eb063a4-c8a7-40ce-8535-943500ad26f1"
+    },
+    {
+      "codigo": "768",
+      "nome": "GLASENAPP CENTRO MEDICO LTDA",
+      "doc": "68052353000179",
+      "id": "96ca2913-5dc7-435f-b509-fb0e5817f787"
+    },
+    {
+      "codigo": "769",
+      "nome": "JBJ PATRIMONIAL LTDA",
+      "doc": "68151639000101",
+      "id": "8d333836-72a1-437a-a21f-2383f6c0c016"
+    },
+    {
+      "codigo": "770",
+      "nome": "G&R PARTICIPACOES LTDA",
+      "doc": "68154881000139",
+      "id": "a6d17832-2c86-4068-b4bc-8daa484e110e"
+    },
+    {
+      "codigo": "772",
+      "nome": "FVT HOLDINGS LTDA",
+      "doc": "68549672000194",
+      "id": "dc3e88f8-f47e-459a-94e3-8e6f9a5bd7da"
+    },
+    {
+      "codigo": "773",
+      "nome": "AU REPRESENTACOES LTDA",
+      "doc": "68586276000137",
+      "id": "f6aea7e5-e9f6-41a5-802b-34cd2bbf211e"
+    },
+    {
+      "codigo": "774",
+      "nome": "TIAGO LIMA VEICULOS LTDA.",
+      "doc": "31385769000280",
+      "id": "3bc22877-6a67-4d97-a822-b25515664c0a"
+    },
+    {
+      "codigo": "775",
+      "nome": "PONTAL PARTICIPACOES LTDA",
+      "doc": "68651859000102",
+      "id": "e1b0ff85-938c-458b-9489-3e5b92db9f1d"
+    },
+    {
+      "codigo": "776",
+      "nome": "PIONEIRA COMERCIO DE MOVEIS LTDA.",
+      "doc": "89890370000406",
+      "id": "6004dd9e-7c6e-42f8-91a4-467103eaf57f"
+    },
+    {
+      "codigo": "777",
+      "nome": "VANUSA CHIODI CORRETORA DE SEGUROS LTDA",
+      "doc": "20515514000197",
+      "id": "78d3502d-89ae-4b85-ad3e-e13e26ccfff5"
+    },
+    {
+      "codigo": "9",
+      "nome": "IND DE MOVEIS VALIDIO MENEGHETTI LTDA",
+      "doc": "87808242000194",
+      "id": "d5b0e292-86ac-4e2e-8a43-00cb73d79e9e"
+    },
+    {
+      "codigo": "93",
+      "nome": "ESTOFARIA FAXINALENSE LTDA",
+      "doc": "05955165000130",
+      "id": "a9865f9f-0127-454c-a29c-a7ba9c0ad053"
+    },
+    {
+      "codigo": "95",
+      "nome": "EUSEBIO JOAO SOLDERA E CIA LTDA ME",
+      "doc": "89889307000107",
+      "id": "ad070e9d-bb51-4972-a710-4b23aa28e9f3"
+    }
+  ]
+}

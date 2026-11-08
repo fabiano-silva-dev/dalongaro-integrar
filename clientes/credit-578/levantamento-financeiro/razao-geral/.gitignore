@@ -1,0 +1,5 @@
+# Derivados grandes, recomputáveis a partir da fonte local.
+*.sqlite
+*.sqlite-*
+eventos-*.jsonl
+__pycache__/

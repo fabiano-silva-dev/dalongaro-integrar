@@ -1,0 +1,5 @@
+"Data de pagamento","Data do lançamento","Estabelecimento","Tipo de lançamento","Forma de pagamento","Bandeira","Valor bruto","Valor Taxa/Tarifa","Valor líquido","Status de pagamento"
+"03/02/2025","03/01/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 49,00","-R$ 1,12","R$ 47,88","Pago"
+"17/02/2025","15/01/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 150,00","-R$ 3,44","R$ 146,56","Pago"
+"20/02/2025","20/01/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 140,00","-R$ 3,21","R$ 136,79","Pago"
+"24/02/2025","22/01/2025","1017990619","Venda crédito","Crédito à vista","Hipercard","R$ 100,00","-R$ 2,29","R$ 97,71","Pago"

@@ -1,0 +1,35 @@
+1;BASE DE CLCULO DO IRPJ;0,00
+2;IMPOSTO SOBRE O LUCRO REAL;
+3; Alquota de 15%;0,00
+4;Adicional;0,00
+5;DEDUES;
+6;(-)Operaes de Carter Cultural e Artstico;0,00
+8;(-)Programa de Alimentao do Trabalhador;0,00
+9;(-)Desenvolvimento Tecnolgico Industrial / Agropecurio;0,00
+10;(-)Atividade Audiovisual;0,00
+11;(-)Fundos dos Direitos da Criana e do Adolescente;0,00
+12;(-)Fundos Nacional, Estaduais ou Municipais do Idoso (Lei n 12.213/2010, art. 3);0,00
+13;(-)Atividades de Carter Desportivo;0,00
+14;(-)Programa Nacional de Apoio  Ateno Oncolgica - PRONON (Lei n 12.715/2012, arts. 1 e 4);0,00
+15;(-)Programa Nacional de Apoio  Ateno da Sade da Pessoa com Deficincia - PRONAS/PCD (Lei n 12.715/2012, arts. 3 e 4);0,00
+16;(-)Valor da Remunerao da Prorrogao da Licena-Maternidade e da Licena-Paternidade (Lei n 11.770/2008, art. 5);0,00
+16.01;(-)Crdito Presumido de 9% Sobre a Parcela dos Lucros Auferidos no Exterior (Art. 28, da Instruo Normativa 1.520/2014);0,00
+16.04;(-)Imposto Sobre a Renda Pago no Exterior pela Controlada Direta ou Indireta, no Caso do Art. 87 da Lei n 12.973/2014;
+16.05;(-)Imposto Sobre a Renda Retido na Fonte no Exterior Incidente Sobre os Dividendos no Caso do Art. 88 da Lei n 12.973/2014;
+16.06;(-) Programa Rota 2030 - Mobilidade e Logstica - Despesa Operacional do Perodo (Art. 11 da Lei n 13.755/2018);0,00
+16.07;(-) Programa Rota 2030 - Mobilidade e Logstica - Parcela Excedente de Perodos Anteriores (Art. 11,  3 da Lei n 13.755/2018);0,00
+16.10;(-) Incentivo a Projetos de Reciclagem (Art. 3, da Lei n 14.260/2021);0,00
+16.50;(-) Outras Dedues;0,00
+17;(-)Iseno e Reduo do Imposto;0,00
+18;(-)Reduo por Reinvestimento;0,00
+19;(-)Imposto Pago no Exterior sobre Lucros, Rendimentos e Ganhos de Capital;0,00
+20;(-)Imposto de Renda Retido na Fonte;0,00
+21;(-)Imposto de Renda Retido na Fonte por rgos, Autarquias e Fundaes Federais (Lei n 9.430/1996, art. 64);0,00
+22;(-)Imposto de Renda Retido na Fonte pelas Demais Entidades da Administrao Pblica Federal (Lei n 10.833/2003, art. 34);0,00
+23;(-)Imposto Pago Incidente sobre Ganhos no Mercado de Renda Varivel;0,00
+24;(-)Imposto de Renda Mensal Efetivamente Pago por Estimativa;0,00
+25;(-)Imposto de Renda Efetivamente Parcelado Referente a Estimativas Mensais;0,00
+26;IMPOSTO DE RENDA A PAGAR;0,00
+27;IMPOSTO DE RENDA SOBRE A DIFERENA ENTRE O CUSTO ORADO E O CUSTO EFETIVO;0,00
+28;IMPOSTO DE RENDA POSTERGADO DE PERODOS DE APURAO ANTERIORES;0,00
+29;Crdito Fiscal de IRPJ - MP n 1.185/2023;0,00

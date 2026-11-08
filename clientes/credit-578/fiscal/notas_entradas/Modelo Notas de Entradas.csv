@@ -1,0 +1,7 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;Pasta onde o arquivo 'entradas.txt' será salvo (pode ser alterada):;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;C:\a\Macros N1;;OBS: Informe o caminho do seu computador;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+FORNECEDOR (preencher todas colunas para cadastrar um novo / preencher somente CNPJ para somente localizar existente);;;;;CORPO DA NOTA FISCAL;;;;;;;;;DADOS DOS IMPOSTOS;;;;;;;;;;DADOS DE ESTOQUE (Deixar em branco para não informar);;;;;;;;
+CPF/CNPJ;Razão Social;UF;Município;Endereço;Número Documento;Série;Data;Situação (0- Regular / 2- Cancelada);Acumulador;CFOP;Valor Produtos;Valor Descontos;Valor Contábil;Base de Calculo ICMS;Alíquota ICMS;Valor ICMS;Outras ICMS;Isentas ICMS;Base de Calculo IPI;Alíquota IPI;Valor IPI;Outras IPI;Isentas IPI;Código do Item;Quantidade;Valor Unitário;CST PIS/COFINS;Base de Calculo PIS/COFINS;Aíquota PIS;Valor PIS;Alíquota COFINS;Valor COFINS
+99.999.999/0001-01;Exemplo de Fornecedor;SC;Criciúma;Rua exemplo;1234;1;1/1/2021;0;1;1933;1000,00;10,00;990,00;990,00;2,00;0,00;19,80;0,00;0,00;0,00;0,00;0,00;0,00;11;22;33;44;55;66;77;88;99
