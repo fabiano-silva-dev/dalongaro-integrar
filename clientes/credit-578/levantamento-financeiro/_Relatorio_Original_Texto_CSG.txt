@@ -1,0 +1,693 @@
+CSG ESCRITÓRIO DAL ONGARO
+
+Levantamento financeiro da CSG
+
+De 14 de junho de 2022 a 30 de setembro de 2026
+
+Credit Saint Germain Securitizadora de Crédito S/A
+CNPJ 46.788.467/0001-49
+Escritório Dal Ongaro  Contador Valdecir Dal Ongaro
+
+Resumo executivo
+
+Este relatório reúne os seis levantamentos solicitados e explica o que os números significam para a
+administração. O último fechamento disponível é setembro de 2026. Os saldos foram conciliados com a
+contabilidade; parte da conclusão econômica ainda depende de documentos da carteira e das dívidas.
+
+A CSG apresenta patrimônio líquido contábil negativo de R$ 731.945,65. As obrigações registradas superam
+os ativos registrados. O déficit econômico real ainda é PENDENTE, porque precisamos confirmar quanto da
+carteira será recuperado e os valores e prazos das obrigações por contrato.
+
+                Posição em 30 de setembro de 2026                           Valor em R$
+
+ Ativos registrados                                                                        7.830.121,33
+
+ Obrigações registradas                                                                   8.562.066,98
+
+ Patrimônio líquido com o resultado de 2026                                               (731.945,65)
+
+ Prejuízo de janeiro a setembro de 2026                                                      (390.327,63)
+
+
+
+Fonte: F5, contas 1, 2.1, 2.4 e grupos 3 e 4. O resultado de 2026 foi incluído no patrimônio líquido, pois ainda está em aberto no
+balancete.
+
+             Relatório                                          Situação da apuração
+
+ 1 Custos e despesas              Apurados por categoria por ano e no acumulado
+
+ 2 Debêntures                      Saldo contábil apurado; controle completo por titular PENDENTE
+
+ 3 Contas a receber                 Saldo contábil apurado; atraso e recuperação PENDENTES
+
+ 4 Endividamento                   Saldo contábil apurado; vencimentos reais PENDENTES
+
+ 5 Fluxo de caixa                  Movimentação anual e acumulada apurada nos balancetes
+
+ 6 DRE                            Resultado contábil apurado; ajustes econômicos PENDENTES
+
+
+Os documentos F1 a F9 estão identificados no final. O Excel de apoio contém contas, contratos, parcelas, credores e
+conciliações. PENDENTE indica informação ainda insuficiente; ESTIMADO identifica uma premissa, quando utilizada.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 1
+CSG ESCRITÓRIO DAL ONGARO
+
+
+1 Custos e despesas acumulados
+
+Desde a abertura, a CSG reconheceu R$ 6.494.816,25 em custos, despesas e deduções tributárias. O quadro
+abaixo organiza esse valor por finalidade e por ano.
+
+
+          Descrição              2022          2023          2024          2025      2026 jan a set   Acumulado
+
+ Administrativo                       46.465,70       39.711,40       31.871,33       15.353,60       14.562,23      147.964,26
+
+ Operação de crédito líquida                0,00       52.058,50       31.868,80      252.453,44            0,40      336.381,14
+
+ Comercial e vendas                 92.050,74      112.910,68       57.475,98       90.320,86      175.089,05      527.847,31
+
+ Pessoal                           170.006,50      305.588,59      281.324,75      500.890,79      346.810,44    1.604.621,07
+
+ Ocupação                          24.546,87       34.743,29      136.635,92      274.430,29      214.519,07      684.875,44
+
+ Tecnologia                         10.687,99       84.001,87       42.389,69      123.468,44       89.825,58      350.373,57
+
+ Serviços de terceiros                87.696,90      187.075,25      147.356,29      243.981,71      176.030,68      842.140,83
+
+ Impostos e taxas                      2.787,97       66.828,21       51.221,53      113.899,70       54.521,55      289.258,96
+
+ Comissões sem segregação       n.i.                    n.i.                    n.i.                   n.i.                   n.i.                    n.i.
+
+ Despesas financeiras                  491,83      242.135,17      222.504,51      601.564,71      462.842,16    1.529.538,38
+
+ Despesas indedutíveis              115.872,85       17.590,82       27.505,75       10.062,38       10.783,49      181.815,29
+
+ Total                             550.607,35    1.142.643,78    1.030.154,55    2.226.425,92    1.544.984,65    6.494.816,25
+
+
+
+Fonte: Por coluna: 2022 F1, 2023 F2, 2024 F3, 2025 F4 e 2026 F5; grupo 3 e deduções 4.1.2. O acumulado soma os períodos. Códigos
+por categoria: Excel, aba Mapeamento contas.
+
+O relatório de custos e despesas está apurado pela movimentação líquida das contas de resultado, sem os lançamentos
+de encerramento, e conferido às DREs. Os saldos bancários são considerados conciliados conforme o escritório. A
+classificação dos pagamentos por finalidade é tratada na seção 5, sobre o fluxo de caixa.
+
+                Composição do total acumulado                          R$                Participação
+
+ Operação de crédito líquida                                                               336.381,14 5,18%
+
+ Estrutura demais despesas e tributos                                                      4.628.896,73 71,27%
+
+ Despesas financeiras                                                                    1.529.538,38 23,55%
+
+
+
+Fonte: F1 a F5, mesmo mapa de custos. Financeiro: grupo 3.2.2.05. Operação: contas 272, 506, 509, 516 e 525 conforme o ano; estrutura
+é o restante, inclusive tributos.
+
+n.i. significa não identificado separadamente. Comissões eventualmente incluídas em outros serviços dependem de
+confirmação. Despesas indedutíveis são gastos com restrição de dedução fiscal. O custo líquido de crédito resulta de
+compras, amortizações e devoluções contabilizadas; o valor residual de 2026 exige explicação pelo razão atualizado.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 2
+CSG ESCRITÓRIO DAL ONGARO
+
+
+2 Debêntures
+
+As debêntures representam dinheiro tomado de investidores, com obrigação de devolução e remuneração
+conforme os contratos. Precisamos distinguir o valor dos títulos documentados, o dinheiro recebido e a dívida
+que permanece registrada.
+
+
+                   Medida                                         Apuração
+
+ Nominal bruto dos documentos localizados          R$ 3.000.000,00 Inclui duas cautelas de Lair a resolver
+
+ Nominal se uma cautela de Lair for substituição      R$ 2.300.000,00 Hipótese documental a confirmar
+
+ Integralização declarada nos boletins da quinta série   R$ 500.000,00 Declarada em 11/11/2024
+
+ Captação contábil identificada em 2025            R$ 410.000,00 Contra bancos conciliados
+
+ Captação e amortização por titular no histórico          Vincular documentos e contrapartidas dos lançamentos
+
+ Juros reconhecidos desde a emissão              R$ 1.302.957,21
+
+ Saldo contábil em setembro de 2026            R$ 3.833.966,99
+
+ Principal e juros em aberto por titular             PENDENTE da conciliação individual
+
+ Cronograma definitivo de vencimentos            PENDENTE da escritura original e primeiro aditamento
+
+
+
+Fonte: Nominais e realização declarada: F7, certificados, quatro boletins com Importância Realizada e aditamentos, controle 2.1.7.
+Captação de 2025: F6, conta 642 contra bancos 8 e 15. Juros: F1 a F5, 369. Saldo atual: F5, 642/2.1.7. Não somar a declaração dos
+boletins como entrada adicional aos lançamentos.
+
+Há certificados históricos de 2022 e 2023 e boletins realizados em 2024. As duas cautelas de Lair exigem verificar se
+houve substituição ou cancelamento. A tarefa é vincular documentos e lançamentos por titular e data, considerando a
+conciliação bancária já confirmada pelo escritório.
+
+          Descrição              2022          2023          2024          2025      2026 jan a set   Acumulado
+
+ Saldo devedor em cada data       1.000.000,00    1.967.834,88    2.479.678,99    3.420.309,87    3.833.966,99  n.a.
+
+ Juros reconhecidos no período             0,00      190.038,40      168.630,81      530.630,88      413.657,12    1.302.957,21
+
+
+
+Fonte: F1 a F5: saldos 2.1.7 e juros 369. Para o saldo devedor, acumulado não se aplica; cada coluna apresenta a posição da data. Juros
+são somados por período.
+
+O que já está confirmado
+
+Em 2025, R$ 530.630,88 de juros foram incorporados à dívida; em 2026 até setembro, mais R$ 413.657,12.
+Não houve débito na conta da dívida nesses dois períodos. Pagamentos fora dessa conta ainda precisam de
+conferência.
+
+Fonte: F6, I200 e I250, conta 642 com contrapartida 369; F5, conta 642, débitos e créditos de 2026.
+
+Os juros acumulados são a despesa contabilizada ao longo dos anos. O valor ainda em aberto depende de identificar os
+pagamentos de todo o histórico. As séries documentadas e as condições disponíveis estão no Excel; faltam a escritura
+original, o primeiro aditamento e o controle completo por titular.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 3
+CSG ESCRITÓRIO DAL ONGARO
+
+
+3 Contas a receber
+
+A carteira registrada é de R$ 6.801.908,85. Esse é o valor contábil dos créditos; a quantia que será recebida
+depende dos pagamentos, atrasos, renegociações e perdas de cada contrato.
+
+                  Composição contábil atual                            R$
+
+ Contas nominativas de devedores                                                         5.107.111,11
+
+ Direitos creditórios sem abertura por devedor                                               1.694.797,74
+
+ Total da carteira                                                                        6.801.908,85
+
+
+
+Fonte: F5, contas 1.1.2, 1.1.2.01 e 1.1.2.02. O saldo sem abertura nominal foi excluído do ranking de devedores, pois não representa um
+único cliente.
+
+          Descrição              2022          2023          2024          2025      2026 jan a set   Acumulado
+
+ Carteira registrada em cada
+                                      981,30    1.962.826,82    4.259.711,65    6.455.543,10    6.801.908,85  n.a.
+ data
+
+
+
+Fonte: F1 a F5, conta 1.1.2. Acumulado não se aplica a saldos de datas diferentes.
+
+                   Posição da carteira na data base                               Situação
+
+ Valores a vencer                                           PENDENTE
+
+ Valores vencidos                                           PENDENTE
+
+ Valores inadimplentes                                        PENDENTE
+
+ Perda esperada                                            PENDENTE
+
+ Valor efetivamente recuperável                                  PENDENTE
+
+
+Para concluir essa separação, precisamos da posição de todas as parcelas na data-base, com identificação do
+contrato, vencimento, valor pago, valor aberto e renegociação. Os contratos disponíveis permitem organizar o
+calendário original; a ausência de uma baixa nessa amostra não prova atraso.
+
+Fonte: F8, documentos de aquisição e arquivos de baixas, controle 1.1.2. O vínculo entre os recebimentos disponíveis e as parcelas não é
+suficiente para fechar o estoque aberto.
+
+A avaliação de recuperação deverá considerar risco de crédito e informações sustentadas de cobrança. Nenhuma taxa
+arbitrária de perda foi aplicada. Concentração por devedor contábil e por aquisições documentadas consta no Excel; a
+amostra de aquisições não representa toda a carteira atual.
+
+Em 470 contratos de 2025, os preços nos endossos superam os valores usados nas planilhas em R$ 8.407,28. A diferença
+está discriminada no Excel para confronto com os lançamentos, sem presumir comissão, pagamento, perda ou ajuste do
+resultado.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 4
+CSG ESCRITÓRIO DAL ONGARO
+
+
+4 Endividamento total
+
+As obrigações registradas somam R$ 8.562.066,98. A maior parte está nas debêntures e nos valores a pagar
+a Jane e Lair. Essas contas incluem recursos recebidos dos sócios e outros movimentos; a composição deve
+ser identificada por lançamento.
+
+
+          Descrição              2022          2023          2024          2025      2026 jan a set   Acumulado
+
+ Debêntures                      1.000.000,00    1.967.834,88    2.479.678,99    3.420.309,87    3.833.966,99  n.a.
+
+ Valores a pagar a Jane                    0,00            0,00      200.004,00    1.863.344,71    2.397.068,58  n.a.
+
+ Valores a pagar a Lair              540.347,13    1.424.429,36    2.009.433,53    2.149.433,53    2.149.433,53  n.a.
+
+ Fornecedores                        8.347,80        4.443,20        9.001,30       77.870,46       87.222,82  n.a.
+
+ Tributos em contas específicas         1.363,59        1.885,45       58.423,79        8.073,06        6.364,06  n.a.
+
+ Tributos federais em conta
+                                          0,00        9.517,33            0,00       21.386,48       18.456,41  n.a.
+ conjunta
+
+ Salários INSS e FGTS               12.694,82       17.309,35       40.700,85       33.380,85       13.454,59  n.a.
+
+ Adiantamentos de clientes                 0,00            0,00            0,00       56.100,00       56.100,00  n.a.
+
+ Total das obrigações            1.562.753,34    3.425.419,57    4.797.242,46    7.629.898,96    8.562.066,98  n.a.
+
+
+
+Fonte: Por ano: F1 a F5. Contas 642/2.1.7, 1113 e 639/2.1.6, fornecedores 2.1.3, tributos 2.1.4, conta conjunta 651/2.1.5, pessoal 187,
+191 e 192, adiantamentos 1595/2.1.6. Os saldos não são somados entre datas.
+
+A conta Tributos Federais está agrupada no passivo de encargos e precisa de abertura. Por isso, a linha de tributos em
+contas específicas não representa, sozinha, todos os impostos e encargos da empresa. A classificação acima preserva
+essa distinção.
+
+O saldo da dívida e a data de pagamento
+
+O total registrado não informa quanto está vencido nem quanto será cobrado imediatamente. Contratos e
+confirmações dos credores são necessários para separar valores vencidos, de curto prazo e de longo prazo.
+
+O Domínio apresenta as obrigações no circulante. Essa classificação ainda precisa ser confrontada com os
+prazos reais das debêntures e dos mútuos. Não foi identificado saldo separado de empréstimo bancário nas
+contas analisadas. Os saldos de bancos são considerados conciliados conforme o escritório.
+
+Fonte: F5, grupo 2.1 e plano analítico; contratos e controle individual indicados em F7. Credores e obrigações por conta constam na aba
+Endividamento do Excel.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 5
+CSG ESCRITÓRIO DAL ONGARO
+
+
+5 Fluxo de caixa acumulado
+
+A movimentação de caixa, bancos e aplicações do disponível foi apurada diretamente nos balancetes de cada
+ano. Os débitos mostram as entradas contábeis e os créditos mostram as saídas contábeis dessas contas. O
+quadro abaixo apresenta os cinco períodos e o acumulado desde a abertura.
+
+
+          Descrição              2022          2023          2024          2025      2026 jan a set   Acumulado
+
+ Saldo inicial                              0,00       12.368,21      601.296,05       73.610,63      715.557,15            0,00
+
+ Entradas contábeis brutas         2.194.067,42    4.369.643,28    3.665.132,16    7.304.234,74    5.165.250,28   22.698.327,88
+
+ Saídas contábeis brutas           2.181.699,21    3.780.715,44    4.192.817,58    6.662.288,22    5.004.299,60   21.821.820,05
+
+ Movimentação líquida                12.368,21      588.927,84     (527.685,42)      641.946,52      160.950,68      876.507,83
+
+ Saldo final do disponível             12.368,21      601.296,05       73.610,63      715.557,15      876.507,83      876.507,83
+
+
+
+Fonte: Por ano: F1 a F5, balancetes, grupo 1.1.1 e suas contas analíticas. Os movimentos são somados no acumulado; saldo inicial é o da
+abertura e saldo final é o de setembro de 2026. Fontes por página e por conta nas abas Fluxo acumulado, Caixa saldos e Caixa por conta
+do Excel.
+
+Fechamento desde a abertura
+
+               Conferência acumulada dos balancetes                       R$
+
+ Saldo inicial                                                                                      0,00
+
+ Mais entradas contábeis brutas                                                          22.698.327,88
+
+ Menos saídas contábeis brutas                                                           (21.821.820,05)
+
+ Saldo final conciliado                                                                   876.507,83
+
+
+Os valores brutos incluem transferências entre contas da própria CSG. Uma transferência entre banco e aplicação dentro
+do disponível aparece como saída de uma conta e entrada em outra, sem alterar o saldo total. Por isso, os totais brutos
+não representam exclusivamente dinheiro recebido de terceiros ou pago a terceiros.
+
+A apuração anual e acumulada está concluída pelos balancetes e considera a conciliação bancária confirmada pelo
+escritório. O detalhamento por finalidade, como captações, compras de créditos e despesas pagas, e a eliminação das
+transferências internas podem ser complementados pelas contrapartidas do razão.
+
+          Descrição              2022          2023          2024          2025      2026 jan a set   Acumulado
+
+ Aplicações fora do disponível        995.858,80            0,00            0,00            0,00            0,00  n.a.
+
+
+
+Fonte: F1 a F5, grupo 1.1.4 quando existente. As aplicações de 2022 estavam fora de 1.1.1 e foram mantidas separadas para preservar a
+classificação da fonte. Não se somam saldos de anos diferentes.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 6
+CSG ESCRITÓRIO DAL ONGARO
+
+
+6 DRE anual e acumulada
+
+A DRE mostra receitas e despesas reconhecidas em cada período, mesmo quando o pagamento ou o
+recebimento ocorre em outra data. O resultado contábil acumulado foi conciliado com as demonstrações
+anuais e com o balancete de 2026.
+
+
+          Descrição              2022          2023          2024          2025      2026 jan a set   Acumulado
+
+ Receita bruta                         1.159,10      749.199,61    1.036.999,56    2.184.334,96    1.105.184,02    5.076.877,25
+
+ Menos deduções e tributos
+                                           (53,90)      (35.595,45)      (50.356,04)      (92.058,78)      (51.391,06)     (229.455,23)
+ sobre receita
+
+ Receita líquida                       1.105,20      713.604,16      986.643,52    2.092.276,18    1.053.792,96    4.847.422,02
+
+ Menos custo líquido da
+                                          0,00            0,00        2.399,00     (252.453,44)            (0,40)     (250.054,84)
+ operação de crédito
+
+ Resultado bruto                     1.105,20      713.604,16      989.042,52    1.839.822,74    1.053.792,56    4.597.367,18
+
+ Menos despesas operacionais      (550.061,62)     (836.796,02)     (759.693,00)   (1.280.348,99)   (1.030.751,03)   (4.457.650,66)
+
+ Resultado antes do
+                                   (548.956,42)     (123.191,86)      229.349,52      559.473,75       23.041,53      139.716,52
+ financeiro
+
+ Mais receitas financeiras e
+                                          0,00      108.720,77       35.367,44       27.090,87       49.473,00      220.652,08
+ outras
+
+ Menos despesas financeiras            (491,83)     (242.135,17)     (222.504,51)     (601.564,71)     (462.842,16)   (1.529.538,38)
+
+ Menos IR e CSLL                         0,00      (28.117,14)            0,00            0,00            0,00      (28.117,14)
+
+ Lucro ou prejuízo                 (549.448,25)     (284.723,40)       42.212,45      (15.000,09)     (390.327,63)   (1.197.286,92)
+
+
+
+Fonte: Por ano: F1 a F5. Receitas: 4.1.1; deduções: 4.1.2; custo: 3.1; despesas operacionais: demais contas de 3, exceto financeiro e
+IR/CSLL; financeiro: 4.1.3, 4.2.1.04 e 3.2.2.05. Reclassificação sem alteração do resultado; contas na aba DRE do Excel.
+
+Em 2024, o crédito de devolução de compra reduziu o custo, por isso a linha de custo aparece positiva. Fonte F3, conta
+509, grupo 3.1.
+
+No acumulado, as receitas totais antes de deduções são R$ 5.297.529,33; os custos, despesas e deduções
+são R$ 6.494.816,25. A diferença é o prejuízo de R$ 1.197.286,92. Os juros de debêntures, incluídos nas
+despesas financeiras, representam R$ 1.302.957,21.
+
+Fonte: F1 a F5, grupos 3 e 4, deduções 4.1.2 e juros 369. Os juros já fazem parte do total; não devem ser somados novamente.
+
+A rubrica despesas operacionais da DRE tem composição diferente da divisão de custos da seção 1: aqui as deduções da
+receita e o IR/CSLL aparecem separadamente. Os totais são os mesmos, apresentados em etapas distintas.
+
+A visão econômica ajustada ainda é PENDENTE. Ela deverá incluir perdas esperadas da carteira e eventuais juros
+contratuais ainda não reconhecidos. O ano de 2026 cobre apenas janeiro a setembro; 2022 começa na abertura da
+empresa.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 7
+CSG ESCRITÓRIO DAL ONGARO
+
+
+7 Cruzamento patrimonial e financeiro
+
+A comparação abaixo reúne os recursos registrados e as obrigações. A coluna contábil já pode ser apurada; a
+coluna econômica depende de verificar recuperação dos créditos, realizabilidade dos demais ativos e
+atualização dos contratos.
+
+
+      Componente em setembro de 2026              Contábil em R$             Validação econômica
+
+ Caixa bancos e aplicações                                        876.507,83 Saldo conciliado conforme escritório
+
+ Carteira de créditos                                              6.801.908,85 Recuperação PENDENTE
+
+ Outros ativos                                                    151.704,65 Realização PENDENTE
+
+ Total dos ativos                                                7.830.121,33 Ativo realizável real PENDENTE
+
+ Obrigações totais                                                8.562.066,98  Atualização e prazos PENDENTES
+
+ Patrimônio líquido com o resultado de 2026                      (731.945,65) Patrimônio ajustado PENDENTE
+
+
+
+Fonte: F5, contas 1, 1.1.1, 1.1.2, 2.1, 2.4 e grupos 3 e 4. Outros ativos = ativo total menos disponível e carteira. A conciliação bancária foi
+confirmada pelo escritório em F9. A recuperação dos créditos e a atualização contratual das dívidas são análises específicas.
+
+O que os saldos permitem concluir
+
+Os ativos registrados são insuficientes para cobrir as obrigações registradas, com déficit patrimonial contábil
+de R$ 731.945,65. Isso exige avaliar a recuperação dos créditos e os vencimentos das dívidas antes de definir
+medidas financeiras ou eventual aporte.
+
+As debêntures e as obrigações com Jane e Lair somam R$ 8.380.469,10. O disponível cobre 10,2% de todas
+as obrigações registradas. Essa relação compara saldos; os vencimentos reais ainda precisam ser
+confirmados.
+
+Fonte: F5, contas 2.1.7, 1113 e 639/2.1.6 e 1.1.1. Cobertura do disponível = conta 1.1.1 dividida pelo exigível de 2.1.
+
+O prejuízo acumulado das DREs difere do patrimônio líquido, porque o patrimônio também recebe aportes e
+outros ajustes. O déficit patrimonial, por sua vez, não determina sozinho o dinheiro necessário em uma data:
+isso depende do calendário de recebimentos e pagamentos.
+
+A conclusão sobre solvência econômica e necessidade de caixa permanece PENDENTE. Ainda não há
+suporte para tratar toda a carteira como recebimento garantido nem para declarar todas as dívidas
+integralmente atualizadas pelos contratos.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 8
+CSG ESCRITÓRIO DAL ONGARO
+
+
+8 Recursos de Jane e Lair
+
+Os registros mostram que os recursos de Jane e Lair financiaram o caixa da CSG. Esse financiamento pode
+sustentar compras de créditos da carteira, pagamentos da operação e a manutenção de recursos disponíveis.
+A razão de cada solicitação e a destinação de cada entrada precisam ser distinguidas do saldo total a pagar.
+
+Recursos que passaram pelos bancos em 2025
+
+
+                   Descrição                      Jane em R$          Lair em R$          Total em R$
+
+ Entradas descritas como empréstimo                        1.405.000,00          140.000,00         1.545.000,00
+
+ Entradas descritas como adiantamento de capital               100.000,00                0,00          100.000,00
+
+ Outros créditos recebidos                                    160.000,00                0,00          160.000,00
+
+ Total das entradas                                        1.665.000,00          140.000,00         1.805.000,00
+
+ Saídas contra as contas dos sócios                              2.342,55                0,00             2.342,55
+
+ Recursos líquidos recebidos                              1.662.657,45          140.000,00         1.802.657,45
+
+
+
+Fonte: F6, bancos do grupo 1.1.1 contra as contas 1113 e 639. A classificação das entradas preserva o histórico do lançamento; não
+comprova, sozinha, um instrumento contratual. Eventos, datas e linhas de origem na aba Recursos dos sócios do Excel.
+
+Além desses valores, Jane integralizou R$ 70.000,00 no capital, em lançamentos separados contra a conta 247. Esse
+aporte não foi incluído novamente nas entradas da tabela. Movimentos das contas dos sócios sem passagem pelos
+bancos também ficaram fora dos totais de caixa.
+
+Relação com a operação da empresa
+
+
+                   Movimento observado em 2025                            R$
+
+ Aumento da carteira contábil                                                                   2.195.831,45
+
+ Recursos líquidos recebidos de Jane e Lair                                                      1.802.657,45
+
+ Aumento do disponível                                                                        641.946,52
+
+ Resultado contábil do ano                                                                           (15.000,09)
+
+
+
+Fonte: Carteira e disponível: F3 e F4, contas 1.1.2 e 1.1.1. Resultado: F4, DRE de 2025. Recursos dos sócios: F6, mesmas contas e
+critérios da tabela anterior. Crescimento da carteira é variação de saldo, não um desembolso presumido.
+
+Esses movimentos são compatíveis com necessidade de financiamento para sustentar a carteira e o giro da empresa. O
+valor recebido dos sócios não representa, por si, um prejuízo nem demonstra que cada entrada foi usada para pagar uma
+despesa específica. O dinheiro pode permanecer no caixa ou financiar ativos que serão recebidos depois.
+
+
+
+
+
+                                                                   Base 30/09/2026  | Emissão 08/11/2026  | Página 9
+CSG ESCRITÓRIO DAL ONGARO
+
+
+9 Documentos necessários para concluir
+
+A administração deverá reunir os documentos abaixo. Cada solicitação está ligada à conclusão que ainda
+precisa ser confirmada. Não é necessário aguardar todos os itens para iniciar as conciliações que já possam
+ser feitas.
+
+Carteira por parcela na data base
+
+Solicitar à VIA CAPITAL, ao sistema de cobrança e à UY3 para o histórico inicial: contrato, devedor,
+vencimento, valor original, parcelas pagas e abertas, atrasos, renegociações e recuperações. Permite separar
+valores a vencer, vencidos, inadimplentes e recuperáveis.
+
+Controle completo das debêntures
+
+Complementar o conjunto já existente com a escritura original e o primeiro aditamento ainda não localizados.
+Vincular certificados, boletins realizados e lançamentos por titular, resolver as cautelas de Lair e classificar as
+movimentações históricas. Permite fechar principal, juros e vencimentos.
+
+Contratos e confirmação dos mútuos
+
+Obter os contratos de Jane, Lair e outras partes relacionadas, com comprovantes, prazo, encargos e saldo
+confirmado. Permite calcular a dívida contratual e o calendário de pagamento.
+
+Razão analítico de disponibilidades desde a abertura
+
+Exportar os lançamentos de caixa, bancos e todas as aplicações de junho de 2022 a setembro de 2026,
+incluindo contas encerradas ou zeradas e as contrapartidas. Permite concluir o fluxo por finalidade, sem repetir
+a confirmação dos saldos conciliados.
+
+Razão atualizado de 2026 e composição dos tributos
+
+Apresentar os lançamentos que explicam a revisão do balancete e a composição da conta Tributos Federais,
+com impostos, encargos, atrasos e parcelamentos. Permite explicar as diferenças e verificar exigibilidade.
+
+Política de crédito cobrança e perdas
+
+Fornecer critérios de inadimplência, histórico de recuperação, garantias, renegociações e perdas já
+reconhecidas. Complementar as aquisições anteriores a abril de 2025 e esclarecer documentos específicos
+sem vínculo. Permite fundamentar a perda esperada e o valor recuperável.
+
+Créditos com sócios e outros ativos
+
+Confirmar contratos, movimentações e recuperação dos empréstimos a sócios e dos demais créditos. Permite
+decidir quais valores podem compor o ativo realizável.
+
+Os custos, a DRE e a movimentação anual e acumulada do disponível estão apurados pelos demonstrativos contábeis; a
+conciliação bancária foi confirmada pelo escritório. O detalhamento do fluxo por finalidade é complementar. A conclusão
+econômica depende da recuperação da carteira e das obrigações contratuais.
+
+
+
+
+
+                                                                  Base 30/09/2026  | Emissão 08/11/2026  | Página 10
+CSG ESCRITÓRIO DAL ONGARO
+
+
+10 Fontes e critérios de leitura
+
+Os valores estão em reais. Parênteses indicam valores negativos; PENDENTE indica informação não
+concluída, n.i. significa não identificado separadamente e n.a. significa não aplicável. Custos, receitas e juros
+são somados no acumulado; saldos patrimoniais são posições de datas específicas.
+
+Os caminhos abaixo são relativos à pasta do cliente credit-578. As demonstrações anuais de F1 a F4 estão em publicacao-
+balancos/DOCUMENTOS CREDIT. Os códigos e classificações usados em cada valor estão no Excel de apoio.
+
+F1 Ano de 2022
+
+BALANÇO CREDIT 2022.pdf, BALANCETE CREDIT 2022.pdf e DRE CREDIT 2022.pdf. Saldos patrimoniais: grupos 1 e 2; receitas e
+despesas: grupos 3 e 4; deduções: 4.1.2. Datas de posição: 31 de dezembro de cada ano.
+
+F2 Ano de 2023
+
+BALANÇO CREDIT 2023.pdf, BALANCETE CREDIT 2023.pdf e DRE CREDIT 2023.pdf. Saldos patrimoniais: grupos 1 e 2; receitas e
+despesas: grupos 3 e 4; deduções: 4.1.2. Datas de posição: 31 de dezembro de cada ano.
+
+F3 Ano de 2024
+
+BALANÇO CREDIT 2024.pdf, BALANCETE CREDIT 2024.pdf e DRE CREDIT 2024.pdf. Saldos patrimoniais: grupos 1 e 2; receitas e
+despesas: grupos 3 e 4; deduções: 4.1.2. Datas de posição: 31 de dezembro de cada ano.
+
+F4 Ano de 2025
+
+BALANÇO CREDIT 2025.pdf, BALANCETE CREDIT 2025.pdf e DRE CREDIT 2025.pdf. Saldos patrimoniais: grupos 1 e 2; receitas e
+despesas: grupos 3 e 4; deduções: 4.1.2. Datas de posição: 31 de dezembro de cada ano.
+
+F5 Janeiro a setembro de 2026
+
+balancetes/Balancete-ja-set-2026.pdf. Consolidado 578 e 592, de 01/01/2026 a 30/09/2026. Ativo 1; disponível 1.1.1; carteira 1.1.2;
+exigível 2.1; PL 2.4; resultado grupos 3 e 4. Essa versão foi indicada como atualizada e substitui a anterior nos saldos e no resultado.
+
+F6 Lançamentos contábeis de 2025
+
+fiscal/dominio/sped_diario00578.txt. ECD 2025: I050, plano de contas; I155, saldos; I200 e I250, lançamentos. Caixa 1.1.1, debêntures
+642 e juros 369. Os códigos das importações são tratados separadamente dos códigos da ECD.
+
+F7 Documentação das debêntures e sua conciliação
+
+levantamento-financeiro/levantamento_financeiro_CSG_2022-06_a_2026-09.xlsx, abas Deb_Titulos, Deb_Series, Deb_Titulares,
+Deb_Razao2025, Certificados históricos e Integralizações declaradas. Cada linha identifica o certificado, boletim ou aditamento e seu
+arquivo original, em entrada/ e publicacao-balancos/outras informações/. Conta de controle 2.1.7. Separados nominal documental,
+integralização declarada e vínculo aos lançamentos.
+
+F8 Contratos de crédito e arquivos de recebimentos
+
+ccb/AAAA-MM, _arquivo/zips/CCB CLIENTES de junho a setembro de 2026 e saida/relatorio_operacoes.xlsx; relatórios resumidos e
+fiscais; Importacao_Baixas_Entradas/baixa_ent.txt e Importacao_Baixas_Saidas/baixa_sai.txt; arquivos 05.2026.xlsx e 06.2026.xlsx.
+Aquisições documentadas de abril/2025 a setembro/2026. Conta 1.1.2; a posição aberta por parcela ainda requer o controle da cobrança.
+
+F9 Premissas confirmadas pelo escritório
+
+Premissas_confirmadas.json. Em esclarecimento neste atendimento, o escritório informou que os balancetes e as DREs estão fechados
+com os extratos bancários. Essa informação foi incorporada como confirmação da conciliação; o razão será usado para classificar os
+fluxos por finalidade e vincular contratos.
+
+Rastreabilidade e limites
+
+O Excel de apoio contém o mapa de contas, contratos e parcelas documentados, credores, fontes, conciliações e
+pendências. A comparação das versões de 2026 está nas abas Atualização 2026 e Diferenças contas 2026. As versões do
+mesmo período não foram somadas.
+
+DFC e DMPL do Domínio não foram usadas para forçar fechamento. O relatório não presume perda zero na carteira nem
+juros zero em contratos ausentes. O prazo contábil do passivo depende de conferência contratual.
+
+
+
+
+
+                                                                  Base 30/09/2026  | Emissão 08/11/2026  | Página 11
