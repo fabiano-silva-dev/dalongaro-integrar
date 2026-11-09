@@ -20,8 +20,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Dependencias
-        run: pip install xlrd==2.0.2
+      - name: Instalar conversor de XLS antigo
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-calc
+      - name: Dependencias Python
+        run: pip install openpyxl==3.1.5
       - name: Cruzar 1435 e bancos
         run: python clientes/credit-578/levantamento-financeiro/auditar_quitacoes_banco_1435.py
       - name: Versionar relatorio e trilha
