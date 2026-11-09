@@ -29,7 +29,30 @@ Em **317 contas nominativas** com saldo positivo, totalizando **R$ 2.280.113,38*
 
 **Não apresentar R$ 1,61 milhão, R$ 1,21 milhão, R$ 569 mil ou R$ 2,28 milhões como inadimplência, exposição com risco de crédito ou provável perda.** Também não transformar esses indicadores automaticamente em ajustes do ativo.
 
-## 3. Como obter um saldo de carteira defensável sem exigir fechamento perfeito por conta
+## 3. Conta genérica localizada no razão: 1435 — DIREITOS CREDITORIOS
+
+**Hipótese prioritária a verificar:** a conta analítica **1435**, classificação `1.1.2.02.001`, contém direitos creditórios sem abertura nominal por devedor. Sua movimentação tem características compatíveis com baixas de uma carteira controlada de forma agrupada, mas **a contrapartida de cada lançamento ainda não foi inspecionada** e não é tecnicamente possível afirmar que cada crédito corresponde a dinheiro efetivamente recebido.
+
+Evolução reproduzível dos razões anuais:
+
+- **2024:** lançamento único em 31/12/2024, débito de **R$ 4.259.711,65**, associado ao período de implantação de saldos; saldo final de R$ 4.259.711,65. **Não tratar como aquisição/entrada bancária comprovada**.
+- **2025:** **3.177 movimentos**; débito de R$ 1.411,27 e créditos de **R$ 1.933.943,09**; saldo de **R$ 2.327.179,83**.
+- **2026 até setembro:** **973 movimentos**; nenhum débito e créditos de **R$ 632.382,09**; saldo de **R$ 1.694.797,74**.
+- **Créditos contábeis em 2025 e jan-set/2026:** **R$ 2.566.325,18**. Esse é um total **bruto de lançamentos a crédito**, não montante validado de liquidações financeiras ou contratos quitados.
+
+Também foi localizada a conta **2012 — BANCO DO BRASIL CONTA TRANSITÓRIA** (`1.1.1.02.001`), com 30 eventos, R$ 48.952,63 em débitos e créditos em 2025, saldo final zero. Pode indicar passagem de recursos, mas sem prova de que seja a centralizadora das quitações da carteira.
+
+Em uma das importações Domínio, `CONTABIL_DOMINIO_2_83_1_20102026_143411.TXT`, há lançamentos de setembro sob histórico `TÍTULOS A RECEBER REF.` e código `1000` do **plano de importação**, combinados em alguns lotes com `RECEITA COM DESÁGIO`, `PAGTO. OPERAÇÃO` e `CONTA CORRENTE CEDENTE`. **O código 1000 da importação não pode ser igualado automaticamente a uma conta do razão final** nem esses lançamentos confundidos com recebimentos de parcelas: a descrição é de operação/entrada de títulos. Exigem mapeamento próprio para qualquer conclusão.
+
+**Teste decisivo:** pesquisar no razão detalhado da conta 1435 as contrapartidas por lote/data, valores e histórico; separar:
+1. `D: bancos / C: 1435` = possível recebimento bancário da carteira agrupada, sujeito a conferência do extrato e identificação do título;
+2. `D: contas individuais / C: 1435` = possível transferência/reclassificação entre contas de carteira, **não** recebimento;
+3. `D: despesas/ajustes ou outras / C: 1435` = outras baixas que precisam de interpretação documental;
+4. Valores compensados/estornados ou bancários sem título = classificar como pendentes, nunca quitar por aproximação de nome.
+
+Enquanto não houver essa abertura, **não interpretar os R$ 2.566.325,18 como quitações comprovadas nem usá-los para abater novamente o saldo do ativo.** A movimentação já compõe os saldos oficiais.
+
+## 4. Como obter um saldo de carteira defensável sem exigir fechamento perfeito por conta
 
 O controle precisa partir de **eventos e documentos**, não da suposição de que o nome na entrada bancária identifica o devedor:
 
@@ -41,13 +64,13 @@ O controle precisa partir de **eventos e documentos**, não da suposição de qu
 
 **Não somar automaticamente valores recebidos sem vínculo a um devedor específico nem descontá-los diretamente de um contrato.** É possível elaborar uma reconciliação global com partidas pendentes e faixas de incerteza, sem inventar fechamento individual.
 
-## 4. Consequência para o relatório executivo
+## 5. Consequência para o relatório executivo
 
 Apresentar como fato: **“Carteira contabilizada em R$ 6.801.908,85, conciliada ao balancete; posição efetivamente aberta por contrato, inadimplência e realização econômica não apuráveis de forma confiável por inexistência de conciliação individual das baixas e pela ocorrência de pagamentos por terceiros sem vínculo inequívoco.”**
 
 Se o passivo exigível de **R$ 8.562.066,98** for adotado provisoriamente como referência, a diferença contábil de **R$ 731.945,65** é apenas a posição do balanço. O patrimônio econômico pode ser diferente, e não é possível quantificá-lo sem a reconciliação dos ativos. Não afirmar que o ativo está superavaliado, apenas que **há risco de incorreção não mensurado**.
 
-## 5. Rastreabilidade
+## 6. Rastreabilidade
 
 - `balancetes/Razão2025.xls` e `balancetes/Razão2026.xls`.
 - `levantamento-financeiro/razoes-anuais/catalogo.json` e `razoes-anuais/conciliacao.json`.
