@@ -1,0 +1,29 @@
+name: Obter identidade visual oficial Dal Ongaro
+on:
+  push:
+    branches: [master]
+    paths: [.github/workflows/obter-logo-dalongaro.yml]
+permissions:
+  contents: write
+jobs:
+  obter-logo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Transferir logo do site oficial
+        run: |
+          mkdir -p referencia/marca
+          curl -L --fail --retry 3 --connect-timeout 10 -A "Mozilla/5.0" -o referencia/marca/dal-ongaro-logo.png 'https://dalongarocontabilidade.com.br/Content/img/logo.png'
+          file referencia/marca/dal-ongaro-logo.png
+          wc -c referencia/marca/dal-ongaro-logo.png
+          base64 -w 0 referencia/marca/dal-ongaro-logo.png > referencia/marca/dal-ongaro-logo.base64.txt
+      - name: Salvar referencia para documentos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add referencia/marca/dal-ongaro-logo.png referencia/marca/dal-ongaro-logo.base64.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "assets: adicionar logotipo oficial da Dal Ongaro Contabilidade"
+            git push
+          fi
