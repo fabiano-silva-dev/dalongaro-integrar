@@ -1,0 +1,23 @@
+name: CSG - extrair relatorio executivo para revisao
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/csg-extrair-relatorio.yml
+permissions:
+  contents: write
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extrair texto original
+        run: |
+          pdftotext -layout clientes/credit-578/levantamento-financeiro/Relatorio_Executivo_CSG.pdf clientes/credit-578/levantamento-financeiro/_Relatorio_Original_Texto_CSG.txt
+          wc -l clientes/credit-578/levantamento-financeiro/_Relatorio_Original_Texto_CSG.txt
+      - name: Publicar fonte para revisao
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clientes/credit-578/levantamento-financeiro/_Relatorio_Original_Texto_CSG.txt
+          if ! git diff --cached --quiet; then git commit -m "docs(csg): extrair texto do relatorio original para revisao executiva"; git push; fi
