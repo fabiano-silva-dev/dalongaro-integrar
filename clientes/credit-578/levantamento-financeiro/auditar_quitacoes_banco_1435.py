@@ -97,6 +97,7 @@ def reconcile(year, events, accounts):
     used_bank = set()
     groups = defaultdict(list)
     matches = []
+    samples_by_class = defaultdict(list)
     for e in rights:
         group = "sem vínculo financeiro direto comprovado"
         peer = None
@@ -120,15 +121,18 @@ def reconcile(year, events, accounts):
         elif any(k not in used_bank for k in bank_by_date_amount.get((e["date"], e["credit"]), [])):
             group = "possível banco / mesma data e valor, lote diferente"
         groups[group].append(e)
-        if len(matches) < 2000:
-            matches.append({
+        item = {
                 "classificacao": group, "data": e["date"], "lote": e["lot"],
                 "valor_centavos": e["credit"], "contrapartida_explicita": e["cp"],
                 "historico": e["history"][:320], "origem_1435": e["origin"],
                 "conta_par": peer["account"] if peer else None,
                 "historico_par": peer["history"][:320] if peer else None,
                 "origem_par": peer["origin"] if peer else None,
-            })
+            }
+        if len(samples_by_class[group]) < 30:
+            samples_by_class[group].append(item)
+        if len(matches) < 2000:
+            matches.append(item)
 
     result = {
         "year": year,
@@ -142,7 +146,8 @@ def reconcile(year, events, accounts):
         "bank_entries_cp_1435": metric([x for x in bank if x["cp"] == "1435"], "debit"),
         "classification": {k: metric(v) for k, v in groups.items()},
         "examples": matches[:150],
-        "sample_unmatched": [x for x in matches if x["classificacao"] == "sem vínculo financeiro direto comprovado"][:30],
+        "amostras_por_classificacao": dict(samples_by_class),
+        "sample_unmatched": samples_by_class.get("sem vínculo financeiro direto comprovado", []),
     }
     return result
 
