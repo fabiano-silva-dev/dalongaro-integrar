@@ -1,0 +1,36 @@
+name: CSG - auditoria de quitacoes conta 1435
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/csg-1435-conciliacao.yml
+      - clientes/credit-578/levantamento-financeiro/auditar_quitacoes_banco_1435.py
+permissions:
+  contents: write
+jobs:
+  checar_conta_1435:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Dependencias
+        run: pip install xlrd==2.0.2
+      - name: Cruzar 1435 e bancos
+        run: python clientes/credit-578/levantamento-financeiro/auditar_quitacoes_banco_1435.py
+      - name: Versionar relatorio e trilha
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clientes/credit-578/levantamento-financeiro/auditoria_quitacoes_1435.md
+          git add clientes/credit-578/levantamento-financeiro/auditoria_quitacoes_1435.json
+          if ! git diff --cached --quiet; then
+            git commit -m "docs(csg): resultado do cruzamento da 1435 com os bancos"
+            git push
+          fi
