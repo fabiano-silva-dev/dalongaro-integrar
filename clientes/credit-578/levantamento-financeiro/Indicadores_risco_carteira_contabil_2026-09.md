@@ -29,28 +29,28 @@ Em **317 contas nominativas** com saldo positivo, totalizando **R$ 2.280.113,38*
 
 **Não apresentar R$ 1,61 milhão, R$ 1,21 milhão, R$ 569 mil ou R$ 2,28 milhões como inadimplência, exposição com risco de crédito ou provável perda.** Também não transformar esses indicadores automaticamente em ajustes do ativo.
 
-## 3. Conta genérica localizada no razão: 1435 — DIREITOS CREDITORIOS
+## 3. Conclusão comprovada: os recebimentos bancários são creditados diretamente na conta 1435
 
-**Hipótese prioritária a verificar:** a conta analítica **1435**, classificação `1.1.2.02.001`, contém direitos creditórios sem abertura nominal por devedor. Sua movimentação tem características compatíveis com baixas de uma carteira controlada de forma agrupada, mas **a contrapartida de cada lançamento ainda não foi inspecionada** e não é tecnicamente possível afirmar que cada crédito corresponde a dinheiro efetivamente recebido.
+O cruzamento integral dos razões `Razão2025.xls` e `Razão2026.xls` comprovou que a conta `1435 — DIREITOS CREDITORIOS` (`1.1.2.02.001`) é usada como contrapartida de recebimentos registrados em bancos. Os pares foram conferidos por **data, lote, valor e código de contrapartida**, com referência às linhas originais de ambos os lados. A trilha gerada está em `auditoria_quitacoes_1435.md` e `auditoria_quitacoes_1435.json`.
 
-Evolução reproduzível dos razões anuais:
+**2025:**
+- Créditos contábeis na 1435: **R$ 1.933.943,09**, em **3.073 linhas positivas**.
+- Correspondências a débito de contas bancárias, por mesmo dia/lote/valor: **R$ 1.879.572,77**, em **3.015 pares**.
+- Desses pares, ao menos **2.996 débitos bancários**, totalizando **R$ 1.827.389,34**, apresentam a conta **1435 como contrapartida explícita** no lado do banco.
+- **3 linhas / R$ 12.109,16** têm conta bancária explícita como contrapartida na 1435, mas não foram pareadas pelo valor exato; **55 linhas / R$ 42.261,16** não obtiveram vínculo bancário direto pelo critério estrito. Isso **não prova ausência de recebimento**: pode haver lançamento composto, reclassificação, compensação ou diferença temporal.
+- Em 2025 também aparece a conta `2012 — BANCO DO BRASIL CONTA TRANSITÓRIA`, R$ 48.952,63 de entrada e saída, sem saldo final; não confundir sua movimentação com a origem principal das baixas da 1435.
 
-- **2024:** lançamento único em 31/12/2024, débito de **R$ 4.259.711,65**, associado ao período de implantação de saldos; saldo final de R$ 4.259.711,65. **Não tratar como aquisição/entrada bancária comprovada**.
-- **2025:** **3.177 movimentos**; débito de R$ 1.411,27 e créditos de **R$ 1.933.943,09**; saldo de **R$ 2.327.179,83**.
-- **2026 até setembro:** **973 movimentos**; nenhum débito e créditos de **R$ 632.382,09**; saldo de **R$ 1.694.797,74**.
-- **Créditos contábeis em 2025 e jan-set/2026:** **R$ 2.566.325,18**. Esse é um total **bruto de lançamentos a crédito**, não montante validado de liquidações financeiras ou contratos quitados.
+**Janeiro-setembro de 2026:**
+- Créditos contábeis na 1435: **R$ 632.382,09**, em **973 linhas**.
+- Pares banco / conta 1435 conferidos: **972 linhas / R$ 625.166,24**. Dessas, **971 / R$ 624.446,24** têm como contrapartida a conta 15 (Banco do Brasil Filial) e **1 / R$ 720,00** a conta 11 (Banco do Brasil Matriz).
+- **Uma linha de R$ 7.215,85** corresponde a reclassificação interna para a conta `1502 — SAULO DA SILVA PINHEIRO`, no lote 32130 de 02/01/2026, com histórico de ajuste de saldos anteriores, **não é recebimento bancário**.
+- Exemplo de par: **02/01/2026, lote 24711, R$ 198,76**, com histórico de recebimento via PIX; débito em banco 15 na linha 66 e crédito em direitos creditórios 1435 na linha 28123 do razão anual de 2026.
 
-Também foi localizada a conta **2012 — BANCO DO BRASIL CONTA TRANSITÓRIA** (`1.1.1.02.001`), com 30 eventos, R$ 48.952,63 em débitos e créditos em 2025, saldo final zero. Pode indicar passagem de recursos, mas sem prova de que seja a centralizadora das quitações da carteira.
+**Total dos pares bancários identificados de 2025 a setembro de 2026: R$ 2.504.739,01.** Este é volume histórico de recebimentos com correspondência contábil nos dois lados, **não saldo atual a receber**.
 
-Em uma das importações Domínio, `CONTABIL_DOMINIO_2_83_1_20102026_143411.TXT`, há lançamentos de setembro sob histórico `TÍTULOS A RECEBER REF.` e código `1000` do **plano de importação**, combinados em alguns lotes com `RECEITA COM DESÁGIO`, `PAGTO. OPERAÇÃO` e `CONTA CORRENTE CEDENTE`. **O código 1000 da importação não pode ser igualado automaticamente a uma conta do razão final** nem esses lançamentos confundidos com recebimentos de parcelas: a descrição é de operação/entrada de títulos. Exigem mapeamento próprio para qualquer conclusão.
+**Consequência gerencial decisiva:** o dinheiro pode ser registrado diretamente no banco com contrapartida na carteira genérica 1435, sem que a própria partida contábil contenha baixa em conta nominal do devedor. A falta de baixa em conta individual, portanto, **não comprova inadimplência**. Contudo, a existência dessa contabilização não prova, por si só, que um pagamento deveria ter sido baixado de conta nominativa; é preciso conhecer a origem do contrato e o tratamento contábil dos direitos creditórios. **Não descontar novamente os R$ 2,50 milhões do saldo atual de R$ 6,80 milhões**, pois os créditos à 1435 já afetaram a posição contábil.
 
-**Teste decisivo:** pesquisar no razão detalhado da conta 1435 as contrapartidas por lote/data, valores e histórico; separar:
-1. `D: bancos / C: 1435` = possível recebimento bancário da carteira agrupada, sujeito a conferência do extrato e identificação do título;
-2. `D: contas individuais / C: 1435` = possível transferência/reclassificação entre contas de carteira, **não** recebimento;
-3. `D: despesas/ajustes ou outras / C: 1435` = outras baixas que precisam de interpretação documental;
-4. Valores compensados/estornados ou bancários sem título = classificar como pendentes, nunca quitar por aproximação de nome.
-
-Enquanto não houver essa abertura, **não interpretar os R$ 2.566.325,18 como quitações comprovadas nem usá-los para abater novamente o saldo do ativo.** A movimentação já compõe os saldos oficiais.
+A grande pendência deixou de ser descobrir **se** existem recebimentos diretos na conta genérica — **isso está confirmado** — e passou a ser vincular os recebimentos a títulos, contratos e devedores para determinar o saldo aberto real, os vencimentos e a inadimplência. O método de reconciliação deve aceitar pagamentos por terceiros e nomes diferentes do devedor contratual, usando identificadores bancários/contratuais.
 
 ## 4. Como obter um saldo de carteira defensável sem exigir fechamento perfeito por conta
 
