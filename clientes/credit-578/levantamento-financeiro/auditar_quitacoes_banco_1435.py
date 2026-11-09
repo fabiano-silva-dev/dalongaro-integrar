@@ -10,7 +10,9 @@ from datetime import datetime
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
-import xlrd
+import subprocess
+
+from indexar_razao_geral import parse_workbook
 
 BASE = Path(__file__).resolve().parent
 SOURCE = BASE.parent / "balancetes"
@@ -18,66 +20,41 @@ OUTPUT = BASE / "auditoria_quitacoes_1435"
 YEARS = (2025, 2026)
 
 
-def code(x):
-    if x is None or x == "":
-        return ""
-    if isinstance(x, (float, int)) and float(x).is_integer():
-        return str(int(x))
-    return str(x).strip()
-
-
-def cents(x):
-    if x in ("", None):
-        return 0
-    if isinstance(x, str):
-        txt = x.replace("R$", "").replace(" ", "")
-        x = txt.replace(".", "").replace(",", ".") if "," in txt else txt
-    return int((Decimal(str(x)) * 100).quantize(Decimal("1"), rounding=ROUND_HALF_UP))
-
-
-def date_value(value, typ, datemode):
-    if typ == xlrd.XL_CELL_DATE:
-        return xlrd.xldate_as_datetime(value, datemode).date().isoformat()
-    if isinstance(value, str):
-        for fmt in ("%d/%m/%Y", "%Y-%m-%d"):
-            try:
-                return datetime.strptime(value.strip(), fmt).date().isoformat()
-            except ValueError:
-                pass
-    return None
-
-
 def read_year(year):
     path = SOURCE / f"Razão{year}.xls"
-    workbook = xlrd.open_workbook(str(path), on_demand=True)
-    events, accounts = [], {}
-    for sh in workbook.sheets():
-        account, classification, name = "", "", ""
-        for rn in range(sh.nrows):
-            cells = [sh.cell(rn, i) if i < sh.ncols else None for i in range(15)]
-            v = [c.value if c is not None else None for c in cells]
-            heading = str(v[0]).strip() if v[0] is not None else ""
-            if heading == "Conta:":
-                account = code(v[1])
-                classification = code(v[2])
-                name = " ".join(str(z).strip() for z in v[5:8] if z is not None and z != "")
-                accounts[account] = {"name": name, "classification": classification}
-                continue
-            date = date_value(v[0], cells[0].ctype if cells[0] is not None else 0, workbook.datemode)
-            if not date:
-                continue
-            if not account:
-                raise ValueError(f"Movimento sem conta em {path}:{sh.name}:{rn+1}")
-            debit, credit = cents(v[9]), cents(v[10])
-            ev = {
-                "year": year, "date": date, "lot": code(v[1]),
-                "account": account, "classification": classification,
-                "name": name, "debit": debit, "credit": credit,
-                "cp": code(v[8]), "history": " ".join(str(z).strip() for z in v[2:8] if z is not None and z != ""),
-                "origin": f"{path.name}:{sh.name}:{rn+1}"
-            }
-            events.append(ev)
-    workbook.release_resources()
+    converted_dir = BASE / "qa" / "auditoria_1435"
+    converted_dir.mkdir(parents=True, exist_ok=True)
+    converted = converted_dir / f"Razão{year}.xlsx"
+    if not converted.exists():
+        result = subprocess.run(
+            ["libreoffice", "-env:UserInstallation=file:///tmp/csg-auditoria-1435",
+             "--headless", "--convert-to", "xlsx", "--outdir", str(converted_dir), str(path)],
+            capture_output=True, text=True, check=True
+        )
+        if not converted.exists():
+            raise RuntimeError(f"Falha na conversão {path}: {result.stdout} / {result.stderr}")
+    parsed = parse_workbook(converted)
+    expected = {2025: 27185, 2026: 19036}[year]
+    if len(parsed["events"]) != expected or parsed["unknown"] or parsed["balance_failures"]:
+        raise RuntimeError(
+            f"Leitura sem integridade no ano {year}: "
+            f"{len(parsed['events'])} eventos, "
+            f"{len(parsed['unknown'])} linhas desconhecidas, "
+            f"{len(parsed['balance_failures'])} divergências de saldo"
+        )
+    accounts, events = {}, []
+    for ev in parsed["events"]:
+        account = ev["codigo_conta"]
+        accounts[account] = {"name": ev["nome_conta"], "classification": ev["classificacao"]}
+        events.append({
+            "year": year, "date": ev["data"], "lot": ev["lote"],
+            "account": account, "classification": ev["classificacao"],
+            "name": ev["nome_conta"], "debit": ev["debito_centavos"],
+            "credit": ev["credito_centavos"],
+            "cp": ev.get("contrapartida_codigo") or ev.get("contrapartida") or "",
+            "history": ev["historico"],
+            "origin": f"{path.name}:{ev['aba']}:{ev['linha']}",
+        })
     return events, accounts
 
 
