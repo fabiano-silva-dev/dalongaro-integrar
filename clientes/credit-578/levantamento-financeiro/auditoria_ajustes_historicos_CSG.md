@@ -1,0 +1,267 @@
+# CSG — auditoria de ajustes históricos de saldos e contrapartidas bancárias
+
+**Fontes:** cinco razões anuais originais 2022–2026, convertidos e validados pelo indexador do levantamento.
+**Escopo:** pesquisa de históricos de ajuste/reclassificação e classificação dos débitos bancários por contrapartida.
+Esta auditoria **não recomenda lançamentos sem documentação**; eventos em lote composto exigem análise do diário.
+
+## 2022
+
+- Eventos no razão: 1055. Créditos nos bancos (débito contábil): R$ 2.194.067,42.
+- Linhas não-implantação com palavras de ajuste em ativo/passivo/PL/bancos: 2, das quais 2 com termos de correção/reclassificação.
+
+### Entradas em bancos por contrapartida predominante
+- CP n.i.: **não identificada** [sem codigo ou mapa]; 2 lançamentos, **R$ 1.000.179,56**.
+- CP 11: **BANCO DO BRASIL 280522-7 MATRIZ** [banco]; 1 lançamentos, **R$ 1.000.000,00**.
+- CP 639: **LAIR JOSE HUNING** [passivo]; 10 lançamentos, **R$ 189.033,25**.
+- CP 48: **APLICAÇÕES BANCO DO BRASIL** [outro ativo]; 2 lançamentos, **R$ 4.141,20**.
+- CP 620: **SERVIÇOS PRESTADOS POR TERCEIROS** [despesa]; 1 lançamentos, **R$ 713,41**.
+
+### Lançamentos de ajuste com pares no mesmo lote (amostras)
+- 2022-08-30 | lote 184 | conta 639 (LAIR JOSE HUNING) | D R$ 0,00 / C R$ 2.100,00 | CP 618 | PAGAMENTO NESTA DATA NF 4283 DIFERENCIAL OFFICE MOBILIARIO CORPORATIVO LTDA | Razão2022.xls:Razão:847
+  2022-08-30 | lote 184 | conta 618 (BENS DE PEQUENO VALOR) | D R$ 2.100,00 / C R$ 0,00 | CP 639 | PAGAMENTO NESTA DATA NF 4283 DIFERENCIAL OFFICE MOBILIARIO CORPORATIVO LTDA | Razão2022.xls:Razão:1363
+- 2022-08-16 | lote 177 | conta 639 (LAIR JOSE HUNING) | D R$ 0,00 / C R$ 1.500,00 | CP 618 | PAGAMENTO NESTA DATA NF 4257 DIFERENCIAL OFFICE MOBILIARIO CORPORATIVO LTDA | Razão2022.xls:Razão:836
+  2022-08-16 | lote 177 | conta 618 (BENS DE PEQUENO VALOR) | D R$ 1.500,00 / C R$ 0,00 | CP 639 | PAGAMENTO NESTA DATA NF 4257 DIFERENCIAL OFFICE MOBILIARIO CORPORATIVO LTDA | Razão2022.xls:Razão:1362
+
+### Ajustes patrimoniais e conta 267, quando presentes
+- 2022-09-30 | lote 814 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 200.263,14 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2022.xls:Razão:1028
+- 2022-12-31 | lote 856 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 179.436,86 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2022.xls:Razão:1030
+- 2022-06-30 | lote 790 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 89.911,38 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2022.xls:Razão:1027
+- 2022-12-31 | lote 863 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 61.038,46 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2022.xls:Razão:1031
+- 2022-09-30 | lote 821 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 18.798,41 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2022.xls:Razão:1029
+
+## 2023
+
+- Eventos no razão: 5863. Créditos nos bancos (débito contábil): R$ 3.657.500,17.
+- Linhas não-implantação com palavras de ajuste em ativo/passivo/PL/bancos: 16, das quais 16 com termos de correção/reclassificação.
+
+### Entradas em bancos por contrapartida predominante
+- CP n.i.: **não identificada** [sem codigo ou mapa]; 181 lançamentos, **R$ 1.193.112,80**.
+- CP 48: **APLICAÇÕES BANCO DO BRASIL** [outro ativo]; 48 lançamentos, **R$ 1.138.610,98**.
+- CP 639: **LAIR JOSE HUNING** [passivo]; 37 lançamentos, **R$ 877.050,00**.
+- CP 721: **AIRTON BERNARDI** [duplicatas]; 1 lançamentos, **R$ 138.353,41**.
+- CP 769: **APLICAÇÃO BANCO DO BRASIL RF LP ** [outro ativo]; 7 lançamentos, **R$ 136.046,00**.
+- CP 788: **EVANDRO CESAR ECCEL** [duplicatas]; 3 lançamentos, **R$ 32.920,00**.
+- CP 660: **JOÃO XXI SERVIÇOS MEDICOS LTDA** [duplicatas]; 1 lançamentos, **R$ 23.047,06**.
+- CP 645: **UY3 SOCIEDADE DE CREDITO S/A** [duplicatas]; 6 lançamentos, **R$ 18.941,68**.
+- CP 661: **DIRETORIO WEB DESENVOLVIMENTO DE WEBSITES LTDA** [duplicatas]; 3 lançamentos, **R$ 13.791,74**.
+- CP 534: **KONTROLLE ASSESSORIA CONTABIL** [duplicatas]; 8 lançamentos, **R$ 10.696,24**.
+- CP 658: **UY3 SOCIEDADE DE CREDITO S/A** [passivo]; 1 lançamentos, **R$ 10.443,67**.
+- CP 725: **JOAO PEDRO SANTINI MARTINS ** [duplicatas]; 3 lançamentos, **R$ 9.700,50**.
+- CP 717: **TAIBELLE VIRGINEA ROUMOW** [duplicatas]; 2 lançamentos, **R$ 4.114,35**.
+- CP 720: **MARISANE HAETINGER** [duplicatas]; 1 lançamentos, **R$ 3.453,65**.
+- CP 746: **ROUMOWS IMUNIZAÇOES LTDA** [duplicatas]; 1 lançamentos, **R$ 3.414,57**.
+- CP 272: **(-) AMORTIZACAO DE CESSAO DE CREDITO** [despesa]; 1 lançamentos, **R$ 3.135,40**.
+- CP 537: **BRUNA VESTENA** [duplicatas]; 5 lançamentos, **R$ 2.446,90**.
+- CP 667: **LESS CONTEUDO E RELACIONAMENTO** [duplicatas]; 2 lançamentos, **R$ 2.329,54**.
+- CP 559: **DAIANE HELENA PERSKE CARGNIN** [duplicatas]; 3 lançamentos, **R$ 1.898,12**.
+- CP 557: **MATHEUS PINCOLINI ZANINI** [duplicatas]; 5 lançamentos, **R$ 1.871,60**.
+- CP 778: **MORGANI MODAS** [duplicatas]; 1 lançamentos, **R$ 1.653,31**.
+- CP 671: **MARTA HELENA VILLANOVA** [duplicatas]; 1 lançamentos, **R$ 1.477,27**.
+- CP 702: **ANDRESSA RAIRA PISNEY BRUM** [duplicatas]; 4 lançamentos, **R$ 1.473,04**.
+- CP 727: **MIRAGEM EQUIPAMENTOS LTDA** [duplicatas]; 1 lançamentos, **R$ 1.403,64**.
+- CP 504: **GEANER MARIA GIAMBASTIANI DUTRA** [duplicatas]; 6 lançamentos, **R$ 1.372,50**.
+- CP 516: **COMPRA DE SESSAO DE CREDITO** [despesa]; 2 lançamentos, **R$ 1.359,39**.
+- CP 535: **DANIEL LOPES** [duplicatas]; 2 lançamentos, **R$ 1.208,26**.
+- CP 8: **BANCO DO BRASIL 41152-3 FILIAL** [banco]; 5 lançamentos, **R$ 1.169,60**.
+
+### Lançamentos de ajuste com pares no mesmo lote (amostras)
+- 2023-03-31 | lote 2850 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 23.835,72 / C R$ 0,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6547
+  2023-03-31 | lote 2850 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 23.835,72 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6642
+- 2023-03-31 | lote 2850 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 23.835,72 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6642
+  2023-03-31 | lote 2850 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 23.835,72 / C R$ 0,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6547
+- 2023-01-02 | lote 1609 | conta 527 (ELI CATARINA MACHADO) | D R$ 2.143,27 / C R$ 0,00 | CP 657 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER ELI CATARINA MACHADO CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:2504
+  2023-01-02 | lote 1609 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 2.143,27 | CP 527 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER ELI CATARINA MACHADO CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:6633
+- 2023-01-02 | lote 1609 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 2.143,27 | CP 527 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER ELI CATARINA MACHADO CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:6633
+  2023-01-02 | lote 1609 | conta 527 (ELI CATARINA MACHADO) | D R$ 2.143,27 / C R$ 0,00 | CP 657 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER ELI CATARINA MACHADO CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:2504
+- 2023-01-02 | lote 1613 | conta 529 (RENATA TEIXEIRA DA SILVA) | D R$ 1.241,20 / C R$ 0,00 | CP 657 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO RENATA TEIXEIRA DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E C | Razão2023.xls:Razão:4271
+  2023-01-02 | lote 1613 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 1.241,20 | CP 529 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO RENATA TEIXEIRA DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E C | Razão2023.xls:Razão:6636
+- 2023-01-02 | lote 1613 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 1.241,20 | CP 529 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO RENATA TEIXEIRA DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E C | Razão2023.xls:Razão:6636
+  2023-01-02 | lote 1613 | conta 529 (RENATA TEIXEIRA DA SILVA) | D R$ 1.241,20 / C R$ 0,00 | CP 657 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO RENATA TEIXEIRA DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E C | Razão2023.xls:Razão:4271
+- 2023-01-02 | lote 1611 | conta 528 (LUCAS LUCIANO DA SILVA) | D R$ 597,94 / C R$ 0,00 | CP 657 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO LUCAS LUCIANO DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E COR | Razão2023.xls:Razão:3629
+  2023-01-02 | lote 1611 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 597,94 | CP 528 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO LUCAS LUCIANO DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E COR | Razão2023.xls:Razão:6635
+- 2023-01-02 | lote 1611 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 597,94 | CP 528 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO LUCAS LUCIANO DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E COR | Razão2023.xls:Razão:6635
+  2023-01-02 | lote 1611 | conta 528 (LUCAS LUCIANO DA SILVA) | D R$ 597,94 / C R$ 0,00 | CP 657 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO LUCAS LUCIANO DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E COR | Razão2023.xls:Razão:3629
+- 2023-03-31 | lote 2851 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 101,70 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6546
+  2023-03-31 | lote 2851 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 101,70 / C R$ 0,00 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6643
+- 2023-03-31 | lote 2851 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 101,70 / C R$ 0,00 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6643
+  2023-03-31 | lote 2851 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 101,70 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6546
+- 2023-04-30 | lote 3986 | conta 178 (IRRF S/ SALARIOS A RECOLHER) | D R$ 45,00 / C R$ 0,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS IRRF A RECOLHER PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:5931
+  2023-04-30 | lote 3986 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 45,00 | CP 178 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS IRRF A RECOLHER PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6644
+- 2023-04-30 | lote 3987 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 45,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6550
+  2023-04-30 | lote 3987 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 45,00 / C R$ 0,00 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6645
+- 2023-04-30 | lote 3986 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 45,00 | CP 178 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS IRRF A RECOLHER PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6644
+  2023-04-30 | lote 3986 | conta 178 (IRRF S/ SALARIOS A RECOLHER) | D R$ 45,00 / C R$ 0,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS IRRF A RECOLHER PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:5931
+- 2023-04-30 | lote 3987 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 45,00 / C R$ 0,00 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6645
+  2023-04-30 | lote 3987 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 45,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6550
+- 2023-01-02 | lote 1614 | conta 645 (UY3 SOCIEDADE DE CREDITO S/A) | D R$ 0,00 / C R$ 21,65 | CP n.i. | VLR REF. ACERTO DE CONTAS CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:4636
+  2023-01-02 | lote 1614 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 21,65 / C R$ 0,00 | CP n.i. | VLR REF. ACERTO DE CONTAS CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:6637
+- 2023-01-02 | lote 1614 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 21,65 / C R$ 0,00 | CP n.i. | VLR REF. ACERTO DE CONTAS CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:6637
+  2023-01-02 | lote 1614 | conta 645 (UY3 SOCIEDADE DE CREDITO S/A) | D R$ 0,00 / C R$ 21,65 | CP n.i. | VLR REF. ACERTO DE CONTAS CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:4636
+
+### Ajustes patrimoniais e conta 267, quando presentes
+- 2023-09-30 | lote 5554 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 228.074,52 | CP n.i. | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6553
+- 2023-12-31 | lote 5576 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 125.440,53 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6556
+- 2023-09-30 | lote 5516 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 112.974,86 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6554
+- 2023-03-31 | lote 5447 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 90.556,27 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6549
+- 2023-03-31 | lote 5421 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 82.882,65 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6548
+- 2023-06-30 | lote 5467 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 68.900,99 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6551
+- 2023-06-30 | lote 5501 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 49.926,59 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6552
+- 2023-03-31 | lote 2850 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 23.835,72 / C R$ 0,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6547
+- 2023-03-31 | lote 2850 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 23.835,72 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6642
+- 2023-12-31 | lote 5611 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 17.883,97 | CP n.i. | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2023.xls:Razão:6555
+- 2023-01-02 | lote 1609 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 2.143,27 | CP 527 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER ELI CATARINA MACHADO CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:6633
+- 2023-01-02 | lote 1613 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 1.241,20 | CP 529 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO RENATA TEIXEIRA DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E C | Razão2023.xls:Razão:6636
+- 2023-01-02 | lote 1611 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 597,94 | CP 528 | VLR REF. AJUSTE DA CONTA CLIENTES A RECEBER RECEBIDO AMORTIZACAO CESSAO DE CREDITO LUCAS LUCIANO DA SILVA CONFORME RELATORIO EMPRESA ORA APURADO E COR | Razão2023.xls:Razão:6635
+- 2023-03-31 | lote 2851 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 101,70 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6546
+- 2023-03-31 | lote 2851 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 101,70 / C R$ 0,00 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6643
+- 2023-04-30 | lote 3987 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 45,00 | CP 657 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6550
+- 2023-04-30 | lote 3986 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 0,00 / C R$ 45,00 | CP 178 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS IRRF A RECOLHER PARA AJUSTES DE EXERCICIOS ANTERIORES   | Razão2023.xls:Razão:6644
+- 2023-04-30 | lote 3987 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 45,00 / C R$ 0,00 | CP 267 | VLR REF TRANSFERENCIA DE SALDOS ENTRE CONTAS AJUSTES DE EXERCICIOS ANTERIORES PARA (-) PREJUÍZOS ACUMULADOS   | Razão2023.xls:Razão:6645
+- 2023-01-02 | lote 1614 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 21,65 / C R$ 0,00 | CP n.i. | VLR REF. ACERTO DE CONTAS CONFORME RELATORIO EMPRESA ORA APURADO E CORRIGIDO | Razão2023.xls:Razão:6637
+
+## 2024
+
+- Eventos no razão: 8912. Créditos nos bancos (débito contábil): R$ 3.265.535,53.
+- Linhas não-implantação com palavras de ajuste em ativo/passivo/PL/bancos: 1, das quais 1 com termos de correção/reclassificação.
+
+### Entradas em bancos por contrapartida predominante
+- CP n.i.: **não identificada** [sem codigo ou mapa]; 350 lançamentos, **R$ 1.153.340,29**.
+- CP 769: **APLICAÇÃO BANCO DO BRASIL RF LP ** [outro ativo]; 23 lançamentos, **R$ 638.156,81**.
+- CP 639: **LAIR JOSE HUNING** [passivo]; 19 lançamentos, **R$ 586.597,58**.
+- CP 762: **APLICAÇÃO BANCO DO BRASIL RF CP** [outro ativo]; 12 lançamentos, **R$ 263.364,93**.
+- CP 1113: **JANE HARTMANN HUNING** [passivo]; 8 lançamentos, **R$ 201.337,03**.
+- CP 560: **APLICAÇÃO BB SIMPLES ÁGIL - 280522-7** [outro ativo]; 3 lançamentos, **R$ 47.846,06**.
+- CP 645: **UY3 SOCIEDADE DE CREDITO S/A** [duplicatas]; 8 lançamentos, **R$ 36.384,74**.
+- CP 680: **BONELLA & FILHAS LTDA** [duplicatas]; 6 lançamentos, **R$ 25.322,04**.
+- CP 15: **BANCO DO BRASIL 2805-3 FILIAL** [banco]; 1 lançamentos, **R$ 20.000,00**.
+- CP 534: **KONTROLLE ASSESSORIA CONTABIL** [duplicatas]; 8 lançamentos, **R$ 10.696,24**.
+- CP 731: **FRANCISLAINE SOUZA ODONTOLOGIA INTEGRADA E HARMONIZACAO LTDA** [duplicatas]; 4 lançamentos, **R$ 7.736,91**.
+- CP 1042: **MARIANE STEFANELLO ULIANA** [duplicatas]; 2 lançamentos, **R$ 7.611,28**.
+- CP 720: **MARISANE HAETINGER** [duplicatas]; 2 lançamentos, **R$ 6.907,30**.
+- CP 671: **MARTA HELENA VILLANOVA** [duplicatas]; 4 lançamentos, **R$ 6.833,52**.
+- CP 979: **MARCIO GARIBALDI DE MEDEIROS** [duplicatas]; 3 lançamentos, **R$ 5.562,18**.
+- CP 778: **MORGANI MODAS** [duplicatas]; 3 lançamentos, **R$ 4.959,93**.
+- CP 1107: **WANDERSON OLIVEIRA FLORIANO** [duplicatas]; 1 lançamentos, **R$ 4.423,57**.
+- CP 725: **JOAO PEDRO SANTINI MARTINS ** [duplicatas]; 2 lançamentos, **R$ 4.418,10**.
+- CP 798: **JOSE CARLOS PEDROTTI DA ROSA** [duplicatas]; 2 lançamentos, **R$ 4.155,63**.
+- CP 965: **MAIQUEL HOMRICH DA SILVA** [duplicatas]; 3 lançamentos, **R$ 4.104,17**.
+- CP 793: **GILSA MARIA SPOLAOR** [duplicatas]; 4 lançamentos, **R$ 3.903,56**.
+- CP 1032: **DIEGO DOS SANTOS PLATE** [duplicatas]; 4 lançamentos, **R$ 3.713,70**.
+- CP 1004: **JANAINA MARIA DE FRAGA RODRIGUES** [duplicatas]; 4 lançamentos, **R$ 3.252,40**.
+- CP 1022: **ROGER CALIARI** [duplicatas]; 3 lançamentos, **R$ 3.107,25**.
+- CP 955: **TATIANA KADER RAJEH IBDAIWI** [duplicatas]; 1 lançamentos, **R$ 3.065,59**.
+- CP 8: **BANCO DO BRASIL 41152-3 FILIAL** [banco]; 4 lançamentos, **R$ 3.022,88**.
+- CP 799: **RAQUEL OLAECHEA GADRET FARIAS** [duplicatas]; 2 lançamentos, **R$ 2.978,04**.
+- CP 666: **LEA TABORDES VIEGAS** [duplicatas]; 3 lançamentos, **R$ 2.942,50**.
+
+### Lançamentos de ajuste com pares no mesmo lote (amostras)
+- 2024-08-30 | lote 8748 | conta 187 (SALÁRIOS E ORDENADOS A PAGAR) | D R$ 0,00 / C R$ 37,60 | CP 335 | REFERENTE A DIFERENÇA DE FÉRIAS DO MÊS 08/2024  | Razão2024.xls:Razão:13569
+  2024-08-30 | lote 8748 | conta 335 (FÉRIAS) | D R$ 37,60 / C R$ 0,00 | CP 187 | REFERENTE A DIFERENÇA DE FÉRIAS DO MÊS 08/2024  | Razão2024.xls:Razão:14714
+
+### Ajustes patrimoniais e conta 267, quando presentes
+- 2024-12-31 | lote 23308 | conta 1328 (ADIANT P/FUTURO AUMENTO DE CAPITAL) | D R$ 0,00 / C R$ 415.000,00 | CP n.i. | SALDO FINAL EM 31/12/2024  | Razão2024.xls:Razão:13974
+- 2024-08-31 | lote 17193 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 304.021,43 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO  | Razão2024.xls:Razão:13990
+- 2024-08-31 | lote 15938 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 0,00 / C R$ 244.155,45 | CP 266 | Compensação Lucro/Prejuízo | Razão2024.xls:Razão:13989
+- 2024-12-31 | lote 23308 | conta 266 (LUCROS ACUMULADOS) | D R$ 0,00 / C R$ 13.188,88 | CP n.i. | SALDO FINAL EM 31/12/2024  | Razão2024.xls:Razão:14007
+
+## 2025
+
+- Eventos no razão: 27185. Créditos nos bancos (débito contábil): R$ 6.248.714,23.
+- Linhas não-implantação com palavras de ajuste em ativo/passivo/PL/bancos: 52, das quais 3 com termos de correção/reclassificação.
+
+### Entradas em bancos por contrapartida predominante
+- CP 1435: **DIREITOS CREDITORIOS ** [direitos genericos]; 2996 lançamentos, **R$ 1.827.389,34**.
+- CP 1113: **JANE HARTMANN HUNING** [passivo]; 25 lançamentos, **R$ 1.665.000,00**.
+- CP n.i.: **não identificada** [sem codigo ou mapa]; 1089 lançamentos, **R$ 853.911,11**.
+- CP 642: **DEBÊNTURES** [passivo]; 8 lançamentos, **R$ 410.000,00**.
+- CP 755: **APLICAÇÃO BB PLUS ÁGIL - 2805-3** [outro ativo]; 29 lançamentos, **R$ 346.812,38**.
+- CP 639: **LAIR JOSE HUNING** [passivo]; 2 lançamentos, **R$ 140.000,00**.
+- CP 247: **CAPITAL A INTEGRALIZAR** [patrimonio]; 5 lançamentos, **R$ 100.000,00**.
+- CP 15: **BANCO DO BRASIL 2805-3 FILIAL** [banco]; 16 lançamentos, **R$ 49.002,63**.
+- CP 2012: **BANCO DO BRASIL CONTA TRANSITÓRIA** [banco]; 15 lançamentos, **R$ 48.952,63**.
+- CP 11: **BANCO DO BRASIL 280522-7 MATRIZ** [banco]; 12 lançamentos, **R$ 39.014,87**.
+- CP 1343: **LMMN MATERIAIS SERVICOS ODONTOLOGICOS E MEDICOS LTDA** [duplicatas]; 8 lançamentos, **R$ 34.554,42**.
+- CP 1589: **LEMOS SERVICOS ODONTOLOGICOS LTDA** [duplicatas]; 5 lançamentos, **R$ 26.269,33**.
+- CP 1502: **SAULO DA SILVA PINHEIRO** [duplicatas]; 8 lançamentos, **R$ 14.257,93**.
+- CP 1185: **FRANCISLAINE APARECIDA DIAS DE SOUZA** [duplicatas]; 6 lançamentos, **R$ 13.706,34**.
+- CP 1471: **LUCAS RODRIGUES ZANUTO** [duplicatas]; 6 lançamentos, **R$ 13.569,60**.
+- CP 1332: **ALESSANDRA GRESSLER DORNELLES** [duplicatas]; 5 lançamentos, **R$ 12.884,75**.
+- CP 1613: **MARIA TEREZINHA CICHOTA CAMPODONICO** [duplicatas]; 6 lançamentos, **R$ 12.196,68**.
+- CP 560: **APLICAÇÃO BB SIMPLES ÁGIL - 280522-7** [outro ativo]; 10 lançamentos, **R$ 9.552,45**.
+- CP 1571: **FELIPE TORRES BARROS** [duplicatas]; 4 lançamentos, **R$ 7.203,76**.
+- CP 1599: **ADALBERTO TEIXEIRA DE OLIVEIRA** [duplicatas]; 6 lançamentos, **R$ 6.982,86**.
+- CP 1025: **DIOGO RIBAS DOS SANTOS** [duplicatas]; 9 lançamentos, **R$ 6.632,16**.
+- CP 714: **JULIANE INES KIPPER** [duplicatas]; 11 lançamentos, **R$ 6.490,39**.
+- CP 1413: **MICHELINE AMIN MAHMUD ABDEL KADER** [duplicatas]; 9 lançamentos, **R$ 6.318,06**.
+- CP 918: **CARLA ADRIANE HEITLING CASTAGNA** [duplicatas]; 19 lançamentos, **R$ 6.300,31**.
+- CP 1355: **LEONARDO AUGUSTO DE OLIVEIRA** [duplicatas]; 3 lançamentos, **R$ 6.174,51**.
+- CP 1336: **BERNARDETE MARIA PIVETTA MAINARDI** [duplicatas]; 10 lançamentos, **R$ 4.892,21**.
+- CP 1632: **ROSANGELA CASTRO DA SILVEIRA** [duplicatas]; 6 lançamentos, **R$ 4.576,92**.
+- CP 1090: **JOSELAINE SOLDATI DA SILVA ZEPPENFELD** [duplicatas]; 6 lançamentos, **R$ 4.386,91**.
+
+### Lançamentos de ajuste com pares no mesmo lote (amostras)
+- 2025-01-01 | lote 23306 | conta 1434 (VIA CAPITAL - SOCIEDADE DE CREDITO DIRETO S/A) | D R$ 0,00 / C R$ 46.906,96 | CP 657 | AJUSTE DE EXERCÍCIOS ANTERIORES REFERENTE À REGULARIZAÇÃO DE SALDO DE FORNECEDOR, EM DECORRÊNCIA DE ERRO DE RECONHECIMENTO DO PASSIVO NO EXERCÍCIO DE  | Razão2025.xls:Razão:27502
+  2025-01-01 | lote 23306 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 46.906,96 / C R$ 0,00 | CP 1434 | AJUSTE DE EXERCÍCIOS ANTERIORES REFERENTE À REGULARIZAÇÃO DE SALDO DE FORNECEDOR, EM DECORRÊNCIA DE ERRO DE RECONHECIMENTO DO PASSIVO NO EXERCÍCIO DE  | Razão2025.xls:Razão:31567
+- 2025-01-01 | lote 23306 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 46.906,96 / C R$ 0,00 | CP 1434 | AJUSTE DE EXERCÍCIOS ANTERIORES REFERENTE À REGULARIZAÇÃO DE SALDO DE FORNECEDOR, EM DECORRÊNCIA DE ERRO DE RECONHECIMENTO DO PASSIVO NO EXERCÍCIO DE  | Razão2025.xls:Razão:31567
+  2025-01-01 | lote 23306 | conta 1434 (VIA CAPITAL - SOCIEDADE DE CREDITO DIRETO S/A) | D R$ 0,00 / C R$ 46.906,96 | CP 657 | AJUSTE DE EXERCÍCIOS ANTERIORES REFERENTE À REGULARIZAÇÃO DE SALDO DE FORNECEDOR, EM DECORRÊNCIA DE ERRO DE RECONHECIMENTO DO PASSIVO NO EXERCÍCIO DE  | Razão2025.xls:Razão:27502
+- 2025-12-31 | lote 24633 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 1.252,93 / C R$ 0,00 | CP n.i. | VLR REF AJUSTE DE CONTA IRRF E CRF A RECUPERAR | Razão2025.xls:Razão:31571
+  2025-12-31 | lote 24633 | conta 31 (IRRF E CRF A RECUPERAR) | D R$ 0,00 / C R$ 1.078,09 | CP n.i. | VLR REF AJUSTE DE CONTA IRRF E CRF A RECUPERAR | Razão2025.xls:Razão:26444
+  2025-12-31 | lote 24633 | conta 2013 (IRRF A RECUPERAR) | D R$ 0,00 / C R$ 174,84 | CP n.i. | VLR REF AJUSTE DE CONTA IRRF A RECUPERAR | Razão2025.xls:Razão:26503
+
+### Ajustes patrimoniais e conta 267, quando presentes
+- 2025-12-31 | lote 24710 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 546.008,46 / C R$ 0,00 | CP 514 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO.  | Razão2025.xls:Razão:31503
+- 2025-01-01 | lote 23306 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 46.906,96 / C R$ 0,00 | CP 1434 | AJUSTE DE EXERCÍCIOS ANTERIORES REFERENTE À REGULARIZAÇÃO DE SALDO DE FORNECEDOR, EM DECORRÊNCIA DE ERRO DE RECONHECIMENTO DO PASSIVO NO EXERCÍCIO DE  | Razão2025.xls:Razão:31567
+- 2025-12-31 | lote 30049 | conta 267 ((-) PREJUÍZOS ACUMULADOS) | D R$ 39.158,59 / C R$ 0,00 | CP 657 | VLR TRANSFERIDO PARA O RESULTADO DO EXERCICIO. | Razão2025.xls:Razão:31504
+- 2025-12-31 | lote 24633 | conta 657 (AJUSTES DE EXERCICIOS ANTERIORES) | D R$ 1.252,93 / C R$ 0,00 | CP n.i. | VLR REF AJUSTE DE CONTA IRRF E CRF A RECUPERAR | Razão2025.xls:Razão:31571
+
+## 2026
+
+- Eventos no razão: 19036. Créditos nos bancos (débito contábil): R$ 4.937.559,52.
+- Linhas não-implantação com palavras de ajuste em ativo/passivo/PL/bancos: 10, das quais 6 com termos de correção/reclassificação.
+
+### Entradas em bancos por contrapartida predominante
+- CP n.i.: **não identificada** [sem codigo ou mapa]; 4190 lançamentos, **R$ 2.100.408,35**.
+- CP 2388: **GUSTAVO MATIAS HUNING** [outro ativo]; 1 lançamentos, **R$ 660.000,00**.
+- CP 1435: **DIREITOS CREDITORIOS ** [direitos genericos]; 972 lançamentos, **R$ 625.166,24**.
+- CP 2065: **APLICAÇÃO DI PLUS ÁGIL - 41152-3** [outro ativo]; 78 lançamentos, **R$ 567.761,53**.
+- CP 1113: **JANE HARTMANN HUNING** [passivo]; 11 lançamentos, **R$ 535.448,50**.
+- CP 755: **APLICAÇÃO BB PLUS ÁGIL - 2805-3** [outro ativo]; 8 lançamentos, **R$ 247.121,71**.
+- CP 8: **BANCO DO BRASIL 41152-3 FILIAL** [banco]; 1 lançamentos, **R$ 50.000,00**.
+- CP 15: **BANCO DO BRASIL 2805-3 FILIAL** [banco]; 1 lançamentos, **R$ 50.000,00**.
+- CP 2213: **BB RENDE FÁCIL** [outro ativo]; 5 lançamentos, **R$ 46.814,43**.
+- CP 1434: **VIA CAPITAL - SOCIEDADE DE CREDITO DIRETO S/A** [passivo]; 3 lançamentos, **R$ 28.435,53**.
+- CP 1332: **ALESSANDRA GRESSLER DORNELLES** [duplicatas]; 6 lançamentos, **R$ 15.461,70**.
+- CP 433: **JUROS ATIVOS (OUTROS)** [receita]; 1 lançamentos, **R$ 2.771,16**.
+- CP 1182: **EDEM ELI RODRIGUES FROS** [duplicatas]; 2 lançamentos, **R$ 1.795,62**.
+- CP 1201: **MARCOS VENICIOS OLIVEIRA PORTILHO** [duplicatas]; 3 lançamentos, **R$ 1.429,89**.
+- CP 1339: **CARLA CRISTINE LETURIONDO PERES** [duplicatas]; 3 lançamentos, **R$ 1.217,43**.
+- CP 1177: **CAMILA DOS REIS DE LIMA** [duplicatas]; 4 lançamentos, **R$ 1.127,72**.
+- CP 560: **APLICAÇÃO BB SIMPLES ÁGIL - 280522-7** [outro ativo]; 8 lançamentos, **R$ 722,61**.
+- CP 1178: **CARINA ALVES CHARAO** [duplicatas]; 1 lançamentos, **R$ 609,19**.
+- CP 638: **DESPESAS INDEDUTIVEIS** [despesa]; 3 lançamentos, **R$ 528,35**.
+- CP 1173: **AIANE GASPARONI LEMOS** [duplicatas]; 2 lançamentos, **R$ 309,52**.
+- CP 1188: **IVANISE CAMARGO DE OLIVEIRA** [duplicatas]; 1 lançamentos, **R$ 267,10**.
+- CP 1175: **AMANDA LIEBL** [duplicatas]; 1 lançamentos, **R$ 162,94**.
+
+### Lançamentos de ajuste com pares no mesmo lote (amostras)
+- 2026-01-02 | lote 32130 | conta 1502 (SAULO DA SILVA PINHEIRO) | D R$ 7.215,85 / C R$ 0,00 | CP 1435 | VLR REF AJUSTE DE SALDO REF EXERCÍCIOS ANTERIORES | Razão2026.xls:Razão:25858
+  2026-01-02 | lote 32130 | conta 1435 (DIREITOS CREDITORIOS ) | D R$ 0,00 / C R$ 7.215,85 | CP 1502 | VLR REF AJUSTE DE SALDO REF EXERCÍCIOS ANTERIORES | Razão2026.xls:Razão:28132
+- 2026-01-02 | lote 32130 | conta 1435 (DIREITOS CREDITORIOS ) | D R$ 0,00 / C R$ 7.215,85 | CP 1502 | VLR REF AJUSTE DE SALDO REF EXERCÍCIOS ANTERIORES | Razão2026.xls:Razão:28132
+  2026-01-02 | lote 32130 | conta 1502 (SAULO DA SILVA PINHEIRO) | D R$ 7.215,85 / C R$ 0,00 | CP 1435 | VLR REF AJUSTE DE SALDO REF EXERCÍCIOS ANTERIORES | Razão2026.xls:Razão:25858
+- 2026-01-01 | lote 27941 | conta 1692 (ARIANE PIRES FLORIANO AGUIRRE) | D R$ 1.716,08 / C R$ 0,00 | CP 1672 | VLR REF AJUSTE DE CONTA CLIENTE N/DATA | Razão2026.xls:Razão:9444
+  2026-01-01 | lote 27941 | conta 1672 (SAMARA CRISTINA DO NASCIMENTO ROAS) | D R$ 0,00 / C R$ 1.716,08 | CP 1692 | VLR REF AJUSTE DE CONTA CLIENTE N/DATA | Razão2026.xls:Razão:25580
+- 2026-01-01 | lote 27941 | conta 1672 (SAMARA CRISTINA DO NASCIMENTO ROAS) | D R$ 0,00 / C R$ 1.716,08 | CP 1692 | VLR REF AJUSTE DE CONTA CLIENTE N/DATA | Razão2026.xls:Razão:25580
+  2026-01-01 | lote 27941 | conta 1692 (ARIANE PIRES FLORIANO AGUIRRE) | D R$ 1.716,08 / C R$ 0,00 | CP 1672 | VLR REF AJUSTE DE CONTA CLIENTE N/DATA | Razão2026.xls:Razão:9444
+- 2026-07-31 | lote 32123 | conta 187 (SALÁRIOS E ORDENADOS A PAGAR) | D R$ 0,00 / C R$ 495,02 | CP 335 | REFERENTE A DIFERENÇA DE FÉRIAS DO MÊS 07/2026  | Razão2026.xls:Razão:31250
+  2026-07-31 | lote 32123 | conta 335 (FÉRIAS) | D R$ 495,02 / C R$ 0,00 | CP 187 | REFERENTE A DIFERENÇA DE FÉRIAS DO MÊS 07/2026  | Razão2026.xls:Razão:32719
+- 2026-08-31 | lote 33204 | conta 187 (SALÁRIOS E ORDENADOS A PAGAR) | D R$ 0,00 / C R$ 59,43 | CP 335 | REFERENTE A DIFERENÇA DE FÉRIAS DO MÊS 08/2026  | Razão2026.xls:Razão:31265
+  2026-08-31 | lote 33204 | conta 335 (FÉRIAS) | D R$ 59,43 / C R$ 0,00 | CP 187 | REFERENTE A DIFERENÇA DE FÉRIAS DO MÊS 08/2026  | Razão2026.xls:Razão:32722
+
+### Ajustes patrimoniais e conta 267, quando presentes
+
+## Conclusão metodológica
+- Recebimento em banco já debitado **não pode ser debitado novamente** por ajuste. Corrige-se a contrapartida efetivamente errada, se comprovada.
+- Crédito de banco para 1435 está comprovado na auditoria específica, mas **não equivale** a baixa de conta individual.
+- Transferência de saldos entre direitos genéricos e clientes individuais **não reduz ativo total**.
+- Se a diferença se origina de erro de período anterior, o CPC 23 disciplina ajustes retrospectivos e divulgação; não usar a diferença residual como contrapartida automática.
+- Se a diferença representa risco de crédito, avaliar a provisão pelo CPC 48. Diferença da planilha, sozinha, não é perda esperada.
