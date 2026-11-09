@@ -34,7 +34,7 @@ def read_year(year):
         if not converted.exists():
             raise RuntimeError(f"Falha na conversão {path}: {result.stdout} / {result.stderr}")
     parsed = parse_workbook(converted)
-    expected = {2025: 27185, 2026: 19036}[year]
+    expected = {2022: 1055, 2023: 5863, 2024: 8912, 2025: 27185, 2026: 19036}[year]
     if len(parsed["events"]) != expected or len(parsed["unknown"]) > 2 or parsed["balance_failures"]:
         raise RuntimeError(
             f"Leitura sem integridade no ano {year}: "
