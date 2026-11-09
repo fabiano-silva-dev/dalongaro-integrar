@@ -1,47 +1,57 @@
-# CSG — triagem contábil de possível inadimplência
+# CSG — Limitação na conciliação individual da carteira de créditos (retificação)
 
-**Data da análise:** 08/11/2026. **Data-base dos saldos:** 30/09/2026.  
-**Objetivo:** identificar sinais de carteira parada sem confundir ausência de movimento contábil com atraso contratual.
+**Data da retificação:** 08/11/2026  
+**Data-base dos demonstrativos:** 30/09/2026  
+**Status da análise:** DESCRITIVA, NÃO UTILIZÁVEL PARA CONCLUIR INADIMPLÊNCIA
 
-## Síntese para a administração
+> **Correção metodológica importante.** O escritório esclareceu que **não existe fechamento confiável do saldo individual de cada devedor/contrato**. Em alguns recebimentos, o pagamento é realizado por terceiro ou aparece na conta de outra pessoa, sem identificação que permita vincular com segurança a parcela quitada. Assim, a ausência de baixa em uma conta de devedor não demonstra que a dívida continue em aberto, esteja vencida ou seja irrecuperável. A versão inicial deste documento, que tratava a imobilidade das contas como forte indício de inadimplência, deve ser desconsiderada nessa interpretação.
 
-A conta **1.1.2 — carteira de créditos** do balancete em 30/09/2026 soma **R$ 6.801.908,85**. Desse valor:
+## 1. O que a contabilidade efetivamente demonstra
 
-- **R$ 5.107.111,11** aparecem em contas nominativas (classificação `1.1.2.01.001`).
-- **R$ 1.694.797,74** estão na conta de controle `1435 — DIREITOS CREDITÓRIOS` (`1.1.2.02.001`), sem abertura nominal suficiente para analisar inadimplência por devedor.
+- Conta **1.1.2 — carteira de créditos**: **R$ 6.801.908,85**, em 30/09/2026.
+- Contas nominativas de devedores (1.1.2.01.001): **R$ 5.107.111,11**.
+- Direitos creditórios em conta sem detalhamento individual suficiente (1.1.2.02.001, conta 1435): **R$ 1.694.797,74**.
+- A soma dos saldos analíticos concilia com o balancete contábil. **Isso não é conciliação de contratos, parcelas, liquidações ou pagamentos de terceiros**.
+- O passivo contábil é tratado provisoriamente como referência de trabalho, conforme avaliação do escritório; a verificação contratual pontual dos credores permanece possível.
 
-Nos **1.118 registros de contas nominativas** do comparativo do razão 2026, há **944 contas com saldo devedor positivo**, somando **R$ 5.107.111,11**. Outras 174 contas terminam com saldo zero. A leitura refere-se a registros de contas, não a contratos/CPF únicos.
+A pergunta **“quanto do ativo é efetivamente devido pelos clientes?”** continua **SEM RESPOSTA CONFIÁVEL** com os dados disponíveis. A taxa de inadimplência, os dias de atraso e a estimativa de perda **não podem ser inferidos dos saldos por conta contábil**, sem um vínculo verificável entre títulos emitidos e recebimentos/baixas.
 
-**Sinal principal de risco:** **195 contas nominativas, totalizando R$ 1.611.642,59, tinham saldo inicial positivo em 2026 e não registraram nem débitos nem créditos entre 01/01/2026 e 30/09/2026.** O valor corresponde a **23,69% da carteira total** e **31,56% da carteira nominativa**. São saldos contábeis persistentes — não valores confirmados em atraso.
+## 2. Estatísticas contábeis — somente diagnóstico da qualidade da escrituração
 
-Cruzamento dessas 195 contas com a data da última movimentação no índice do razão 2025:
+No razão de 2026, as contas nominativas com saldo inicial e final positivo mas sem débitos nem créditos de janeiro a setembro são **195**, somando **R$ 1.611.642,59**. Entre elas, considerando somente a última data de movimento da mesma conta no razão de 2025:
 
-- **107 contas / R$ 1.206.682,34** tiveram sua última movimentação em setembro/2025 ou antes, sem qualquer lançamento em 2026.
-- **62 contas / R$ 569.014,93** tiveram sua última movimentação em junho/2025 ou antes, sem qualquer lançamento em 2026. **São subconjunto das 107, não somar novamente.**
-- **71 contas / R$ 438.456,79** não tiveram lançamentos de crédito em 2025 e continuaram sem movimentação em 2026. Esse é outro recorte sobreposto, não somar aos anteriores.
-- Entre os saldos parados, as contas contábeis **1343** (R$ 383.908,73; última movimentação registrada em 31/07/2025) e **1589** (R$ 179.065,67; última movimentação em 05/06/2025) merecem reconciliação específica. A identificação contábil não é uma afirmação de inadimplência do respectivo devedor.
+- **107 contas**, R$ **1.206.682,34**, com último movimento até setembro de 2025;
+- **62 contas**, R$ **569.014,93**, com último movimento até junho de 2025; essas 62 são subconjunto das 107.
 
-Outro indicador, **menos seletivo**, é a ausência de **crédito contábil em 2026** em **317 contas nominativas com saldo**, totalizando **R$ 2.280.113,38**. Esse conjunto inclui os 195 casos parados e também créditos originados/registrados em 2026, para os quais a ausência de baixa pode ser normal. Não deve ser classificado como inadimplência sem o cronograma.
+Em **317 contas nominativas** com saldo positivo, totalizando **R$ 2.280.113,38**, não houve lançamentos de crédito em 2026.
 
-## Método, fontes e cautelas
+**Esses números são indicadores de contas sem baixa contábil identificável; NÃO são valores de créditos vencidos, inadimplentes, de difícil recuperação ou ainda efetivamente devidos.** Os recortes se sobrepõem e não devem ser somados. Pagamentos podem ter ingressado em banco ou sido registrados em outras contas, e nem crédito em conta devedor é prova suficiente de recebimento bancário efetivo.
 
-- Fontes indexadas: `balancetes/Razão2025.xls` e `balancetes/Razão2026.xls`; arquivos de conciliação `razoes-anuais/conciliacao.json` e `razoes-anuais/catalogo.json`.
-- Seleção: ano 2026; classificação exata `1.1.2.01.001`; saldo inicial maior que zero; saldo final maior que zero; ausência de débitos e créditos em 2026. O somatório é sobre as contas do razão/balancete reconciliadas, não sobre o total de partidas contábeis.
-- Comparação histórica: por **código contábil** e último evento de 2025. Validar se os códigos e a titularidade foram preservados; as fontes analisadas não demonstram individualmente o vencimento de cada parcela.
-- Movimentos da conta de devedor podem incluir aquisição, amortização, renegociação, estorno ou ajuste. **Crédito contábil não prova recebimento bancário**, e ausência de crédito não prova mora ou incobrabilidade.
-- Não se calculou perda esperada nem provisão, e nenhum valor foi baixado ou ajustado. Em créditos com vencimento único posterior a setembro/2026, uma conta parada pode estar regular.
-- O grupo `1.1.2.02.001` exige memória de composição; **R$ 1.694.797,74 não são automaticamente créditos problemáticos**.
+**Não apresentar R$ 1,61 milhão, R$ 1,21 milhão, R$ 569 mil ou R$ 2,28 milhões como inadimplência, exposição com risco de crédito ou provável perda.** Também não transformar esses indicadores automaticamente em ajustes do ativo.
 
-## Conclusão
+## 3. Como obter um saldo de carteira defensável sem exigir fechamento perfeito por conta
 
-**Há sinais contábeis objetivos de carteira potencialmente atrasada ou sem evolução**, especialmente R$ 1.206.682,34 sem lançamentos por aproximadamente 12 meses ou mais. **Ainda não há prova de inadimplência contratual nem taxa de recuperação quantificável.** O saldo total do ativo pode estar superavaliado caso parte dos créditos não seja recuperável; não seria tecnicamente correto afirmar a perda sem evidências.
+O controle precisa partir de **eventos e documentos**, não da suposição de que o nome na entrada bancária identifica o devedor:
 
-## Próximo cruzamento obrigatório
+1. **Base de contratos/parcelas:** contrato, cedente/originadora, devedor, valor de aquisição, valor de face, vencimentos, renegociações, cessões, cancelamentos e baixas formais, com identificadores estáveis.
+2. **Base de liquidações efetivas:** extratos já conciliados, relatórios bancários de cobrança, CNAB ou retorno de liquidação, identificador do boleto/pagamento (nosso número, linha digitável, ID transação, referência), data e valor.
+3. **Vínculo documental:** conciliar por identificadores de título/contrato, lote, data e valor, inclusive quando pagador é terceiro. Nome do pagador sozinho não pode determinar automaticamente o devedor. Evidências ambíguas devem permanecer como **recebimento não identificado**.
+4. **Conciliação global:** classificar (a) títulos sem quitação comprovada, (b) títulos liquidados e corretamente baixados, (c) créditos pagos mas não baixados ou de baixa duvidosa, (d) dinheiro recebido ainda não alocado, (e) créditos renegociados/estornados/cedidos; evitar dupla contagem.
+5. **Conclusão de aging e recuperação:** somente sobre o **estoque aberto comprovado e reconciliado**, com vencimentos efetivos e histórico de cobrança. Classificar `a vencer`, `vencidos`, `disputados`, `renegociados` e `recuperabilidade não estimável` sem fingir precisão.
 
-Pedir à gestora/originadora/controladora da carteira a **posição de todas as parcelas em 30/09/2026**, com: contrato, devedor, data de aquisição, valor de face, valor de aquisição, vencimento original e renegociado, principal/juros, pagamentos e baixas, saldo aberto, dias de atraso, motivo da baixa, garantia, cobrança e recuperação. Conciliar os créditos às contas nominativas e a composição da conta 1435, destacando as 195 contas sem movimentação. A partir disso, classificar a vencer, vencido até 30/90 dias, inadimplente, renegociado e perda esperada, de acordo com critérios e documentação sustentados.
+**Não somar automaticamente valores recebidos sem vínculo a um devedor específico nem descontá-los diretamente de um contrato.** É possível elaborar uma reconciliação global com partidas pendentes e faixas de incerteza, sem inventar fechamento individual.
 
-**Não somar os recortes de risco entre si. Não reapurar o passivo por essa triagem.** A reconciliação bancária foi informada como concluída pelo escritório.
+## 4. Consequência para o relatório executivo
 
-## Reprodutibilidade
+Apresentar como fato: **“Carteira contabilizada em R$ 6.801.908,85, conciliada ao balancete; posição efetivamente aberta por contrato, inadimplência e realização econômica não apuráveis de forma confiável por inexistência de conciliação individual das baixas e pela ocorrência de pagamentos por terceiros sem vínculo inequívoco.”**
 
-Fonte principal de saldos: `razoes-anuais/conciliacao.json` (detalhes filtrados por 2026 e classificação `1.1.2.01.001`). Data da última movimentação: `razoes-anuais/catalogo.json` (campo `por_conta[].data_final` em ano 2025). Para linha nominativa não movimentada em 2026, os totais `opening`, `debit`, `credit`, `balance` estão em centavos. Para risco forte, exigir `opening>0`, `balance>0`, `debit=0`, `credit=0`. A diferença de 2026 na conta patrimonial 267 **não integra** as contas da carteira analisada.
+Se o passivo exigível de **R$ 8.562.066,98** for adotado provisoriamente como referência, a diferença contábil de **R$ 731.945,65** é apenas a posição do balanço. O patrimônio econômico pode ser diferente, e não é possível quantificá-lo sem a reconciliação dos ativos. Não afirmar que o ativo está superavaliado, apenas que **há risco de incorreção não mensurado**.
+
+## 5. Rastreabilidade
+
+- `balancetes/Razão2025.xls` e `balancetes/Razão2026.xls`.
+- `levantamento-financeiro/razoes-anuais/catalogo.json` e `razoes-anuais/conciliacao.json`.
+- `balancetes/Balancete-ja-set-2026.pdf`.
+- `levantamento-financeiro/LEIA-ME.md` e `Premissas_confirmadas.json`.
+
+**Esta retificação substitui a interpretação de inadimplência da versão inicial deste documento.** Ela não altera lançamentos, balancetes ou contratos, tampouco afirma que pagamentos de terceiros específicos já foram encontrados ou conciliados.
