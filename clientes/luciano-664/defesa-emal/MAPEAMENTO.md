@@ -34,7 +34,7 @@ A EMAL pediu as 45 notas de devolução, as notas de venda, os romaneios de pesa
 
 As 45 notas de devolução, R$ 1.401.696,28, estão em `02-devolucoes-arbaza/`. No Drive: https://drive.google.com/drive/folders/1H15BsMOeJimlcjk08a8dPU4DR8u85XMm
 
-As notas de venda originais e os romaneios de classificação saíram do Connectere em 10/11/2026, fazenda PJ - Faz Luciano- MT, vendas de 2025 para a ARBAZA. Não estavam baixados antes. Estão em `03-vendas-arbaza/`: **70 DANFEs** e **70 romaneios**. A soma desses DANFEs é **R$ 8.693.214,65**, o faturamento original da minuta. Cada romaneio é o “Romaneio de classificação” da própria nota, com produto gergelim, quantidade e impureza.
+As notas de venda originais e os romaneios de classificação saíram do Connectere em 10/11/2026, fazenda PJ - Faz Luciano- MT, vendas de 2025 para a ARBAZA. Não estavam baixados antes. Estão em `03-vendas-arbaza/`: **70 DANFEs** e **70 romaneios**. A soma desses DANFEs é **R$ 8.693.214,65**, o faturamento original da minuta. Cada romaneio é o “Romaneio de classificação” da própria nota, com produto gergelim, quantidade e impureza. No Drive: https://drive.google.com/drive/folders/1itZNT6DB8Qu9lJ2IElwCojoDMQRqzpri
 
 A memória está no item 2 da minuta:
 

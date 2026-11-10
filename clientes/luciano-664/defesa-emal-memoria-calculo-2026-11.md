@@ -32,6 +32,8 @@ Na recepção, a ARBAZA pesa a carga, aplica o desconto de impureza e emite o ro
 
 As 45 notas de devolução fazem o ajuste entre o faturamento original e essa receita. R$ 8.693.214,65 − R$ 1.401.696,28 = R$ 7.291.518,37. A diferença de R$ 0,03 em relação aos R$ 7.291.518,40 é de arredondamento. As 45 notas estão em https://drive.google.com/drive/folders/1H15BsMOeJimlcjk08a8dPU4DR8u85XMm.
 
+As 70 notas de venda que somam os R$ 8.693.214,65, e os 70 romaneios de classificação correspondentes, estão em https://drive.google.com/drive/folders/1itZNT6DB8Qu9lJ2IElwCojoDMQRqzpri.
+
 ## 3. Diferença de R$ 101.154,16 — item “d”
 
 A diferença entre **R$ 7.291.518,40** e **R$ 7.190.364,24** é o FETHAB e o IMAFIR da safra. Não compõe as 45 notas de devolução. A memória está no próprio texto da manifestação. Não há arquivo separado para essa diferença.
