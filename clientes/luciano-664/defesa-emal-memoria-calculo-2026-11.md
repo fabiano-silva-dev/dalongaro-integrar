@@ -4,21 +4,41 @@
 **Incidente nº 5037755-11.2024.8.21.0021**  
 **Status:** minuta para revisão jurídica, não protocolada.
 
-O GRUPO ECONÔMICO BIANCHI, por sua representação processual, em atenção à manifestação da credora EMAL – Empresa de Mineração Aripuanã Ltda. acerca dos esclarecimentos do Evento 306, apresenta a presente complementação, limitada aos pontos expressamente questionados.
+O GRUPO ECONÔMICO BIANCHI, por sua representação processual, em atenção à manifestação da credora EMAL – Empresa de Mineração Aripuanã Ltda. acerca dos esclarecimentos do Evento 306, apresenta a presente complementação. A resposta limita-se aos pedidos de documentos e de esclarecimento formulados nos itens “b”, “c” e “d” dos requerimentos dessa manifestação.
 
 ## 1. Serviços prestados por terceiros
 
-A rubrica de **R$ 1.226.922,49** já foi individualizada no Evento 306 por **113 lançamentos, 47 prestadores e documentos de origem**, informação reconhecida pela própria credora. Os documentos relativos aos prestadores de maior expressão econômica deverão ser indicados e juntados conforme a seleção feita para o protocolo **[IDENTIFICAR ANEXOS EFETIVAMENTE JUNTADOS]**.
+A rubrica de **R$ 1.226.922,49** já foi individualizada no Evento 306 por **113 lançamentos, 47 prestadores e documentos de origem**, informação reconhecida pela própria credora. A documentação ora juntada corresponde aos cinco prestadores de maior expressão econômica, que concentram **R$ 1.004.796,15** (81,90% da rubrica):
 
-## 2. Devoluções e cancelamentos de vendas
+| Prestador | Valor | Notas | Objeto constante da nota |
+|---|---:|---:|---|
+| Andreatta & Giongo Consultores Associados | R$ 377.744,39 | 9 | Administração judicial |
+| BJ Locação de Máquinas Agrícolas | R$ 281.000,00 | 3 | Locação de máquina para colheita de gergelim |
+| M.A.K. Consultoria Agropecuária | R$ 133.663,00 | 1 | Preparo de documentos |
+| RR Pulverizações Agrícolas | R$ 112.388,76 | 2 | Pulverização agrícola |
+| Rama Advogados Associados | R$ 100.000,00 | 1 | Honorários sucumbenciais da ação de busca e apreensão nº 1000383-10.2025.8.11.0096 |
 
-O valor de **R$ 1.401.696,28** corresponde às **45 notas fiscais de devolução** emitidas pela ARBAZA ALIMENTOS LTDA. para ajuste de operações de gergelim inicialmente faturadas com peso estimado e posteriormente acertadas após a pesagem e a definição dos preços comerciais. O demonstrativo de vendas e devoluções permanece como suporte documental dessa explicação.
+São serviços da atividade rural e da recuperação judicial. A locação de máquina e a pulverização atendem a lavoura. A administração judicial e os honorários da busca e apreensão atendem a condução da recuperação e a preservação de bens.
 
-A diferença específica entre **R$ 7.291.518,40** (valor comercial antes das contribuições) e **R$ 7.190.364,24** (valor após as deduções) é de **R$ 101.154,16** e decorre das contribuições **FETHAB (R$ 60.692,50)** e **IMAFIR (R$ 40.461,66)**, referentes à produção de **2.077,1728 toneladas** de gergelim. A memória de cálculo constante do Anexo I apresenta a base, os coeficientes aplicados, os lançamentos identificados no controle financeiro e a parcela informada como descontada no acerto do contrato barter nº 253/2025. Esses valores não compõem as 45 notas de devolução.
+A M.A.K. Consultoria Agropecuária realiza os lançamentos financeiros, operacionais e fiscais da fazenda no Connectere, sistema de gestão de fazendas. A nota de R$ 133.663,00, descrita como preparo de documentos, corresponde a esse serviço de escrituração da atividade.
 
-## 3. Requerimento
+Não há contrato apartado. A nota fiscal de serviço é o documento do lançamento: identifica prestador, tomador, valor e objeto. As 16 notas estão em https://drive.google.com/drive/folders/1QF5ezYfH7wUX3xv_soKr_QD0iBKt0HKE.
 
-Requer-se o recebimento dos presentes esclarecimentos e da memória de cálculo anexa, para apreciação dos pontos delimitados na manifestação da credora, em conjunto com os documentos pertinentes efetivamente juntados aos autos.
+## 2. Devoluções da ARBAZA — item “c”
+
+O valor de **R$ 1.401.696,28** corresponde às **45 notas fiscais de devolução** emitidas pela ARBAZA ALIMENTOS LTDA. A fazenda não possui balança. Por isso, as notas de venda do gergelim saíram com o peso estimado da carga do caminhão, de 45.000 kg, ao preço de R$ 4,00 o quilograma e, em parte, de R$ 4,05. Esse faturamento original soma **R$ 8.693.214,65**.
+
+Na recepção, a ARBAZA pesa a carga, aplica o desconto de impureza e emite o romaneio. A produção conferida foi de **2.077.172,80 kg**. O preço acertado foi de 1.060.000 kg a R$ 4,00, no valor de R$ 4.240.000,00, e de 1.017.172,80 kg a R$ 3,00, no valor de R$ 3.051.518,40. A receita comercial resulta em **R$ 7.291.518,40**.
+
+As 45 notas de devolução fazem o ajuste entre o faturamento original e essa receita. R$ 8.693.214,65 − R$ 1.401.696,28 = R$ 7.291.518,37. A diferença de R$ 0,03 em relação aos R$ 7.291.518,40 é de arredondamento. As 45 notas estão em https://drive.google.com/drive/folders/1H15BsMOeJimlcjk08a8dPU4DR8u85XMm.
+
+## 3. Diferença de R$ 101.154,16 — item “d”
+
+A diferença entre **R$ 7.291.518,40** e **R$ 7.190.364,24** é o FETHAB e o IMAFIR da safra. Não compõe as 45 notas de devolução. A memória está no próprio texto da manifestação. Não há arquivo separado para essa diferença.
+
+## 4. Requerimento
+
+Requer-se o recebimento dos presentes esclarecimentos, para apreciação dos itens “b”, “c” e “d” da manifestação da credora, em conjunto com as notas indicadas nos links acima.
 
 Termos em que pede deferimento.
 
@@ -65,7 +85,7 @@ Referências do +Gestão:
 
 ## 3. Documentos de suporte
 
-- [Resumo comercial da ARBAZA — safra de gergelim 2025](resumo-gergelim-safra-2025.pdf).
+- A memória da diferença de R$ 101.154,16 está no texto da manifestação, no PDF `Manifestacao-complementar-EMAL-Luciano-Bianchi.pdf`. Não há arquivo separado para juntada.
 - [Justificativa das devoluções da ARBAZA](JUSTIFICATIVA%20DEVOLU%C3%87%C3%95ES%20ARBAZA.docx).
 - [Referências financeiras de FETHAB e IMAFIR](fethab-imafir-safra-2025.md), conforme commit `81e4ddf`.
 
