@@ -32,7 +32,9 @@ Da Rama entrou a NFS-e (`anexo2`). O termo de acordo da sucumbência ficou na pa
 
 A EMAL pediu as 45 notas de devolução, as notas de venda, os romaneios de pesagem e a memória que ligue a mercadoria entregue, o preço, o faturamento original e o valor ajustado.
 
-O que está neste conjunto são as 45 notas de devolução, R$ 1.401.696,28, em `02-devolucoes-arbaza/`. No Drive: https://drive.google.com/drive/folders/1H15BsMOeJimlcjk08a8dPU4DR8u85XMm
+As 45 notas de devolução, R$ 1.401.696,28, estão em `02-devolucoes-arbaza/`. No Drive: https://drive.google.com/drive/folders/1H15BsMOeJimlcjk08a8dPU4DR8u85XMm
+
+As notas de venda originais e os romaneios de classificação saíram do Connectere em 10/11/2026, fazenda PJ - Faz Luciano- MT, vendas de 2025 para a ARBAZA. Não estavam baixados antes. Estão em `03-vendas-arbaza/`: **70 DANFEs** e **70 romaneios**. A soma desses DANFEs é **R$ 8.693.214,65**, o faturamento original da minuta. Cada romaneio é o “Romaneio de classificação” da própria nota, com produto gergelim, quantidade e impureza.
 
 A memória está no item 2 da minuta:
 
@@ -46,7 +48,14 @@ A memória está no item 2 da minuta:
 - a receita comercial é R$ 7.291.518,40;
 - R$ 8.693.214,65 − R$ 1.401.696,28 = R$ 7.291.518,37. Os R$ 0,03 são arredondamento.
 
-**Não estão nesta pasta** as notas de venda originais nem os romaneios. O romaneio é emitido pela ARBAZA na recepção. A justificativa usada como base está em `../JUSTIFICATIVA DEVOLUÇÕES ARBAZA.docx`.
+O romaneio do Connectere é o de classificação da fazenda, ligado a cada nota de venda. Não é um ticket separado da balança da ARBAZA. Não havia outro arquivo de pesagem anexado à nota.
+
+Ficaram fora do conjunto, em `03-vendas-arbaza/nao-compoe-o-faturamento/`:
+
+- nota 235, de 13/11/2025, complementar de quantidade e valor, R$ 121.407,00, o frete;
+- nota 184, de 14/07/2025, R$ 4.932,00, sem DANFE e sem gergelim no lançamento. O romaneio dela veio vazio.
+
+70 notas de venda + a nota 184 = R$ 8.698.146,65. Sem a 184, fecha os R$ 8.693.214,65.
 
 ## Item d — diferença de R$ 101.154,16
 
