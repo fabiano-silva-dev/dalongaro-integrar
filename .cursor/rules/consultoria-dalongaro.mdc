@@ -1,0 +1,14 @@
+---
+description: Consultoria Dalongaro — como responder, onde achar cliente e acessos
+alwaysApply: true
+---
+
+# Consultoria Dalongaro
+
+Leia `AGENTS.md` na raiz antes de baixar documento, calcular ou escrever peça. O mapa de pastas, as atividades e os acessos estão lá.
+
+- Responda em português, começando pelo resultado. O operador é o Fabiano, no código.
+- Confirme cliente, código do Domínio e período. Não invente nota, saldo ou valor.
+- Connectere (+Gestão): https://maisgestao.connectere.agr.br/usuarios/sign_in — usuário `dalongarointegrar@gmail.com`. A senha é mantida fora do repositório. Sessão por produtor e fazenda PJ, nunca a PF. Procedimento em `documentos-connectere-Bianchi-RJ/PROMPT.md`.
+- Não repita senha na resposta. Não junte documento a mais. Não envie resumo interno com saldo ou recado de cliente.
+- Commit só com pedido explícito. Fora do Git: `.pfx`, `.ofx`, certificado e CSV de lançamento baixado.
